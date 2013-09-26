@@ -1,4 +1,4 @@
-Reddit-Bot
+Reddit-Bot - GPL 3.0
 ==========
 
 Finds references made about popular threads

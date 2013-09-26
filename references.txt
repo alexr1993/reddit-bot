@@ -1,0 +1,4 @@
+# contains permalinks to comments referencing some reddit post
+# numbers on the left are the ids of the referee, multiplle comments can refer to the same referee
+
+1	http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/ccejp5c
