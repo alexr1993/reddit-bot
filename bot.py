@@ -5,7 +5,8 @@ import praw
 import re     # regex
 import time
 import tree
-import marshal
+import sys
+
 
 global reddit
 
@@ -15,7 +16,7 @@ global reddit
 #
 #############################################################################
 
-user_agent = "let alexr1993@gmail.com know if I'm breaking the rules"
+user_agent = "let alexr1993@gmail.com know if I'm breaking the rules, I am having trouble understanding what constitutes 1 api request "
 reddit = praw.Reddit(user_agent)
 
 #############################################################################
@@ -39,46 +40,104 @@ def login_Ref_Bot():
 
     print('=' * 77)
 
-# def print_strings(strlist):
-
-#     print('-' * 77)
-#     print('\n')
-    
-#     for s in strlist:
-#         print(s)
-#         print('-' * 35 + '\n')
-
-#     print('-' * 77)
 
 ## seems like sometimes people will implicitly carry on the reference into
 ## the first level of comments but somewhere deeper somebody will actually
 ## say "reference" and possibly link to it
 
-def get_all_direct_replies(comment):
+def get_all_direct_replies_old(comment):
     """Drills through all the MoreComments objects to get the complete
     list of replies - returns list of comments objects"""
+
+
 
     all_replies = []
     
     replies     = comment.replies
-    last_reply = replies[-1]
+
+    # No replies? Return empty list
+    if replies == []:
+        return replies
+
+    last_reply  = replies[-1]
 
     while isinstance(last_reply, praw.objects.MoreComments):
 
+
         all_replies += replies[:-1] # gather the comments
 
-        replies = last_reply.comments() # request more
+        # when you expand more comments (like in linke below) the tree
+        # is flattened, so you gotta che3ck parent_id
+        temp_replies = last_reply.comments() # request more
 
-        # Sometimes requesting more comments returns None :/
-        if replies is None:
-            replies = []
-            break
+
+        # I'm using temp list because removing from list was being weird
+
+        replies = []
+
+        # make sure parent is correct
+        for tr in temp_replies:
+            if tr.parent_id == comment.name:
+                assert type(tr) == praw.objects.Comment
+                replies.append(tr)
+
+
+
+        # # Sometimes requesting more comments returns None :/
+        # if replies is None:
+        #     replies = []
+        #     break
 
         last_reply = replies[-1] # update variant
 
     all_replies += replies # get final/only reply list
 
     return all_replies
+
+
+
+def get_all_direct_replies(comment):
+    """Get all top level replies for a given comment"""
+
+    output = []
+
+    # initialise variant
+    replies = comment.replies
+
+    while True:
+
+        # list for the more comments so we can tell when there have been two in the same set
+        more = []
+
+        for r in replies:
+
+            # append child comments to output
+            if r.parent_id == comment.name and isinstance(r, praw.objects.Comment):
+                output.append(r)
+
+            # there should only be one morecomments object for each parent per reply set
+            # set more comments variable
+            elif r.parent_id == comment.name and isinstance(r, praw.objects.MoreComments):
+                more.append(r)
+
+            # non-direct children are to be discarded
+            else:
+                continue
+
+        # sometimes there are multiple more comments for one parent, feature or bug?
+        # assert len(more) <= 1
+
+        # no more replies
+        if more == []:
+            return output
+
+        # update variant
+        replies = []
+
+        # keep pumping in more comments
+        for m in more:
+            replies += m.comments()
+
 
 
 
@@ -144,7 +203,7 @@ def front_page_audit():
 
 ## part 1: Get all front page posts and start sifting through the comments
 
-submissions = reddit.get_front_page()
+# submissions = reddit.get_front_page()
 
 # front_page_audit()
 
@@ -158,43 +217,59 @@ submissions = reddit.get_front_page()
 
 perm = 'http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/ccejp5c'
 ##
-reference = read_permalink(perm)
+perm2 = 'http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/ccenomo'
+
+perm3 = 'http://www.reddit.com/r/pics/comments/1nbahc/jcpenneys_is_having_another_sale/cch2n4d'
+
+perm4 = 'http://www.reddit.com/r/explainlikeIAmA/comments/1n8jc0/explain_why_wizards_should_adopt_some_of_muggle/ccgeh0l'
+
+root = read_permalink(perm)
 
 
-replies = get_all_direct_replies(reference)[0]
-
-replies = [replies, 2]
-
-print(replies)
-
-
-
-f = open("marshaldcomments.obj", "wb")
-marshal.dump(replies, f)
-
-f.close()
+#replies = get_all_direct_replies(reference)
 
 
 
 
-g = open("marshaldcomments.obj", "rb")
-print("sdfasd")
 
-openedreplies = marshal.load(g)
-g.close()
+#comment = tree.Node(tree.Comment(reference))
 
 
-print("DEmarshalD")
-print(openedreplies[0])
-print("DONE")
+def populate_tree(root):
+    """Accepts comment object of root, returns tree of descendents + itself"""
+    assert type(root) == praw.objects.Comment, "Actual Type %r" % type(root)
 
-#print_strings(replies)
+    comment = tree.Comment(root)
+    node = tree.Node(comment)
 
-# root = tree.Node(reference.body)
+    # try:
+    #     user = root.author.name
+    # except:
+    #     user = "DELETED"
+    # print('\n' + user)
+    # print('\n' + str(root.body.encode('utf-8')) )
+    # Get layer 0 replies for this root comment
+    replies = get_all_direct_replies(root)
+    # print(replies)
+    # print('-' * 80)
 
-# for r in replies:
-#     root.add_child(tree.Node(r))
+    # base case
+    if replies == []:
 
+        assert type(node) == tree.Node, "Actual Type %r" % type(node)
+        return node
+
+    # recursive case
+    for r in replies:
+        child_node = tree.Node(tree.Comment(r))
+
+
+        child_tree = populate_tree(r)
+        node.add_child(child_tree)
+
+    return node
+
+tree = populate_tree(root)
 
 # child1 = tree.Node("loloolol")
 # child2 = tree.Node("omg repost")
@@ -208,17 +283,29 @@ print("DONE")
 # child3.add_child(child2)
 
 
-# rootstring = root.to_string()
+rootstring = tree.to_string()
 
-# print(rootstring)
-
-
-
+print(rootstring)
+print(tree.tree_size())
 
 
 
 
 
+
+
+
+
+# f = open("pickledcomments.obj", "wb")
+# pickle.dump(replies, f)
+# f.close()
+
+
+
+
+# g = open("pickledcomments.obj", "rb")
+# openedreplies = pickle.load(g)
+# g.close()
 
 
 
