@@ -4,9 +4,12 @@
 import praw
 import re     # regex
 import time
-import tree
+import post
 import sys
+import pymongo
 
+from pymongo import MongoClient
+client = MongoClient() # start client for default mongo config
 
 global reddit
 
@@ -221,7 +224,7 @@ perm2 = 'http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_
 
 perm3 = 'http://www.reddit.com/r/pics/comments/1nbahc/jcpenneys_is_having_another_sale/cch2n4d'
 
-perm4 = 'http://www.reddit.com/r/explainlikeIAmA/comments/1n8jc0/explain_why_wizards_should_adopt_some_of_muggle/ccgeh0l'
+perm = 'http://www.reddit.com/r/explainlikeIAmA/comments/1n8jc0/explain_why_wizards_should_adopt_some_of_muggle/ccgeh0l'
 
 root = read_permalink(perm)
 
@@ -232,15 +235,15 @@ root = read_permalink(perm)
 
 
 
-#comment = tree.Node(tree.Comment(reference))
+#comment = post.Node(post.Comment(reference))
 
 
 def populate_tree(root):
     """Accepts comment object of root, returns tree of descendents + itself"""
     assert type(root) == praw.objects.Comment, "Actual Type %r" % type(root)
 
-    comment = tree.Comment(root)
-    node = tree.Node(comment)
+    comment = post.Comment(root)
+    node = post.Node(comment)
 
     # try:
     #     user = root.author.name
@@ -256,12 +259,12 @@ def populate_tree(root):
     # base case
     if replies == []:
 
-        assert type(node) == tree.Node, "Actual Type %r" % type(node)
+        assert type(node) == post.Node, "Actual Type %r" % type(node)
         return node
 
     # recursive case
     for r in replies:
-        child_node = tree.Node(tree.Comment(r))
+        child_node = post.Node(post.Comment(r))
 
 
         child_tree = populate_tree(r)
@@ -271,19 +274,19 @@ def populate_tree(root):
 
 tree = populate_tree(root)
 
-# child1 = tree.Node("loloolol")
-# child2 = tree.Node("omg repost")
-# child3 = tree.Node("If you like it then just upvote and stfu")
+# child1 = post.Node("loloolol")
+# child2 = post.Node("omg repost")
+# child3 = post.Node("If you like it then just upvote and stfu")
 
 # root.add_child(child1)
 # root.add_child(child2)
 
 # child1.add_child(child3)
-# child2.add_child(tree.Node("i kno rite"))
+# child2.add_child(post.Node("i kno rite"))
 # child3.add_child(child2)
 
 
-rootstring = tree.to_string()
+rootstring = tree.tree_to_string()
 
 print(rootstring)
 print(tree.tree_size())
