@@ -4,7 +4,7 @@
 import praw
 import re     # regex
 import time
-import post
+import ref_bot
 import sys
 import pymongo
 
@@ -204,7 +204,7 @@ def front_page_audit():
 
 #login_Ref_Bot()
 
-## part 1: Get all front page posts and start sifting through the comments
+## part 1: Get all front page ref_bots and start sifting through the comments
 
 # submissions = reddit.get_front_page()
 
@@ -235,15 +235,15 @@ root = read_permalink(perm)
 
 
 
-#comment = post.Node(post.Comment(reference))
+#comment = ref_bot.ref_bot(ref_bot.Comment(reference))
 
 
 def populate_tree(root):
     """Accepts comment object of root, returns tree of descendents + itself"""
     assert type(root) == praw.objects.Comment, "Actual Type %r" % type(root)
 
-    comment = post.Comment(root)
-    node = post.Node(comment)
+    comment = ref_bot.Comment(root)
+    ref_bot = ref_bot.ref_bot(comment)
 
     # try:
     #     user = root.author.name
@@ -259,30 +259,30 @@ def populate_tree(root):
     # base case
     if replies == []:
 
-        assert type(node) == post.Node, "Actual Type %r" % type(node)
-        return node
+        assert type(ref_bot) == ref_bot.ref_bot, "Actual Type %r" % type(ref_bot)
+        return ref_bot
 
     # recursive case
     for r in replies:
-        child_node = post.Node(post.Comment(r))
+        child_ref_bot = ref_bot.ref_bot(ref_bot.Comment(r))
 
 
         child_tree = populate_tree(r)
-        node.add_child(child_tree)
+        ref_bot.add_child(child_tree)
 
-    return node
+    return ref_bot
 
 tree = populate_tree(root)
 
-# child1 = post.Node("loloolol")
-# child2 = post.Node("omg repost")
-# child3 = post.Node("If you like it then just upvote and stfu")
+# child1 = ref_bot.ref_bot("loloolol")
+# child2 = ref_bot.ref_bot("omg reref_bot")
+# child3 = ref_bot.ref_bot("If you like it then just upvote and stfu")
 
 # root.add_child(child1)
 # root.add_child(child2)
 
 # child1.add_child(child3)
-# child2.add_child(post.Node("i kno rite"))
+# child2.add_child(ref_bot.ref_bot("i kno rite"))
 # child3.add_child(child2)
 
 
