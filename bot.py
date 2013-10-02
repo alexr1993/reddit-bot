@@ -224,10 +224,20 @@ perm2 = 'http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_
 
 perm3 = 'http://www.reddit.com/r/pics/comments/1nbahc/jcpenneys_is_having_another_sale/cch2n4d'
 
-perm = 'http://www.reddit.com/r/explainlikeIAmA/comments/1n8jc0/explain_why_wizards_should_adopt_some_of_muggle/ccgeh0l'
+perm = 'http://www.reddit.com/r/GetMotivated/comments/1nksrb/having_recently_suffered_from_an_entirely/'
 
-root = read_permalink(perm)
+comm = read_permalink(perm)
 
+root = ref_bot.Comment(comm)
+
+subobj = reddit.get_submission(perm)
+
+sub = ref_bot.Submission(subobj)
+
+print(root.children)
+
+print("")
+print(sub.children)
 
 #replies = get_all_direct_replies(reference)
 
@@ -240,10 +250,7 @@ root = read_permalink(perm)
 
 def populate_tree(root):
     """Accepts comment object of root, returns tree of descendents + itself"""
-    assert type(root) == praw.objects.Comment, "Actual Type %r" % type(root)
 
-    comment = ref_bot.Comment(root)
-    ref_bot = ref_bot.ref_bot(comment)
 
     # try:
     #     user = root.author.name
@@ -252,15 +259,14 @@ def populate_tree(root):
     # print('\n' + user)
     # print('\n' + str(root.body.encode('utf-8')) )
     # Get layer 0 replies for this root comment
-    replies = get_all_direct_replies(root)
+    replies = get_all_direct_(root)
     # print(replies)
     # print('-' * 80)
 
     # base case
     if replies == []:
 
-        assert type(ref_bot) == ref_bot.ref_bot, "Actual Type %r" % type(ref_bot)
-        return ref_bot
+        return root
 
     # recursive case
     for r in replies:
@@ -272,7 +278,9 @@ def populate_tree(root):
 
     return ref_bot
 
-tree = populate_tree(root)
+
+
+#tree = populate_tree(root)
 
 # child1 = ref_bot.ref_bot("loloolol")
 # child2 = ref_bot.ref_bot("omg reref_bot")
@@ -286,10 +294,10 @@ tree = populate_tree(root)
 # child3.add_child(child2)
 
 
-rootstring = tree.tree_to_string()
+# rootstring = tree.tree_to_string()
 
-print(rootstring)
-print(tree.tree_size())
+# print(rootstring)
+# print(tree.tree_size())
 
 
 

@@ -1,7 +1,19 @@
 import praw
 import math
 
+## KEEPING POSTS STORED IN A BIG LIST IN POSTTREE CLASS
+
 ## TODO: updgrade to use abc (abstract base claseses)
+#
+# Post objects are either comments or submissions,
+# it is important submissions can be treated like 
+# comments as when they are self posts they essentially
+# are comments... although they will never really be
+# references to other posts as meta stuff isn't
+# generally allowed
+#
+
+
 
 class Post(object):
     """Abstract Base class for submission and comment"""
@@ -9,63 +21,27 @@ class Post(object):
     ## constructor accepts post.Comment object
     def __init__(self, data):
 
-        if isinstance(r, praw.objects.Comment):
-            self.children = self.get_all_direct_children(data.replies)
-
-        elif isinstance(r, praw.objects.Submission):
-            self.children = self.get_all_direct_children(data.comments)
-
-        else:
-            assert False, "Invalid object handed to Post constructor"
-
         self.author      = data.author.name
         self.created_utc = data.created_utc
         self.ups         = data.ups
         self.downs       = data.downs
         self.id          = data.id
+        self.name        = data.name
         self.score       = data.score
         self.subreddit   = data.subreddit.title # (the subreddit name)
         self.permalink   = data.permalink
 
+        ## populate chilren array with the id's of replies
+        if isinstance(data, praw.objects.Comment):
+            self.children = self.get_all_direct_children(data.replies)
 
-    def get_all_direct_children(self, replies):
-        """Get all top level replies for a given comment"""
+        elif isinstance(data, praw.objects.Submission):
+            self.children = self.get_all_direct_children(data.comments)
 
-        output = []
+        else:
+            assert False, "Invalid object handed to Post constructor"
 
-        while True:
 
-            # list for the more comments so we can tell when there have been two in the same set
-            more = []
-
-            for r in replies:
-
-                # append child comments to output
-                if r.parent_id == comment.name and isinstance(r, praw.objects.Comment):
-                    output.append(r)
-
-                # there should only be one morecomments object for each parent per reply set
-                # set more comments variable
-                elif r.parent_id == comment.name and isinstance(r, praw.objects.MoreComments):
-                    more.append(r)
-
-                # non-direct children are to be discarded
-                else:
-                    continue
-
-            # sometimes there are multiple more comments for one parent, feature or bug?
-            # assert len(more) <= 1
-
-            # no more replies
-            if more == []:
-                return output
-
-            # update variant
-            replies = []
-
-            # keep pumping in more comments
-            for m in more:
-                replies += m.comments()
 
     def tree_to_string(self, depth = 0):
         """Return a string representation of the tree starting from self"""
@@ -109,7 +85,6 @@ class Comment(Post):
 
         self.body     = comment.body
 
-        self.children = self.get_all_direct_children(comment)
 
 
     # code for cleaning comments for printing
@@ -122,7 +97,7 @@ class Comment(Post):
 
         num_output_lines = math.ceil(len(self.body) / text_width)
 
-        no_nls = self.body.replace('\n', "//")
+        no_nls = self.body.replace('\n', '//')
         
         formatted = ""
 
@@ -158,3 +133,86 @@ class Submission(Post):
 
 class PostTree():
     """Composed of nodes, manipulates from the root."""
+
+    ## give it a post object as a root, it will make a tree
+    ## stores a list of nodes containing their data and children
+    def __init__(self, root):
+
+
+
+        if isinstance(root, praw.objects.Submission):
+
+            self.root = Submission(root)
+            self.reply_queue = root.comments
+
+        elif isinstance(root, praw.objects.Comment):
+
+            self.root = Comment(root)
+            self.reply_queue = root.replies
+
+        else:
+            raise TypeError("Post Tree initialiser must be praw comment or submission")
+
+
+        self.child_objects = self.get_all_direct_children()
+
+        ## base case
+        if child_objects == []:
+            return root
+
+        else:
+            for child in self.child_objects:
+                # initiate child
+                # initiate childs children instance variable using our call to get all direct children
+
+    ## We have a tree in memory - we can use this method to
+    ## take a subtree from it
+    def crop():
+        print("implement me")
+
+
+    def get_all_direct_children(self):
+        """Get all top level replies for a given comment"""
+
+        output = []
+
+        while True:
+
+            # list for the more comments so we can tell when there have been two in the same set
+            more = []
+
+            for r in self.reply_queue:
+
+                # append child comments to output
+                if r.parent_id == self.name and isinstance(r, praw.objects.Comment):
+                    output.append(r)
+
+                # there should only be one morecomments object for each parent per reply set
+                # set more comments variable
+                elif r.parent_id == self.name and isinstance(r, praw.objects.MoreComments):
+                    more.append(r)
+
+                # non-direct children are to be discarded
+                else:
+                    continue
+
+            # sometimes there are multiple more comments for one parent, feature or bug?
+            # assert len(more) <= 1
+
+            # no more replies
+            if more == []:
+                return output
+
+            # update variant
+            self.reply_queue = []
+
+            # keep pumping in more comments
+            for m in more:
+                self.reply_queue += m.comments()
+# Inititialisation of a PostTree:
+
+# Initialise the root
+
+# Trigger initialisation of direct children
+
+# repeat
