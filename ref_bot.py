@@ -1,5 +1,6 @@
 import praw
 import math
+import copy
 
 ## TODO: updgrade to use abc (abstract base claseses)
 
@@ -9,28 +10,34 @@ class Post(object):
     ## constructor accepts post.Comment object
     def __init__(self, data):
 
-        if isinstance(r, praw.objects.Comment):
+        # if an account is removed from the post...
+        if data.author:
+            self.author  = data.author.name
+        else:
+            self.author  = "DELETED"
+        self.created_utc = data.created_utc
+        self.ups         = data.ups
+        self.downs       = data.downs
+        self._id         = data.id # id is private as mongo likes that
+        self.name        = data.name
+        self.score       = data.score
+        self.subreddit   = data.subreddit.title # (the subreddit name)
+        self.permalink   = data.permalink
+
+        if isinstance(data, praw.objects.Comment):
             self.children = self.get_all_direct_children(data.replies)
 
-        elif isinstance(r, praw.objects.Submission):
+        elif isinstance(data, praw.objects.Submission):
             self.children = self.get_all_direct_children(data.comments)
 
         else:
             assert False, "Invalid object handed to Post constructor"
 
-        self.author      = data.author.name
-        self.created_utc = data.created_utc
-        self.ups         = data.ups
-        self.downs       = data.downs
-        self.id          = data.id
-        self.score       = data.score
-        self.subreddit   = data.subreddit.title # (the subreddit name)
-        self.permalink   = data.permalink
-
 
     def get_all_direct_children(self, replies):
         """Get all top level replies for a given comment"""
-
+        # accepts first replies or commetns object, returns entire tree of descendaents
+        # as Post objects
         output = []
 
         while True:
@@ -41,12 +48,12 @@ class Post(object):
             for r in replies:
 
                 # append child comments to output
-                if r.parent_id == comment.name and isinstance(r, praw.objects.Comment):
-                    output.append(r)
+                if r.parent_id == self.name and isinstance(r, praw.objects.Comment):
+                    output.append(Comment(r))
 
                 # there should only be one morecomments object for each parent per reply set
                 # set more comments variable
-                elif r.parent_id == comment.name and isinstance(r, praw.objects.MoreComments):
+                elif r.parent_id == self.name and isinstance(r, praw.objects.MoreComments):
                     more.append(r)
 
                 # non-direct children are to be discarded
@@ -99,6 +106,21 @@ class Post(object):
 
         raise NotImplementedError("Please Implement to_string!")
 
+    def to_disk_format(self):
+        """Essentially just swap out the references to child objects with their comment ids"""
+        # make copy of object
+        cpy = copy.deepcopy(self) # deep copy in case we still want to use the object while its in memory (unlikely)
+
+        for i in range(len(cpy.children)):
+            temp_id = cpy.children[i]._id
+            cpy.children[i] = temp_id
+
+        return cpy.__dict__
+
+
+
+
+
 
 class Comment(Post):
     """Contains whatever I need from PRAW's comment object"""
@@ -109,11 +131,10 @@ class Comment(Post):
 
         self.body     = comment.body
 
-        self.children = self.get_all_direct_children(comment)
 
 
     # code for cleaning comments for printing
-    def to_string(self, depth):
+    def to_string(self, depth = 0):
         
         TAB_LENGTH = 4
         OUTPUT_WIDTH = 128
