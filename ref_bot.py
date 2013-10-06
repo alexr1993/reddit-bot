@@ -3,6 +3,7 @@ import math
 import copy
 
 ## TODO: updgrade to use abc (abstract base claseses)
+## python does not have abstract classes by default
 
 class Post(object):
     """Abstract Base class for submission and comment"""
@@ -76,7 +77,7 @@ class Post(object):
 
     def tree_to_string(self, depth = 0):
         """Return a string representation of the tree starting from self"""
-        output = self.to_string(depth)
+        output = self.post_to_string(depth)
 
         # base case
         if(self.children == []):
@@ -102,11 +103,11 @@ class Post(object):
 
         return size
 
-    def to_string(self):
+    def post_to_string(self):
+        """abstract method"""
+        raise NotImplementedError("Please Implement post_to_string!")
 
-        raise NotImplementedError("Please Implement to_string!")
-
-    def to_disk_format(self):
+    def post_to_disk_format(self):
         """Essentially just swap out the references to child objects with their comment ids"""
         # make copy of object
         cpy = copy.deepcopy(self) # deep copy in case we still want to use the object while its in memory (unlikely)
@@ -116,6 +117,18 @@ class Post(object):
             cpy.children[i] = temp_id
 
         return cpy.__dict__
+
+    def tree_to_disk_format(self):
+        """does what post_to_disk_format does recursively through the descendents returning a list"""
+
+        tree = []
+
+        tree.append(self.post_to_disk_format())
+
+        for c in self.children:
+            tree += c.tree_to_disk_format()
+
+        return tree
 
 
 
@@ -134,7 +147,7 @@ class Comment(Post):
 
 
     # code for cleaning comments for printing
-    def to_string(self, depth = 0):
+    def post_to_string(self, depth = 0):
         
         TAB_LENGTH = 4
         OUTPUT_WIDTH = 128

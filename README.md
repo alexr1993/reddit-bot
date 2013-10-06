@@ -64,3 +64,11 @@ permalinks to comments (submission permalink + comment id) and overall scores (u
 
 --- Things marked next to "---" are things which I am hoping the structure of my objects/db
 will tell me.
+
+
+05/10/13
+
+Thought on classification: The title of a post will be the most important way of identifying
+if a reference has been made to it during classification, but the comments could help build up
+a profile of what it is really about.
+

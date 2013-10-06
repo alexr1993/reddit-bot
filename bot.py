@@ -13,6 +13,7 @@ from pymongo import MongoClient
 
 global reddit
 
+
 #############################################################################
 #
 # INIT
@@ -80,23 +81,30 @@ perm = 'http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_l
 ##
 perm2 = 'http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/ccenomo'
 
-perm3 = 'http://www.reddit.com/r/pics/comments/1nbahc/jcpenneys_is_having_another_sale/cch2n4d'
+perm = 'http://www.reddit.com/r/pics/comments/1nbahc/jcpenneys_is_having_another_sale/cch2n4d'
 
 perm4 = 'http://www.reddit.com/r/explainlikeIAmA/comments/1n8jc0/explain_why_wizards_should_adopt_some_of_muggle/ccgeh0l'
 
+perm = 'http://www.reddit.com/r/soccer/comments/1nsw7i/crazy_idea_compile_gifs_of_the_best_dives_and/'
+
 root = read_permalink(perm)
+
+
 
 post = ref_bot.Comment(root)
 #replies = get_all_direct_replies(reference)
 
 
+encoded = post.tree_to_string().replace("\\n", u"00D").encode('ascii','ignore')
+
+print(encoded)
 #print(post.tree_to_string())
 
-print(post.__dict__)
 print()
-post_disk = post.to_disk_format()
 
-print(post_disk)
+post_disk = post.tree_to_disk_format()
+
+# print(post_disk)
 
 
 ## Write comment tree to disk...
@@ -108,7 +116,10 @@ collection = db.comments
 
 post_id = collection.insert(post_disk)
 
+print(post.tree_size())
+print()
 
+print(len(post_disk))
 
 
 
