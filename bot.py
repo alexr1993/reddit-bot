@@ -23,6 +23,12 @@ global reddit
 user_agent = "let alexr1993@gmail.com know if I'm breaking the rules, I am having trouble understanding what constitutes 1 api request "
 reddit = praw.Reddit(user_agent)
 
+mongo = MongoClient() # start client for default mongo config
+db = mongo.ref_bot
+
+collection = db.comments
+
+
 #############################################################################
 #
 # FUNCTIONS
@@ -43,15 +49,6 @@ def login_Ref_Bot():
     print("Logged in as " + user)
 
     print('=' * 77)
-
-
-## seems like sometimes people will implicitly carry on the reference into
-## the first level of comments but somewhere deeper somebody will actually
-## say "reference" and possibly link to it
-
-def read_permalink(perm):
-    """Returns comment object for comment specified by input permalink"""
-    return reddit.get_submission(perm).comments[0]
 
 
 
@@ -83,43 +80,92 @@ perm2 = 'http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_
 
 perm = 'http://www.reddit.com/r/pics/comments/1nbahc/jcpenneys_is_having_another_sale/cch2n4d'
 
-perm4 = 'http://www.reddit.com/r/explainlikeIAmA/comments/1n8jc0/explain_why_wizards_should_adopt_some_of_muggle/ccgeh0l'
+perm = 'http://www.reddit.com/r/explainlikeIAmA/comments/1n8jc0/explain_why_wizards_should_adopt_some_of_muggle'
 
 perm = 'http://www.reddit.com/r/soccer/comments/1nsw7i/crazy_idea_compile_gifs_of_the_best_dives_and/'
 
-root = read_permalink(perm)
+perm = 'http://www.reddit.com/r/tifu/comments/1nojh9/tifu_by_sneezing_while_driving/'
+
+# when you use get_submission it will always return the submission object even when it is a permalink t o a comment
+
+
+# Default Subreddits:
+
+# /r/adviceanimals
+# /r/AskReddit
+# /r/aww
+# /r/bestof
+# /r/books
+# /r/earthporn
+# /r/explainlikeimfive
+# /r/funny
+# /r/gaming
+# /r/gifs
+# /r/IAmA
+# /r/movies
+# /r/music
+# /r/news
+# /r/pics
+# /r/science
+# /r/technology
+# /r/television
+# /r/todayilearned
+# /r/videos
+# /r/worldnews
+# /r/wtf
 
 
 
-post = ref_bot.Comment(root)
-#replies = get_all_direct_replies(reference)
+# encoded = post.tree_to_string().encode('cp1252','ignore')
+
+def log_post(filename, post):
+    f = open(filename, 'w', encoding='utf8')
+    f.write(post.tree_to_string())
+    f.close()
+
+def analyse_submission(sub):
+    """acceots praw.objects.Submission"""
+    post = ref_bot.Submission(sub) # triggers recursive creation of comment tree
+
+    name = post.author + "thread.txt"
+    log_post(name, post)
+
+    post.write_tree_to_disk(collection)
 
 
-encoded = post.tree_to_string().replace("\\n", u"00D").encode('ascii','ignore')
-
-print(encoded)
+#print(encoded)
 #print(post.tree_to_string())
 
-print()
 
-post_disk = post.tree_to_disk_format()
+
 
 # print(post_disk)
+
+front_page = reddit.get_front_page()
+
+for sub in front_page:
+ 
+    # make sure thread is not in db already
+    if not (list(db.comments.find( {"type": 'submission', "_id": sub.id}, {"title":1, "body":1, "author":1}))):
+        analyse_submission(sub)
+
+    else:
+        print("seen before")    
+
+
 
 
 ## Write comment tree to disk...
 
-mongo = MongoClient() # start client for default mongo config
-db = mongo.ref_bot
 
-collection = db.comments
 
-post_id = collection.insert(post_disk)
 
-print(post.tree_size())
-print()
 
-print(len(post_disk))
+
+
+
+
+
 
 
 

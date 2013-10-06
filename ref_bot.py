@@ -5,11 +5,22 @@ import copy
 ## TODO: updgrade to use abc (abstract base claseses)
 ## python does not have abstract classes by default
 
+global TAB_LENGTH
+global OUTPUT_WIDTH
+global NEWLINE
+
+TAB_LENGTH = 4
+OUTPUT_WIDTH = 128
+NEWLINE      = u"\u000A" 
+
 class Post(object):
     """Abstract Base class for submission and comment"""
 
+
+
     ## constructor accepts post.Comment object
     def __init__(self, data):
+
 
         # if an account is removed from the post...
         if data.author:
@@ -25,6 +36,7 @@ class Post(object):
         self.subreddit   = data.subreddit.title # (the subreddit name)
         self.permalink   = data.permalink
 
+
         if isinstance(data, praw.objects.Comment):
             self.children = self.get_all_direct_children(data.replies)
 
@@ -35,8 +47,9 @@ class Post(object):
             assert False, "Invalid object handed to Post constructor"
 
 
-    def get_all_direct_children(self, replies):
-        """Get all top level replies for a given comment"""
+    def get_all_direct_children(self, replies, throttle = 2):
+        """Get all top level replies for a given comment, due to API rules throttle as many
+        seconds as necessary - probably 2 to be reasonable"""
         # accepts first replies or commetns object, returns entire tree of descendaents
         # as Post objects
         output = []
@@ -73,8 +86,25 @@ class Post(object):
 
             # keep pumping in more comments
             for m in more:
-                replies += m.comments()
 
+                # This true/false stuff is to prevent MoreComments.comments (praw\objects.py ln6 00)
+                # from crashing the script
+                update = False
+
+                # if submission does not exist we must request it again
+                if not m.submission:
+                    update = True
+
+                try:    
+                    replies += m.comments(update)
+
+                except:
+                    print("\nSAME OLD PROBLEM WITH MORECOMMENTS.COMMENTS() FOR " + str(self.permalink))
+                    print("TRY USING THIS GUY'S CODE http://www.reddit.com/r/redditdev/comments/1ijb3m/error_when_running_a_praw_script/")
+                    continue
+
+    # TODO: Fix this by returning a list of lines which are good for printing as
+    # encoding \n is messing up. Or find out how to actually fix it.
     def tree_to_string(self, depth = 0):
         """Return a string representation of the tree starting from self"""
         output = self.post_to_string(depth)
@@ -130,9 +160,21 @@ class Post(object):
 
         return tree
 
+    def write_tree_to_disk(self, collection):
+
+        post_disk = self.tree_to_disk_format()
+
+        assert self.tree_size() == len(post_disk), "Size of the tree in memory is not the same as size of the list of docs being inserted to DB!"
+        
+        for p in post_disk:
+            assert isinstance(p, type({}) ), "A post disk element is not a dictionary, %" % p
 
 
+        post_id = collection.insert(post_disk, continue_on_error = True)
 
+        print(str(len(post_disk)) + "records inserted to MongoDB")
+
+        return post_id
 
 
 class Comment(Post):
@@ -143,14 +185,12 @@ class Comment(Post):
         super().__init__(comment)
 
         self.body     = comment.body
-
-
+        self.type     = "comment"
 
     # code for cleaning comments for printing
     def post_to_string(self, depth = 0):
         
-        TAB_LENGTH = 4
-        OUTPUT_WIDTH = 128
+
 
         text_width = OUTPUT_WIDTH - TAB_LENGTH * depth
 
@@ -170,7 +210,7 @@ class Comment(Post):
             else:
                 end = start + text_width - 1
 
-            formatted += '\n' + (' ' * TAB_LENGTH * depth) + '|' + no_nls[start:end]
+            formatted += NEWLINE + (' ' * TAB_LENGTH * depth) + '|' + no_nls[start:end]
 
         return formatted
 
@@ -186,9 +226,14 @@ class Submission(Post):
         self.title    = submission.title
         self.selftext = submission.selftext
         self.url      = submission.url # the content, not the comments - the comments is permalink
+        self.type     = "submission"
+
+    def post_to_string(self, depth = 0):
+        
+        output = self.title + '(/r/' + self.subreddit + ')' + NEWLINE * 2
+
+        return output
 
 
         # also need comments list-  maybe subclass Post
 
-class PostTree():
-    """Composed of nodes, manipulates from the root."""
