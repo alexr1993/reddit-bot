@@ -124,7 +124,7 @@ def log_post(filename, post):
     f.close()
 
 def analyse_submission(sub):
-    """acceots praw.objects.Submission"""
+    """accepts praw.objects.Submission"""
     post = ref_bot.Submission(sub) # triggers recursive creation of comment tree
 
     name = post.author + "thread.txt"
@@ -157,7 +157,7 @@ for sub in front_page:
 
 ## Write comment tree to disk...
 
-
+#TODO: http://www.reddit.com/r/redditdev/comments/1ijb3m/error_when_running_a_praw_script/
 
 
 
