@@ -1,0 +1,948 @@
+Loading....(/r/funny)
+
+
+
+
+    |I want to know why the fuck I can let the video load most of the way, then I skip forward a little bit, still in the preloa
+    |ed section mind you, and it has to start loading all over again. That's what pisses me off the most.
+
+
+        |DASH play, it's a feature. Youtube decided at some point that it is smarter and easier to send every video in multiple 
+        |hunks that aren't loaded until they're needed, rather than sending the video and letting the fucking player deal with s
+        |eking. Get the enhancement thingy mentioned earlier, turn off DASH play, and you'll like Youtube again (until they fuck
+        |it up more).
+
+
+            |I'm going to have to get that plugin (in addition to the one I already have that sets the highest quality available
+            |. Why would I want to watch a video in 240 when it's available in 720/1080?
+
+
+                |&gt;Why would I want to watch a video in 240 when it's available in 720/1080?////If you're like me and your apa
+                |tment has wifi too slow to load high quality videos.
+
+
+                    |Get better wifi.
+
+
+                |YTC also has the auto quality setting, along with downloading, "cinema mode" to dim the lights, a continuous re
+                |lay feature, hugely customizable page layouts i.e  make the video automatically be large and centered etc.////I
+                |'s a really great addon and it's all integrated in a nice visually unobtrusive bar under the video you are watc
+                |ing.
+
+
+                |Somebody's never dealt with data caps. :(
+
+
+            |is the option to turn off dash play in the settings?
+
+
+                |Yes, of that youtube enhancement center - should be a little cog icon next to your login name in the corner. 
+
+
+            |You are a god among men.
+
+
+            |Actually it is smart and easier for the server/bandwidth.////I realise that people with a slow internet hate this f
+            |ature, but if you have the speed, it is actually faster.//Personally I would love a hybrid of both.////Befor people
+            |cry about youtube, they should realise that there is a reason why everyone is using it, not only do they permanentl
+            | integrate great new features, but are also able to provide the service without downtimes/lags/problems. Just think
+            |about how big and demanding youtube really is..////Now if they could fix the subscription categories getting delete
+            | if you move to the new account system, that would be great..
+
+
+                |DASH play is a DRM powerplay and that's about it. They (being big content, the MPAAs and such) don't want peopl
+                | to easily acquire video files, so now they don't let you have the whole file at once. ////It doesn't make any 
+                |ense at all to discard downloaded data in favor of downloading new data from further in the stream. Further, it
+                |doesn't make any sense to wait til the user seeks to start downloading later data.////If they wanted to make it
+                |work better AND with sense, they'd download the video in chunks, but start every chunk when the player opens. D
+                |wnload it torrent style for speed. All they're doing with this implementation of dash play is sending people ba
+                |k to the dialup age of Youtube. 
+
+
+        |It changes the quality when you skip, and then immediately deletes everything you loaded and starts reloading.
+
+
+            |What, really? And who the thought that would be a good feature?
+
+
+                |Probably the same guy who thought most of Youtube's new features were "good".
+
+
+                    |Would you like to start using your real name on the internet?////[ ] Yes////[ ] Yes, please.////[ ] Ask me 
+                    |gain 30 seconds from now.
+
+
+                        |Is it okay if I give you my real fake name?
+
+
+                    |Didn't know Google had hired Zuckerberg. 
+
+
+                    |Why can't we go back to the 2007 YouTube when Nigahiga was actually funny?
+
+
+                        |Or the old YouTube layout that worked on every browser in existence.
+
+
+                |Fucking Tom.
+
+
+                    |I'm sorry ;_;
+
+
+                        |Yeah, well you should be.
+
+
+                    |isn't Tom the dude from myspace? my only friend there
+
+
+                    |Chad had a part in this. Fuck Chad. And Tom.
+
+
+                        |:(
+
+
+                            |Fuck you chad
+
+
+                |Even better is if you rewind what you just watched....on the highest quality and it has to reload.////Or often 
+                |f I go fullscreen too quickly it just won't load until I get out off full-screen, at which point I can put it b
+                |ck on.
+
+
+                |No clue. You can set your auto quality the same as the quality you want and it stops it from happening in most 
+                |ids, but going fullscreen seems to screw it up.
+
+
+                |Youtubes quick to change their fucking layout every other month but they won't fix how their videos are loaded 
+                |o it's actually more convenient. 
+
+
+                |If I had to hazard a guess, I'd say YouTube. 
+
+
+                |Thats exactly my question, what do they gain financially by doing this?
+
+
+                    |I can give some insight on some of the changes at least.////"Dash loading", this is good because if someone
+                    |loads a video then doesn't watch it, the full video doesn't load from youtubes servers. 2/3 less server loa
+                    |.. over hundreds of millions of users.. that's a shit load of saved resources. They could reduce their serv
+                    |r infrastructure dramatically if the data is predictable enough that they know for sure the demand will rem
+                    |in low.////"Resolution being automatically set to lowest", exact same idea. Loading a low res video is a lo
+                    | less information being sent over the network than a 1080p video. The less information they are sending, th
+                    | more people they can serve with faster responses and load times.. and it's cheaper for them.////Not sure a
+                    |out why it resets loading if you select a new location to view. As others have said it's because the qualit
+                    | is being changed, so I guess it's just a trick to get people to keep watching lower quality videos.. but t
+                    |is one seems particularly shitty.////Overall it's just Youtube getting greedy. They have seen how popular t
+                    |ey got and now they are trying to optimize that popularity so they need the least resources to serve the mo
+                    |t people. What are you gonna do? Stop watching youtube?////////
+
+
+                |The execs that told them to save as many pennies as possible. Same reason it has a blank white background, save
+                | bandwidth. 
+
+
+        |You can download some add on from top commend above and disable the Dash feature which reverse back to the old loading 
+        |unction
+
+
+        |This app works great and available for most browsers. //https://github.com/YePpHa/YouTubeCenter/wiki
+
+
+        |Cause flash is terrible. If I click on a video and it runs in flash, I just close it, it's not worth it. HTML5 works 10
+        |x better.
+
+
+    |I highly recommend the [Youtube Center](https://addons.mozilla.org/en-us/firefox/addon/youtube-center/) add on. It lets you
+    |change back a lot of the stupid shit Youtube has done, such as letting the video load when you pause it.
+
+
+        |My videos still randomly stop buffering even with this addon. Usually at the 50% mark.
+
+
+            |You have to go into the YouTube Center settings, player tab, and make sure the DASH box is unchecked. If you haven'
+            | done that, videos will load like normal. ////http://www.reddit.com/r/AdviceAnimals/comments/1mfx6l/after_submittin
+            |_a_post_yesterday_about_youtube/
+
+
+                |Do you ever have an issue where videos won't load with DASH disabled? I got YTC and *loved* it, then after seve
+                |al videos they wouldn't play until I re-enabled DASH. Disabled it again, a few more videos played, then stopped
+                |until I enabled DASH again.
+
+
+                    |No, I haven't experienced that.
+
+
+                    |I have this problem where the video plays for like 4 seconds then the entire page reloads and the video sta
+                    |ts from the beginning again. 
+
+
+                    |you might have to get the [developer version](https://github.com/YePpHa/YouTubeCenter/wiki/Developer-Versio
+                    |). I had issues with the regular version and switching to the dev version fixed them. 
+
+
+                |[deleted]
+
+
+                    |Are you sure? Every video I open automatically plays 720p, and I can switch to 480p without a problem. I ca
+                    | switch to 1080p without a problem, too, but I don't have a 1080p screen, so I can't verify that it actuall
+                    | is playing in 1080p.
+
+
+                        |Him. Do you had auto resolution enabled?
+
+
+                            |Yeah, it's set to 720p.
+
+
+                                |Weird. What version do you have installed?
+
+
+                        |Set it to 1080p anyway. It increases more than just the resolution, bit rate is also increased, so it'l
+                        | look better than 720p on a non-1080p monitor.
+
+
+                            |It also increases bandwidth consumption and loading time.
+
+
+        |What if you use chrome?
+
+
+            |http://userscripts.org/scripts/show/114002////There's Chrome instructions down there. I love this addon. My videos 
+            |tart in HD (and much bigger), I can download them, set them to repeat and more.
+
+
+                |After I installed this version of the script, it said to use this one instead: https://github.com/YePpHa/YouTub
+                |Center/wiki
+
+
+                |Thank you for bringing this to my attention.
+
+
+                |[This makes youtube so much better](http://data2.whicdn.com/images/23158983/Patrick-+I+love+you_thumb.jpg)
+
+
+                |I cannot thank you enough for this. Seriously. This is amazing.
+
+
+                |Commenting to see later
+
+
+                    |If you have RES you can actually save comments.
+
+
+                        |Commenting to see later.
+
+
+                        |how?
+
+
+                            |http://i.imgur.com/VWPrp5y.jpg
+
+
+                                |You're bad at circling things.
+
+
+                                    |Don't be mean to people on the internet son.
+
+
+                            |the button that says "save-RES"
+
+
+                            |Download the extension "Reddit Enhancement Suite" for your browser and after you do there will be a
+                            |button to click under comments that says "save-RES" on the same line as the "report" and "reply" bu
+                            |tons. 
+
+
+                                |I have res and I dont see save-res. Must not be compatible with night view////////edit: nevermi
+                                |d, its showing up now...not sure why it wasnt eariler :/
+
+
+                        |It doesn't work for me. It only saves the submissions. I have to bookmark the comments I want to see ag
+                        |in.
+
+
+                        |If you have reddit you can actually save links. 
+
+
+                        |Actually, you don't need RES anymore to do that. Reddit can do that natively now as well.
+
+
+                        |Without reddit gold? That's fucked up
+
+
+                    |Replying to your comment for same reason
+
+
+                        |Commenting for just about the same reason.
+
+
+                |It claims that google chrome cannot install add-ons from that website. Any other suggestions?
+
+
+                    |I had some trouble too, but I found the answer here. https://support.google.com/chrome_webstore/answer/2664
+                    |69?p=crx_warning&amp;rd=1
+
+
+                    |Follow the chrome instructions.
+
+
+                    |Download the .crx so it is at the bottom of your browser, then go to chrome://extensions/ and drag the .crx
+                    |onto the page.
+
+
+                        |It doesn't let me drag and drop onto the extensions page
+
+
+                            |It's in your downloads folder (Or wherever you st Chrome to put downloads). Drag it from there.
+
+
+                |..
+
+
+                |Æ¼
+
+
+                |^^^^^^^^^^^^^^^^^^^^^^^.//
+
+
+                |Thanks for this. 
+
+
+                |When I try to install it, I get a message saying, "Apps, extensions and user scripts cannot be added from this 
+                |ebsite" :(
+
+
+                    |Follow the chrome instructions.
+
+
+                    |https://support.google.com/chrome_webstore/answer/2664769?p=crx_warning&amp;rd=1
+
+
+                |cannot be added from that website
+
+
+                    |Perhaps you should try reading the chrome instructions.
+
+
+                        |why is this in /r/funny? i didnt laugh have a downvote op. (downvote him with me im a reddit veteran) o
+                        | have u not heard of /r/gifs or /r/youtube? gosh reddit noobs are so annoying. upvote so op sees!
+
+
+                            |Fail troll is fail.
+
+
+                            |You're just downright annoying. You'll never be as fabulous as ferd
+
+
+            |Magic Actions for youtube. Imho, it works better. Surprised to not see it mentioned yet.
+
+
+            |It works better on Firefox, based on my experience, I would say it's almost useless in Chrome. I made some tests us
+            |ng both browsers with the same settings and Firefox dominated which as a primarily Chrome user disappoints me.
+
+
+            |https://chrome.google.com/webstore/detail/smartvideo-for-youtube/lnkdbjbjpnpjeciipoaflmpcddinpjjp
+
+
+        |Oh god. You just improved my life in a big way. Big thanks!
+
+
+            |http://i.imgur.com/ixQdrsJ.gif
+
+
+                |Well. I could be a video editor who has to deal with youtube for work related purposes so it could be justifiab
+                |e comment. But no. It is really  the depressing kind of improvement...
+
+
+                |That second sad chuckle always gets me.
+
+
+        |I should note that the first thing everyone needs to do is go through every tab (the embed player and the regular playe
+        |, and I think there might be another one) and disable "Dash Playback". This is what causes the video to lose everything
+        |you loaded when you decide to skip to a different part of the video. Youtube is glorious once you disable Dash.////I al
+        |o recommend forcing the player from Flash to HTML5 for every video.
+
+
+            |Many people including myself have had big problems with the HTML5 trial that everyone was automatically opted into 
+            |uch as the volume controls not working and not being able to go full-screen on an embedded clip like those in a red
+            |it post.
+
+
+                |I used to have those issues. Have you tried it recently? It's flawless for me now. 
+
+
+                |Yeah, HTML5 forces the browser to go to full screen.
+
+
+            |Thanks! I've had youtube center for a while and it didn't seem to do anything. Disabled Dash playback, now it's awe
+            |ome.
+
+
+            |Whenever I disable that.  It limits playback to 720p maximum.
+
+
+            |I don't know what these words mean! Tell me! Please. :)
+
+
+        |Wow. This is actually a very good addon. Thank you very much!
+
+
+        |Nowadays I always download youtube videos with greasemonkey scripts. It's just faster, no buffering shit, no messing ar
+        |und with quality settings, no adds, I can skip to where I want. Plus with VLC you can start playing the video before it
+        |has finished downloading.////Right now I use "download youtube videos as mp4 1.4.10", works great.
+
+
+        |YES!!! I love this so Much, I thought my comp was sucky when It would stop when playing HD, now I can watch 1080p perfe
+        |tly :D
+
+
+        |This still hasn't helped with the fact that youtube throttles your loading speed; [I still have shitty loading times no
+        |matter what I do, and I have Road runner lightning.](http://www.mitchribar.com/2013/02/how-to-stop-youtube-sucking-wind
+        |ws-guide/) Kind of ironic when they advertise the same service I have to stop this kind of thing.
+
+
+            |have you seen this? http://www.reddit.com/r/youtube/comments/1a1m3u/the_dreaded_youtube_speed_debate_update_to/
+
+
+        |Is there one for opera? 
+
+
+            |So you're the guy who still uses Opera!
+
+
+        |What setting makes it so that it loads when it's paused? I can't find it anywhere and I'm dumb.
+
+
+        |Ever since I have installed this which is a couple of weeks ago, I could not see a 1080p options in videos.
+
+
+            |I have the same problem. The 1080p option just doesn't show up.
+
+
+        |thank you
+
+
+        |Even the reloading when you rewind?
+
+
+        |Thank you.
+
+
+        |They need a mobile add on
+
+
+        |I did that, works great. I think though, if there would ever be a downfall for youtube, it would be this dash back buff
+        |ring.
+
+
+        |Replying to save this comment for later when I'm home. Thanks!
+
+
+        |Just for competition I have to mention magic actions for YouTube, it does the same thing, with built in adblcker, cinem
+        | mode and different Thing. 
+
+
+            |Although it is a bit buggy with the night mode and Watch Later.
+
+
+        |Hey thanks for this!
+
+
+        |Where has this thing been all my life!? Thank you!
+
+
+        |This addon is soooo good. Always hd and no partially buffering since the installation. Youtube like it's meant to be!
+
+
+        |Youtube not using all my bandwidth for paused videos I have open in other tabs to maybe watch later isn't stupid at all
+
+
+        |This post explains a lot. ////http://www.reddit.com/r/technology/comments/13kmvd/have_time_warner_internet_but_can_bare
+        |y_stream/////ISP's are screwing it up.
+
+
+        |very nice, thanks!
+
+
+        |Thanks for this. 
+
+
+        |It's not stupid - it's to save Google bandwith.
+
+
+        |Comment to save
+
+
+        |And [ClickToPlugin](http://hoyois.github.io/safariextensions/clicktoplugin/) for Mac users using Safari. You can set wh
+        |ch resolution you want it to go for in the settings.
+
+
+        |Its not always YT's fault. A lot of ISP throttle/cache information from YT.
+
+
+            |If you have the money you can throw a VPN at it to get around ISP traffic shaping/throttling.
+
+
+                |I still find it retarded that I cannot watch a fucking 360p video without stuttering normally, but when I conne
+                |t to a VPN (I use BTGuard) on the other side of the world, it streams 1080p flawlessly.
+
+
+                    |You should mention this to, maybe, THE COMPANY YOU PAY FOR THIS SHITTY SERVICE. Tell them to stop fucking w
+                    |th your bandwidth, or you're taking your business to a service provider that isn't made of cocks.
+
+
+                    |Yay Time Warner Cable! /s
+
+
+                |Doens't ip tables/ip blocking fix this though?
+
+
+                    |Not for me, Time Warner Cable has reigned supreme.
+
+
+        |I highly recommend getting a better connection, I haven't had any issues since I switched from 5mbps to 20mbps.
+
+
+        |YT needs to hire the team that made this.
+
+
+            |...////how old are you?////youtube set the buffer limit. you could load whole videos before.////those were the days
+
+
+                |But it's not the same team anymore, or is it?
+
+
+                    |i don't see why it wouldn't be.////in any case, i'm sure YouTube/Google don't need to hire the YouTube Cent
+                    |r team in order to enable a YouTube video to buffer all the way.
+
+
+                        |Yeah, i just wanted to know.//Wonder what happened to the original team after they sold youtube to goog
+                        |e.
+
+
+                            |aye, good question, that.////after skimming [Wikipedia](http://en.wikipedia.org/wiki/YouTube), at l
+                            |ast 1/3 of the founders is working with YouTube, albeit only as an advisor.////
+
+
+            |This is the Internet trying to tell you Americans to get up out of the house and maybe *gasp* let the stink blow of
+            | of you? 
+
+
+    |Can someone please explain to me what's wrong with youtube nowadays. It used to be so... functional.
+
+
+        |[Probably this.](http://i.imgur.com/YLgZ7t6.jpg)
+
+
+            |Oh...
+
+
+            |After saying "no" at least a dozen times, it went ahead and created a profile with my real name without my permissi
+            |n.
+
+
+                |The worst part is that if you choose to keep your YouTube name, it automatically creates a Google+ account for 
+                |hat name.////Why can't I just keep my YouTube account?!  Why does this have to be so complicated?
+
+
+                    |[deleted]
+
+
+                        |But I don't want a G+ page.  I just want the same YouTube account I've had for the last 6 years.  ////W
+                        |y can't I do that?
+
+
+                        |I've gotten so fucking stubborn about this, that now it asks me nearly every single time I click on a l
+                        |nk, and it won't let me decline (seems like "don't use my real name" doesn't mean "don't make an accoun
+                        |", anymore.) I wind up refreshing, going back and clicking the link again, and so forth until it disapp
+                        |ars.////I probably wouldn't care so much if it wasn't being so aggressively forced down my throat. Besi
+                        |es, Youtube's only made things worse for a long time now. Why should I trust them to change anything I 
+                        |ave any control over?
+
+
+                    |Am I the only one around here that hasnt been asked a bajillion times?
+
+
+                        |yes
+
+
+                |Same here.  So fucking annoying.
+
+
+            |The damned facebook blobberhead mentality leaked everywhere because of the stupid "new internet generation" ^1 .///
+            |^1 Computer-illiterate people who used to be too stupid (or "cool") for the internet
+
+
+                |[Get off my lawn!](http://i.imgur.com/Owxi9.gif)
+
+
+                |You're blaming 14 year olds instead of google developers. Take a nap grandpa.
+
+
+                |At least the comments section isn't about religion anymore.  ////It's just idiots making fun of each other's pr
+                |file pictures now.
+
+
+            |Plus they just don't get it. After every update it restarts and asks you again. 
+
+
+            |Except that has nothing to do with functionality. 
+
+
+            |Is that the dad from Lizzie McGuire?
+
+
+            |What does that have to do with anything?
+
+
+        |I  think it's a plot to make us suffer and pine for the old days when it worked well enough, and in the process break d
+        |wn our will and get us to pay for membership that delivers the old functionality that we used to get for free.
+
+
+            |I have a theory like this about Spotify.  They make the commercials for the free accounts extremely obnoxious so pe
+            |ple will upgrade to the premium account.////Although there actually are some pretty good benefits with the premium 
+            |ccount other than no commercials.
+
+
+                |Honestly the only thing keeping me from getting a spotify membership is a general lack of popular music when co
+                |pared to pandora.  This means that I generally only use spotify when I'm looking for a specific song to listen 
+                |o.
+
+
+                |I've had premium the entire time I've had spotify. Absolutely love it. Kicks the shit out of damn near everythi
+                |g. 
+
+
+            |I'm intrigued. Can it really be that brilliantly evil. I'd pay. I really would. 
+
+
+                |I wouldn't.  Because I guarantee some other site will come along and just start doing it for free.
+
+
+                    |But, it wouldn't be as good and you'd have to wait for it... Then again, in a few years, ok, you might win.
+
+
+        |YouTube (Google) doesn't want to pay for all that wasted bandwidth people use when they load a video but never watch th
+        | video. So they don't let the video load unless you are playing it.
+
+
+            |So why then, do they throw away the buffered content when you click to go back or forward to already loaded parts?
+
+
+            |Tough shit for everyone that doesn't have first world internet then.
+
+
+            |Also they've stopped reloading the video when you select a new quality, they just load the missing part at new qual
+            |ty leaving the part already loaded in the old quality. Which means when you want to watch a short video in 1080p yo
+            | have to be fast and select 1080p before it loads in 360p (or restart it later).
+
+
+            |I see. Well, that would all be well and good as long as they'd actually load the video that I'm "playing"...
+
+
+            |Makes so much more sense to re-buffer the whole video whenever you rewind it.
+
+
+        |PepperFlash
+
+
+            |Ah, thanks, did not know this.
+
+
+        |* Ads are everywhere.//* The videos won't pre-load completely.//* The videos won't stay in your cache so you have to re
+        |download it everytime you re-watch something.//* The download speed can be ridiculously slow, even with a fast connecti
+        |n.//* You can't scroll back on a video without it wanting to reload.//* Privacy issues
+
+
+        |Take off the rose tinted glasses and it stars working perfectly again.
+
+
+        |I personally haven't had any loading issues and I have bad internet. Also if you look back on previous versions of the 
+        |ite (like through the way back machine) it looks much better nowadays. 
+
+
+            |Congrats. I'm glad everything is working out for you.
+
+
+    |http://i.imgur.com/BnvY1OP.png
+
+
+        |I need to start reading user names... waited 30 seconds for that thing to move
+
+
+        |this is not shitty.
+
+
+            |This comment on every shitty x novelty account post....
+
+
+                |Well, maybe they should stop karmawhoring by being dishonest about the quality of their content in an effort to
+                |appear modest.////I'd upvote AMediocreButSometimesPrettyAwesomePixelAppeared.
+
+
+                    |It all started with ShittyWatercolor's posts, which WERE shitty at first. Then they got better and everyone
+                    |started copying/honouring his name with their own usernames. They're not being dishonest, they're paying tr
+                    |bute.
+
+
+                        |Yes, I'm aware of the trend. My post was an attempt at humor, not a legitimate argument.
+
+
+                            |That'll teach you to try and be funny around these parts, asshole.
+
+
+                            |You tried. 
+
+
+                    |This isn't awkward.
+
+
+                    |Nobody gives a shit what you'd upvote.  These accounts put in plenty of work and get plenty of attention on
+                    |their own without losers like you saying "your hard work doesn't meet my standards for pressing a button th
+                    |t gives you an internet point because the username you chose is slightly disingenuous."  You're not importa
+                    |t and neither are the internet points.
+
+
+                        |Whoosh much?
+
+
+    |I've given up on watching streaming vids on YouTube.  I download them using a browser extension and then watch them on my c
+    |mputer when the download is finished.
+
+
+    |1. Go on Youtube, any video.////2. Click outside video.////3. Type 1980, ////4. Fun, fun, fun, fun.////EDIT: Also try 1337.
+    |This alters the comments.
+
+
+        |woah, the 1337 was obvious, what does the 1980 do? Am i being dense?
+
+
+        |Wat?
+
+
+    |Where's the part where the tractor goes backwards
+
+
+    |This gif made me very angry.
+
+
+    |Here's the original: http://vimeo.com/62147173////It's called "Progressbar" by vincent broquaire, who has done some other a
+    |imations like this. 
+
+
+        |Has to be on Vimeo so it actually works, or it would be way too meta.
+
+
+    |I hate how goddamn casual he is fixing that wire.
+
+
+        |I'm trying to watch a video of a cat licking another cat's face, could you please hurry the fuck up?
+
+
+    |Has anybody else been having horrible CPU problems with Youtube recently, as opposed to internet problems? I used to be abl
+    | play Video Games and listen to music on Youtube absolutely no bother, but now I can't even bloody change tabs without the 
+    |udio skipping/stopping a second.
+
+
+        |That might have to do with the way some monitors handle HDMI and direct x ////But I know what you mean it has happened 
+        |o me before 
+
+
+    |I'd be so much more patient with youtube if the loader had that graphic//
+
+
+    |Every fucking time YouTube is updated, they just take away good features and add shitty features. Wtf is wrong with them?
+
+
+        |List examples pls.
+
+
+    |The loading bar in this is overly generous
+
+
+    |FIX IT!!! I thought it was my internet connection this whole time
+
+
+    |[The ONLY right way to handle this situation...](http://i.imgur.com/yGLdC.gif)
+
+
+    |Those of us who are old enough remember RealPlayer and "buffering...". Youtube loads amazingly fast in comparison.
+
+
+        |yeah but we aren't on 56k anymore either.
+
+
+    |not sure if my image stopped loading, or if this gif accurately replicates youtube videos not loading...////or maybe both?
+
+
+    |needs part where he has to drive back to the beginning because it's stuck
+
+
+    |TIL Youtube doesn't just hate me
+
+
+    |How about when you full screen it, and the loading process starts all over.
+
+
+        |Thats because you have it on auto quality, fullscreen usually makes it go up a bit so it has to start again 
+
+
+    |Get these two extensions for chrome and youtube will work the way you always dreamed it could.////https://adblockplus.org/e
+    |/chrome////https://chrome.google.com/webstore/detail/smartvideo-for-youtube/lnkdbjbjpnpjeciipoaflmpcddinpjjp?hl=en
+
+
+        |I don't know if it's just my computer but whenever I have the SmartVideo extension enabled, it slows down the loading o
+        | the youtube page.
+
+
+    |To make it more accurate slow the gif down 1000000 times
+
+
+    |Woman driver. I'm surprised she got out of there dent-free. But I didn't wath the whole thing so maybe she did hit somethin
+    |.
+
+
+        |Wrong post. You wanted [This one.](http://www.reddit.com/r/videos/comments/1oacwj/worst_exit_a_parking_ever/) Use this 
+        |s an opportunity to fix the word watch.
+
+
+    |This gif infuriates me. 
+
+
+    |That video loaded way too fast.  The hook should have disconnected the first time at about 1/4 of the way through.
+
+
+    |[Spammer trying to cover his tracks](http://www.reddit.com/r/movies/comments/1ntg1m/before_and_after_special_effects/cclvfj
+    |)////&gt;[Am I aiming for a lot of karma? Yes, that is one of my goals, but how is that any different than someone trying t
+    | up their score in a videogame?]//(http://www.reddit.com/r/movies/comments/1ntg1m/before_and_after_special_effects/cclw72g)
+    |///75k karma in a week, seems to be working quite well for him.
+
+
+        |I have talked to many of the top redditors and most of them see it this way. The front page is full of these people. Ye
+        |, it would be better if people posted content they found interesting instead of content that would make their imaginary
+        |number increase the most, but people upvote them anyway.
+
+
+        |Look, honestly, why do you care? It's content that I haven't seen before and I find funny.
+
+
+            |I see the people up in arms about this and all I can think is 'let's not get too excited.' 
+
+
+        |Lets fight a spammer by spamming in every thread!
+
+
+        |Okay.
+
+
+        |I have made that link his flair and will post it every time i see him whoring.
+
+
+    |Sweet 
+
+
+    |The gif lagged and took ages to load and jumped ahead in stages so it actually was pretty accurate before it fully loaded.
+
+
+    |never gonna look at a video buffer the same again...
+
+
+    |Talk about life//
+
+
+    |Since approx. 6 months youtube videos don't work well for me. After 2 seconds the video restarts, then restarts, then resta
+    |ts, then an error is displayed and I have to reload the page again and cross my fingers that it'll work this time. 
+
+
+    |This gif forgot the pause that happens after the first two seconds.
+
+
+    |this is so correct...it plays 30 seconds, you have to rewind it a bit, then it plays another 30 seconds...then you need to 
+    |eep rewinding it. i can't watch lets plays like this youtube.////youtube in the past year or two has been absolute shit. 
+
+
+    |Every porn site, no matter how obscure, has no buffering issues. Ask them what they do Youtube.
+
+
+    |Very simple fix: Youtube Center Chrome/Firefox addon or Grease/Tampermonkey userscript (I recommend the latter as it saves 
+    |our settings).
+
+
+    |.
+
+
+    |How many times did you guys watch this?
+
+
+    |Missed a golden opportunity to have the truck drive off the edge.
+
+
+    |i just unsubbed from funny because of this gif
+
+
+    |would have been better if this was on youtube.
+
+
+    |Watched this three times hoping the little guy would get it to the end.  Much like YouTube he didn't :-(
+
+
+    |Exactly why I hate youtube... 
+
+
+    |I thought it was just me!
+
+
+    |Youtube hasn't buffered videos like this in forever. It only buffers a few minutes worth of video ahead of the current time
+
+
+    |Ain't that the truth. 
+
+
+    |I don't understand why YouTube can get its fucking act together. 
+
+
+    |This is legitimately funny. Good job, OP! I don't care if it's OC or not, but I haven't seen it and I got a smile. A+++++++
+    |would upvote again.
+
+
+    |[Your ISP](http://3.bp.blogspot.com/-uCD1mMBU5Mo/UPgVZfaPg9I/AAAAAAAADVU/WlE7lPmlqmI/s1600/7332908-funny-shit-with-fly-7848
+    |0.jpg)
+
+
+    |I just went from YouTube to Reddit because I was tired of waiting for the YouTube videos buffering so slowly
+
+
+    |ITT: dae hat le youtub?
+
+
+    |Are the ads loaded by Optimus Prime?
+
+
+    |Damnit. This thread has highlighted every one of YouTube's fuck-ups and made me angry for some reason which I don't fully u
+    |derstand.
+
+
+    |No matter what you do, you cannot cross the yellow line and avoid an advertisement :(
+
+
+    |It's sad that the xvideos and xhamster players are better than youtube's.
+
+
+    |People here should try to use Magic Actions for YouTube™ that is on chrome. Will help alot. Site https://chrome.google.com/
+    |ebstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif
+
+
+    |Let's please give the original artist some credit...rather than stealing his work and his views by converting it to a gif./
+    |//[original video here](http://vimeo.com/62147173)
+
+
+    |So true! And I thought it was just my computer.//
+
+
+    |Good, but some better work could be done here. Maybe a snail towing a United States Postal truck, and then the snail goes b
+    |ck to re-tie the "tow" on the buffer bar whilst the postal truck driver says "Ain't nobody got time for that" as she watche
+    | the snail backtrack.
+
+
+    |Sorry, couldn't hear you over my Google Fiber

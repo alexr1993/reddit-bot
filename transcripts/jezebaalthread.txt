@@ -1,0 +1,777 @@
+The stomach naturally produces more stem cells than previously realized, likely for repair of injuries from infections, digestive fluids and the foods we eat.(/r/science)
+
+
+
+
+    |Is it wrong to say that the stomach produces stem cells when the cells in question are other specialized cells that revert 
+    |ack to stem cells when needed? Also, as I understand it, stem cells can turn into many different kinds of cells, but I wasn
+    |t aware that cells could revert back to a stem cell state. Can someone help clear all this up a little more?
+
+
+        |Stem cells initially are termed 'pluripotent' meaning they can differentiate (turn into) many types of specialized cell
+        |. They follow a sort of map, change into types of cells, which allows them to further specialize and differentiate unti
+        | they reach the 'terminal differentiation' point. What scientists have recently found is that it may not be so terminal
+        | Certain cell populations can revert back or signal the production of stem cells due to injury stimuli. Mammals aren't 
+        |ery good at this but reptiles and amphibians can use stem cells to regenerate substantial parts of their body. A lab in
+        |Japan recently developed iPS cells. They are induced pluripotent stem cells. They take a skin biopsy and through a fair
+        |y simple protocol can develop a line of stem cells based on an individual patient. They can then use those stem cells t
+        | grow all types of cells using that persons genetic background opening the door for personalized medicine.
+
+
+            |&gt; A lab in Japan recently developed iPS cells////Not a correction but just a specification, since people who are
+            |'t informed about the subject might misunderstand and think recently means last month or something:////The Japanese
+            |research which developed iPS was done [in 2006](http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#First_ge
+            |eration), last year it won the [Japanese researcher](http://en.wikipedia.org/wiki/Shinya_Yamanaka) responsible the 
+            |Nobel prize in physiology or medicine](http://en.wikipedia.org/wiki/List_of_Nobel_laureates_in_Physiology_or_Medici
+
+
+                |Is there a reason why we aren't using this in modern medicine ? , It sounds like the perfect solution. A source
+                |of stem cells without any of the ethical boundaries.
+
+
+                    |Since they are induced into pluripotency, iPS cells are not truly equivalent to embryonic stem cells.  ////
+                    | [study](http://www.hopkinsmedicine.org/institute_basic_biomedical_sciences/news_events/articles_and_storie
+                    |/stem_cells/2010_07_pluripotent_stem_cells) showed that "while both classes of cells differentiated—to form
+                    |blood cells, vascular cells or retinal cells—the iPS cells did so at a significantly lower rate and had hig
+                    |er rates of cell death".////Edit: I also want to add that iPS cells are still relatively new in research.  
+                    |any researchers in regenerative medicine are currently experimenting with iPS cells. Japan just [created th
+                    | first functioning human organ, a liver, from induced pluripotent stem cells.](http://blogs.discovermagazin
+                    |.com/d-brief/2013/07/03/human-liver-is-first-functioning-organ-made-of-induced-pluripotent-stem-cells/)////
+
+
+                        |&gt; The technique is unlikely to produce whole replacement livers, but could be used to grow mini-live
+                        |s that supplement a failing organ. Such transplants wouldn’t even need to be located near the existing 
+                        |iver. Lead researcher Takanori Takebe hopes to reduce the size of the liver buds to 100 micrometers, so
+                        |they can be injected into the bloodstream of mice.////&gt;Takebe estimates that with an infusion of hun
+                        |reds of thousands of liver buds, about 30 percent of a person’s liver function could be restored. “The 
+                        |imitation at the moment is to create enough suitable liver buds in sufficient quantity to create a viab
+                        |e clinical therapy,” he said.////It's fascinating to imagine humans with distributed organ function, al
+                        |hough it would be a little weird to, say, have a mini-liver growing in your upper arm.  It does start t
+                        | redefine what it might mean to be a "human being", though.////
+
+
+                        |Are ethical considerations really holding us back?////I would have thought that if stem cells were so c
+                        |pable the research would simply relocate to other countries and/or states that don't have these ethical
+                        |qualms about using embryonic stem cells. Wouldn't that be virtually all western countries outside of th
+                        | southern Bible Belt in the US?////Here in Canada for example a fetus is not considered a human being b
+                        | law, so there shouldn't be any restrictions to research on that front here.
+
+
+                    |They still need to work out more of the kinks in the technique before it can safely be used therapeutically
+                    |(as opposed to for research purposes). Accordingly, regulatory bodies in the US and Europe do not currently
+                    |allow iPS cells to be used therapeutically. Furthermore it still has a much higher failure rate than embryo
+                    |ic stem cells.////Hopefully, however, iPS can be made more reliable in the coming decades. It promises a fe
+                    | advantages over embryonic stem cells, such as the ethical issue as well as (in some cases) lower susceptib
+                    |lity to immune rejection.
+
+
+                        |Is the lower rejection due to using the patient's cells vs. another person's embro cells?  What about i
+                        | someone kept their own embro cells for later in life?
+
+
+                            |You cannot save your embryonic cells for later because, as far as current technology is able to rel
+                            |ably do, removing an embryonic stem cell leads to death of the embryo (even though, theoretically, 
+                            |emoving a cell shouldn't affect much).////We might suppose a lower rejection rate with induced plur
+                            |potent cells because if we can create a personalized treatment derived from a patient's own skin ce
+                            |ls, then there would be no immune rejection.////With that said, it will probably be much cheaper an
+                            | easier to mass-produce treatments derived from an existing stem-cell line (either induced-pluripot
+                            |nt-derived or embryonic-derived). And in that case either source for the cells would elicit an immu
+                            |e response.
+
+
+                    |There's still a lot to work out with them. They're definitely what the name implies, but they have issues o
+                    |ce they start differentiating. Turning cancerous is one of those issues. 
+
+
+                    |Molecular biologist here: people answering you have no idea what they're talking about. Yes, there are some
+                    |problems with iPS cells that don't exist with ES cells. But 99% of labs use iPS cells and they mostly get t
+                    |e job done fine. So to answer your question, we are using them.
+
+
+                        |I mean to treat patients.  Thanks for clearing that up! 
+
+
+                            |The first clinical trials using iPS derived cells are underway in Japan.  There are currently clini
+                            |al trials using embryonic stem cell derived cells in the U.S.  Both trials are for macular degenera
+                            |ion.  In the not-so-distant future, iPS cells will be used for a lot of regenerative medicine and d
+                            |sease treatments, but it takes a lot of time to make get sufficient evidence that these cells are s
+                            |fe and efficacious to inject into humans.  ////source: grad student in this field////other sources:
+                            | [here](http://www.japantimes.co.jp/news/2013/07/20/national/worlds-first-clinical-trials-with-huma
+                            |-ips-cells-okd/#.UliR9haxOlI) and [here](http://www.advancedcell.com/news-and-media/press-releases/
+                            |eading-eye-institute-to-participate-in-actandrsquo-s-embryonic-stem-cell-clinical-trial-for-macular
+                            |degeneration/index.asp)
+
+
+                    |The problem here is that this study is describing multipotent stem cells, not pluripotent stem cells.  The 
+                    |ifference is that multipotent cells are limited in the kinds of cells to which they can differentiate. Emby
+                    |onic stem cells (ES) and induced pluripotent stem cells (iPS) do not have these restrictions.  That might m
+                    |ke you think that iPS cells are the answer to the ethical quandary, but iPS cells have other issues to be o
+                    |ercome before they can be used for personalized medicine.  The methods used to induce pluripotency leave ar
+                    |ifacts from the induction process that are not found in ES cells.  Thus iPS ≠ ES....yet.
+
+
+                        |Very cool. Im guessing those artifacts are what causes cancer? 
+
+
+                            |If you inject iPSCs or ES cells into a living animal and they survive, they will begin to prolifera
+                            |e and differentiate into many cell types.  This essentially becomes a cancer called a teratoma, whi
+                            |h is comprised of cells from all 3 lineages (mesoderm, endoderm, and ectoderm).  This is to be expe
+                            |ted given that these cells are pluripotent.  ////The derivation of iPS cells typically involves the
+                            |use of a lentiviral vector carrying 4 transgenes (Oct4, Sox2, KLF4, and MYC) that are sufficient to
+                            |revert a somatic cell back into a pluripotent state.  Lentiviruses work by incorporating these gene
+                            | into the genome at random and multiple locations.  Initially, it was worrisome that incorporation 
+                            |f the transgene next to a proto-oncogene could be oncogenic (cancer-causing) in that it would help 
+                            |o initiate the transcription of the proto-oncogene.  This is not too much of a concern anymore howe
+                            |er because when a cell is truly reverted back to a pluripotent state, the host cell will down-regul
+                            |te the foreign viral transgenes via methylation and rely on the transcription of its endogenous gen
+                            |s to maintain pluripotency.  ////iPSCs are now widely used and heavily researched.  One of the most
+                            |difficult issues is that you generally want a pure population of cells that you are injecting for s
+                            |me type of treatment.  Say you want cardiomyocytes to inject after a heart-attack.  We would first 
+                            |eed to have a pure population of cardiomyocytes, free of pluripotent (i.e. the potential cancer-cau
+                            |ing), and other types of cells.  This is (one of) the tricky parts right now.  ////source: grad stu
+                            |ent in this field
+
+
+                                |That was an awesome summary, thanks a lot !.
+
+
+                    |It takes around 10 years at a minimum to develop a drug for use, assuming it's not already licenced for som
+                    |thing else. Since this is a fairly groundbreaking potential treatment, there is a lot of work to be done to
+                    |ensure it's safe for everyone. How many cells do you give someone? Is it even safe to do so in any large am
+                    |unts? Lots of questions need answering.
+
+
+                        |What happens if fly DNA gets mixed with pluripotent human stem cells? That's the only question I need a
+                        |swered.
+
+
+                            |I heard about this guy that got his mixed up with some spider DNA.
+
+
+                    |I'm surprised no one had mentioned this yet: iPS stem cells have higher rates of oncogene upregulation. Tha
+                    | is, there more likely to become cancerous. 
+
+
+                    |It's because they're very prone to turning oncogenic, i.e. cancerous. They're unstable  basically
+
+
+                |&gt; ...was done in 2006, last year it won the Japanese researcher responsible the Nobel prize in physiology or
+                |medicine.////Wow, that's a pretty fast turnaround for the Nobel Committee. I guess that was a good discovery. :
+                |////Edit: Even PCR (polymerase chain reaction) took 10 years to hand out the award, and it's hard to imagine a 
+                |ore obvious/important one than that.////Edit #2: Took 17 years for Penicillin. Sheesh.////Edit #3: High Tempera
+                |ure Superconductivity won in about a year. Discovery in 1986, Nobel Prize in Physics in 1987. OK, I'm done on t
+                |is subject...
+
+
+                    |The prize this year was for something I learned about in an already old high school biology textbook a deca
+                    |e ago.
+
+
+                    |You're completely correct. There was a lot of talk in the coverage last year about how abnormally quick the
+                    |award was. You can undoubtedly still find some of it online, if you want to look more into the hows and why
+                    |s of it. =D
+
+
+            |To clarify, there are a number of different stem cells in the body with different levels of "potency".  Pluripotent
+            |stem cells are not found natively in the adult body but can turn into any of the 3 germ layers (any tissues in the 
+            |ody).  Totipotent is actually one level higher and can also turn into the placental tissue. Multipotent stem cells 
+            |such as the adult stem cells found in your bone marrow) can turn into a limited number of cell types, such as fat a
+            |d bone. You also have progenitor cells which may only turn into a couple of defined cell types (cardiovascular prog
+            |nitor, for instance, turns into heart cells or blood vessel cells).  And some progenitor cells (myoblasts - muscle 
+            |rogenitor) only turn into 1 cell type (muscle).  Stem cells are generally responsible in the body for helping diffe
+            |entiate and repair injuries, which is why it makes sense that the stomach (high turnover in cells) would have a bas
+            |l stem cell population, but this isn't my field so I don't know how exciting these findings are.////Recently within
+            |historical context but fairly old technology is iPS technology which you mentioned.  I want to stress that the prot
+            |col is not actually that simple (try inducing your own iPS line) but it's pretty straightforward and any somatic ce
+            |l (any adult cell with a nucleus in theory) can be transduced to turn into an iPS cell, meaning we can get these ce
+            |ls from blood draws or even urine collection. ////source: stem cell scientist
+
+
+                |Just to rephrase: //&gt;I want to stress that the protocol is not actually that simple (try inducing your own i
+                |S line)////to the less politically correct version://&gt;I want to stress that the protocol is a huge pain in t
+                |e ass, and the cells mostly suck afterwards////Source: worked with ADSCs for a few years
+
+
+            |Wow, cells so cool. Thanks for taking the time to explain that a bit more. 
+
+
+            |I wish I could live long enough to see these types of medicinal procedures become standard.
+
+
+                |There are several types stem cell treatments that are standard, or at least coming very close to it.  Bone graf
+                |ing using the patient's own stem cells that have been harvested from bone marrow is a good example.  There are 
+                |undreds of thousands of procedures like this done every year.  
+
+
+                |What's taking so long? My father lost vision in his eyes because of malpractice. I don't care about medical sta
+                |dards and laws. 
+
+
+                    |You might not, but plenty of people do. What if these stem cells were used to correct a person's vision, bu
+                    | they didn't stop growing, and ultimately gave the person a tumour? ////What if they don't do anything at a
+                    |l? Incredibly expensive treatment, but they just fail on everybody.////This isn't like putting a plaster on
+                    |somebody, this is very serious, very complicated stuff that is gonna take some time to get right. You don't
+                    |send a rocket to the moon with £10 and a children's drawing of a rocket. You don't inject humans with stem 
+                    |ells without a bit of thinking.////Plenty of reasons to care about medical standards and laws.
+
+
+            |I was always taught stem cells are in bone marrow and created there. This title makes it sound like they're made in
+            |the stomach? What am I missing?
+
+
+            |That.. that's really cool.
+
+
+            |This probably derails the thread a little bit, but:////&gt;Certain cell populations can revert back or signal the p
+            |oduction of stem cells due to injury stimuli. *Mammals aren't very good at this* but reptiles and amphibians can us
+            | stem cells to regenerate substantial parts of their body. A lab in Japan recently developed iPS cells. They are in
+            |uced pluripotent stem cells. *They take a skin biopsy and through a fairly simple protocol* can develop a line of s
+            |em cells based on an individual patient. They can then use those stem cells to grow all types of cells using that p
+            |rsons genetic background opening the door for personalized medicine. ////Hypothesis: Nature created a wide variety 
+            |f species, and these species have different ways of accomplishing the same goals. Reptiles and amphibians use natur
+            |l body functions to heal themselves because their bodies have evolved over thousands of years to rely on body funct
+            |ons for healing. Mammals on the other hand, have evolved away from body functions and into the use of direct manipu
+            |ation with tools to accomplish body functions like healing, thus why mammals don't heal in the ways reptiles do. //
+            |/Thoughts? 
+
+
+                |It is a mistake to think of "Nature" as a sentient entity that creates creatures for certain reasons, and neith
+                |r is evolution a teleological (purpose-driven) process.  ////The one part I agree with is that this is a very o
+                |f-topic digression.
+
+
+                    |&gt; and neither is evolution a teleological (purpose-driven) process. ////Uh, may I ask why you think that
+
+
+                |I'd like to see a whale or dog learn to use tools.
+
+
+                    |[Dogs manipulate humans for their benefit.](http://blogs.scientificamerican.com/thoughtful-animal/2012/04/3
+                    |/dogs-but-not-wolves-use-humans-as-tools/)////[Whales create bubble nets to catch prey.](http://www.science
+                    |aily.com/releases/2011/06/110624083516.htm)
+
+
+                        |Neither of those are related to healing.
+
+
+                            |Instead of relying on their own bodies, these animals manipulate the environment around them to acc
+                            |mplish goals. As do humans. ////
+
+
+        |[This](http://www.cell.com/abstract/S0092-8674\(13\)01145-8) is the original article ([full text](http://ge.tt/408PNSu/
+        |/0)), and reading the abstract and [image](http://download.cell.com/images/journalimages/0092-8674/PIIS0092867413011458
+        |fx1.lrg.jpg) may be more helpful to understand what's going on. I'll try to summarise.////&gt;Proliferation of the self
+        |renewing epithelium of the gastric corpus occurs almost exclusively in the isthmus of the glands, from where cells migr
+        |te bidirectionally toward pit and base. The isthmus is therefore generally viewed as the stem cell zone. ////So the cor
+        |us (latin for 'body') of the stomach is basically the main part of the stomach. In the inner lining of the stomach the 
+        |pithelium has many glands producing a variety of proteins, gastric acid, etc. The isthmus is a central region of this g
+        |and that has classically been considered to be the 'stem cell' zone where cells migrate in both directions (look at the
+        |image) both upwards and downwards into the base.////&gt; We find that the stem cell marker Troy is expressed at the gla
+        |d base by a small subpopulation of fully differentiated chief cells.////So yes, these cells at the base they studied ar
+        | a special population of the fully differentiated cells (ie, something we *wouldn't* call a stem cell). Chief cells are
+        |the cells in these gastric glands responsible for producing enzymes that help start the digestion process.////&gt; By l
+        |neage tracing with a Troy-eGFP-ires-CreERT2 allele, single marked chief cells are shown to generate entirely labeled ga
+        |tric units over periods of months. This phenomenon accelerates upon tissue damage.////This is the important part of the
+        |r finding. That using fluorescent tags they were able to observe the movement of the original cells at the base, and fo
+        |nd that they were basically able to reproduce all the cells in a single unit (ie, from the bottom they saw it move into
+        |cells all the way to the top). If these cells weren't 'stem cells' then it wouldn't make sense for them to spread and r
+        |produce the other types of cells in the gland.////&gt;Troy+ chief cells can be cultured to generate long-lived gastric 
+        |rganoids.////This just means that they can use these cells in a lab environment to produce a collection of gastric glan
+        |s that can maintain themselves (ie, replace dead/dying cells and keep it alive and working).////&gt;Troy marks a specif
+        |c subset of chief cells that display plasticity in that they are capable of replenishing entire gastric units, essentia
+        |ly serving as quiescent “reserve” stem cells. These observations challenge the notion that stem cell hierarchies repres
+        |nt a “one-way street.”////So this just concludes by saying that these marked cells seem to serve as reserve stem cells,
+        |that under normal circumstances they just go about their business (quiescent meaning resting/dormant), but when called 
+        |nto action by the stomach are able to replace all the other cells in this gastric unit.////That's just the abstract, I 
+        |aven't read the full article yet. But I just wanted to also address a few of your questions. The word 'stem cell' itsel
+        | is quite arbitrary, meaning that there are many things we call stem cells that may not really be 'true' stem cells, an
+        | the word is used in so many different ways that it can get scientists and the public confused. For instance what we te
+        |d to call a haematopoietic stem cell that originates the various types of blood cells isn't really a 'true' stem cell i
+        | that it's already fairly differentiated itself, but is able to produce many subtypes of other cells. So really you sho
+        |ld think of these as progenitor cells, as they are quite organ specific and not akin to the stem cells people usually t
+        |ink of (like embryonic stem cells). The word we use doesn't really matter as much as understanding what it can/can't do
+        |(which also changes with our ever evolving understand of them).////And also with regards to 'reverting' back to a stem 
+        |ell, it does exist and it's called dedifferentiation. Although our understanding isn't clear, it has been implicated in
+        |being involved in the formation of tumours and cancers for instance. But again bear in mind that these 'stem cells' may
+        |be closer to a fully differentiated cell type than the stem cells the public like to think of.
+
+
+            |It's really quite incredible how our bodies work,  and this is jUst scratching the surface. 
+
+
+                |... and then they repair that surface. 
+
+
+            |This sort of line-by-line explanation is incredibly useful, thanks!//Kinda like Rap Genius, but for science news.. 
+            |mm....
+
+
+                |&gt;For science
+
+
+        |In the most general sense, Stem Cells (SCs) are cells meant for maintaining cell populations -- they're resistant to mu
+        |ation, divide slowly, and don't really have much function besides eventually becoming differentiated cells, which lose 
+        |he ability to divide, but gain a necessary function instead. ////Stem cell niches (populations ) are very carefully reg
+        |lated and a stem cell can divide symmetrically to produce two stem cells, +1 to replenish the population, they can divi
+        |e asymmetrically to create a differentiated cell and a stem cell, +0, or they can divide to form two differentiated cel
+        |s, -1 to a popultion. //This is key in areas like the GIT(GastroIntestinalTract), where epithelial lining is constantly
+        |sloughed (shedded) and so stem cell niches need to be carefully situated, e.g. your intestine's Krypts of Lieburkhins, 
+        |o these maintained populations can differentiate and replace dying cells.//It's also similar to your muscles and their 
+        |atellite cells -- little popuations of stem cells used, i.e. differentiated into more functional cells, when muscle dam
+        |ge occurs, e.g. from working out. ////We can force de-differentiation, reversion to a more naïve state, or trans-differ
+        |ntiation, basically partial de-differentiation then guided differentiation to a similar state, by playing with intrinsi
+        | factors (the genetics and epigenetics within a cell) as well as the extrinsic factors (signals outside the cell), but 
+        |hese processes don’t really occur naturally unless you're on the road to cancer. Trans-differentiation is often easier 
+        |han producing artificial, fully naive cells when using two similar populaions, e.g. Hepatic (liver) cells trans-differe
+        |tiating to Pancreatic Beta cells (Insulin-producing pancreas cells), since they share a common lineage not that far bac
+        |. As far as sharing cell-fates goes... Well, before going into that here's a quick primer on germ layers. ////All of th
+        | cells in your body were derived from naive/potent/de-differentiated cells arising from one of three germ layers... The
+        |Ectodermal layer (Neurons, Skin, Nails..etc), the Mesodermal layer (Muscles, Heart, Gut, Kidneys...etc) or the Endoderm
+        |l layer (Trachea, Bronchi, Liver&amp;Pancrease...etc). Now that you know what those three germ layers are,  here's a su
+        |mary of what stem cells can actually be in terms of potency (Their potential to differentiate into various lineages)://
+
+
+            |Totipotent SCs -- Can become any embryonic lineage (Endo/Meso/Ectoderm) or Extra-embryonic lineage (includes placen
+            |a). //--&gt;This would be the initial zygote cell, i.e. fertilized cell.////Pluripotent SCs – Can become any embryo
+            |ic lineage (Endo/Meso/Ectoderm). //--&gt;This would be when your unicellular-zygote has divided to about 16 cells t
+            | form a morula then a blastocyst with separate populations for extra-embryonic tissue (Tropho), and embryonic tissu
+            | (Inner Cell Mass).// These are the famous stem cells everyone thinks about, ESCs or Embryonic Stem Cells, and are 
+            |ontroversial as they’re derived from an embryo.////Multipotent SCs – Can become multiple lineages/fates, but only w
+            |thin ONE germ layer. //--&gt;This could be germ layer cells the moment they split, i.e. an Ectodermal cell that can
+            |become skin/hair/nails/neurons, or a less naïve / more differentiated and lineage-restricted cell that still mainta
+            |ns multiple potential fates, e.g. your hematopoietic progenitor cells that can become numerous immune/blood cell ty
+            |es.////Unipotent SCs – Can only become one cell fate, but are still Stem Cells that maintain and replenish certain 
+            |opulations. A good example of this would be the precursor populations that maintain your spermatocytes. ////(I shou
+            |d also add that there’s technically a step between Multipotent and Unipotent, Oligopotent, but it’s really just a m
+            |ltipotent SC with further differentiation/lineage-restriction...////An example of the jump between Multi-to-Oligo p
+            |tent would be a hematopoietic progenitor cell that can become multiple myeloid lineages (Red blood cells, white blo
+            |d cells, neutrophils..etc) AND lymphoid lineages (T-Cells, B-Cells, NK-Cells…etc) and is thus MULTIpotent. The mome
+            |t this progenitor differentiates / restricts itself to a myeloid or lymphoid lineage it becomes OLIGOpotent, and ca
+            | now only differentiate into the multiple fates from either one lineage or the other // -- i.e. either TCells/BCell
+            |/NKCells or Neutrophils/RedBloodCells/WhiteBloodCells...etc
+
+
+                |Oh and to give a general run down of some of these terms I keep throwing out there -- here's an example of a St
+                |m Cell's fate with a summary at the end...////1)Fertilized Zygote can become Embryonic or Extra-embryonic tissu
+                |//{Totipotent}//////2) Once sufficiently divided, some of these Totipotent cells differentiate into an Inner Ce
+                |l Mass population only capable of becoming Embryonic tissue //{Inner Cell Mass is now PluriPotent} //////3) The
+                |e Pluripotent Inner Cell Mass cells now further differentiate to split into 3X populations --  Ectoderm cells, 
+                |esoderm cells and Endoderm cells. //{Each population is Multipotent}////4) Following one of these populations, 
+                |ome of the Endoderm cells will split and differentiate into Hematopoietic SCs. //While still Multipotent like E
+                |doderm cells, they're now more differentiated than naive Endoderm cells and can no longer become the other Endo
+                |ermal lineages such as the Gut or Cardiovascular cells... //Their lineage and fate is restricted because they'r
+                | becoming increasingly specific and gaining more and more functions suitable to only one role...//////5) These 
+                |ematopoietic progenitors will now split into a lymphoid (potential B-Cells/T-Cells/NK-Cells) or myeloid lineage
+                |(Includes various Red Blood Cell or White Blood Cell types).//{These cells are now Oligopotent, until they're r
+                |stricted to a single fate/potency}////Each step, 1--&gt;2--&gt;3--&gt;4--&gt;5 Captures the basic concept of St
+                |m Cells... //As a cell gains specific function and adapts to survive in a specific environment, i.e. as a cell 
+                |IFFERENTIATES, it loses POTENCY (The ability/potential to form various cell types) and thus its fate and lineag
+                | becomes limited -- a term called LINEAGE-RESTRICTION. Cells with less lineage-restriction are termed NAIVE, be
+                |ause they've undergone little change from primordial cells, can still divide, and are less limited in what they
+                |can become//////...Whew, that's a way to kill 20m. I wrote this all from memory and I'm not an expert in the fi
+                |ld, so fell free to correct or challenge me on any of this if I'm wrong, and if anyone wants something further 
+                |lucidated I'll try my best... Had an awkward time balancing correct descriptions with laymen's terms so most of
+                |what I wrote is heavily simplified.//
+
+
+        |Can a stem cell turn into a stem-cell maker?
+
+
+            |A stem cell is a stem cell maker, every cell that is called a stem cell has three basic principles:////1. they are 
+            |apable of self-renewal//2. it is not fully "specialized"//3. can give rise to "specialized" cells////So yeah every 
+            |tem cell is a stem cell maker. If they all would just become "stomach cells" none would remain.
+
+
+                |Thank you.
+
+
+                |Given this, why can't we clone/"renew" infinite embryonic stem cells from one embryo?
+
+
+                    |You could in theory. In practice these cells are very sensitive. There is a very good illustration in an ar
+                    |icle about cell fate determination. It looks like a pinball machine.//The cell starts from the top and goes
+                    |to the bottom. There are a lot of things that can direct its way during that way, outside, inside, factors,
+                    |expression patterns, physical changes etc. It bounces down and arrives at specified fate. This could be ski
+                    | cells, liver cells etc. [Article](http://biologie.univ-mrs.fr/upload/p56/allis_et_bemstein.pdf) It is on t
+                    |e 3rd page.////Now just intuitively if you think about it where is easier to keep the ball? At the bottom y
+                    |u have to do nothing and the ball stays there. At the top the ball requires some interaction to stay there.
+                    |This is very true it is a challenge to keep embryonic stem cells undifferentiated, even with the best metho
+                    |s some of them spontaneously differentiate into something, then you have some muscle cells, or brain cells 
+                    |r blood cells among the stem cells. The chance of them spontaneously differentiating goes up the more they 
+                    |re kept in the undifferentiated state.////To add to this every time the stem cells divides there is a chanc
+                    | one of the new cells will start differentiating down the line so every cell division also carries a risk o
+                    | the cells spontaneously differentiating.//Finding out how to keep cells in an undifferentiated state for a
+                    |long time is a very heavily researched area. Just like you pointed out it would mean we could have almost i
+                    |finite embryonic stem cells to research on.////The other thing is, yes in theory these cells could self ren
+                    |w infinately. In practice this just means a long time compared to other cells. In a petri dish or culture a
+                    |ter some time these cells can die.////If we could solve these problems there is still a problem before trea
+                    |ment. An embryonic stem cell does carry the immune compatibility of the individual. So if I take an embryon
+                    |c stem cell from an embryo and put it in my liver or generate a new liver out of it, it would be killed by 
+                    |y immune system instantly. Or I will have to take immunosuppressive medication with all of the side effects
+                    |////So to make stem cells for my treatment you are going to need:////- my embryonic stem cells(pretty hard,
+                    |you are going to need a time-travelling device and since gathering embryonic stem cells kills the embryo, I
+                    |will not be born) or //- don't use embryonic stem cells, use a different kind harvested from my body(like H
+                    |SC or hematopoietic stem cells taken from my bone marrow) or //- use induced pluripotent stem cells that we
+                    |e made from my cells so they are 100% compatible with my immune system.////I beleive the last option is the
+                    |best, we don't need to kill embryos for stem cells, we don't need eggs from a woman, we just need skin cell
+                    |, or [a urine sample with some cells in it](http://www.nature.com/nprot/journal/v7/n12/full/nprot.2012.115.
+                    |tml), a couple of scientific magic cocktails and we have a cell that is essentially like an embryonic stem 
+                    |ell. If this method is perfected, in the future stem cell therapy will skyrocket, because they are essentia
+                    |ly the "spare parts" of the human body that doctors lack to this day to "repair" injuries.
+
+
+        |Stem cell and non-stem cell have the same DNA. The process is reversible. So far, all have died before they learned of 
+        |he secret.
+
+
+        |[deleted]
+
+
+    |This article doesn't seem to link the study in question.  [Link](http://www.sciencedirect.com/science/article/pii/S00928674
+    |3011458) here for anyone interested in reading it (Paywall)
+
+
+        |[Full text here](http://ge.tt/408PNSu/v/0).
+
+
+            |I tried so hard to act like I understood this
+
+
+        |You got a paywall for Cell? Just click the PDF links when you search the article and you usually get the full OA resear
+        |h. Works with most of the Cell publications :)////
+
+
+    |Judging from a dozen different medical papers, a theory that hasn't yet jelled is an odd one, but one that needs to be exam
+    |ned.  Way above my pay level.////"Inflammation totally controls all aspects of stem cell function."////Different papers men
+    |ion how inflammation causes stem cell to be generated, moderate the generation, direct the stem cells to where they are sup
+    |osed to be, and what cells they are supposed to become, to trimming off the excess cells, and to shut down the generation./
+    |//All done by "inflammation".  There is some real "there" there.
+
+
+        |Strictly speaking it's not "inflammation" but the cytokines produced by immune cells. Depending on the cytokine chemica
+        |s produced by the cells, stem cells will develop into different types of cells.////Inflammation is just the process of 
+        |rawing cells towards a site of injury; it goes hand-in-hand with immune cells but it's not the root cause of stem cell 
+        |ifferentiation!
+
+
+            |I didn't want to bring that up, because there are so many parallel functions to cytokines, including histamines and
+            |heparin, and that opens the door to immune system operations.  The trouble with this is just about any direction yo
+            | go it gets way complicated in a hurry.  I know the abbreviation as "inflammation" is woefully under-defined, but i
+            | seemed a good way to describe it.
+
+
+        |interesting!
+
+
+    |As a Crohn's patient, I almost assume there's hope to reverse my damage digested system with my own cells.  Too good to be 
+    |rue
+
+
+        |Was my first thought as well. Too bad we can't just convince those cells to go fix colons/etc instead of stomachs.
+
+
+        |I'm taking a stem cells course right now (4th year undergraduate level) and the professor mentioned that mesenchymal st
+        |m cells (MSC's) can help in aiding the fight against Crohn's disease.////[Article to support the claim](http://www.ncbi
+        |nlm.nih.gov/pubmed/22430380)
+
+
+            |Your professor is right about using anti- TNF treatment;  however, this treatment can not be treated alone. It woul
+            | be a cocktail mixed with other drugs.  On the bright side, that thing sure works in the short term, but have not p
+            |oven for a cure.       //Thanks for keeping an eye out for the bathroom occupiers.  You should proceed to be a GI d
+            |ctor
+
+
+        |Oh don't worry. We will surely cure crohns in the next few hundred years.
+
+
+        |As a person with giant peptic ulcers and a million other digestive and immune disorders, I thought the same thing.    
+
+
+    |What is the likelihood of this being substantially feasible for actual primary research?//////Also, could something like th
+    |s remove all of the ethical problems a segment of the population see with Stem Cell research/therapy?
+
+
+        |&gt; Also, could something like this remove all of the ethical problems a segment of the population see with Stem Cell 
+        |esearch/therapy?////You would hope. Unfortunately, that segment of the population does not understand the term 'embryon
+        |c stem cells', thinking that these come from little unborn babies. ////
+
+
+            |&gt; You would hope. Unfortunately, that segment of the population does not understand the term 'embryonic stem cel
+            |s', thinking that these come from little unborn babies.////"Little unborn babies" might be a bit much, but they are
+            |harvested from unborn humans...at least in the manner of speaking that the people who raise moral objections use th
+            | term.  Embryonic stem cells are harvested from fertilized embryos, by definition a human life in the earliest stag
+            |s of development.////MNCBAL is correct that this is one of the areas of stem-cell development that doesn't carry th
+            | same ethical concerns, as pretty much everyone is in agreement that stem-cells not derived from embryos are morall
+            | acceptable.
+
+
+            |Oregon stem-cell groundbreaker stirs international frenzy with cloning advance////&gt; The announcement last month 
+            |f a **long-awaited breakthrough in stem-cell research — the creation of stem-cell lines from a cloned human embryo—
+            |has revived interest in using embryonic stem cells to treat disease**. But US regulations mean that many researcher
+            | will be watching those efforts from the sidelines.////&gt; The US National Institutes of Health (NIH), which distr
+            |butes the majority of federal funding for stem-cell research, prohibits research on cells taken from embryos create
+            | solely for research — a category that includes the six stem-cell lines developed by Shoukhrat Mitalipov, a reprodu
+            |tive-biology specialist at the Oregon Health and Science University in Beaverton, and his colleagues. **The team us
+            |d cloning techniques to combine a donor cell with an unfertilized egg whose nucleus had been removed, creating a se
+            |f-regenerating stem-cell colony that is genetically matched to the cell donor.**////&gt;Mitalipov’s cell lines are 
+            |lso off limits to researchers funded by the California Institute for Regenerative Medicine (CIRM), which was create
+            | in part to support stem-cell work that is restricted by the NIH. **CIRM funds cannot be used for studies that pay 
+            |omen for their eggs** or rely on cell lines produced using eggs from paid donors. That rules out Mitalipov’s lines,
+            |because his team paid egg donors US$3,000–7,000 each, says Geoffrey Lomax, senior officer to the standards working 
+            |roup at CIRM, which is based in San Francisco. That amount “is above and beyond any out-of-pocket costs” to donors,
+            |he says.////&gt;That concerns Daley, who calls the NIH stem-cell policy **“a frustrating limitation that will precl
+            |de federal dollars being used to ask many important questions” about how Mitalipov’s cell lines compare with induce
+            | pluripotent stem cells (iPS)**, which are created by reprograming adult cells to an embryonic state. “Most labs wi
+            |l take the path of least resistance and continue working with iPS cells unless someone shows that there is a clear 
+            |nd compelling reason to change course,” Daley says.////http://www.forbes.com/sites/johnfarrell/2013/06/08/have-scie
+            |tists-finally-found-truly-pluripotent-adult-stem-cells/////&gt; The team used cloning techniques to combine a donor
+            |cell with an **unfertilized** egg////If a woman ovulates an egg that doesn't get fertilized, doesn't it just go to 
+
+
+                |Yes it would go to waste, the problem is we don't really harvest eggs that "would become waste anyway". Current
+                |y the process of harvesting unfertilized eggs from a woman (for assisted reproduction purposes) involves the wo
+                |an taking hormones for a set period of time which forces multiple folliculi to develop. ////Normally a single f
+                |lliculi would be selected as a dominant one and during ovulation the egg inside would be ejected. As a result o
+                | hormonal stimulation multiple folliculi mature, then after a set amount of time the ovaries are examined by ul
+                |rasound then the developed eggs harvested. Harvesting involves a fine needle guided by ultrasound stuck through
+                |the abdominal wall and into the matured follicule, then the egg can be sucked out. It is preferable to harvest 
+                |ore eggs for artificial insemination because the success rate of insemination(adding sperm) is not 100%. ////Af
+                |er the insemination they return multiple fertilized eggs to the uterus to increase success rate, this is why mo
+                |e assisted pregnancies have an increased chance to be twins or multiple twins.////So the eggs that are harveste
+                | from women are in fact unfertilized, but they were harvested artificially, they could have become a natural pr
+                |gnancy sometime later.////However, most eggs for stem cell research are donated from institutes who are frequen
+                |ly involved in assisted reproduction procedures and they are "leftovers" meaning they were harvested but not us
+                |d/required, so they are essentially thrown out.////Therefore the problem is complex. The eggs today are harvest
+                |d in an artificial way, they could have become natural babies but were made to mature ahead of time. These eggs
+                |are finite, every one of them is very precious. But if there were eggs left over from assisted reproduction pro
+                |edures that are not required and were harvested anyway for a different reason, then that could be used. It is s
+                |ill VERY hard to get a licence for that, even for research.////Essentially now we are using unfertilized eggs t
+                |at would become waste anyway but not like nature inteded it to become waste.
+
+
+                    |Nature intended most of us to have our entire bodies become waste before the legal drinking age in the US. 
+                    |t is only because of advances in the sciences that we don't. ://///I don't really understand the justificat
+                    |on to not use wasted eggs just because they aren't wasted as nature intended.
+
+
+                        |Yes justification for not using leftover eggs from assisted reproduction procedures is well in my opini
+                        |n hard to understand or does not make much sense logically. Thankfully I did not see a lot of sources a
+                        |ainst this method. Those cells will be thrown out and destroyed anyway, they could be used to further s
+                        |ience. I for one can very much justify using those cells. ////Problem is there are not many of them. Un
+                        |erstandably during assisted reproduction doctors are trying to have no "leftover" cells, nothing should
+                        |go to waste, still there remains a few, but not every time. Second problem is not many clinics and doct
+                        |rs doing assisted reproduction know that they could(with the consent of the patient) donate these cells
+                        |to stem cell research or they have the same concerns regarding this field as the general public, so the
+                        | refuse.////Using harvested eggs only for the purpose of making stem cells in my opinion is a bit waste
+                        |ul even when a woman donates it freely. There are finite number of those cells and every one of them co
+                        |ld produce a healthy child, I could see why it is shaky to just gather and use simply donated eggs when
+                        |there are lots of infertile couples trying to finally have a child, either through egg donation, or ado
+                        |tion etc.////If we could somehow harvest eggs that went through normal ovulation, did not get fertilize
+                        | and about to be ejected out from the body during the menstrual cycle, well that would be easier to jus
+                        |ify. Unfortunately this would mean a single egg, and you would have to wait a month for the next one an
+                        | until that store the first one somehow in a freezer. Complicated, slow and not guaranteed you even get
+                        |perfect fertile eggs or find an egg at all, it could have broken down before menstruation. This method 
+                        |s not really feasible.
+
+
+    |Great explanation here on this as this is the first time I've heard of the cells specifically repairing previous damage.  W
+    |uld this eventually lead to helpful treatments of those battling cancer in this region?
+
+
+    |As a person with chronic GERD, I hope this is true.
+
+
+    |The body is an amazing thing how knows what elese its hiding from us
+
+
+    |The stomach is our primary brain... it is truly a superior organ.
+
+
+    |For repair of the foods we eat?
+
+
+        |From the foods we eat. I know my stomach needs repairs from those margaritas, chips, and jalapeños from last night. 
+
+
+    |I don't know if this is the right place to ask, but does anyone know, or have an idea, how long it's going to be until rest
+    |ration of body parts will be a thing? I'm really hoping that the technology will be able to reverse a circumcision in my li
+    |etime, but others obviously have more important needs for the technology. 
+
+
+        |There was a great episode on Friends about that... "A California Roll".
+
+
+            |Link? They talked about stem cells on friends? Seems a bit early?
+
+
+    |So, what's the best way to support the growth if stem cells in my stomach?////e.g. diet, exercise, lifestyle, etc.
+
+
+    |Ahhh ////Stem cells. That makes more sense than sperm cells////Was confused for a minute there
+
+
+    |Is this why animals lick their injuries?
+
+
+        |Unless they've been hurling their stomach contents regularly, no. Saliva (along with tears) generally have an enzyme ca
+        |led lysozyme that degrades bacterial cell walls, killing the bacteria.
+
+
+            |Plus, wounds are tasty.
+
+
+    |so christopher reeves never had to eat all dem babies?
+
+
+    |Is this maybe why drugs like lovenox can be derived from pork stomach? ////Don't mind me, I'm not a scientist 
+
+
+    |Maybe this is an explanation to how [Michel Lotito](http://en.wikipedia.org/wiki/Michel_Lotito) survived all those years.
+
+
+    |Next big thing for the churches to go after "Do not make humans from feces"... any bets?
+
+
+    |My friend's girlfriend's dad is one of the researchers in this paper. Would anyone be interested if I got him to do an AMA 
+    |r something similar?////No promises, but it's worth a shot.
+
+
+    |I just ate some taco bell and im pretty sure my stomach is producing some serious stem cells right at this very moment
+
+
+    |i'm just astonished how advance the human body is yet developing robot seems to be giving more importance then preserving a
+    |d improving the condition of current living humans. 
+
+
+        |Trying to build mechanical creatures may give insight to how some of us fleshy creatures work. 
+
+
+        |&gt;  developing robot seems to be giving more importance then preserving and improving the condition of current living
+        |humans////Can you say why you feel this way? Having everyone who is currently handling robotics suddenly switch to stud
+        |ing biology and whatnot would be nearly impossible, so we end up doing both things at once.
+
+
+    |[deleted]
+
+
+    |Are you telling me I've been eating all these embryos for no reason?
+
+
+    |[deleted]
+
+
+        |Adult stem cells are use for repair and growth. That's been well known for quite a while now. The primary difference be
+        |ween adult and embryonic stem cells is that adult stem sells lack the degree of pluripotency (the ability to turn into 
+        |ny other kind of cell) that embryonic stem cells naturally have.
+
+
+            |It seems to me that the findings outlined in this article indicate that adult stem cells have a little more pluripo
+            |ency than we were givein them credit for, right? An injury stimuli results in adult stem cells to... (forgive me he
+            |e, not a scientist) turn into a different kind of cell?
+
+
+                |Maybe not all kinds of adult stem cells, but some definitely appear to be more versatile than once thought.
+
+
+        |Since birth?
+
+
+        |All the time! It's been a while since my last class so I'll be vague, but your body produces a great deal of stem cells
+        |to replace cells that die off. Things like [mesenchymal stem cells](http://en.wikipedia.org/wiki/Mesenchymal_stem_cell)
+        |are produced throughout adult life to serve somewhat specialized purposes, like the stomach ones mentioned here. Resear
+        |h has shown there is potential to turn these adult, specialized stem cells into more general [pluripotent stem cells](h
+        |tp://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell) which can then be used for something like growing a new organ
+        |for someone out of their very own cells!
+
+
+    |This ties into a recent study that suggested keeping the umbilical cord attached to the baby longer since it gives more tim
+    | for the baby to absorb more stem cells improving health. 
+
+
+        |I don't really see how it ties in at all, embryonic stem cells from the umbilical cord are entirely different from thes
+        | gastric gland cells. Care to explain?
+
+
+        |I've read that its roughly 3 mins that you should keep the umbilical cord attached, since its still "downloading" diffe
+        |ent cells 
+
+
+    |Soon u wont be donating blood. But stem cells
+
+
+        |"Soon?" [It's been around](http://www.hema-quebec.qc.ca/donner/cellules-souches/registre-des-donneurs/index.en.html) fo
+        | quite some time now.
+
+
+    |And yet the damn thing still can't handle an evening's worth of Mexican beer.
+
+
+    |I need all of those in my gut that I can get
+
+
+    |Or to repair the damage after eating a Chipotle Burrito...
+
+
+        |Or buckyballs...
+
+
+    |So the more food we eat, the more stem cells we produce? SEE WORLD, AMERICA IS JUST FULL OF SCIENTIST HEROES!
+
+
+    |In 20 years we'll discover we're 100% stem cells. 
+
+
+        |Lol oh that explains everything xD
+
+
+    |Stem cells are great and all but we haven't figured out a way to actually use them safely I.e. People suffering from horrib
+    |e seizures after about a week. 
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+                    |[deleted]
+
+
+                        |[deleted]
+
+
+    |Seems like the main discoveries of the past few decades is that the guts are a bit more ~~miraculous~~ remarkable and activ
+    | than we thought.////Better?
+
+
+    |Starting to seem like you cant even shake a stick without hitting something that produces stem cells.
+
+
+    |very interesting!
+
+
+    |why dont they just use plants for stem cell
+
+
+        |plants and animals have very, very, different cell structures.
+
+
+    |But no, scream the progressive scientists, this means we can't experiment on unborn humans anymore!!!
+
+
+        |Does it hurt to be that stupid?
+
+
+    |[deleted]
+
+
+        |[deleted]

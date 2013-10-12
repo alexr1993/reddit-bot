@@ -1,4 +1,18 @@
 # contains permalinks to comments referencing some reddit post
 # numbers on the left are the ids of the referee, multiplle comments can refer to the same referee
 
+#
+#
+# redherrings....
+#
+# movies/television is just going to cause unnecessary complication for detecting in house references
+#
+# worldnews as well because people keep using the word references when discussing sources
+#
+# maybe gaming as well
+#
+# best places are going to be where you get cheap stupid comments
+
 1	http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/ccejp5c
+2	http://www.reddit.com/r/AdviceAnimals/comments/1nugzf/the_best_recovery_ive_ever_come_up_with/ccm76bv
+3	http://www.reddit.com/r/IAmA/comments/1o5ndh/iama_guy_who_went_from_430_pounds_to_170_pounds/ccp40hs

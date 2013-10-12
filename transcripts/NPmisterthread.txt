@@ -1,0 +1,2172 @@
+ELI5: what will probably happen in Europe if USA goes in default?(/r/Explain Like I'm Five | Don't Panic!)
+
+
+
+
+    |[Bloomberg has referred to that possibility as 'an economic calamity like none the world has ever seen](http://www.bloomber
+    |.com/news/2013-10-07/a-u-s-default-seen-as-catastrophe-dwarfing-lehman-s-fall.html)////In short, all the European markets, 
+    |ndustries, governments, and banks that have positions that rely on the US economic engine will be damaged - investments int
+    | US T-bonds will be relatively worthless, and as the US markets crash, so will any european markets that rely on the US mar
+    |ets for stability.////In short, it would fuck everyone////---////Edit: Since people are seeing this post, **[read this](htt
+    |://www.treasury.gov/resource-center/data-chart-center/tic/Documents/mfh.txt)**  -  its a summary of how much each country h
+    |s in Treasury notes in the US, and should give a better idea of exactly how much money is riding on this not going to shit.
+    |///---////Edit Edit: Lots of people commenting: ////A straight disclaimer - I'm not an economist, this is mostly laymans kn
+    |wledge, my experience in the finance sector (for my small part in it), and some general analysis on what seems to be the mo
+    |t correct as far as answers go. I openly welcome critique and corrections to anything I've posted.////---////Final Edit: Th
+    | level of fuckery that might occur in the event of the default is beyond me - it might indeed be a 'blip' as some people ha
+    |e described, it might be catastrophic as others have described. I'll leave that sort of analysis and conversation to season
+    |d economists. My point is that there's going to be some level of fucking happening on a global scale, with varying levels o
+    | pain. A simple tl;dr would be that *its not going to be pretty*.////---////A thought occurs to me - consider the debt-limi
+    | crisis to be a bull charging straight for you. IF it hits you, there is going to be pain to you, and the people around you
+    |who your flying body will strike.////Now you have choices - you can get out of the way of the bull, and perhaps return to f
+    |gure out why the bull was charging you in the first place to deal with that issue, or let the bull strike you and try to fi
+    |ure it out in the hospital.////From my personal perspective, I can't see a good reason for getting hit by the bull - I'd ra
+    |her get away from the bull, then poke it with a stick from a safe distance until I can figure out how to make it less of a 
+    |hreat to my squishy bits.////---/////u/Ransom009 posted **[here](http://www.reddit.com/r/explainlikeimfive/comments/1o8nzc/
+    |li5_what_will_probably_happen_in_europe_if_usa/ccpz2m8)** noting that its possible for us to hit the limit and still functi
+    |n as a government while paying off debt. The article does note* drastic cuts to Federal programs, so whether or not thats a
+    |good thing I think will depend on each persons opinion on the value of Federal government programs/services. Despite the do
+    |nvotes, I think he posits a legitimate point, so I hope new readers give it a chance./////u/wilkesybear  posted **[here](ht
+    |p://www.reddit.com/r/explainlikeimfive/comments/1o8nzc/eli5_what_will_probably_happen_in_europe_if_usa/ccpy6kn)** about how
+    |the default might actually happen, at least as far as the effect on the Treasury and the value of T-bonds/////u/mercurycc  
+    |osted **[here](http://www.reddit.com/r/explainlikeimfive/comments/1o8nzc/eli5_what_will_probably_happen_in_europe_if_usa/cc
+    |wmkf)** some info on the concept of financing that might answer questions as far as 'why don't we just get rid of the debt'
+    |or 'why do we need the debt', so on and so forth.
+
+
+        |To clarify how the "default" might actually happen, the Treasury will announce on the day of maturity whether they are 
+        |oing to pay the principal for each bond. At that point, they will extend the new maturity day-by-day until they finally
+        |make the payment. So, it's unlikely that this will be a TRUE default where no one gets their principal money back, but 
+        |he bonds will be tremendously devalued, and the entire credibility of our treasury as a reputable lender will fall. Thi
+        | will cause future bonds auctioned by the Treasury to be less valuable as well, etc. etc. It's a slippery slope and not
+        |something we want to test.
+
+
+            |Isn't the damage already done to some degree? Clearly we are madmen willing to dance this insane macabre dance for 
+            |olitical tomfoolery.
+
+
+                |It's bad, but a likely empty threat of default for political reasons and actually  defaulting are two very diff
+                |rent things. 
+
+
+                |That's exactly why many (such as the Chinese) were playing with shifting the focus of their reserves from treas
+                |ries to euro bonds. But when Greece threw a spanner in the works the euro lost a lot of clout as a possible rep
+                |acement. There isn't really anyone else who looks stable enough to trust anymore, though the Japanese have seen
+                |a rising demand for their bonds.
+
+
+                    |Euro's getting better now. Like, Merkel has 4 more years, there should be more political drive for the Euro
+                    |one to do shit; so long as they do it through extra cooperative measures (*Cough* Ignore the UK).////We'll 
+                    |ee. The Euro may look tastier in the coming year/Years, where as there doesn't seem to be a solution to the
+                    |American legislative problem.
+
+
+                |Yes to some damage, most notably in the form of [downgrades in the credit rating by rating agencies](http://en.
+                |ikipedia.org/wiki/United_States_federal_government_credit-rating_downgrade) from the last time this happened, w
+                |ich consequences are outlined somewhat in the link.
+
+
+                |I, too, have a thesaurus! Thimble.
+
+
+            |We don't want to test it but some congress don't seem to mind playing with the idea.
+
+
+            |No slippery slope at all, in my view: maturity extension can still be understood as defaulting as far as CDS trigge
+            |s are concerned, and the real problem here is, in my view, not really the US debt notes (they might not be paid now
+            | but they eventually will, as the default event is not the  result of an intrinsic inability to pay, but rather fro
+            | political posturing and wrangling) but all the CDS hedges, as, if those get triggered, pretty much every bank arou
+            |d will be hit for "fuck-you" money that they don't actually have.
+
+
+        |What about China? I know USA has some kind of debts with them
+
+
+            |The same - there are not a lot of nations, banks, financial institutions, or other large corporations who do not ha
+            |e some stake in the US not paying their debts, whether it be in T-Bonds, loans, stock / commodity ownership, etc.//
+            |/The way I described it once before is like a Jenga tower - imagine US and other superpower nations are like the bo
+            |tom blocks, and other nations are like the top blocks. The top blocks (like Greece) might get pulled and cause inst
+            |bility that trickles down to the bottom blocks, but nothing too severe.////Take out one of the bottom blocks, howev
+            |r, and the entire tower's stability is reduced.////In this case, taking out the US is not only like taking out a bo
+            |tom block, its like doing that in the middle of an earthquake, while there's a tornado, during a swat raid. That to
+            |er is going to be *rocking*, and in the form of the global economy, nothing good will come of that.////I might be e
+            |aggerating here, but in general, there will not be many nations that are not effected by the US going into default.
+            |The magnitude of damage will depend on each countries dependence on US economic stability.
+
+
+                |Please pardon this really dumb question... If everyone fails at the same time, and so much of the economy (appe
+                |rs to be?) more theoretical than hard money, why would it be so hard to start over? Doesn't there need to be so
+                |e country left with enough economical integrity to keep us tethered to this system that's about to completely f
+                |ll apart?
+
+
+                    |The current affluent society is upheld by a system of credits. For example, say I need a car to get to work
+                    | but I can't get a car until I work for the next 5 years. This is a catch 22 since I can't work without a c
+                    |r. Here, a dozen other people (through a bank) decide to help you pay for your car with the expectation tha
+                    | you will repay them in 5 years, and the economy gains you as a worker and you gain a new car. If the credi
+                    | system goes down, this "theoretical" money no longer exists, and the economy is down a worker and you're d
+                    |wn a car, which means the car company sells one less car, which means the car company's employees and car p
+                    |rts company lose out, etc etc, resulting in a "slower" economy. http://en.wikipedia.org/wiki/Velocity_of_mo
+                    |ey////Also, there really is no such thing as "hard money" in that money no longer means anything other than
+                    |what people agree on. The old "hard money" system of a bill representing x amount of gold was abandoned som
+                    | decades ago. http://en.wikipedia.org/wiki/Gold_standard
+
+
+                        |Any chance of us returning to a hard money system, not necessarily based on money, but maybe something 
+                        |lse?  Or did we collectively decide that it's just a bad idea in general?
+
+
+                            |The gold standard has a whole host of problems. Perhaps the biggest one is that it prevents nations
+                            |from engaging in monetary policy other than breaking the gold standard.  The fed wouldn't be able t
+                            | control interest rates, which would exacerbate downturns.  It is also deflationary, since the disc
+                            |very of new gold is slower than the growth rate of GDP.
+
+
+                            |One thing with a hard currentcy is that it's finite, you can never get more of it. It sounds great,
+                            |when you think about it, it's terrible. As more people enter the work force, the reserve of these c
+                            |rrentcies dries up. Say, for sake of simplicity, we have a town that has 100 gold pieces split amon
+                            |st 100 people and the gold continuiously circulates from shop owner to worker to shop owner to farm
+                            |r to worker (pretty much owner of one buisness pays his worker who buys goods from another shop who
+                            |uses this to buy their goods for sale from a supplier who pays his worker who then in turns buys go
+                            |ds from the original shop owner). Well, what happens when the population goes up five people who wo
+                            |k? ////The point is that some time, you are going to have inflation despite what all the gold stand
+                            |rd people are talking about. We will run out of gold/silver/platinum for our currentcy, which means
+                            |the notes will be worth less gold per note or we have a stagnate economy that can't grow because th
+                            | supply of money.////Then we get into the issue that most of the stuff that we can use as currentcy
+                            |has other uses besides being money and looking pretty. Gold, silver and platinum are industrial met
+                            |ls used for electronics.
+
+
+                                |Thanks for the writeup, that makes sense, conceptually speaking.////It seems like both system h
+                                |ve their faults, but now I see that hard money is very limiting if you are looking for economic
+                                |growth.  Are there any other ideas economists have had that might eliminate some of the problem
+                                | we're facing with the way our economy is set up now and the problems associated with hard mone
+                                |?  Somebody mentioned bit coins, but that comes with other problems it seems..  anything else t
+                                |at might be a solution?
+
+
+                                    |Yeah, robots.  We keep building them.  They get smarter.  They destroy us all and take over
+                                    |the world.  We no longer need money.
+
+
+                                        |it would be great to have something like new renesance in matrix, of course with out th
+                                        | human-robot wars.////Basically robots do everything, from farming to transporting the 
+                                        |oods and producing food products and delivering them to shops.
+
+
+                                |And the idea that gold has inherent value is mostly laughable anyway. Gold only has value becau
+                                |e everyone agrees it does. Exactly like money.//400 tonnes of gold in a bunker somewhere is not
+                                |going to feed the hungry, its just going to sit there and do nothing.
+
+
+                                    |That's not the point. The point is that you can't control how much gold there is because it
+                                    |s a physical object, which means you can't control inflation (less people or a sudden large
+                                    |amount of gold found / received from a different country) or deflation (opposite). Although
+                                    |not usually necessary, it is sometimes crucial to control how much money is in the economy.
+
+
+                                    |&gt;  400 tonnes of gold in a bunker somewhere is not going to feed the hungry, its just go
+                                    |ng to sit there and do nothing.////Yes, but the same is true of anything beyond a barter ec
+                                    |nomy.////Whatever it takes (as money) to have people put plow to ground and harvest the res
+                                    |lt will do.  Gold, colorful slips of paper, a gun to the head.... whatever.
+
+
+                                |Theoretically speaking, how about a universal worldwide fiat currency directly tied to populati
+                                |n numbers?
+
+
+                                    |I may not be understanding this, but wouldn't that mean that countries with a larger popula
+                                    |ion would be at an advantage over smaller countries?
+
+
+                                        |The currency would be tied to overall worldwide population, not the population of indiv
+                                        |dual countries.////Currency would still be free to travel between borders, so you'd sti
+                                        |l have richer &amp; poorer countries.////It'd basically be the equivalent to the gold s
+                                        |andard, but continuously adjusted for population.
+
+
+                                    |Population count is not the only factor in productivity, so that would probably work poorly
+
+
+                            |It's a really bad idea, Greece's Euro woes are a good example of why you never want to not have con
+                            |rol of your currency.
+
+
+                                |&gt;why you always want to have control of your currency
+
+
+                                    |Just because it's a double negative doesn't mean it's wrong.
+
+
+                                        |That also doesn't mean it's not less confusing. 
+
+
+                            |Bitcoin is based on math rather than precious metals, but economists don't like it since it's a def
+                            |ationary currency (meaning in the long run, it goes up in value rather than going down), which tend
+                            | to discourage spending.  Spending may be bad for your personal bank account, but it's good for the
+                            |economy as a whole.////The other issue, of course, is that it's much less stable than most "real" c
+                            |rrencies right now.
+
+
+                                |But you can send 1 Bitcoin, 0.01 Bitcoin, 0.000000000000001 Bitcoin. It's infinitely divisible.
+
+
+                                    |That's not the issue.  If 1 BTC (0.01 BTC, 0.000000001 BTC) will be more valuable^* ten yea
+                                    |s from now, that discourages people from spending it immediately, at least compared to a do
+                                    |lar or euro, which will be *less* valuable ten years from now.  That means there's less tra
+                                    |e, which results in a less healthy economy.////\* In terms of the goods and services it wil
+                                    | buy.
+
+
+                                    |Bitcoin also has a limit to the number of daily transactions that can be processed which se
+                                    |erly limits the minimum transaction size. 
+
+
+                                        |Could you please explain as to what you mean by a limit to daily transactions?  I've re
+                                        |d extensively into safeguards put into place to prevent ballooning the size of the bloc
+                                        |chain before the currency is ready, but these are artificially placed and could theoret
+                                        |cally be changed in the future assuming that BTC becomes a fairly wide accepted form of
+                                        |currency.  
+
+
+                        |I love the argument that money based on a gold standard is more "real" than money based on nothing what
+                        |oever.////Gold has no value other than what we give it (with a tiny baseline because it's kinda cool to
+                        |use miniscule amounts of it in electronics)//Money based on nothing has no value other than what we giv
+                        | it//Money hased on gold has no value other than a tiny amount because it can be exchanged for somethin
+                        | that is kinda cool for electronics.
+
+
+                            |Gold's history is cleaner than Fiat currencies.
+
+
+                        |Wouldn't a slower economy be OK? We don't always have to be expanding and growing and using and buying 
+                        |ore and more shit.
+
+
+                            |We are nowhere near wealthy enough to talk like that.i mean you personally might be doing ok but wh
+                            |t about all the poor people? 
+
+
+                                |Its a matter of distribution of wealth, not a question of whether or not there is enough - ther
+                                | is plenty. But capitalism operates on scarcity, and the last 30 years of neoliberalism really 
+                                |ocused the money supply on a very small number of people.//
+
+
+                                |I'm a poor person, I'd love to default on my debts.
+
+
+                                    |You have access to the internet. You have no idea what poor on an economy wide scale means.
+
+
+                    |The thing is, the money isn't theoretical - the future profits and losses might be, but the money invested 
+                    |oes exist - so all the billions and (in the case of China in particular) trillions of dollars just invested
+                    |in US Treasury Notes would become devalued greatly - which would basically remove a lot of money from the g
+                    |obal economic system.////'Starting Over' would require the entire world to go through a sort of bankruptcy 
+                    | we have to decide who, at the 'start over' point gets how much money, and why. What currency do we choose?
+                    |Who gets their investments back, and how much? ////Right now, honestly this situation shouldn't be happenin
+                    | in the first place - aside from what is literally a handful of GOP extremists,there shouldn't be such an i
+                    |sue to 'bust' the system, so to speak.////That is not to say a nation cannot default - look at Greece - but
+                    |when in the case of the US, it is not that we cannot pay our debts, but that there is an artificial ceiling
+                    |of sorts that stops us from borrowing more where necessary.////Not sure if that answers your question, but 
+                    |or the short of it, restarting the global economy is an incredibly complicated process, and this whole situ
+                    |tion is an artificial construct in the first place - outside of the current politically motivated situation
+                    | its highly unlikely a major economic superpower would ever default.
+
+
+                        |would this start over be just like starting a monopoly game and everyone starts out with the same amoun
+                        | of money and ends up just a few people with all the money and property just like before?
+
+
+                            |Not likely - once again, how do you decide who gets the money? How much? Do we just wipe out all gl
+                            |bal debt and go from there? That still leaves investors in the dust - China and the US could potent
+                            |ally sit down and say, 'Look, why don't we subtract what you owe us from what we owe you and go fro
+                            | there?"////But thats not likely to happen - not with a trillion dollars on the line. There are too
+                            |many people with too much at stake, economically, politically, ideologically, so on and so forth. I
+                            | would require a fundamental change in how the entire human race views geopolitics, global economic
+                            |, and a lot of other things that would require us as a species to be able to sit in the same room a
+                            |d not want to murder everyone around us for thinking differently.
+
+
+                                |&gt;China and the US could potentially sit down and say, 'Look, why don't we subtract what you 
+                                |we us from what we owe you and go from there?"////Why isn't this just how it works by default? 
+                                |ow does a country go into debt to a country that's still got a debt to the other?
+
+
+                                    |My example is a bit gratuitous - its not just the Chinese government, but also Chinese bank
+                                    |, chinese corporations, chinese investors, so on and so forth.////Same with the other way a
+                                    |ound, I'm sure - so for the US and China to try to match and neutralize debt, they would ha
+                                    |e to get all of the debt owners to agree in the first place (Is my guess).////That is unlik
+                                    |ly - neutralizing debt does not provide the same long-term returns as investment in treasur
+                                    | notes does. The point of a T-bond is that you have a guaranteed return on your investment 
+                                    |ver time, so neutralizing national debt in the way I described hypothetically would remove 
+                                    |he value of that T-bond.////A straight disclaimer - I'm not an economist, this is mostly la
+                                    |mans knowledge and some general analysis on what seems to be the most correct. I openly wel
+                                    |ome corrections/critiques.////Note: I can't find numbers on whether the US government itsel
+                                    | owns any Chinese debt, so I would discount my example entirely.
+
+
+                                        |Actually, I doubt China will be impacted much at all as far as debt defaults from the U
+                                        | go. Their currency, the renminbi, is not tied to the US dollar anymore, and it is doin
+                                        | quite well. China actually would be much more impacted if either the US economy collap
+                                        |ed because of it (due to loss in trade) or if the US suddenly lost its status as the ce
+                                        |tral bank currency, because it would cause a massive recession to one of their biggest 
+                                        |rade partners, as has happened with any currency that has lost central bank status (e.g
+                                        | the British pound in the 1970s caused a 10 year recession).////Here's a [graph of debt
+                                        |(http://www.npr.org/blogs/money/2013/10/10/230944425/everyone-the-u-s-government-owes-m
+                                        |ney-to-in-one-graph) owed to creditors - note that most of it is owed to the US.////It 
+                                        |lso would be possible to pull money owed to the military and pump it into debt relief. 
+                                        |he military is NOT obliged to balance its budget and have run up independent debts befo
+                                        |e (mainly during the civil war). The main problem there is they may have problems findi
+                                        |g creditors.////edit: Europe, on the other hand, is heavily tied to the US dollar. Ther
+                                        | has been talk of moving to a Euro based central currency or the Renminbi, but that has
+                                        |largely been allayed by the European recession and China actually not wanting a switch 
+                                        |o their currency (make sense - it would dump one of their major trade partners into rec
+                                        |ssion). 
+
+
+                                            |Who do you think buys their shit? EU and USA////Who's going to be the most fucked b
+                                            | a default? EU and USA////The West represents close to 50% of global GDP, there's n
+                                            |t a country in the world that can avoid the shitstorm caused by a default. Especial
+                                            |y a nation whose economy is heavily export based. 
+
+
+                                |This is exactly what needs to happen if we don't want history repeating itself.////Debt is like
+                                |a fictional thing people become attached to, what we need is: clean water, healthy food, a home
+                                | and clothes - bare essentials. This should all be free actually, made by people that get other
+                                |free living materials. What should happen is we make farms all over every community.////Make wa
+                                |er treatment facilities that siphon dirty water and turn it into drinking water like in space s
+                                |uttles. Have small homes be built, not built for furniture but built for purpose. There is no n
+                                |ed for money in our time.////Coming together in a room without wanting to kill each other is sp
+                                |endid, mlstof us can do that - until we invite competition. There is no reason why anyone has t
+                                | suffer we have all the technology and health of the earth that we need right now - money goes 
+                                |o stuff we don't need anyway.////We can build supreme tech if we come together, we can have pea
+                                |e with each other if we just respect, smile, hug and love. No homelessness, no millionaires. Ju
+                                |t people.////Oh how mich disease would be non-existent if humanity worked together dammit!
+
+
+                                    |i want to agree, but...no
+
+
+                                    |you're describing a fairy tale world.
+
+
+                                |Anyone else think that tea partyers are creating this whole issue to capitalize on it, consider
+                                |ng they are more likely to have guns and form into militia bands.  Like they are interested in 
+                                |reating an end of world scenario that they always fear. ////I mean if money becomes meaningless
+                                | then commodities are king.  Those with the force can take others. ////Or am I just rambling li
+                                |e a retard. 
+
+
+                                    |As a gun owner who knows other gun owners, I don't think that any good gun owner would, eve
+                                    | in the time of a crisis, take up arms against the citizenry, even if it was to gain additi
+                                    |nal access to commodities. It goes against everything I've ever known about American gun cu
+                                    |ture.////I wont dismiss the idea that there is a strategy here, either with the larger GOP 
+                                    |eadership, or the Tea Party bloc. I'm sure they have something planned, although whether or
+                                    |not its going as planned is beyond me. There's plenty of speculation about this, but I don'
+                                    | think guns and militias play into any current GOP strategies, tea party or otherwise :)
+
+
+                                        |&gt;As a gun owner who knows other gun owners, I don't think that any good gun owner wo
+                                        |ld, even in the time of a crisis, take up arms against the citizenry, even if it was to
+                                        |gain additional access to commodities. It goes against everything I've ever known about
+                                        |American gun culture.//////That's what people say when they're well-fed and comfortable
+                                        |and relatively healthy. 
+
+
+                                            |You are right sir. And the only effective course of action I can give you, and to e
+                                            |eryone on reddit that reads this comment, is to acquire firearms and knowledge of t
+                                            |em. The invention of the gun was a pandoras box scenario. You can't get rid of know
+                                            |edge, and fairly complex guns and gun systems can be made with a minimum of tools a
+                                            |d time. Guns are here to stay. So, to give yourself a fair chance of survival, I wo
+                                            |ld recommend getting a gun, and then several more, and ammo for all of them, and so
+                                            |e basic handloading supplies, presses, and literature. Anyone that doesn't know how
+                                            |to make black powder and doesn't have access to bullet molds, in the event of shit 
+                                            |itting the fan for a prolonged period of time, is hopelessly and utterly fucked. //
+                                            |/And then people argue with me about guns after I explain all of this. That, I don'
+                                            | get.
+
+
+                                                |&gt;Anyone that doesn't know how to make black powder and doesn't have access t
+                                                | bullet molds, in the event of shit hitting the fan for a prolonged period of t
+                                                |me, is hopelessly and utterly fucked.////Depends on how many bullets you have t
+                                                | start with, because people you have to shoot will often also have bullets. 
+
+
+                                        |Sorry if this sounds accusatory, but I'm honestly curious. How much would you say "gun 
+                                        |ulture" overlaps on prepper/survivalist culture? ////I've always considered them as bei
+                                        |g extremely distinct. Being a prepper means you probably have guns, but having guns cer
+                                        |ainly doesn't make you a prepper.////Your post is kind of reassuring but also seems to 
+                                        |e implicitly stating that all the people who are off forming militias in the woods and 
+                                        |tockpiling years worth of food are a part of typical gun culture, which seems surprisin
+                                        | to me. But then, I'm pretty ignorant on the subject. 
+
+
+                        |And let me get this straight, this is all because they couldn't decide a budget?
+
+
+                            |No, its because certain interests are invested in doing away with social security, the department o
+                            | labor, the department of education, the department of energy, etc, and those interests have enough
+                            |money to buy people willing to fuck up the normal flow of things as a means to that end.////*And* t
+                            |e fact that one orange idiot is paying attention to them rather then the best interests of his part
+                            | and his country.
+
+
+                                |Okay seriously USA, you've had enough attention now. Fix your shit and go back to work. The res
+                                | of us are getting tired of your crap.
+
+
+                        |That makes a lot of sense! Thank you!
+
+
+                        |Why is it the "GOP extremists"?  It takes two to tango.  And some of us don't think it's all that extre
+                        |e for the Federal Government to continue adding to our already HUGE deficit, much less start paying it 
+                        |ack.  ////The Federal government could absolutely survive without raising the debt limit.  A default sh
+                        |uldn't even occur.  In fact, the 14th Amendment forbids it.  Some departments and programs would get cu
+                        |, but that's it (by that I mean not insubstantial cuts, but nothing world-ending.)  The government brin
+                        |s in enough money to pay it's liabilities already. 
+
+
+                            |Alright, I've seen and heard so much argument about the white house not willing to compromise over 
+                            |he shutdown/debt ceiling... Here's the thing, the people referred to as the "extreme right" in this
+                            |scenario are only offering up plans to either hurt or gut the Affordable Care Act in order to move 
+                            |n. The problem I have with that(and I am by no means behind the ACA myself) is that the ACA was pas
+                            |ed ONLY after massive compromise. If they want to repeal the ACA then by all means try(which they h
+                            |ve tried 41 times or so since) but if you don't have the votes to do it in the house of REPRESENTAT
+                            |VES then perhaps the idea of total repeal is not representative of the populace as a whole. If you 
+                            |eel so strongly about something than run on that platform and represent the people who elected you 
+                            |ut when things don't go your way don't expect a lot of sympathy when you decide to take the country
+                            |down the shitter just because you don't like one particular law.
+
+
+                                |&gt; ACA was passed ONLY after massive compromise.////The ACA was passed without any concession
+                                | to the right.  The ones they did make, such as for religious freedom, quickly turned out to be
+                                |a lie and now several Catholic Universities are in lawsuits with the Federal Government.  That'
+                                | why we're in this pickle in the first place.  If they'd actually managed to get a few Republic
+                                |ns on board, which should have been easy if, after all, it was originally Republican idea as ev
+                                |ryone is fond of pointing out.  But it didn't win a single Republican vote, and lost a bunch of
+                                |Democrat votes.  Yes there was compromise between the Progressives and Blue Dogs (see Sen. Nels
+                                |n for example), but not with Republicans.  I don't really consider that compromise at all.////A
+                                |so, while it's obvious the Republicans are playing hardball with the ACA, the Democrats are pla
+                                |ing hardball with *the rest of the government.*  Given the Republicans have already passed bill
+                                | funding those areas, that the Democrats refuse to sign, their moral ground on this issue is fl
+                                |shed.  I'd kinda feel bad for them if they actually were agreed to fund everything both sides a
+                                |reed on, but they aren't.  
+
+
+                            |I'm tired of people humoring this stupidity like it deserves yet another answer.  
+
+
+                                |^ I agree.  We've gotten so bad we're not at the point where even growing the Federal Governmen
+                                | *at a smaller rate* like the sequester last year was met with calls for the end of the world. 
+                                |////Actually think that we should balance our budget and begin to seriously scale back the Fede
+                                |al beast, and it's such stupidity that doesn't even deserve an answer.////That is the sound of 
+                                |omeone simply incapable of caring about reality if it threatens their Utopian philosophy.  
+
+
+                                    |Not even slightly what I meant, I mean idiots who act like they understand global economics
+                                    |because it's like their weekly paycheck, and that managing international interest rates and
+                                    |business flow is like cutting back on buying potatoes.////Idiots like yourself.////Idiots w
+                                    |o have been programmed into thinking this mockery of governance which is currently occurrin
+                                    | is somehow the right thing.  That these fucking animals should even be allowed in office a
+                                    |ter the threat they put the people they are supposed to represent through.////In some small
+                                    |way I hope you get exactly what you're asking for.  I would if I didn't give more of a shit
+                                    |about the impact it would have on the world then I do the off chance that in a moment of cl
+                                    |rity when the fucking system collapses that you'd say "Oh shit, I was an idiot."////Good da
+
+
+                            |It can not survive without a debt limit increase. At all. In Nov 1st there's approx 60 billion doll
+                            |rs due to be paid out. Social security checks, VA benefit checks, etc. The treasury has 30 billion 
+                            |n hand. They have no way to raise the revenue. There is no way to reduce that number. They also hav
+                            | bonds to pay back in Nov. It won't happen, just like the 18 times the ceiling almost fell when Rea
+                            |an was president, they will raise the debt limit. It's not a big deal at ago anyway. Most of our de
+                            |t is owned here in America anyway s
+
+
+                            |No it doesn't. Even with huge spending cuts, we'd still have a deficit. As long as we have a defici
+                            |, we need to borrow more money. Luckily, we can pay off old debts when we make new ones, so it's no
+                            | as bad as it sounds. The GDP is huge compared to the national debt (which is why it's okay to have
+                            |so much debt), but the money that the federal government takes in is not that high. If we want to s
+                            |op taking on new debts, we need a surplus. If we want a surplus, we need to raise taxes and cut mil
+                            |tary spending. ////But, we don't need a surplus, it's okay to take on new debt, since our country p
+                            |oduces so much in GDP. Other countries will happily lend us money, and we'll keep consistently payi
+                            |g off the old debts.
+
+
+                                |&gt;No it doesn't. Even with huge spending cuts, we'd still have a deficit. As long as we have 
+                                | deficit, we need to borrow more money.////Nope.  We could not have a deficit tomorrow if we wa
+                                |ted.  We'd just have to cut the Federal Government back to the ye old dark ages of the Mid 90's
+                                |  ////&gt;The GDP is huge compared to the national debt////Yes it is, but getting smaller all t
+                                |e time.  Trajectory is important.  ////&gt;If we want to stop taking on new debts, we need a su
+                                |plus. If we want a surplus, we need to raise taxes and cut military spending.////Defense spendi
+                                |g isn't even as large as entitlement spending, but yes, both would require a not insignificant 
+                                |ut.  Throw in an axe to a dozen irrelevant federal agencies, and you'd have a balanced budget. 
+                                |Life would go on. ////&gt;But, we don't need a surplus, it's okay to take on new debt, since ou
+                                | country produces so much in GDP. Other countries will happily lend us money.////Basically, you
+                                |re saying it's ok to continue something that's unsustainable since you won't have to live to de
+                                |l with it.   That's not right. 
+
+
+                                    |It's not unsustainable. The whole world is in financial crisis right now. This isn't going 
+                                    |o go on forever.
+
+
+                                        |Betting the house on an economic boom on par with the Information and Tech revolution o
+                                        | the late 20th Century isn't a great way to run an economy.  Most generations don't get
+                                        |to see progress like we already have.
+
+
+                                    |You speak the truth! I have no clue why people want to live off of the backs of our kids. M
+                                    | generation is supporting past mistakes. I'd like to be known as the generation that stoppe
+                                    | this dead beat trajectory. I'll sacrifice whatever I can so that future generations don't 
+                                    |eel the crunch that we will, and do. 
+
+
+                            |If you can provide numbers to back this up, I'd be glad to see it. Honestly, personally I've not se
+                            |n a budget proposal that did not involve heavy cuts to many federal programs, including the defense
+                            |budget.
+
+
+                                |[Forbes](http://www.forbes.com/sites/jeffreydorfman/2013/10/03/dont-believe-the-debt-ceiling-hy
+                                |e-the-federal-government-can-survive-without-an-increase/) ran an article on it just the other 
+                                |ay.////Remember, I'm not saying this would be a good thing.  I think a scale down should be gra
+                                |ual.  But the point is it absolutely would be better than a default, and we do need to start mo
+                                |ing in this direction sooner than later.////Edit: fixed my link.  
+
+
+                            |Except that the biggest sources of spending - "defense"  - is never even considered for cutting, an
+                            | many other big sources (Medicare, Social Security,  corporate subsidies) are likewise entrenched./
+                            |//Cutting another $20M off NASA isn't going to solve the debt. Halving military spending is, but ne
+                            |ther of the major party is even remotely interested in bringing this up.
+
+
+                                |Defense is not the biggest source of spending.
+
+
+                                    |Oh, but it is.////[This is the spending for fiscal year 2012 ](http://en.wikipedia.org/wiki
+                                    |File:U.S._Federal_Spending_-_FY_2011.png).////Looks like "defense" isn't the highest, right
+                                    | Except that this figure [doesn't include veteran expenses](http://en.wikipedia.org/wiki/Un
+                                    |ted_States_federal_budget#Discretionary_spending), which makes the total $851B, already hig
+                                    |est single source.////Oh, but that doesn't include the cost of wars in Iraq and Afganistan.
+                                    |One would wonder why something that's obviously related to war isn't included, but it's not
+                                    | [The annual cost in 2010 was $130B](http://en.wikipedia.org/wiki/Expenditures_in_the_Unite
+                                    |_States_federal_budget#Budgetary_treatment_of_Iraq_.26_Afghanistan_war_expenses), which mak
+                                    |s the total $981B, just short of a trillion, and easily highest single source of spending./
+                                    |//Military spending, in fact, accounts for nearly all of the budget deficit. Put another wa
+                                    |, if military budget was cut in half, so would be the deficit.
+
+
+                                |&gt;Except that the biggest sources of spending - "defense" - is never even considered for cutt
+                                |ng, and many other big sources (Medicare, Social Security, corporate subsidies) are likewise en
+                                |renched.////Defense took a rather large hit in the last sequester.  And remember, everyone bitc
+                                |ed about it being the end of the world.  We're still in it, and the sky didn't fall.////&gt;Cut
+                                |ing another $20M off NASA isn't going to solve the debt. Halving military spending is, but neit
+                                |er of the major party is even remotely interested in bringing this up.////Beyond a cut to defen
+                                |e (which obviously would be necessary) tons of agencies could go or be transferred to the State
+                                |.  Why do  we even have a Federal Department of Education for example?  It absolutely could be 
+                                |one.////I'm not saying this would be a great thing to do, just that it would be orders of magni
+                                |ude better than a default, and surprisingly painless.  Life would go on, and long term, probabl
+                                | improve.  
+
+
+                                    |Defense spending was reduced for the first time in decades because of the sequestration, an
+                                    | the reduction amounted to 6% or so - still leaving U.S. comfortably above the next several
+                                    |countries combined. It is planned to rise again every year after that.////I agree that redu
+                                    |ing spending would be very effective, but the problem is, neither party is interested in do
+                                    |ng that. Despite the differing rhethorics, both parties are serving the same corporations, 
+                                    |nd those corporations need the budget money - so the only spending reduction you can reason
+                                    |bly expect to see is symbolic gestures that save miniscule amounts while hurting the progra
+                                    |s they're made to dramatically.
+
+
+                    |The issue is a matter of trust and confidence, it's what ultimately holds a monetary system and the financi
+                    |l markets together - particularly when it is a system based on debt. ////There is a reason why central bank
+                    | hold gold as insurance, and it's because physical gold minimizes counter-party risk. Gold would allow coun
+                    |ries to purchase the things that they need to run their countries/economies, mostly energy (oil), while the
+                    |system reboots and as confidence is re-built (over many years) ...and/or while new monetary agreements/arra
+                    |gements are worked out (a la Breton Woods) between the largest economies (remember that there was a lot of 
+                    |obbying over the IMFs SDR).  ////Have you noticed that central banks have been net buyers of gold over the 
+                    |ast 4-5 years? This is no coincidence. ////Anyway...in my opinion, long before we see the US default on its
+                    |treasuries, mostly because it would loose control of its true source of power (i.e. USD hegemony), we will 
+                    |continue to] see strategic and/or stealth defaults (mostly on its citizens), which may or may not look like
+                    | ////- increased inflation//- strategic defaults on welfare and cutting other government programs (e.g. rai
+                    |ing retirement ages, means testing on payout, etc.).  the weaker and/or more ignorant voter blocs will go f
+                    |rst.////Additionally, and to preserve the UST market (in addition to continued Fed purchases) in the face o
+                    | continued loss of confidence by international lenders, you may see other "novel" ideas that we've seen in 
+                    |ther countries.  Namely, the pillaging of savings (other than inflation).  For example, in order for your 4
+                    |1K to continue to have a tax favorable treatment you may be required to buy and hold at least x% of it in U
+                    |Ts.   //////Edit - typos 
+
+
+                    |If you are with a bunch of douches you won't just lend money to the relatively less douchey guy and expect 
+                    |im to pay the debt. The financial system can only work based on absolute trust.
+
+
+                        |But doesn't this huge web of borrowing and lending fall apart if the US defaults? Why does there need t
+                        | be more borrowing to pay off these debts if the borrowing is more about trust than actual money? Why c
+                        |n't we collectivity decide to absolve all national debt and start over to prevent the world from collap
+                        |ing?
+
+
+                            |You do understand the necessity of financing right? If you don't we can go from there. If you do th
+                            |n you should know that absolving national debt means default, which destroys the financial industry
+                            | which destroys our economy.
+
+
+                                |Let's go with the first one. I've managed to get this far in my life by just faking it in discu
+                                |sions about the economy.
+
+
+                                    |This is just my understanding. I might be missing some points.////Financing solves the "wha
+                                    | do I do with that 1 mil in my closet" problem.////Say you have 1 mil cash stashed in your 
+                                    |loset but you have no idea what to do with them. I am a poor college kid that just came up 
+                                    |ith a great idea that would become Google. I can ask you to do 2 things:////1) Give me your
+                                    |money, I create Google, see how it goes. If it goes well you can either keep your money the
+                                    |e and let it go better, or take a cut of the worth of the company.////2) Give me your money
+                                    | I create Google, then pay you a certain percentage of interest in return, until a certain 
+                                    |ate I will pay you the full amount back.////Now you have a way to make your money grow whil
+                                    | helping to make Google happen, the whole world is a much happier place. No value is lost, 
+                                    |ith certain amount of value created.////If there is no financing, then you will keep your 1
+                                    |mil stashed in the closet. No Google until you come up with Google yourself, which is extre
+                                    |ely inefficient. You not only need to come up with Google, you will also need to come up wi
+                                    |h Microsoft, NVIDIA, GM, whatever company Thomas Edison created, and so on.////The same log
+                                    |c goes for many other problems.////- I might have a ticket I don't have enough money to pay
+                                    | but I will have enough next month. If no body lends me money I will go to jail, and my lif
+                                    | is done.////- I am earning 20k per month in a very stable position. I want to buy a 400k h
+                                    |use so I can have a family. Without financing I will have a house 2 years later, when my gi
+                                    |lfriend is sleeping with someone else.////- My Google just invested all our cash in a huge 
+                                    |roject that our competitor is also working on. Without financing my company can't pay salar
+                                    | now, and Google is no more.////- The US government promised to pay the old population soci
+                                    |l security when they were at working age. Now the economy isn't doing great, so the US gove
+                                    |nment doesn't have enough money to pay everyone. Without financing (raising the debt ceilin
+                                    |), the US government will cease to operate.////There are always trillions of dollars worth 
+                                    |f money in the public. Without financing, they will all be stashed in the closet, and those
+                                    |who actually has the ability to spend the money meaningfully have a much higher probability
+                                    |of not having enough money.////With financing, rich folks don't need to worry about how to 
+                                    |pend his money meaningfully. He just need to find the person who needs the money and give i
+                                    | to him, let him pay interest.////But wait, what if he doesn't pay? Then well, if rich folk
+                                    | could lose money by financing poor folks, then they won't finance them, or might demand mu
+                                    |h higher interest. Now all the problems above becomes impossible or much harder to solve, a
+                                    |d the world stops becoming a much happier place. Meanwhile the rich folks will just have th
+                                    |ir money stashed in the closet, couldn't figure out how to meaningfully spend them. Therefo
+                                    |e to keep the financial industry running, we absolutely need trust.////Financing is all abo
+                                    |t moving money away from rich folks to give poor folks a chance or second chance. Now we ca
+                                    | live with much larger margin of error.////Now once you have financing, you naturally start
+                                    | to think about ways to extend it. For example, when you have enough cash to buy a house, y
+                                    |u might choose to finance it instead, because you want to keep some cash ready at hand in c
+                                    |se you get a ticket. Things can get infinitely complex, and eventually bad things will happ
+                                    |n. However, the basic idea of financing is sound, and we can't really develop the world wit
+                                    |out it. This is just the necessary risk we take, and hope that people have enough awareness
+                                    |to push for strong regulations to keep the financial industry in control. ////Now hope you 
+                                    |ee why we prefer to have financing, and why we can't get rid of it by absolving the debt.
+
+
+                                        |Great post.////&gt;whatever company Thomas Edison created////General Electric.////And a
+                                        |so, the financing problems you were talking about transpired in 2008 albeit at a smalle
+                                        | scale. The collapse of all those investment institutions (people responsible for takin
+                                        | those millions out of the closet and spreading it into the economy at large) triggered
+                                        |a massive liquidity shortage. That's really the essence of what prompted the massive go
+                                        |ernment bailout. The federal government wrote the losses into its own ledger in order t
+                                        | ensure that the financial institutions had enough millions in the closet to spread aro
+                                        |nd.////GE was one of the big conglomerates that pressured the Fed on this bailout packa
+                                        |e quite a bit because they were legitimately worried that they weren't going to be able
+                                        |to do day-to-day business.
+
+
+                                        |Ah, alright, that makes sense. Thank you so much! 
+
+
+                                            |Another way to explain why it's a tower that is hard to "reset".////Your bank does 
+                                            |ot have enough physical dollar bills to pay out your entire account.  Your bank has
+                                            |more than enough money currently loaned to other people to pay out your entire acco
+                                            |nt.////If everyone pays back their loans, everything is good.////But if John says "
+                                            |ike, I can't pay you back that $50", and Mike says "uhh, John was going to pay me b
+                                            |ck $50, but I only have $20 in my wallet.  Paul, I owe you $60, but you're going to
+                                            |have to take $20 instead".  Paul says "oh crap, John has $50 of my money too, and y
+                                            |u are only giving me $20, and I owe $100 to George".  George has $50 in his wallet.
+                                            |///There used to be George with $150, ($100 loaned out), Paul with $110 (all loaned
+                                            |out), Mike with $70 ($50 loaned to John), and John with an unknown amount of cash i
+                                            | his wallet (or maybe just a couple of new games and no cash left).////The only thi
+                                            |g that happened was a $50 loan failed.  But what's the end result?  Does John keeps
+                                            |his cash, or do they beat him up?  Or do they take his games because he has no cash
+                                            |left?  Does Paul starve because he loaned everything out, or does Mike pay back $20
+                                            |to Paul and then Mike starves?  What about George?  How much do we pay him given th
+                                            |t he has the most cash of anyone?////How do you "reset" if just John says he's not 
+
+
+                    |The economy doesn't really exist. It's a set of rules and agreements. Basically like a game of monopoly, an
+                    | the banker doles out money at the beginning, except the property is already owned. So you trade and make d
+                    |als to get more stuff with no real end game. If all economies failed, you'd just have to agree on the new r
+                    |les and start again. 
+
+
+                |Holy shit. We're the Lannisters
+
+
+                    |And a Lannister always pay their dept! ////Even if it means more dept.
+
+
+                        |I think I get what you're trying to do. But I'm not sure if that's what you want to do.
+
+
+                        |b
+
+
+                |I guess the only countries that are not dependent on the US directly are Iran and DPRK. But even they will feel
+                |the effects indirectly. 
+
+
+                |Will Russia get advance of this economical mega-crisis?
+
+
+                    |I do not believe, based on my (limited) understanding of global economics, that any superpower nation will 
+                    |e able to walk away from a US default without some level, if not significant, damage to economic stability,
+                    |both short term and long. So that would include Russia, definitely.
+
+
+                        |[deleted]
+
+
+                            |[This might be helpful](http://www.treasury.gov/resource-center/data-chart-center/tic/Documents/mfh
+                            |txt)////According to that, Russia owns about 131 billion dollars of US Treasury Funds. According to
+                            |the [CIA Factbook](https://www.cia.gov/library/publications/the-world-factbook/geos/rs.html)//////A
+                            |suming I am reading this information correctly (I might not be:)//Russian GDP is around 2 Trillion,
+                            |while Revenue/Budget is around 416 billion. Their investment abroad is around 400 billion as well -
+                            |so if all 131 billion of the Russian investment in the US were to be worthless, it would impact at 
+                            |inimum their abroad investments. Furthermore, assuming that there is some impact on their import/ex
+                            |orts due to instability caused in other nations (notably China, who owns 1.2 trillion USD in Treasu
+                            |y Funds), I imagine that there would be a hit to their overall finances.////The severity of that, I
+                            |am not sure. But I doubt they would be able to walk away unharmed.
+
+
+            |The idea that China "owns" the US since they own a ton of Treasuries is completely overblown.  The US gets the bett
+            |r of that deal all day everyday.  
+
+
+                |can you elaborate ?
+
+
+                    |The US economy is constantly growing, and we inflate our currency to match. If the borrowed money produces 
+                    |reater growth than inflation then the US is winning value-wise, because the dollars it ultimately gives awa
+                    | are worth less.
+
+
+                    |the interest rate is so low, (lower than inflation), (0.2%?).////That means that lenders to the US govt (bu
+                    |ers of treasury bonds), actually lose money by holding the bonds.  ANd the US govt gains money.  in real te
+                    |ms.//
+
+
+                        |You're correct, but the Chinese see this as buying "influence", not necessarily as an investment. Shoul
+                        | they actually get a sizeable dollar reserve, they could harm the US economy by massively dumping dolla
+                        |s on the financial markets. Which of course would be suicidal, since they'd be selling their own assets
+                        |with losses and effects on them would be way more severe than just a depreciation of the dollar.
+
+
+            |Pretty much everyone would be fucked. The US has investments in so many countries, and vice versa, that the entire 
+            |lobal economy would most likely sink into recession, and if you thought the last one was bad, this would be far wor
+            |e than that was.
+
+
+            |About 1.3t worth...Japan and China have both urged the US to figure this shit out
+
+
+            |China is a little different. They keep their currency at a fixed exchange rate relative to the dollar. They do this
+            |to encourage a high deficit between the US and China. It makes selling their goods to the states much cheaper. It u
+            |ed to be a set point that only varied if the central bank allowed it but is now allowed to fluctuate by 1% from a s
+            |t point.////So if our currency crashes, and if we default it would crash, China has two options. First is stay fixe
+            | in which case they crash as well. Their purchasing power within their own country and from other countries goes do
+            |n. They would suffer probably more than we would. Second is to detach from the dollar and either attach it to the E
+            |ro, problematic in more ways than one, or allow it to be valued by the market. If that happens then China will beco
+            |e much stronger in terms of their financial position but their goods will no longer be cheap so they will have trou
+            |le maintaining their trade surpluses which fuel their growth. Reduced growth means reduced investment and China plu
+            |mets.////Their best hope would probably be to go it alone and establish themselves as a global financial center lik
+            | other super powers have done throughout history. Probably not possibly because of the managed economy and lack of 
+            |rust but possible. ////tl;dr: China and the US are linked and if we go down so do they. ////http://en.wikipedia.org
+            |wiki/Renminbi#Depegged_from_the_U.S._dollar////
+
+
+            |US debt by continent:////http://www.washingtonpost.com/wp-srv/special/business/foreign-held-us-debt/////By country:
+            |///http://dailybail.com/home/us-national-debt-infographic-which-countries-own-us.html////There was nice infographic
+            | in WP by country I saw just couple of days ago, now I can't find it.//////
+
+
+            |So who becomes the richest of the rich?
+
+
+            |Biggest owner of US debt is Japan, which is in a shit situation itself.
+
+
+                |I think I've read some things about Japan slowly getting out of their economic crisis (finally) ever since thei
+                | government started printing money/increasing spending (of course, now that's accompanied by warnings of an ass
+                |t bubble).
+
+
+        |Good post.////Nobody much seems to be saying: the Treasury bill has always been just about the safest thing anyone in t
+        |e world can buy. Absolutely boringly solid. Backed by the full faith and credit, etc.  And the Congress is deliberately
+        | voluntarily, telling the world that these T-bills might not actually mature on time after all.  Your safer-than-houses
+        |investments might not be paid back. ////Shit hitting fans? Not even close to describing the chaos that would follow. 
+
+
+            |The treasury bill has never been safe.  In fact, it has been quite the opposite.  Historically it has always lost t
+            |e buyer money in terms of real purchasing power.  To subtract inflation from the rate on a T-bill and get a positiv
+            | number is called a mathematical error.
+
+
+                |Not what that means.
+
+
+        |A default does not mean all treasuries are worthless.  Far from it.  The defaulted securities still have value (there i
+        | a recovery process). And all the other non-defaulted securities still have value, which depends on how likely market p
+        |rticipants think the US is likely to pay out on the bond (eventually).  Which is very likely to be the full amount.////
+        |ou'd rather own a busted bond from a rich guy who had some technical problems getting the payment out, than a bond from
+        |a bankrupt guy who doesn't have the funds to pay.////In other words, a default would be bad but it should not be a cata
+        |trophe.//
+
+
+        |I can't reference the source because I forgot where i read it, but I did read that weeks before the shutdown both democ
+        |at and republican congressmen were receiving huge campaign donations before and after the shutdown.  It implied that th
+        |s is more of a fundraising stunt than anything else.  It may sound like it is hurting them, but with enough campaign mo
+        |ey and huge PR firms they can rectify anyone's image in the year they have until the elections.////I'm not sure if the 
+        |rticle was bullshit or truly relevant, but it does make sense.  Anyone else on Reddit read or know what I'm talking abo
+        |t?  I don't know enough about it to claim its true or if its bullshit.////
+
+
+        |So, according to that graph, moving to China, the new land of opportunity, would still get you fucked.
+
+
+        |Does the treasury note summary mean that country is owed that much by the US or am i misunderstanding?//////Is Ireland 
+        |wed $93.2bn by the US? Because we could use that..
+
+
+            |A Treasury Note is something that an external agent to the government buys. It's (essentially) an IOU that states '
+            |lease give us this amount of money, and in return, in X years, we will give you the amount back plus Y%".////T-bond
+            |/notes are unique in that they are guaranteed repayment - they are the most surefire investment you can make, becau
+            |e its backed by the government itself.////[You can read up on it here](http://www.investopedia.com/terms/t/treasury
+            |ote.asp). As far as Ireland is concerned, if there are $93.2bn in T-notes that have been bought, then at the end of
+            |that maturity, that 93.2bn would be returned with the additional yield on the bonds purchased. I do not believe the
+            |e is a way to get the money out earlier, other than selling the bond to someone else at a lower value than its actu
+            |l worth (e.g. selling the 93.2bn in bonds to another stakeholder, say China, for 80bn or something to that effect).
+            |///Might be wrong about the latter, but the former should suffice as far as what a treasury note is.
+
+
+        |WE live in an increasingly global village where quoting Shepherd: "what happens over here matters over there"
+
+
+        |&gt; In short, it would fuck everyone////Zerohedge has been saying this all along.
+
+
+        |and all because the banking system got de regulated 
+
+
+        |It's not a matter of if but when; am I correct?  If the US is perpetually borrowing and spending more than it is paying
+        |back it will have to default at some point in time.  In the same way that I cannot just keep asking my credit card bank
+        |to keep raising my limit if I'm spening too much of my money to ever pay it back.
+
+
+        |&gt;&gt; /u/Ransom009 posted here noting that its possible for us to hit the limit and still function as a government w
+        |ile paying off debt.////That's completely wrong. "Paying off debt" has never happened in any of our lifetimes. We still
+        |accrue billions in debt every day. None of it has ever been "paid off" which is why it is 16 trillion dollars right now
+        |and will never be paid off in our, our children's, or our grandchildren's lifetimes. 
+
+
+        |replying to save this for future reference.   Thanks for your compilation. 
+
+
+        |All economists should break down possible outcomes into general levels of fuckery. It would make things so much more cl
+        |ar. 
+
+
+        |Whoa now!////It is *bad* but not *that* bad.////The major repercussion is the raising of interest rates. The rather mas
+        |ive debt that you have will cost more to service and increasingly more depending on how much more you fuck around after
+        |the deadline. Still, no one buys T-bills because they are the best thing around and even at historically shitty returns
+        |they still sell.////Why you might ask? The reason really is two-fold. One, they are safe and amazingly liquid. This is 
+        |till true right up until the good old U.S.ofA. actually **really** defaults. As in, "we ain't paying this ever" kinda d
+        |fault. That's not happening. Two, *if* America every *did* do a full default then everyone is fucked anyhow and all bet
+        | are off. Convert assets into guns, bullets and canned food as fast as you can. Since **that** is so catastrophic, ever
+        |one has to plan as if it won't happen. Which it won't but there's no point in even thinking about it any more than worr
+        |ing about California having that big quake. Concerning? Sure. Still, when or if it happens you'll be so screwed that th
+        |re's no mitigating the damage.
+
+
+        |&gt; fuckery////I've been using that word quite a bit after it popped out of my mind while drunk-redditing a few days o
+        | a week ago.////I know its statistically unlikely I coined it, so I'm wondering where the hell I heard it.////Where did
+        |you come upon the phrase?
+
+
+        |I studied macro-economics, but don't have much experience. So don't automatically accept this as "truth".////This post 
+        |ill be structured in 2 parts:////* Who owns the debt by the government//* What would the effects be of defaulting//////
+        |/The US defaulting on its debts has both internal and external effects. The total of US government debt is over $ 16.7 
+        |rillion. Of that debt, $ 4.8 trillion is owned by governmental agencies. ////This includes agencies such as the social 
+        |ecurity (holds over $2.5 trillion dollars).////Of the public debt, $5.7 trillion is owned by foreign investors.////**Ke
+        |p in mind this is just the actual government debt, effects of a default would be much bigger**////Now, what would happe
+        | in case of a default? Let's assume you own a  $1000 bond by the US government. You might think it's just paper, but th
+        |t'd be wrong. After all, you *paid* for that paper. Just like an iPod is worth $500 or whatever because that's what you
+        |paid for it. Bonds are means of (safe) investment.////Now, government defaults. You, the owner of the government bond a
+        |e unsure about whether you will actually ever get your money back, so you're freaking out. Then some dude comes to you 
+        |nd says "hey, I'll pay you $500 for that bond!". You figure "better be sure" and accept it (this 50% depreciation is co
+        |pletely arbitrary).////Now, let's assume everyone reacts like you do (which is entirely unlikely but let's assume so fo
+        | sake of simplicity). Consequence: the value of the government debt drops by 50% for the *owners* of that debt. Social 
+        |ecurity loses over $ 1 trillion, other government agencies or internal investors lose a combined $3 trillion.////To put
+        |this in perspective, this is roughly **$10 000** per American for a 50% drop. Even assuming just a 1% drop, it'd still 
+        |e $200 for *every* American out there. Family with 3 kids? Well shucks, you just lost $1000 (in actual assets or in gov
+        |rnment benefits, this is on a macro level).////Foreign owners of the debt would see the same effects: the value of thei
+        | assets would fall. China owns $1 trillion in debt, so loses $500 billion. Same with Japan. Both countries have been ru
+        |oured of being on the verge of an economic crisis, and this would definitely trigger it.////Worldwide, about $3 trillio
+        | in assets would disappear. Again, assuming a 50% value drop which, again, is really unlikely.////Now, let's look at th
+        | much major **second-order effects**. The dollar would drop in value... really hard. Since the dollar is basically the 
+        |lobal reserve currency, a *lot* of foreign companies (be it from India, Bulgaria, Ecuador... you name it) have dollar b
+        |nk accounts. ////Since the dollar would drop in value versus basically every other currency, a lot of those companies w
+        |uld lose a lot of their assets too. Same (and especially) with the banks. ////A whole lot of the global economic system
+        |is basically based on the *stability* of the dollar as a reserve currency. The US defaulting would have an effect on th
+        | entire global economic system. ////I don't want to sound like a doomsday prophet here, but if shit actually hits the f
+        |n a default would likely lead to a domino effect of banks going bankrupt. Remember when that happened with Lehman Broth
+        |rs and how hard that one single bank going bankrupt shook the global financial system? We avoided a financial collapse 
+        |t that point by letting the governments bail them out. Thing is, in this scenario the most (powerful) governments would
+        |'t be able to bail them out either.////Then you get to the **third-order effects**. Banks go bankrupt. Before you all s
+        |art shouting "YEAH, FUCK THE CAPITALISTS!!!", this means that everyone who has an acount with a bank (savings account, 
+        |nvestment account or whatever) will lose their money. Companies, but the average family too. ////////
+
+
+        |&gt; "it might indeed be a 'blip' as some people have described"  //I can't imagine how it would not have major repercu
+        |sions. That the US would allow itself to voluntarily default on its national debt would reveal the truth that the US is
+        |UNWILLING to honor commitments to US treasuries even when it it capable of honoring those commitments. There would be a
+        |gradual international transition from using the dollar as the de facto international currency to something else. US tre
+        |suries would be dumped. There would be much less motivation to accept dollars at the current value as payment in transa
+        |tions. How does the value of the dollar not suffer, possibly severely, under those circumstances?////
+
+
+        |The economy will just do what it's supposed to do.  It's going to correct it self. It's going to be hard. It's going to
+        |be heavy.  But, this is what we've asked for by making such a huge chunk of the economy based on absolutely nothing. 
+
+
+        |Us Canadians rightly saw you guys as a risky investment
+
+
+    |**The US CANNOT default**, don't listen to everything the biased lying media and crooked politicians tell you. ////The paym
+    |nt due on the 17th is $20 billion. We are still collecting $250 billion PER MONTH in taxes. The Full Faith and Credit Act l
+    |gislation is a law that demands the President use that money to pay interest on the debt as the number one priority, first 
+    |efore anything else. ////There is absolutely no legal way the US could default on our payment. ////The media and politician
+    | are lying to you to scare the hell out of you and try to get you to side with them against their political foes. ////Don't
+    |play that shit. //
+
+
+        |Yeah, **there's a 0% probability the United States can default on its debt** for 2 major reasons. One: the Constitution
+        |l obligation to the debt. And two (a reason most people don't recognize): United States debt is made out in its own fre
+        |-floating currency (the $dollar). If there was ever actually an emergency, we can issue more money to pay what's needed
+        | So there's absolutely no way the US can default.//&gt; “The United States can pay any debt it has because we can alway
+        | print money to do that. So there is zero probability of default.” Alan Greenspan//
+
+
+        |This. I wish more people knew this. If there is any defaulting it will be on government programs that were in the budge
+        | but now have to go.
+
+
+            |People don't know it because it's completely untrue. Even if we did manage to prioritise all the funds to go to bon
+            |holders (for which we do not have an apparatus currently in place), the government still would have to default on p
+            |yments to contractors, social security obligations etc. This would certainly be treated like a default by the ratin
+            |s agencies and the markets, which is the reason that [yields on short maturity bonds are already going up](http://w
+            |w.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield), to protect against
+            |the default risk. And let's also not forget the huge cut in government spending needed to do this would be austerit
+            | on a far faster scale than previous budget cuts, the sequester, or even the dramatically fast pace of cuts in Gree
+            |e, Ireland, Portugal right now, which would likely send us back into recession.////Edit: I also forgot to mention t
+            |at it's illegal for a President to spend money on some parts of the budget and not others. Otherwise, a President c
+            |uld just unilaterally underspend on the military (if they're a Democrat) or on social programs (if they're a Republ
+            |can), and would unconstitutional neuter most of Congress' budgetary powers.
+
+
+                |Virtually nothing of what you posted is true.
+
+
+        |This is a classic example of the 'majority voice' (the most upvoted opinion on the thread) being a reflection of the se
+        |sationalist media, and in no way the truth.////To begin with, the US reached its debt ceiling in 2012. The US constitut
+        |on - 14th Amendment, Section 4 - directly forbids the government from defaulting on its debt. Thus to cope with the deb
+        | ceiling being reached the government has been taking extraordinary measures in order to pay their debts (for instance 
+        |uspending investments on individual pension funds). When these measures are exhausted, the government will not bring on
+        |a global economic collapse as they default on all their bonds. They will just be forced to balance the economy - to mat
+        |h their spending with their collected revenue. This is a very different issue (still with its problems) to a full defau
+        |t.////What is important is that a full default will never happen! The brinksmanship between the rogue Republicans and t
+        |e government would only threaten a 'technical' default on the shortest-dated US government bonds, because their shorter
+        |lives mean their maturity date is nearer than the rest of the government's 'safe' assets. The problem here, as ever, is
+        |not whether the federal government is able to repay the principle from these bonds, but the short-term methods used to 
+        |ake these repayments. The US treasury would still be seen as a 'safe investment', albeit in more economically uncertain
+        |times, and thus bonds would probably rise in price - believe it or not, the US government 10-year bond *decreased* in p
+        |ice after news that the media reported a default was unlikely.////Though we are quick to forget, there have been 17 gov
+        |rnment shutdowns between 1976-1996 and the debt ceiling is raised almost every year - a full default never happens. Thi
+        | brinksmanship is historically common, and it is the media and politicians that fuel the political fire by indicating t
+        |at this is the year where everything goes to hell. I am confident that [John Boehner has no intentions of actually forc
+        |ng a full default](http://rt.com/usa/boehner-ask-debt-increase-989/). It is useful to learn to separate economics from 
+        |olitics.////When the debt ceiling is eventually raised, even with the government still in shutdown, the US is in a posi
+        |ion to see economic growth! Though short-term growth would be slightly limited by the shutdown, some of the previously 
+        |bsent spending would be reinitiated, while projections indicate the fiscal drag (the damper on the economy caused by la
+        |k of spending or excessive taxation) is going to [drop heavily by 2014](http://www.bloomberg.com/news/2013-07-02/fed-s-
+        |udley-predicts-faster-growth-in-2014-as-fiscal-drag-wanes.html). Either way, bond prices would still remain more expens
+        |ve than stocks and remain a 'safe' asset.
+
+
+            |OMG a poster who has a clue, didn't expect that here.
+
+
+            |Did you even read Section 4 of the 14th Amendment?////&gt; SECTION 4.////&gt; The validity of the public debt of th
+            | United States, authorized by law, including debts incurred for payment of pensions and bounties for services in su
+            |pressing insurrection or rebellion, shall not be questioned. But neither the United States nor any state shall assu
+            |e or pay any debt or obligation incurred in aid of insurrection or rebellion against the United States, or any clai
+            | for the loss or emancipation of any slave; but all such debts, obligations and claims shall be held illegal and vo
+            |d.////The relevant bit is of course the first sentence. Now arguments have been made that this renders there being 
+            | debt limit to pay for debts incurred by the US unconstitutional. But "directly forbids" a default?
+
+
+                |Good call Mama. Tell it like it is.
+
+
+                |"Did you even read Section 4 of the 14th Amendment?"////Yes, I obviously have read it or I wouldn't be quoting 
+                |t. This part of the constitution renders the government unable to 'question' the validity of their public debt.
+                |Not making debt ceilings unconstitutional, because debt ceilings still allow the government to treat their publ
+                |c debt as 'valid'.////In short, your comment is meaningless.
+
+
+                    |Questioning the validity of a debt and failing to make a payment towards it (i.e. defaulting) because of a 
+                    |eficit are two very different things.////&gt; Not making debt ceilings unconstitutional, because debt ceili
+                    |gs still allow the government to treat their public debt as 'valid'.////What??...
+
+
+                        |If you still don't understand it I'm not bothered to explain it. You claimed that debt limits/ceilings 
+                        |ould be unconstitutional and that the part of constitution I quoted did not indicate that the governmen
+                        | is forbidden from fully defaulting on their debts. I was correcting you on both accounts.
+
+
+                            |&gt; You claimed that debt limits/ceilings could be unconstitutional////I said arguments have been 
+                            |ade that that is the case, and I don't even agree with them! If you want a source see http://www.co
+                            |umbialawreview.org/wp-content/uploads/2012/10/Buchanan-Dorf.pdf .////Saying that it is unconstituti
+                            |nal for the government to default on a debt doesn't mean it won't happen. How is this is so difficu
+                            |t for you to understand? The president and congress are basically at the top of the US government. 
+                            |ight now the deadlock is between them and it is their shared responsibility to make sure the debt i
+                            | not defaulted upon. But only the president is fully beholden to congress and not conversely, and t
+                            |at is to the democratic senate not the republican house, and that is impeachment not a vote of no c
+                            |nfidence. The current situation is because it is a presidential and not a parliamentary system.
+
+
+        |Yeah, it's such a clever lie by the liberal media that they've even got the global financial markets participating in i
+        | by [raising yields on short term bonds](http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages
+        |TextView.aspx?data=yield). You doubters may say "but that would cost billions of dollars to move such a major market!" 
+        |ut these idiots don't know the extent of the conspiracy against the lionhearted Ted Cruz and what his evil enemies will
+        |do to turn the country into a liberal, Islamist, gay, atheist Gomorrah.
+
+
+        |&gt; The Full Faith and Credit Act legislation is a law [...]////It is? According to http://beta.congress.gov/bill/113t
+        |/house-bill/807 it passed a vote by the House but hasn't passed a vote by the Senate nor been approved by the President
+        |and it is not a law but merely a proposed piece of legislation. But correct me if I'm wrong; all I did was look it up j
+        |st now and I am not familiar with the issue.
+
+
+            |Your looking at some piece of legislation, he is talking about the constitution.
+
+
+    |The truth is that everything will be fine. The world has been ending forever. 
+
+
+        |This is eloquent enough to come from a Vonnegut novel. 
+
+
+        |The world was ending in the 30s as much as in the 80s, but I have a pretty firm notion of which period I'd want to occu
+        |y, economically.////Depressions suck.
+
+
+            |The world was not ending in the 80's. Some rich people lost a shit load of money.
+
+
+                |For those rich people the sky was most certainly falling.
+
+
+        |I'm pretty sure OP was looking for specific answers backed up with sources.
+
+
+            |Then he shouldn't have asked a bunch of know it all high school students.  
+
+
+        |&gt;The world has never ended, therefore nothing bad will ever happen.
+
+
+        |I am curious though what will happen as soon as we run low on gas.
+
+
+        |No; a US default would put the US, UK, AU, DE, &amp; FR into a depression within a year. China would see a recession an
+        | they will be very pissed and likely to take our their aggression on neighboring US allies like Korea or perhaps they m
+        |y decide the next century is the century of the Middle Kingdom and enough bullshit from Japan.
+
+
+            |$100 says none of that happens.//
+
+
+    |Don't worry. The people who are very smart and whose every waking moment is focused on how to make money are in no way show
+    |ng signs that the worst will occur. This is why stock and bond markets remain high.//Most of the US debt is owned by the US
+    | including the Social Security and Medicare "Trust Funds", as well as several trillion owned by the Federal Reserve.//Howev
+    |r, there are many people who will suffer because of this nonsense, including some people in Europe.
+
+
+        |There's about 5.3 trillion dollars in bonds owned in other countries.
+
+
+            |Source? My government teacher said it was around $2 trillion. Still a lot, but not really. ////Edit: not saying you
+            |re wrong, I could be mistaken. 
+
+
+                |http://www.treasury.gov/resource-center/data-chart-center/tic/Documents/mfh.txt
+
+
+                    |Jesus. A flat text file? No layers of bullshit to wade through? US Treasury, I think I'm in love.
+
+
+                        |I'm surprised their site isn't shut down, they must be running their servers out of the congressional g
+                        |m. 
+
+
+                    |So, it's $3.5-4 trillion, if I read that correctly?
+
+
+        |Exactly - if this was a **real** "We **might** default!", there'd be much more reaction in the financial markets... the
+        |e isn't.////Bread and circuses... the politicians love it.... they look like they're fighting for their sides, and who 
+        |nows what other consequences there are... but I'm sure behind closed doors businesses have already been assured there w
+        |ll be no default.
+
+
+        |&gt;including the Social Security and Medicare "Trust Funds"////Does this mean that after I pay the social security tax
+        | i pay taxes on the interest of that social security?
+
+
+        |Yes they are: http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield
+
+
+        |These where the same people who caused the global fintical crisis.  I don't trust them.
+
+
+    |The default won't happen. There are entirely too many very wealthy and powerful individuals that need this false system of 
+    |ebt to continue. Mark my words. It will not happen.
+
+
+        |Did you not notice OP's use of the word "if"?
+
+
+            |I did. And, as an American, immediately chose to ignore it and do what I wanted.
+
+
+                |Somebody get this man into Congress
+
+
+                |*salute* ...patriot...//
+
+
+                    |&gt;Vote rigging////&gt;Censorship////&gt;Government spying////Still crying "Muh freedomzzzz"
+
+
+                |IMO:////&gt; There are entirely too many very wealthy and powerful individuals that need this false system of d
+                |bt to continue////but as Americans, they ////&gt; immediately chose to ignore it and do what////they////&gt;wan
+
+
+        |RES tagged: "The default won't happen." - 10/11/13////Christ, but I hope you're right.
+
+
+        |I don't think it will either, but we're definitely pushing how close we can get to it. Which in itself is absurd.
+
+
+            |No doubt this whole situation is absurd. It may still blow up in their faces, but probably not. I'm sure someone im
+            |ortant around there knows what they are doing, but I'm also sure that whatever they are doing is not for the benefi
+            | the general population. We shall see.
+
+
+                |The problem is everyday this goes on it weakens the international will towards using the USD as the reserve cur
+                |ency. The dollar being the global currency is a **huge** benefit to the United States, but a crisis like this (
+                |ven if solved before it explodes) causes countries to start asking why they are using the Dollar and not the Eu
+                |o as the global reserve...
+
+
+                    |Because the euro is doing great?   
+
+
+        |**Bread and circuses.**////All the politicians are loving it. Behind closed doors I'm sure they've reassured businesses
+        |that it's all a show.////Otherwise we'd be seeing much more **physical** reaction than we are... not much has happened 
+        |inancially.
+
+
+            |this is spot on.
+
+
+        |"'false system' of debt"?
+
+
+        |I think the shit hits the fan once other countries are saying they do not accept US dollars anymore.
+
+
+        |I have marked your words firematt
+
+
+            |Thank you!
+
+
+        |Yeah, eventually even the Tea Party backers will have to relent. Their own futures are just as tied to it as everyone e
+        |ses. My biggest fear is that some of them may be serious. All it would take is a filibuster by one nut.
+
+
+            |It's plain and simply not in the interest of the people. I feel like they are trying to drum up support for PPACA p
+            |eemptively because they know that eventually we'll figure out what they're doing. ////Why can't we just have a heal
+            |hcare system like Canada? Because it would be government run, and there is A LOT of money in the health insurance g
+            |me. Makes more sense to the insurers (and their lobbyists) to write laws that force every American to have health i
+            |surance. This way they can continue to offer the plans they already offer for the people who can afford them, but t
+            |ey also get to write up a bunch of new shitty plans that are cheaper and less effective. This way they get to squee
+            |e a little money out of everyone. 
+
+
+            |Well, no; it would take a filibuster by one nut with 39 nuts supporting him (and it would be a him in the Senate, i
+            | all likelihood, as Michele Bachmann is in the House).  You can't filibuster in the House.  The biggest problem rig
+            |t now is that Boehner is not bringing appropriate bills to the floor of the House to resolve these crises.  If it g
+            |ts bad enough, though, he would likely allow a bill to be brought to a vote.  And, if not, he would almost certainl
+            | allow a more moderate member of the House (who feels inured to Tea Party shenanigans... probably Peter King or the
+            |like) bring one out and take the flak from the right.////...that's what I hope, anyway.
+
+
+            |Uhhhh isn't it the Republicans that have been trying to eliminate the deficit all along? 
+
+
+                |No////http://www.forbes.com/2009/11/19/republican-budget-hypocrisy-health-care-opinions-columnists-bruce-bartle
+                |t.html////http://www.businessinsider.com/republicans-actually-love-deficits-2013-5////http://www.aflcio.org/Blo
+                |/Political-Action-Legislation/House-GOP-Voted-to-Increase-the-Deficit-33-Times////http://www.politico.com/story
+                |2013/06/abortion-bill-deficit-93574.html//
+
+
+                |Two sides of the same coin.
+
+
+                |only at rallies...
+
+
+                |That's what they'd like you to believe. They shove just as much pork into the budget as the Democrats. They're 
+                |ust trying to cut programs that support Democratic causes, much like the Democrats are trying to cut programs t
+                |at support Republican causes.
+
+
+            |I support the Tea Party, I'm an atheist (so you don't think the Tea Party is about religion), and I would be happy 
+            |or a default to happen. I'm only 26. I'd rather take the poison now and hope for things to be built up again in a s
+            |und way, than live my whole life in a permanent recession/depression.
+
+
+                |&gt;than live my whole life in a permanent recession/depression.////Which is pretty much exactly what a US defa
+                |lt would cause.
+
+
+                |You're kidding, right? The results of the US defaulting will affect generations not even born yet. This isn't s
+                |mething that's going to happen, then be patched over in ten years, no: this is something that, if it happens, w
+                |ll be patched over in about a hundred years.////You and I and most (if not all) of everyone currently on Reddit
+                |will probably not live long enough to see the end of the repercussions of the States defaulting.
+
+
+                    |How many generations will be affected by $17 trillion of debt? Did you know there is no plan in place to re
+                    |uce federal debt?////Federal revenue currently far exceeds debt costs, so talk about default is little more
+                    |than fear mongering. This, of course, might not always be the case if we continue to add to the debt. ////I
+                    |don't understand why any relatively poorer young person would support continued federal borrowing to pay so
+                    |ial benefits like Social Security and Medicare to their relatively richer elders, especially when carrying 
+                    |uch a huge federal debt coupled with the known insolvency of those social programs means they will almost c
+                    |rtainly not be available when today's youth reach retirement age. 
+
+
+                |That's mighty white of you.
+
+
+                    |Peoples' ideas are not determined by their race.////The view that ideas are determined by race is the funda
+                    |ental premise of racism.
+
+
+                        |http://www.youtube.com/watch?v=aNiAOSKFNR4
+
+
+                        |I think we all agree on race having extremely little to do with ideas a person has. ////Culture however
+                        |.. culture plays a part and there is such a thing as white american culture.
+
+
+                            |I'm not sure what your point is. My ideas are either right or wrong. That I'm a white American is i
+                            |relevant to the truth.////Just as your ideas are not determined by your race, nor are they determin
+                            |d by your culture, or, for that matter, your class (which is the Marxist view). Your ideas are not 
+                            |etermined at all.////As a side note, most white American's do not agree with the viewpoint I expres
+                            |ed earlier about supporting the Tea Party.
+
+
+                                |My point is to differentiate between race and culture. Race is irrelevant, but culture is not. 
+                                |///I did not really mean to imply if you are right or wrong. I meant to make a comment that the
+                                |culture you are in will often affect what thoughts, meanings and ideas you have. ////Saying som
+                                |thing about racism is the irrelevant part because we all know it is never about race, and if yo
+                                | happen to encounter anyone willing to say race matters in this context it's really not worth h
+                                |ving the discussion with that person.
+
+
+                                    |&gt; I meant to make a comment that the culture you are in will often affect what thoughts,
+                                    |meanings and ideas you have. ////If you are rational, it will not determine the outcome. It
+                                    |might have an affect in the sense of affecting what you already know vs. what you don't alr
+                                    |ady know and thus need to learn about. What you already know and don't know might affect ho
+                                    | you err, if you do make an error.////&gt; if you happen to encounter anyone willing to say
+                                    |race matters in this context it's really not worth having the discussion with that person./
+                                    |//I basically agree with that, but it might be worth pointing out to the person that they a
+                                    |e incorrect. 99% of the time in today's culture, they won't have a thoughtful respone, but 
+                                    |f they do, you could have a conversation and discuss the evidence against that idea.
+
+
+                                        |&gt;&gt;I meant to make a comment that the culture you are in will often affect what th
+                                        |ughts, meanings and ideas you have.////&gt;If you are rational, it will not determine t
+                                        |e outcome. It might have an affect in the sense of affecting what you already know vs. 
+                                        |hat you don't already know and thus need to learn about. What you already know and don'
+                                        | know might affect how you err, if you do make an error.////Yes, we are not robots prog
+                                        |ammed to think a certain way based on our culture. Not all of us at least, so it will g
+                                        |ve us anything exact or absolute. We can get an indication and a foundation to base som
+                                        | assumptions on though. At the same time there are always someone in a culture disagree
+                                        |ng with the average person of that culture, while still belonging to the same culture. 
+                                        |///As an example: I would put good money on someone labeling themselves as a neo-nazi d
+                                        |es not like Jews even though he does not really say those words, but sometimes you find
+                                        |the odd confused one who decides to conform to that specific expectation.
+
+
+                |If we default, you will live your whole life in a permanent recession/depression.
+
+
+                |this might be the most misinformed comment i've ever seen on reddit...  dude, get a clue...
+
+
+        |I really, really, hope you are right!
+
+
+            |I think you'll see soon. Congress already had an approval rating of 5%, what'd they have to lose? I think somebody,
+            |or more likely somebodies, is/are trying to make the PPACA look like a victim and a hero so Americans will fight fo
+            | it. Meanwhile, no one is arguing about why we have to continue paying for healthcare instead of turning the whole 
+            |ystem over to the government under a tax funded system like we should, and like the majority of the rest of the 1st
+            |world already has.////Who gains? Not you. Not me. Not Congress (except in reelection funds). The insurers gain. Tha
+            |'s who.////EDIT: It's a false argument. They want you to believe it's either Obamacare, or nothing. There are other
+            |ways, but none look as profitable for the insurers or pharmaceutical companies.
+
+
+        |&gt; There are entirely too many very wealthy and powerful individuals that need this false system of debt to continue.
+        |///I'm not sure if they really need it... I mean, the most money is to be made when the market is in turmoil.////That s
+        |id, it's not going to happen. Haven't they already agreed on a week-long extension so that it doesn't happen?
+
+
+        |Saved just so I can come back when things go bust, Assuming I still have internet
+
+
+        |No idea why you got downvoted without any replies to you comment. I agree, there's too much at stake. It won't happen.
+
+
+            |I think he got downvoted because this is explainlikeimfive and what he said wasn't really an explanation.
+
+
+        |I 100% agreed with you. 
+
+
+        |The writing is on the wall and it is spelled distributed cryptocurrency.
+
+
+            |Go back to /r/SilkRoad, mate
+
+
+                |You know you can donate to wikipedia and buy stuff on newegg.com with it right?
+
+
+                    |Yeah, that's why I'm not bashing bitcoin. Just dummies who think it's going to save the world. 
+
+
+                        |&gt; distributed cryptocurrency////I said "distributed cryptocurrency" not bitcoin, genius.
+
+
+                            |Okay. Dummies who think a **generic distributed cryptocurrency** is going to save the world, then.
+
+
+                |Go back to /r/cringe, you fucking cancer.
+
+
+                    |Go back to /r/MensRights you fucking Nice Guy
+
+
+    |The real answer is the US won't default. That's just a scare tactic politicians use to get what they want. ////Like://Pass 
+    |he Patriot Act unless you're ok with another terrorist attack...////The US has a constant revenue stream that can easily pa
+    | what we owe. In fact, the current government "shutdown" is saving almost enough per day to pay the debt. That's with less 
+    |han 20% of workers off. Imagine if we even looked at the defense spending budget... Oh wait we have no idea how or where th
+    |y even spend if since we haven't even audited the DoD////
+
+
+        |[DoD audits](http://www.dodig.mil/pubs/index.cfm?office=Audit)
+
+
+    |Among many other aspects I would say the dollar becomes cheaper, as many want to shift their assets to euro. This affects e
+    |erybody who produces in europe and sells in the us. Say its costs you 10 euros to produce your stuff and you want to sell i
+    | for 20 euros in the us. You have currently to price it at 27$. If the dollar gets cheaper you would have to sell it for 30
+    | to get 20 euros out of it. Or you take the hit and still sell it for 27$, but get less euros in return.////So companies ex
+    |orting from europe to the us are going to be less profitable.
+
+
+        |How would it affect the Canadian dollar?  I can see Canadian companies who export to the U.S. hit big-time, but how wil
+        | that affect the Canadian economy and the Canadian $?
+
+
+            |US is Canada's largest trading partner by miles. It would destroy their economy as much as the US economy.
+
+
+        |Or Bitcoin. Decentralized, no need for any sort of backing. It's a thing of beauty. Plus no scumbags in Washington coul
+        | ever hold the value of Bitcoin hostage. Not to mention it's actually scarce, unlike the paper we hold today. 
+
+
+            |They down vote because they have never looked up fiatte currency
+
+
+                |Fiat. The term is fiat.////Currently bitcoin ownership is centralized to too many early adopters, in my opinion
+                | to make it viable. As there is a finite amount of bitcoins available, should people start converting their dol
+                |ars to bitcoins en masse, bitcoins would become increasingly more and more valuable, a strong incentive for peo
+                |le to stop converting dollars into bitcoins. Of course this would be in the interests of people who currently o
+                |n bitcoins, since they would see their assets appreciate by orders of magnitude. You can surely recognize the p
+                |oblem of the people who happen to have bitcoin today (technically adept people like myself, and a few niche mar
+                |et consumers/merchants) suddenly getting control of the entire world's money supply.
+
+
+                    |There's also the problem of keeping governments out of the loop if it starts to grow exponentially in value
+                    | Stopping the currency exchanges themselves might prove difficult [for regulators], but not the flow of goo
+                    |s and services they're exchanged for.////edit: left [out] a word...
+
+
+    |If you want to look at what the top economists are saying about its American effects, here's [a poll] (http://www.igmchicag
+    |.org/igm-economic-experts-panel/poll-results?SurveyID=SV_5sSZWoldi8NSs9D) that represents a good sample of conservative eco
+    |omists and liberal ones.  The comments I think are the most revealing.  
+
+
+        |&gt;  The comments I think are the most revealing. ////I think the most revealing comment is this one:////**Poor questi
+        |n. The federal govt could make its interest payments on current debt even if the debt ceiling were not raised.**////It'
+        | like everyone else doesn't realize how unlikely it is for the US to default on its debt given all of the options it ha
+        | to produce cash in a pinch.
+
+
+    |I'll just leave this [here](http://www.youtube.com/watch?v=1QK4bblyfsc)
+
+
+        |This should be near the top of the comments.////I have seen many videos about endong the fed, but what would the fed be
+        |replaced with and how could you be certain that this new system won't become as corrupt as the current one?
+
+
+            |I don't see it being possible to abolish the Federal Reserve. They have controlled the country for 150 years and ev
+            |n bailed out THE COUNTRY not once but twice.////IF there was a way we could get rid of the FR I would say we would 
+            |eed a global currency that is backed by gold. Even then, what would we do about our astronomical debt? We are past 
+            |he point of no return and we can't just hit a reset button. If we could then that would be the way to go.////Also f
+            |r medical care, tax every class a certain percentage to pay for it.
+
+
+    |Right, we drive Pete's car to mums, "hello" deal with Philip " sorry Phillip" head to liz's, have a cup of tea and wait for
+    |this to all.blow over.////
+
+
+    |I don't think "it won't happen" is an answer to your question, and I don't think "it's a disaster" is quite the specificity
+    |you need. What you need to know is this: directly, 5-10 percent of the wealth on this planet is held as US government debt.
+    |This shows up in pension funds, institutional investments, etc. China alone holds trillions. If the US govt refuses to pay 
+    |bligations, the value of that paper decreases. This is an incredible shock to global wealth, directly. Indirectly, the inte
+    |est rates on credit around the globe - home mortgages, car loans, and corporate borrowing rates - would soar, because inter
+    |st is usually set as risk free + premium; that risk free is defined by US treasuries, and a default would send those rates 
+    |oaring. If interest rates soar, companies with debt (pretty much all of them) see huge borrowing costs, and profits fall th
+    |ough the floor. To get cash flow positive, companies have layoffs, but since unemployed people don't buy stuff, demand fall
+    | too. You end up with a downward spiral, and we are all in trouble. ////So, in short, a default takes between 5 and 10 perc
+    |nt of global wealth and puts it at risk. Then, it increases debt costs for anybody that has debt (everyone), which is an ev
+    |n bigger problem because more cash has to go to banks to lend money, and less can be used for paying employees and reinvest
+    |ng in the business. 
+
+
+    |Not only Europe, but pretty much every single country in the world would be seriously screwed. ////Look at it in a smaller 
+    |cale, Walmart in the USA. If Walmart was to go bankrupt, a very large amount of people would be out of jobs, and so would t
+    |igger a chain reaction because bills would not be paid, things would not be bought, and would result in an extremely large 
+    |mount of revenue gone. Many funds and people would lose a lot of money, and many more catastrophic financial issues would h
+    |t. ////Edit: Comparing the US and Europe, and the rest of the world, using Walmart in the US, for simplistic purposes.  ///
+    |P.s. Phenomenal question, friend. 
+
+
+    |The short answer to this question is that a *genuine* and categorical  USA default would be very, very bad for the global e
+    |onomy, and would probably trigger a worldwide depression. ////The longer and more informative answer requires unpacking a w
+    |ole set of complex assumptions. Glossing over a lot of things for ELI5 purposes...////- Since roughly the end of WWI, and d
+    |finitely since the end of WWII, USA has been the economy of reference for the free world. Not necessarily the best, not nec
+    |ssarily the biggest, but roughly comparable to Europe or Asia in terms of total economic activity, except under a single fe
+    |eral government and social system. ////- the American financial and economic system was not only continental in size and sc
+    |le, it as also the most scrutinized, transparent, and reported-on large monetary system in the world. ////For this and a lo
+    | of other reasons, debt issued by the US gov't became the new global "gold standard". Particularly during the cold war, Ame
+    |ican prices, output, and economic stability was the best and most stable economic reference in the global economy. From rou
+    |hly WWI to fairly recently, the safest, surest, and most predictable way to get your money back was to bet on the stability
+    |and growth of the USA. ////For a long time now, the USA has been the economic "heat sink" of the world: consuming when pric
+    |s are low, producing when prices are high, lending when interest rates climb, borrowing when they sink... America's large a
+    |d mostly unregulated marketplace acts as a kind of shock-absorber to the global economy. But more to the point, American-is
+    |ued debt is, in modern history, the most valuable commodity in the world, in terms of predictability of output value. ////A
+    |pure and outright "default" or American "bankruptcy" is almost inconceivable. You might be looking at return-to-the-stone-a
+    |e type stuff, worldwide. On the more realistic side of the spectrum, USA deficit  hawks could potentially force the USA int
+    | a partial, temporary, or conditional shift. ////The reason why USA political and economic decisions matter in Europe is th
+    |t the USA is roughly the size of Europe, and that usually makes the American federal government vastly more important than 
+    |ny individual gov't in Europe. 
+
+
+    |It's so fucked up that we here could suffer consequences for political action when we  have no vote or say in the matter.  
+    |o very fucked up.
+
+
+    |Why the fuck are we going life or death over paper with imaginary value? It's our damn planet, why are we hindering ourselv
+    |s by being in debt to ourselves?
+
+
+        |Because economies are an emergent property of society. Get 2 or more humans together and eventually an economy will hap
+        |en.
+
+
+        |Said this myself, many a time!
+
+
+    |Nothing.  The USA will not default unless Obama instructs the treasury to stop paying the bills.  We have more than enough 
+    |ax revenue to pay our ongoing debt obligations as normal.  We do not need to borrow money to pay what we already owe, and a
+    |yone who says otherwise is an idiot.
+
+
+        |Correct, it really does bug me to hear this "US default" over and over in the media. Karl Denninger did a great post ea
+        |lier this week (which you can't view now because of his 3 day boycott) and it basically boils down to: monthly tax inco
+        |e is 10x the current monthly debt OBLIGATION, which Karl points out is different than the "political promises" that the
+        |government spends money on, but in theory could just stop paying and not default.////It's also important to note that i
+        | Obama instructs the treasury to stop paying the bills = grounds for impeachment, since that power does not lie in the 
+        |xecutive branch.
+
+
+            |[Karl Denninger](http://en.wikipedia.org/wiki/Karl_Denninger) = Founding member of the Tea Party. The principle cau
+            |us that supports approaching* a Default over Health Care. Supports the continuation of the Government shutdown. Jus
+            | for clarification, no opinion made.////Edit: Added approaching
+
+
+                |Is the tax income part true? 10x monthly? 
+
+
+                    |I truly don't know, but I personally don't trust what he says. I just think about the last time this came u
+                    | and how before the media blew it up, how both sides said it would be a catastrophe.  Only when it becomes 
+                    |olitical do a few people start saying "Oh, we could survive without paying those we have already agreed to 
+                    |ay".
+
+
+            |&gt; rounds for impeachment, since that power does not lie in the executive branch.////Almost correct. Congress pas
+            |es spending bills, the Executive branch has some leeway in how those laws are executed. The SCOTUS has already said
+            |recently that enforcement of a law is open to the interpretation of the executive branch....that's why he can legal
+            |y delay implementation of Obamacare for businesses while continuing to require enforcement of the law on individual
+
+
+    |Basically, there is nothing to worry about for anyone unless the impasse regarding the debt ceiling is protracted beyond ar
+    |und the 22nd of October, the date that the US Treasury is expected to run out of money. In any case, some serious misconcep
+    |ions need to be cleared up here:////The word "default" is not really the right word to use. The US will never, ever default
+    | The dollar is the reserve currency and the US has a ready and willing central bank to expand the money supply to cover any
+    |debts. Default, under any future debt load, is impossible.////What markets are really worried about is a delay in interest 
+    |nd principal payments on treasury securities. While these delays would have no impact whatsoever on any typical citizen of 
+    |he world, they would have enormous potential impact on the financial markets. By "financial markets" I mean the system by w
+    |ich funds move around from financial institution to financial institution. The primary way institutions transfer money to e
+    |ch other is by lending against short-term treasury securities as collateral (the same way homeowners can take out a line of
+    |credit against the value of their home). When investors become suspicious of having a missed payment on a treasury, they se
+    |l them. This causes the price of the security to fall. If institutions have borrowed against treasuries (this is called a "
+    |epo") then the value of their collateral has fallen. This makes institutions wary of lending to one another and inhibits fi
+    |ancial lubrication, which is the speed at which money flows around the economy. ////Basically, when institutions stop trans
+    |erring money around, things get pretty grim. This is what happened in the financial crisis and also in the debt ceiling deb
+    |te of 2011. We are starting to see signs of jittery interbank lending now via increased repo rates (i.e., banks are chargin
+    | more money to lend to one another since short term pledged US treasury collateral has fallen in value). However, the stock
+    |market and the "real world" have yet to respond. This makes some sense because businesses are not so reliant on very short 
+    |erm funding, but it is a worrisome sign nonetheless.////In short, I'm not so sure that folks in Eurpoe or the rest of the w
+    |rld should be so worried about a delayed payment on Treasury bills, as it really isn't too big of a deal as long as the gri
+    |lock is relatively short. I'm not really in a position to make predictions, but I'll bet that the dipshits in congress will
+    |end the charade in the moments before we reach the debt ceiling.////TL;DR: The US will never default, only delay. The threa
+    | of delay isn't too big of a deal so long as it gets resolved relatively quickly.////Source: work in a hedge fund
+
+
+        |If you don't pay the interest or principal on a security or loan, you are in default.  Saying that it's not really a de
+        |ault if it's just "delayed" is redefining the term.  I mean, I plan to get around to paying my mortgage one of these da
+        |s so I'm not really in default, right?
+
+
+            |Good point. It would be more accurate to call it a default with a 100% recovery rate plus interest (this happened t
+            | the US before by the way...payments were delayed and repaid with interest when the treasury switched over to elect
+            |onic transactions and encountered some glitches). I think in general parlance the term "default" means "insolvent,"
+            |so I wanted to make clear that there is no danger of non-payment. 
+
+
+        |I love these guys that are like "just print more money!"
+
+
+    |The 14th amendment enforces debt payments before all outlays. Fed revenues are around $250 Billion a month. Debt outlays $2
+    | Billion. The only default will be the gravy train that reckless extremists support.
+
+
+        |That's one interpretation, and one that has never been tested.  Why would debt incurred through bond obligations to for
+        |ign investors take priority over debt incurred through legislative obligations domestically?////Not that I think we are
+        |at any risk of a default.  When push comes to shove, the people with money on the line will make sure this never comes 
+        |o pass.
+
+
+    |All the United States government has to do to not default is pay the interest on its debt. The interest this year is some w
+    |ere around 400 billion, the United States takes in at least 6 times that in tax revenue. If interest rates spiral out of co
+    |trol, we won't be able to borrow (at least not reasonably), but we wouldn't default, we would be forced to raise taxes and 
+    |ut spending, primarily to defense, social security, and Medicare/Medicaid. The older you are and the poorer you are, the wo
+    |se you would feel the effects. The debt sealing is just to finance deficit spending, which is only 1 trillion of the 3.8 tr
+    |llion we spent in 2012. Right now interest rates are near 0%, but if they hit 7%, or 19% like they did in the 80's, deficit
+    |spending at our current rate would be suicide.
+
+
+        |&gt; we would be forced to raise taxes and cut spending////Or print money.////However, the point is that a default coul
+        | be forced not because the US can't pay due to lack of money, but because an unresolved debt ceiling prevents any payme
+        |ts. That is most certainly not going to happen, but it is a theoretical possibility.
+
+
+    |Govt shutdown =/= a possibility of default.//////There is ABSOLUTELY no chance of the United States Defaulting on our debts
+    | This is a *budget* crisis more than a *financial* crisis; the money is there.
+
+
+        |This has nothing to do with the shutdown. This is from the government hitting the debt ceiling (which would've happened
+        |in May without some creative accounting).
+
+
+            |Even then a default isn't necessary.  Just a major federal cut.
+
+
+                |Which would have to be agreed upon, so if everyone continues bickering and not talking to each other, it could 
+                |appen. (Though it won't, they already either started talks about an extension or actually agreed on it.)
+
+
+        |The USG *will* default on its debts sooner or later. Later and it'll be even more calamitous.
+
+
+            |Not as long as it is using a fiat system. The government can always print as much money as it needs to in order to 
+            |over its obligations. It is impossibe for it to default. ////Printing more money can cause inflation, but since the
+            |US dollar is a reserve currency and is in high demand that isn't likely to happen. ////Printing more of it like we 
+            |ave been doing during the recession isn't causing inflation now because foreign governments are gobbling up as much
+            |as we can print. That's why, despite ballooning debt, interest rates are still low. ////Could it change? Sure. But 
+            |t isn't as bad as politicians and media make it out to be. 
+
+
+                |Printing money until it becomes worthless is equivalent to defaulting on debt.////&gt; But it isn't as bad as p
+                |liticians and media make it out to be. ////Huh? They make it out like we've recovered from 2009.
+
+
+                    |&gt; Printing money until it becomes worthless is equivalent to defaulting on debt.////I don't think that a
+                    |yone is suggesting that. Printing more money doesn't necessarily make it less valuable. US currency is a re
+                    |erve currency, and its value is driven probably more by supply and demand than it is the amount in circulat
+                    |on. Much of it is held in foreign banks because it is seen as safer than local securities. As long as it is
+                    |in high demand it will be valuable. ////&gt; Huh? They make it out like we've recovered from 2009.////It de
+                    |ends on what area of the economy you look at. What I was talking about is risk of default on government obl
+                    |gations. No matter what the politicians and the media say, not raising the debt limit will not cause an acr
+                    |ss the board default of government obligations. ////We do need a spending bill to authorize the government 
+                    |o resume spending at previous levels, but that's a different matter. 
+
+
+            |No.
+
+
+                |Yes. Debts would be paid off as money comes in. At some point the interest on the debt would exceed the revenue
+                |that came in for that day, and payments would not be made. It's an inevitable course of events. You can't just 
+                |ut your fingers in your ears and wish it away.
+
+
+                    |The US government can print as much money as it needs to print in order to pay its debt. US government debt
+                    |is guaranteed only in US currency, which can be created when the government needs it. Its ability to spend 
+                    |s not tied to either revenue or debt. 
+
+
+                        |Shall we print money to keep the rest of the government functioning? Or simply fall into third-world st
+                        |tus and spend everything on interest payments? 
+
+
+                            |We should print more money and issue debt, where necessary. The government can also increase taxes.
+                            |///None of those things will result in the US becoming a third world country. That is hyperbole. 
+
+
+                                |So we should print $3.5 trillion dollars per year to keep the government running? What effect d
+                                | you believe this will have?
+
+
+                                    |I never said that. We don't need to do that to keep the government running, but it would wo
+                                    |k. The government could spend less, reducing the pressure to borrow so much. Or it could is
+                                    |ue treasury bills, notes, and bonds to allow citizens and other countries to invest in the 
+                                    |S. Which is what the debt ceiling increase would allow. ////The answer is some mixture of t
+                                    |e three. ////What would you do?////
+
+
+                                        |&gt; What would you do?////Stop this nonsense.
+
+
+            |16 trillion, 45 trillion, a trillion trillion..... exactly what would be the difference in numbers like that to mak
+            | it **more** calamitous?////Isn't that like comparing 5 sticks of TNT to 10, when you've just rammed them up your j
+            |cksie?
+
+
+                |At least if they stop kicking the can now it'll take down many other countries, and thus the fall will be softe
+                |. Down the road countries will have gotten out of the USD and it'll just be us idiots falling hard.
+
+
+    |It's not going to happen. There will be a last minute deal worked out &amp; as usual the only ones getting short changed wi
+    |l be the taxpayers.
+
+
+        |Thanks for not answering the question. Your response is extremely valuable.
+
+
+            |let's get *political*
+
+
+            |It is a true and relevant response though. Especially since the question is worded as if it *is* going to happen. (
+            |What **will** probably...")
+
+
+    |If this is something that you are interested in I would direct you here (http://larouchepac.com/) for further information. 
+    |hey speak about what we "could" be doing to avoid all this mess including the passing of Glass-Steagall.
+
+
+    |What about Canada?!? We are more connected with America than Europe.
+
+
+    |It's just like you see in nature; if you take out a keystone organism(the apex predator), everything around it goes to shit
+    |  
+
+
+    |the europeans will become even more smug 
+
+
+    |Explain world economics to me like I'm 5...No; 'kay, explain it like YOU understand it...Hell, just pretend it's explicable
+
+
+    |It'd be a modern Dark Age
+
+
+    |World War 3.
+
+
+    |Money is tricky and weird and kind of a necessary evil (at least I our current environment).////* if the USA defaulted on o
+    |r debts then our credit score would drop from AA to an A or lower (actual numbers that we're more familiar with).////* the 
+    |owering of our credit score would mean that our loan and debt fees, percentages, and with holdings would spike drastically.
+    |///* If our debt percentage spikes, then our economy will take a turn for the worse.////Most other nations really would pro
+    |ably be fine because most monetary notes are valued against our dollar so as long as only our market crashes then everybody
+    |else's money should stay as valuable as it is now.  But the world economy as a whole?  That's totally different.////* First
+    |nearly every country in the world would do what they could to get us up and running again.  You'd be surprised at how many 
+    |ountries depend on us buying goods and services from them are.////* Next, there'd probably be some crazy riots in the stree
+    |s of every city in every country.  Self-explanatory I think.////* Lastly, the market would recover.  It'd take a long time,
+    |but economic markets have a natural ebb and flow die to supply and demand.  Once actual labor becomes more valuable than mo
+    |ey, we'll be back in business.////This happened in 1995 but nobody noticed because of how quickly congress came to a compro
+
+
+    |Is it fucked up that I want to see this happen?
+
+
+    |Look at Iceland. They flipped EU banks, changed constitution and they are doing great without any external support.//http:/
+    |truth-out.org/news/item/14097-with-new-constitution-post-collapse-iceland-inches-toward-direct-democracy  That proves that 
+    |U countries could be successfully independent.
+
+
+    |We have 17 trillion in pure debt that is growing. We take in around 2.5 trillion yearly. If our useless politicians could s
+    |mehow manage to first stop deficit spending then miraculously find 500 billion a year to pay down the debt, it would take 3
+    | years to do so. NOT going to happen. ////But wait! Theres more. We owe somewhere between 60 and 80 trillion to unfunded li
+    |bilities to Social Security, Medicare, Medicaid, government employee pensions, etc, and now we have a new health care law t
+    |at is going to cost billions more.////Oh, and that 17 trillion in debt is financed at unheard of low rates that WILL rise. 
+    |///The default is coming whether it is this week or the next few years. When it happens consider this...we all voted for it
+
+
+    |This US isn't going to default...
+
+
+    |In other words, this would be the perfect time to have no money?//Nothing to lose?
+
+
+    |Is the US saying it will never pay interest on the bonds? I think the US is saying the bond inerest will not be paid until 
+    | solution to the budget problems of the US is found. We are not looking at default despite all that is being said we are lo
+    |king at delayed payment. The difference is between bankruptcy and delayed payment. Delayed payment is not a good thing but 
+    |t is not a renoucing of the debt and will not have the very real and serious effects that national bankruptcy would have.
+
+
+    |Basically, all the banks are required to hold a certain % of tier one capital at all times. They basically do this by holdi
+    |g US bonds. If they get downgraded, every bank will struggle to fill the void - pretty much all the banks will go to shit.
+
+
+    |&gt; “Owners of capital will stimulate the working class to buy more and more of expensive goods, houses and technology, pu
+    |hing them to take more and more expensive credits, until their debt becomes unbearable. The unpaid debt will lead to bankru
+    |tcy of banks, which will have to be nationalized, and the State will have to take the road which will eventually lead to co
+    |munism.”////Karl Marx wrote this. It obviously won't lead to communism but apart from that the quote is very interesting I 
+    |hink. Those who claim that everything written by Marx is completely dismissible in the modern world should certainly think 
+    |gain.
+
+
+        |Which is why I think the Euro should be abolished, given what he said about "He who controls Berlin" or the like, it's 
+        |bvious!
+
+
+    |Isn't it more likely that the US would default if they kept raising the debt ceiling? Shouldn't the US saying "hey, we are 
+    |ot going to borrow any more money until we get our spending under control" actually make the dollar stronger? I am in the U
+    | right now and it pops up in the news every once in a while. To me, it seems like they got it wrong but I really am no expe
+    |t.
+
+
+    |Not much. There will be some decline in the markets, but it won't be anything major. ////USA is too strong both economicall
+    | and militarily for something to happen. The people who are saying all the crap about it being a disaster are mostly the de
+    |ocrats trying to put pressure on republicans from public.////For you living in Italy, USA defaulting is likely to not affec
+    | you at all. In the worst case, some prices might go up, but Italy produces a lot of agricultural goods so that is unlikely
+    |too.////For Italy, it would be much worse if something like Spain defaulted, it would affect the strength of Euro and since
+    |Italy trades a lot the results could be devastating.
+
+
+    |The dollar would become worthless and so will fiat currency (notes and coins) most likely become too. People would use gold
+    |as insurance because the gold itself has value, unlike fiat money which the note or coin itself would value very little.//A
+    | stated by Wikipedia://"A fiat-money currency generally loses value once the issuing government or central bank either lose
+    | the ability to or refuses to further guarantee its value."//This is because the value given to fiat currency is generally 
+    |igher that its actual worth.//If the US goes in a default, other economies (such as the Euro) would also become affected be
+    |ause the world's economies revolves around the US dollar.//For more information, please refer to this interview with World 
+    |ank whistleblower, Karen Hudes://http://www.youtube.com/watch?v=4hgA9j-4dB0////What is "Fiat" money?//Fiat money is money g
+    |ven as legal tender by government or money we place value on.//Money is worthless because it is basically only ink and some
+    |cloth. Parties (the government, banks, us etc.) agree that everyone will accept this money of its value it represents.//For
+    |more information on fiat money, please refer to://&gt; http://en.m.wikipedia.org/wiki/Fiat_money
+
+
+    |Nothing will happen. The media and governments have used fear so much to control everyone that now we all walk around with 
+    |mpending doom on our minds.
+
+
+    |I can tell you what will happen in the middle East.
+
+
+    |Disneyland holidays for 100 quid....wooohooo.
+
+
+    |The US dollar as a reserve currency will diminish, as people want to relay more on other currencies.
+
+
+    |No reason to go into default!////You dont need a new credit card to pay off your old credit card, neither does the United S
+    |ates!//////Quit listening to the people who told you several months ago Sequestration would cripple the U.S. they were lyin
+    |! Sequestration is still in effect, no one noticed, so they had to shut the fuck up whining about it.
+
+
+    |Most of you guys are not answering OP's question. The question is based on a presumption and you guys are just denying the 
+    |resumption, not answering his question.
+
+
+    |china pretty much has a big control on the u.s. look at the billions they hold...if the u.s defaulted what would china do? 
+    |hysical akshun?
+
+
+    |Nothing, because it won't happen. Ever.
+
+
+    |It basically destroys everyone else at the same time because the european stock markets like Euronext will crash.
+
+
+    |Good thing this won't have any affect on canada's maple syrup supply. 
+
+
+        |We had a close one this year though before the RCMP found the stolen syrup.
+
+
+    |I'm no economist, but I've learned quite a bit over the past few years about economics and monetary theory. The thing I'm w
+    |ndering is, if the Fed can print endless amounts of money, would it really matter if we default? We could just pay our bill
+    | with the newly printed money. Sure, it would further destroy the value of the dollar, but it's already been devalued by 98
+    |. How much more worthless could it get? This entire situation was not "caused" by the GOP, it happened a long time ago when
+    |the US thought it could spend as much as it wanted because the dollar was delinked from gold. But how often do you hear abo
+    |t that in the mainstream media?
+
+
+        |Printing money doesn't fix anything unfortunately :/ all it'd do is lower mortgage percentages and raise inflation
+
+
+            |Say you have 100 lbs of Gold represented by 100 monetary notes (1 lb= 1 note), if you print more notes it still onl
+            | has the backing of 100lbs in gold therefore each monetary note would be worth less.
+
+
+            |Yeah. Which is a huge reason of why we're in the mess we're in. And it should never happen in the next economy afte
+            | this one
+
+
+    |**THEY WILL LAUGH SUPER FUCKING HARD AT US.**  ////IT WON'T BE A BENDING OVER IN PAIN LAUGH.////**IT WILL BE AN "I CAN'T BR
+    |ATHE" LAUGH.**
+
+
+        |yes we will
+
+
+    |Lets just stop playing this whole game. It's stupid. 
+
+
+    |Disaster.//Economic calamity.//Lehman times 100.////But, don't worry about it. Not going to happen. That would be equivalen
+    | to the US Congress taking a shotgun and firing it into the brain of the US economy. Not even they can be so stupid. ////Wh
+    |t is happening is politicians are using the THREAT of the debt ceiling to get what they want. Like, "give me everything in 
+    |he vault, or I'm blowing up the bank!". And thus, everyone in the bank is kind of scared. But, in reality, said crazyperson
+    |isn't going to blow up the bank, he's just using the threat to extort money. So relax.
+
+
+    |So, if various conservative groups in the US believe in less government regulation, less taxes, smaller government, etc. wh
+    |t incentive do they have not to just take their ball and go home?////It's unconstitutional for the US to default on debt, a
+    |d it's possible to pay it off while making massive cuts to federal programs, which would be the perfect endgame for conserv
+    |tives. Smaller government, no external damage, sure they lost some pork but they've lowered spending drastically across the
+    |board. Why would they even want to negotiate?
+
+
+    |1.) Anyone that collects income from US debt will have less income for the period of the default. If they have adequate cas
+    | on hand, they may be able to absorb the blip without much drama. If they don't, then they themselves may be forced to eith
+    |r sell something they ordinarily wouldn't, borrow from someone, or default on payments to people they owe themselves. Obvio
+    |sly that wouldn't be great for them, and in the case of governments holding US debt, they may need to cut some services or 
+    |aise some additional tax revenues to balance accounts. Any US debt holders that are backed into a corner economically speak
+    |ng would have to default, and so there is some possibility for a domino effect.////2.) There will be a general lowering of 
+    |onfidence in US debt as a risk free place to park money. How much is hard to say, but it's only reasonable that debt buyers
+    |would re-balance their exposures. As I understand it, UK and Japanese debt are the two closest alternatives, so they may se
+    | an increase in demand for their debt, allowing them more favorable terms. They both are also US debt holders (Japan enormo
+    |sly so), so if they have to sell more debt to make up for a short term lack of US payments this shift in confidence could h
+    |lp them weather it better than other large US debt holders (eg China).////3.) There are lots of likely secondary effects (U
+    | dollar loses some value for example) but I don't know enough to feel confident listing or predicting those.////Suffice it 
+    |o say, none of these effects are good for the world as a whole. It's hard to know exactly how severe these effects are with
+    |ut knowing the relevant numbers and calculating the financial positions of US debt holders, and if I could do that accurate
+    |y I'd probably work on Wall street :P.
+
+
+        |stopped reading at "may have to borrow". What part of default do you not understand?
+
+
+            |Nothing. That the US defaults does not mean US debt holders will forced into borrowing to cover the US's failure to
+            |pay as agreed. They may have other more preferable means available. It depends on the details of their own future c
+            |mmitments and assets. Next time you feel the need to be pointlessly and mistakenly critical at least read.
+
+
+    |We 4th Reich now
+
+
+    |Australia becomes a superpower?
+
+
+    |It won't happen because republicans (the mass majority of them) said they won't cause it. The speaker says he wouldn't caus
+    | it. Talks and bills are already being done to pass the debt ceiling. Even if that fell through the administration would do
+    |something to prevent it up to some last minute crazy shit. But this whole boondongle sold some papers and adverts
+
+
+        |Upvote for cynical optimism.
+
+
+            |Downvote because it was a "What if..?" question.
+
+
+    |we switch to watching canadian tv-shows :D
+
+
+        |Todd and the Book of Pure Evil is pretty good.
+
+
+    |Browsing on my iPad, there was apparently a glitch the first time I tapped to see comments on this question and [this](http
+    |//imgur.com/gallery/bpMoKwB) popped up. So I hope that clears things up for you.
+
+
+    |The US will not go into default.////Even if we hit the debt cap, we have far more than enough income to cover debt service.
+    |///The only way we would default is if Obama decided to intentionally screw over the US and world economies by not paying t
+    |e interest on the debt. I'm not a fan of his, but there is no way he is going to make that decision.
+
+
+        |It's not Obama's choice to pay the debt or not, it's under the purview of Congress.
+
+
+            |I'm sick and tired of people blaming the faults of a country on it's leader.////Sure, they make executive decisions
+            |here and there...but all that's heavily influenced by others as well.////The designation of 'President' seems to be
+            |more 'scapegoat'
+
+
+                |Make all those promises during elections, then when nothing gets done we're told that's not how the government 
+                |orks? Dirty Politicians!
+
+
+                |The leader is supposed to take responsibility and lead, regardless of who makes the mess. Obama gets a lot of b
+                |ame because Obama gives a lot of blame instead of leading. 
+
+
+                    |But Congress is in control of the purse strings not Obama. And to base the shutdown on Obamacare was terrib
+                    |e strategy by the Republicans, it would never work.
+
+
+                        |Congress appropriates money through spending bills, either via budget bills or appropriations bills. Th
+                        | president must sign those bills before money can be spent. He can veto those bills.////His hands are n
+                        |t clean when it comes to government spending. ////Basing the shutdown on Obamacare was stupid. I agree.
+                        |It is legal and affirmed by the Supreme Court. 
+
+
+        |I doubt it was intentional, but you hit the "Thanks Obama" note with that reply. It'd be the Legislative branch, not th
+        | executive that screwed everyone in the scenario you described bar the unlikely chance that Obama veto'd the bills requ
+        |red to stop it.  
+
+
+        |Let me get this straight, the US has enough income to pay off its debt, but chooses not to.
+
+
+            |No, it has enough income to service the debt. That is, pay interest.////It does not have enough to pay it off.
+
+
+            |This is something that only is confusing if you think of money like a normal paycheck to paycheck citizen.  Global 
+            |conomics are not something you can equate to this.  Having no debt isn't a good thing, and having a run away debt i
+            |n't a good thing.  Its complicated, but the first step is to throw away the way you think about money as someone wh
+            | uses it for groceries.////*edit note*; not at all meant to be condescending or rude... thinking of money like this
+            |is like thinking of gravity on the scale of galaxies... it's simply not something we have a reference for in our da
+            |ly lives.  It's not intuitive.  And no matter what the talking heads try to program into people, it's not simple.
+
+
+                |Wait, how is having no debt a bad thing?
+
+
+                    |Lets say you can borrow money at 0.25% interest (which the government can). Further, lets assume you have e
+                    |ough money coming in to pay off that loan. Sure, you could pay it off, but it wouldn't be a very good use o
+                    | your money. Instead, you should invest the money you would have spent paying off the loan in something tha
+                    | earns more than a 0.25% return (which is to say, pretty much anything).////For example, if I borrow $1000 
+                    |t 0.25% interest, I have to pay $2.50 per year in interest. Now, if I take the $1000 I would have spent pay
+                    |ng off the $1000 loan principle and invest it in a fund that pays a guaranteed 2% interest (a GIC, for exam
+                    |le), I will be earning $20 per year in investment income. $20.00 - $2.50 = $17.50. Therefore, I'm *making* 
+                    |17.50 per year by *not* paying back the loan.
+
+
+                        |I see.////That makes sense. Thanks.
+
+
+                    |In a roundabout way, having debt marks you as a player in world economics, if nobody invests in you (and he
+                    |ce is owed eventual money by you) you're not significant. ////
+
+
+                        |&gt;if nobody invests in you (and hence is owed eventual money by you)////If nobody invests in me, then
+                        |nobody would ever be owed eventual money by me.
+
+
+                            |True, but in this scenario, you wouldn't have the cash in the mean time to grow a business (or econ
+                            |my). Think of it like financing a startup. In many cases, it will simply not be viable to organical
+                            |y grow a business or finance it out of pocket. Loans have to be taken to secure a store front, merc
+                            |, and pay employees, but once the business is going you can pay all of that, the loans, and then ne
+                            | a proffit. Without the loan, you would not of just had less proffit; you would of had none. A coun
+                            |ry would be a much larger/more complex version of the same type of thing. It would be nice to not e
+                            |er owe anyone anything, but having infrastructure like roads can lead to further economic developme
+                            |t that will pay off quickly.
+
+
+                    |Many reasons.  No treasury bonds for one, which is an issue for large scale finance.  Also basic inflation 
+                    |eans that a dollar spent today is worth more than a dollar spent tomorrow.  So using dollars from tomorrow 
+                    |o pay for things today saves money.////The trick here, and this should really be noted before anyone scream
+                    | a reply, is ***moderation***.  Run away debt is an issue and should be controlled, but paying off the debt
+                    |screws with the system as well.
+
+
+                    |Debt can be thought of like a cold spot in a thermal system, or a charge potential in a circuit. You need t
+                    |e energy differential to exist and move so you can extract useful work out of the system. Ideally, an econo
+                    |y will have a 'perfect' level of debt (low enough to prevent collapse, high enough to get work done) and ha
+                    |e that debt move around constantly and never stay in one place for very long.
+
+
+                    |I am not an economist, but let me attempt to explain.////Without debt, you're limited to buying only the th
+                    |ngs you have the money for *right now*. Going into debt allows you to buy things beyond your immediate mean
+                    | - at the individual level, think of a car loan or a mortgage. With these tools, you could now you can affo
+                    |d a car or a house that you couldn't previously. So even though it first appears as though you are in the r
+                    |d to whoever lent you the money, as long as you can service the debt (if it takes 5, 10, 30 years), in the 
+                    |nd you will have that car or house, and no debt. Debt like this is not inherently bad. In fact, if you need
+                    |these things, then going into debt is a good thing. And if in the long run, you expect that this car or hou
+                    |e will make you money, then when that debt is paid, you will have a car or house, and more money than you h
+                    |d before. This wouldn't be possible without debt; in fact, to not do so would be represent an inefficient u
+                    |e of your money, because in the long run, you expect to make more of it.////Governments are the same, only 
+                    | few orders of magnitude larger and spending on things like defence, infrastructure and welfare.
+
+
+                |I think gravity is what holds galaxies together.
+
+
+                    |And that statement is about as deep into the science of gravity as these statements are into the world of f
+                    |nance.  
+
+
+                        |I see your point. Good analogy.
+
+
+                        |Wouldn't be the best position to be in be the lender not the borrower?  The lender gets all the money b
+                        |ck plus interest.  What does the borrower get?
+
+
+                            |Money at a discount.////To use an extreme example for the sake of simplicity;  $5000 isn't a lot of
+                            |money today.  Not exactly throw away cash, but not out of reach of most people.// //In 1900 that wo
+                            |ld have been a fortune.////If you in 1900 could borrow that and pay it back today, you'd be getting
+                            |a monster of a deal.  That money could buy a crap load of things in 1900, but today it's just a few
+                            |months pay.// //That on a shorter scale, but on a global scale.////This is also why paying debt wit
+                            | debt can actually be a smart idea, even though sound bites on the news make it sound like a crazy 
+                            |hing.  Moderation and long term thinking are essential here, because it can be taken to far either 
+                            |irection, however inflation means that you have to consider the shifting value of money itself as p
+                            |rt of its value over time.////(***edit***:  Fun side note because I got curious, average salary in 
+                            |900 was $438/year.)
+
+
+                            |Money right now rather than later. This can allow them to do things like build out infrastructure t
+                            |at can lead to much greater economic development down the line. That could be putting in roads or a
+                            |power grid in a developing nation for instance.
+
+
+                |&gt;as someone who who uses it for groceries////That describes my current mindset.  I still have student loans 
+                |o pay off and the interest is killing me.  I can't imagine someone wanting to remain in this perpetual sinkhole
+                | much less a country. 
+
+
+                    |The thing is, the government can borrow money at such stupidly low interest rates that its actually *cheape
+                    |* to borrow than to use their own money, even if they have the money available. We're talking interest rate
+                    | of around 0.25%.
+
+
+                    |It's not like that on the scale of a country is the thing... your house takes in money from outside, and sp
+                    |nds it outside.  ////The global economy does not.  This is the part that people (and I'm not saying this do
+                    |n to anyone, hell knows it's hard to keep in my head too) have trouble understanding.////If your household 
+                    |ad a set amount of money that it traded inside the house for services, that would be closer.  // //Your stu
+                    |ent debt is money owned by someone else.  You sold theoretical money that you will one day have to them for
+                    |money now.  If you suddenly don't pay that debt, that money vanishes out of the system and fucks over the p
+                    |ople who gave it to you.////And that's just adding the confusion of one other group.  Take that concept at 
+                    |he global level.  The people who loaned to that company, the financial bets which fuck with the market... b
+                    |llions of people eating, paying rent, getting sick.////And all with no outside source of income... just the
+                    |money inside which is gradually inflating (which is also a good thing when at the right level).////
+
+
+                    |The US actually makes money off treasury bonds because of how low interest rates are. 
+
+
+    |Can't the whole world just agree to be like "you know what, none of us are in debt and we all have good economys"
+
+
+        |no, because they went to school and know how to spell *economies*////
+
+
+            |Why do you feel the need to correct other people?
+
+
+                |you're*
+
+
+                |because ignorance is nothing to be proud of
+
+
+                    |Neither is being a smug bastard. 
+
+
+                        |May have been far too much of an asshole in my response, but I just got done trying to reason with a bu
+                        |ch of people trying to argue the same point he asked about.  I'm put off when people that have no conce
+                        |t of how the world works think they know how to fix it.  Also, people tend to lack critical thinking sk
+                        |lls nowdays.  Ask a stupid question...
+
+
+            |&gt;No, because they went to school and know how to spell *Economies*////Capitalization. FTFY.
+
+
+                |why would I capitalize a common noun?
+
+
+            |Sorry I didnt spell check my comment which really dont matter, guess I aint half as smart as you BRO my baaaaad.
+
+
+                |Your spelling wasn't what I was actually criticizing you on, it was your lack of critical thinking.  ////Why ca
+                |'t we just "reset" everything?  Think about it in simple terms.  Say you're a businessman and you pay another b
+                |siness for some parts.  Low and behold, the government all of a sudden "resets" all debts.  Now you're screwed,
+                |because you've spent your capitol and not gotten any return, and the company you paid is sitting on physical go
+                |ds that *are* worth something.  So many people would be f**ked.////Why can't just the governments forget *their
+                | debts?  Because private companies and individuals also have a stake in government debt, and wiping it away wou
+                |d eliminate their assets.
+
+
+    |The truth is there's almost no reason for the US to default unless it chooses to do so. This is because the relationship be
+    |ween bonds and currency is special in the case where the bond issuer is the same entity that controls the currency (i.e. th
+    | US federal government).////If Ford has too many bonds outstanding that they can't pay back, they can either try to borrow/
+    |aise more money to then pay these back, or they can default. The US government (or any government issuing bonds in its own 
+    |urrency) has the additional choice of printing more money. [This was actually an issue a couple of years ago.](http://en.wi
+    |ipedia.org/wiki/Trillion_dollar_coin)////In short, yes, of course, the US can default, but it's up to the US regarding whet
+    |er or not they want to default (which is a somewhat unique position to be in - Euro countries don't have this option if the
+    |'re issuing debt denominated in Euros).////So, I wouldn't worry too much about an actual default by the US.////Source: Used
+    |to be a bond trader.
+
+
+        |Why isn't Wall Street leaning hard on the Republicans? A default surely can not be good for them.
+
+
+            |I'd imagine a lot of the larger banks are hopeful that the shutdown ends, but for some of Wall Street (trading desk
+            |, hedge funds, etc), volatility tied to events like this can be very profitable, so they might prefer a murky situa
+            |ion (government in shutdown) to a known quantity (everything is A-OK).

@@ -1,1 +1,5 @@
 1	http://www.reddit.com/r/funny/comments/1n16o8/our_doorknob_was_stolen_at_a_party_we_threw_last/
+2	http://www.reddit.com/r/funny/comments/1nsupy/stopped_by_my_brothers_house_for_a_shower_today/
+3	http://www.reddit.com/r/AskReddit/comments/1nzfg3/what_is_the_weirdest_thing_money_can_legally_buy/ccnjg1i
+
+perhaps model each askreddit reply as a submission

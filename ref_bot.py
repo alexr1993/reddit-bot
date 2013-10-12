@@ -33,7 +33,7 @@ class Post(object):
         self._id         = data.id # id is private as mongo likes that
         self.name        = data.name
         self.score       = data.score
-        self.subreddit   = data.subreddit.title # (the subreddit name)
+        self.subreddit   = data.subreddit.display_name # (the subreddit name)
         self.permalink   = data.permalink
 
 
