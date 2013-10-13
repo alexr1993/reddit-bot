@@ -15,6 +15,11 @@ global REDDIT
 global SUBREDDITS
 
 
+# TODO make it less memory intensive - keep one comment tree in memory
+# at a time rather than a whole submission worth of comments.
+# find the best way of crawling submissions for training data. I.e
+# keeping trees which have reference in them
+
 #############################################################################
 #
 # INIT
@@ -180,10 +185,16 @@ for sub in front_page:
 
 #TODO: http://www.REDDIT.com/r/redditdev/comments/1ijb3m/error_when_running_a_praw_script/
 
+#############################################################################
+#
+# AUTOMATICALLY FIND POTENTIAL REFERENCES
+#
+#############################################################################
 
 
 
-
+if re.match(".*\Wreference.*","omg a reference lol"):
+    print("ref found")
 
 
 

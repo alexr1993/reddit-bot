@@ -1,9 +1,18 @@
 import praw
 import math
 import copy
+import time
+
+# THIS CLASS IS FOR SCRAPING AND STORING ENTIRE POSTS
+# WHICH WILL BE GOOD FOR BUILDING THE CLASSIFIER BUT 
+# FIRST I NEED TO FIND A MEMORY EFFICIENT WAY OF JUST FINDING
+# REFERENCES FOR TRAINING DATA
 
 ## TODO: updgrade to use abc (abstract base claseses)
 ## python does not have abstract classes by default
+
+# TODO, let nodes be created on their own... let a tree class
+# create and manipulate groups of nodes
 
 global TAB_LENGTH
 global OUTPUT_WIDTH
@@ -28,11 +37,11 @@ class Post(object):
         else:
             self.author  = "DELETED"
         self.created_utc = data.created_utc
-        self.ups         = data.ups
-        self.downs       = data.downs
+        #self.ups         = data.ups
+        #self.downs       = data.downs
         self._id         = data.id # id is private as mongo likes that
         self.name        = data.name
-        self.score       = data.score
+        #self.score       = data.score
         self.subreddit   = data.subreddit.display_name # (the subreddit name)
         self.permalink   = data.permalink
 
@@ -52,6 +61,8 @@ class Post(object):
         seconds as necessary - probably 2 to be reasonable"""
         # accepts first replies or commetns object, returns entire tree of descendaents
         # as Post objects
+        # TODO, this should only really get a list of children ids, move the instantiation
+        # of children to another method
         output = []
 
         while True:
@@ -86,6 +97,8 @@ class Post(object):
 
             # keep pumping in more comments
             for m in more:
+
+                time.sleep(throttle)
 
                 # This true/false stuff is to prevent MoreComments.comments (praw\objects.py ln6 00)
                 # from crashing the script
@@ -199,6 +212,7 @@ class Comment(Post):
         no_nls = self.body.replace('\n', "//")
         
         formatted = ""
+        formatted += NEWLINE + (' ' * TAB_LENGTH * depth) + '|' + "Post ID: " + self._id
 
         for i in range(num_output_lines):
 
@@ -209,6 +223,7 @@ class Comment(Post):
 
             else:
                 end = start + text_width - 1
+
 
             formatted += NEWLINE + (' ' * TAB_LENGTH * depth) + '|' + no_nls[start:end]
 
