@@ -1,3 +1,9 @@
+"""Contains code related to acquiring, manipulating and classifying
+Reddit posts
+"""
+
+
+
 import praw
 import math
 import copy
@@ -45,6 +51,8 @@ class Post(object):
         self.subreddit   = data.subreddit.display_name # (the subreddit name)
         self.permalink   = data.permalink
 
+        praw_replies_object = "abstract"
+
 
         if isinstance(data, praw.objects.Comment):
             self.children = self.get_all_direct_children(data.replies)
@@ -58,7 +66,7 @@ class Post(object):
 
     def get_all_direct_children(self, replies, throttle = 2):
         """Get all top level replies for a given comment, due to API rules throttle as many
-        seconds as necessary - probably 2 to be reasonable"""
+        seconds as necessary - probably 2 to be reasonable - returns IDS"""
         # accepts first replies or commetns object, returns entire tree of descendaents
         # as Post objects
         # TODO, this should only really get a list of children ids, move the instantiation
@@ -90,6 +98,7 @@ class Post(object):
 
             # no more replies
             if more == []:
+
                 return output
 
             # update variant
@@ -111,10 +120,12 @@ class Post(object):
                 try:    
                     replies += m.comments(update)
 
-                except:
+                except Exception:
                     print("\nSAME OLD PROBLEM WITH MORECOMMENTS.COMMENTS() FOR " + str(self.permalink))
                     print("TRY USING THIS GUY'S CODE http://www.reddit.com/r/redditdev/comments/1ijb3m/error_when_running_a_praw_script/")
                     continue
+
+
 
     # TODO: Fix this by returning a list of lines which are good for printing as
     # encoding \n is messing up. Or find out how to actually fix it.
@@ -183,7 +194,7 @@ class Post(object):
             assert isinstance(p, type({}) ), "A post disk element is not a dictionary, %" % p
 
 
-        post_id = collection.insert(post_disk, continue_on_error = True)
+        post_id = collection.insert(post_disk, continue_on_error=True)
 
         print(str(len(post_disk)) + "records inserted to MongoDB")
 
@@ -230,7 +241,6 @@ class Comment(Post):
         return formatted
 
 
-
 class Submission(Post):
     """Everyting i need from praw.objects.Submission"""
 
@@ -251,4 +261,7 @@ class Submission(Post):
 
 
         # also need comments list-  maybe subclass Post
+
+
+class Tree
 
