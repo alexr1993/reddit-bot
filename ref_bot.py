@@ -82,7 +82,7 @@ class Post(object):
 
                 # append child comments to output
                 if r.parent_id == self.name and isinstance(r, praw.objects.Comment):
-                    output.append(Comment(r))
+                    output.append(Comment(r)) # Recursively instantiate children... possibly needs to be changed.
 
                 # there should only be one morecomments object for each parent per reply set
                 # set more comments variable

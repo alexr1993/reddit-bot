@@ -193,8 +193,7 @@ for sub in front_page:
 
 
 
-if re.match(".*\Wreference.*","omg a reference lol"):
-    print("ref found")
+
 
 
 
