@@ -8,6 +8,7 @@ from abc import ABCMeta
 from abc import abstractmethod
 import praw
 import re
+import math
 
 """
 Contains code created to aid the procurement of training data for ref_bot
@@ -43,29 +44,40 @@ class SnapshotTree:
     """
 
     def __init__(self, root, tier2, tier3):
+        """
+        root must be a Submission
+        tier2 must be a list of comments
+        tier3 must be nested lists of comments
+        """
         # TODO essentially implement what I tried to put in ref_bot but do it
         # with better OO and less memory intensive
         self.root  = root
         self.tier2 = tier2
         self.tier3 = tier3
 
+        assert len(tier2) == len(tier3), "Tier 2 and Tier 3 should have the same length"
+
     def ToString(self):
 
-        out =  self.root.ToString()
-        
-        for t2 in self.tier2:
+        # root string
+        out = self.root.ToString()
+
+        for i in range(0, len(self.tier2)):
+
+            t2 = self.tier2[i] # a tier 2 comment
+            tier3 = self.tier3[i] # all of this comment's children
+
             depth = 1
 
             out += NEWLINE * 2
-            out += self.t2.ToString(depth)
+            out += t2.ToString(depth) # direct child comment
 
-            for t3 in self.tier3:
+            for t3 in tier3:
+
                 depth = 2
 
-                if t3.IsChildOf(t2):
-
-                    out += NEWLINE * 2
-                    out += self.t3.ToString(depth)
+                out += NEWLINE * 2
+                out += t3.ToString(depth) # grandchild
 
         return out
 
@@ -77,6 +89,7 @@ class Post:
     __metaclass__ = ABCMeta
 
     def __init__(self, data):
+        """Data is either a praw comment or praw submission"""
 
         if data.author:
             self.author  = data.author.name
@@ -157,7 +170,7 @@ class Submission(Post):
         return output
 
 
-class SnapshotTreeFactory:
+class SnapshotTreeFactory: 
     """Take (p)raw materials, return snapshot"""
 
     def __init__(self, root, tier2, tier3):
@@ -168,7 +181,7 @@ class SnapshotTreeFactory:
         for t2 in tier2:
             assert isinstance(t2, praw.objects.Comment), type(t2)
         for t3 in tier3:
-            assert isinstance(t3, praw.objects.Comment), type(t3)
+            assert isinstance(t3, list), type(t3)
 
         self.root = root
         self.tier2 = tier2
@@ -178,9 +191,14 @@ class SnapshotTreeFactory:
 
         root = Submission(self.root)
 
+        # create comment objects for root's direct children
         tier2 = [Comment(t2) for t2 in self.tier2]
 
-        tier3 = [Comment(t3) for t3 in self.tier3]
+        tier3 = []
+
+        # create comment objects for each grandchildren sublist
+        for sublist in self.tier3:
+            tier3.append([Comment(t3) for t3 in sublist])
 
         return SnapshotTree(root, tier2, tier3)
 
@@ -197,7 +215,7 @@ class PRAWUtil:
 
     ## actually get all comment objects to be efficient
     def get_all_direct_children(post):
-        """Get all top level replies for a given comment post"""
+        """Get all top level replies for a given PRAW post"""
 
 
         assert isinstance(post, praw.objects.Comment) or \

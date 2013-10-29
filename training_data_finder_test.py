@@ -13,7 +13,7 @@ global NUM_SUBMISSIONS
 global REDDIT
 
 REDDIT = praw.Reddit("alexr1993@gmail.com classifier project")
-NUM_SUBMISSIONS = 1
+NUM_SUBMISSIONS = 4
 
 ## Crawls through old submissions and stores permalinks and snapshots to comments
 # containing the word reference
@@ -47,7 +47,7 @@ multi_reddit = REDDIT.get_subreddit(multi_string)
 # get_rising
 
 
-submissions = multi_reddit.get_top_from_year(limit=NUM_SUBMISSIONS)
+submissions = multi_reddit.get_top_from_week(limit=NUM_SUBMISSIONS)
 
 
 
@@ -61,6 +61,8 @@ def audit_submission(post):
 
     In the case of adjacent comments containing a reference i.e. siblings or
     parent/child, record the comment tree as large as necessary.
+
+    Returns None if no reference found
     """
 
     children = training_data_finder.PRAWUtil.get_all_direct_children(post)
@@ -121,7 +123,7 @@ def audit_submission(post):
 for s in submissions:
 
     ## HIJACKING WITH TEST THREAD
-    s = REDDIT.get_submission("http://www.reddit.com/r/movies/comments/1obptu/do_we_really_need_daily_update_pictures_of_the/")
+    #s = REDDIT.get_submission("http://www.reddit.com/r/movies/comments/1obptu/do_we_really_need_daily_update_pictures_of_the/")
 
     audit_string = audit_submission(s)
 
@@ -129,7 +131,8 @@ for s in submissions:
 
     print(audit_string)
 
-    break
-    #f = open(filename, 'w', encoding='utf8')
-    # f.write(audit_string)
-    #f.close()
+    if(audit_string):
+
+        f = open(filename, 'w', encoding='utf8')
+        f.write(audit_string)
+        f.close()
