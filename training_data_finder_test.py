@@ -11,9 +11,11 @@ import time
 
 global NUM_SUBMISSIONS
 global REDDIT
+global OUTPUT_DIR
 
 REDDIT = praw.Reddit("alexr1993@gmail.com classifier project")
-NUM_SUBMISSIONS = 4
+NUM_SUBMISSIONS = 5
+OUTPUT_DIR = r"/transcripts/"
 
 ## Crawls through old submissions and stores permalinks and snapshots to comments
 # containing the word reference
@@ -47,36 +49,23 @@ multi_reddit = REDDIT.get_subreddit(multi_string)
 # get_rising
 
 
-submissions = multi_reddit.get_top_from_week(limit=NUM_SUBMISSIONS)
+submissions = multi_reddit.get_top_from_month(limit=NUM_SUBMISSIONS)
 
+def audit_comment(comment):
+    """Checks a PRAW comment's children for "reference", returns a snaphshot
+    tree printout if a single comment has "reference", otherwise returns nothing
+    (actually anything starting in 'refer' will trigger a snapshot) """
 
+    assert isinstance(comment, praw.objects.Comment), type(comment)
 
+    children = training_data_finder.PRAWUtil.get_all_direct_children(comment)
 
-
-def audit_submission(post):
-
-    """
-    Do an exaustive depth-first search of the submission, recording comment trees
-    one level above and below any comment where the regex ".*\Wreference.* matches
-
-    In the case of adjacent comments containing a reference i.e. siblings or
-    parent/child, record the comment tree as large as necessary.
-
-    Returns None if no reference found
-    """
-
-    children = training_data_finder.PRAWUtil.get_all_direct_children(post)
-
-    # print(child_ids)
-
-    # examine tier of comments
     for c in children:
-
         # make a snapshot if there's "reference"
-        if re.match(".*\Wreference.*",c.body):
+        if re.match(".*\Wrefer.*",c.body):
 
             print("=" * 150)
-            print(c.body.upper())
+            print(c.body.upper().encode('cp1252','ignore'))
             # write snapshot tree to file
 
             # children = [] # DEBUG
@@ -90,7 +79,7 @@ def audit_submission(post):
             # comment containing "reference" and its siblings in the middle and
             # all of their replies as the leaves
 
-            fac = training_data_finder.SnapshotTreeFactory(post, children, grandchildren)
+            fac = training_data_finder.SnapshotTreeFactory(comment, children, grandchildren)
 
             snapshot_tree = fac.CreateSnapshotTree()
             
@@ -106,8 +95,35 @@ def audit_submission(post):
         else:
             print("-" * 150)
 
-            print(c.body)
+            print(c.body.encode('cp1252','ignore'))
 
+        # nothing found
+
+
+
+def audit_submission(post):
+
+    """
+    Search all 2nd level comments for the word reference, as they may be
+    somebody pointing out a reference a top level comment has made.
+
+    Returns list of snapshot trees, if there are any.
+    """
+
+    children = training_data_finder.PRAWUtil.get_all_direct_children(post)
+
+    # print(child_ids)
+
+    output = []
+
+    # examine tier of comments
+    for c in children:
+        snapshot = audit_comment(c)
+        
+        if snapshot:
+            output.append(snapshot)
+
+    return output
 
 
 
@@ -123,16 +139,25 @@ def audit_submission(post):
 for s in submissions:
 
     ## HIJACKING WITH TEST THREAD
-    #s = REDDIT.get_submission("http://www.reddit.com/r/movies/comments/1obptu/do_we_really_need_daily_update_pictures_of_the/")
+    #s = REDDIT.get_submission("http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/")
 
-    audit_string = audit_submission(s)
+    audit_strings = audit_submission(s)
 
-    filename = s.author.name + "_" + s.id
+    if(audit_strings):
 
-    print(audit_string)
+        name = ""
+        if (s.author):
+            name = s.author.name
+        else:
+            name = "deleted"
 
-    if(audit_string):
+        filename = name + "_" + s.id + ".txt"
 
-        f = open(filename, 'w', encoding='utf8')
-        f.write(audit_string)
-        f.close()
+        for a in audit_strings:
+            f = open(OUTPUT_DIR + filename, 'w', encoding='utf8')
+            print(a.encode('cp1252','ignore'))
+            f.write(a)
+            f.close()
+
+    # DEBUG
+    # break

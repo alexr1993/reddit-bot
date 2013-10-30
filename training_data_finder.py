@@ -9,6 +9,7 @@ from abc import abstractmethod
 import praw
 import re
 import math
+import time
 
 """
 Contains code created to aid the procurement of training data for ref_bot
@@ -54,7 +55,7 @@ class SnapshotTree:
         self.root  = root
         self.tier2 = tier2
         self.tier3 = tier3
-
+        
         assert len(tier2) == len(tier3), "Tier 2 and Tier 3 should have the same length"
 
     def ToString(self):
@@ -119,7 +120,7 @@ class Comment(Post):
 
         no_nls = self.body.replace('\n', "//")
         
-        formatted = "ID=" + self._id + ', Author=' + self.author
+        formatted = (' ' * TAB_LENGTH * depth) + "ID=" + self._id + ', Author=' + self.author
         formatted += NEWLINE + (' ' * TAB_LENGTH * depth) + '|' + "Post ID: " + self._id
 
         for i in range(num_output_lines):
@@ -176,8 +177,8 @@ class SnapshotTreeFactory:
     def __init__(self, root, tier2, tier3):
         """accept root, t2, t3"""
 
-        assert isinstance(root, praw.objects.Submission), type(root)
-
+        assert isinstance(root, praw.objects.Submission) or \
+               isinstance(root, praw.objects.Comment), type(root)
         for t2 in tier2:
             assert isinstance(t2, praw.objects.Comment), type(t2)
         for t3 in tier3:
@@ -189,7 +190,7 @@ class SnapshotTreeFactory:
 
     def CreateSnapshotTree(self):
 
-        root = Submission(self.root)
+        root = Comment(self.root)
 
         # create comment objects for root's direct children
         tier2 = [Comment(t2) for t2 in self.tier2]
@@ -280,6 +281,7 @@ class PRAWUtil:
 
                 try:    
                     replies += m.comments(update)
+                    time.sleep(2) # dont put too much strain on servers
 
                 except Exception:
                     error_string = ""
