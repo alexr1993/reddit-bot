@@ -161,3 +161,42 @@ for s in submissions:
 
     # DEBUG
     # break
+
+
+## Checking audit file, if the line starts with "AUDITED" then skip over its
+fileloc = 'c:/users/alex/documents/github/reddit-bot/auditlist.txt'
+
+with open(fileloc, "r+", encoding='utf8') as f:
+    line = f.readline()
+    while(line[0:7] == "AUDITED"):
+        print(line)
+        line = f.readline()
+
+
+a = multi_reddit.get_top_from_all(limit=200)
+        for i in a:
+    f.write(i.id)
+    f.write("\t")
+    f.write(i.subreddit.display_name)
+    f.write(" - ")
+    f.write(i.title)
+    f.write("\n")
+
+
+## This reads the file, checks if a post has been audited,
+# if it hasnt then changes its status to audited until END
+with open(fileloc, "r+", encoding='utf8') as f:
+    line = f.readline()
+    print(line)
+
+    while(line[0:7] == "AUDITED"):
+        print(line)
+        line = f.readline()
+        if line == 'END':
+            print(line)
+            print('done')
+        else:
+            f.seek(f.tell() - len(line) - 1)
+            f.write("AUDITED")
+
+# this needs unfucking but has the general tools in place
