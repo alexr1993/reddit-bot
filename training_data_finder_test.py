@@ -136,67 +136,121 @@ def audit_submission(post):
 #
 #############################################################################
 
-for s in submissions:
+# for s in submissions:
 
-    ## HIJACKING WITH TEST THREAD
-    #s = REDDIT.get_submission("http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/")
+#     ## HIJACKING WITH TEST THREAD
+#     #s = REDDIT.get_submission("http://www.reddit.com/r/todayilearned/comments/1n1bpc/til_a_study_gave_lsd_to_26_scientists_engineers/")
 
-    audit_strings = audit_submission(s)
+#     audit_strings = audit_submission(s)
 
-    if(audit_strings):
+#     if(audit_strings):
 
-        name = ""
-        if (s.author):
-            name = s.author.name
-        else:
-            name = "deleted"
+#         name = ""
+#         if (s.author):
+#             name = s.author.name
+#         else:
+#             name = "deleted"
 
-        filename = name + "_" + s.id + ".txt"
+#         filename = name + "_" + s.id + ".txt"
 
-        for a in audit_strings:
-            f = open(OUTPUT_DIR + filename, 'w', encoding='utf8')
-            print(a.encode('cp1252','ignore'))
-            f.write(a)
-            f.close()
+#         for a in audit_strings:
+#             f = open(OUTPUT_DIR + filename, 'w', encoding='utf8')
+#             print(a.encode('cp1252','ignore'))
+#             f.write(a)
+#             f.close()
 
     # DEBUG
     # break
 
 
-## Checking audit file, if the line starts with "AUDITED" then skip over its
-fileloc = 'c:/users/alex/documents/github/reddit-bot/auditlist.txt'
+## Checking audit file, if the line starts with "AUDITED" then skip over it
+fileloc = 'auditlist.txt'
 
-with open(fileloc, "r+", encoding='utf8') as f:
-    line = f.readline()
-    while(line[0:7] == "AUDITED"):
-        print(line)
+def get_next_sub_from_file():
+    """
+    Returns the next sub in the list if there are any left unaudited, otherwise
+    returns the last line which is 'END'"""
+    with open(fileloc, "r+", encoding='utf8') as f:
         line = f.readline()
-
-
-a = multi_reddit.get_top_from_all(limit=200)
-        for i in a:
-    f.write(i.id)
-    f.write("\t")
-    f.write(i.subreddit.display_name)
-    f.write(" - ")
-    f.write(i.title)
-    f.write("\n")
-
-
-## This reads the file, checks if a post has been audited,
-# if it hasnt then changes its status to audited until END
-with open(fileloc, "r+", encoding='utf8') as f:
-    line = f.readline()
-    print(line)
-
-    while(line[0:7] == "AUDITED"):
         print(line)
-        line = f.readline()
+        while(line[0:len("AUDITED")] == "AUDITED"):
+            line = f.readline()
+
         if line == 'END':
             print(line)
             print('done')
+            return "END"
         else:
-            f.seek(f.tell() - len(line) - 1)
-            f.write("AUDITED")
+            id = get_sub_id_from_file_line(line)
+            assert isinstance(id, str), "Id is not string"
+            return id
 
-# this needs unfucking but has the general tools in place
+def get_sub_id_from_file_line(fileline):
+    assert len(fileline) > 5, "Fileline is suspiciously short."
+    """parses submission ID from line of auditlist.txt"""
+    pattern = re.compile('\s+(\w+).*')
+    match = pattern.match(fileline)
+    id = match.group(1)
+
+    assert id is not None, "Regex failed to find submission ID inline"
+    return id
+
+def write_auditlist(lines):
+    """Accepts lists of auditlist lines, writes them to file, ensuring
+    one more lines has AUDITED at the start than there is currently"""
+
+    ## This reads the file, checks if a post has been audited,
+    # if it hasnt then changes its status to audited until END
+
+
+    with open(fileloc, "r+", encoding='utf8') as f:
+        line = f.readline()
+        print(line)
+
+        while(line &&line[0:len("AUDITED")] == "AUDITED"):
+            print(line)
+            line = f.readline()
+
+        if line == 'END':
+            print(line)
+            print('done')
+
+        print(f.tell)
+
+        f.seek(f.tell() - len(line) - 1)
+        f.write("AUDITED")
+
+def check_next_sub_in_auditlist(auditlist):
+    for line in auditlist:
+        if line == "END":
+            exit()
+            
+        if line[0:len("AUDITED")] != "AUDITED":
+
+
+def read_in_auditlist():
+    lines = []
+    with open(fileloc, "r+", encoding='utf8') as f:
+        line = f.readline()
+
+        while line:
+            lines.append(line)
+            line = f.readline()
+
+    return lines
+
+get_next_sub_from_file()
+check_off_next_site()
+get_next_sub_from_file()
+
+
+    # this needs unfucking but has the general tools in place
+
+# a = multi_reddit.get_top_from_all(limit=200)
+# for i in a:
+#     f.write(i.id)
+#     f.write("\t")
+#     f.write(i.subreddit.display_name)
+#     f.write(" - ")
+#     f.write(i.title)
+#     f.write("\n")

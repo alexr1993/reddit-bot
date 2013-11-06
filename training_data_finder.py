@@ -281,7 +281,6 @@ class PRAWUtil:
 
                 try:    
                     replies += m.comments(update)
-                    time.sleep(2) # dont put too much strain on servers
 
                 except Exception:
                     error_string = ""
