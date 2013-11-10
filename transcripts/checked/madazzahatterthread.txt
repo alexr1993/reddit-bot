@@ -1,0 +1,1213 @@
+Japan promoting programs to produce more hackers for cybersecurity.(/r/Technology )
+
+
+
+
+    |Hm, I feel like Japan is generally lacking in the "teaching stuff yourself" department (which so many Western "hackers" are
+    |born in), mainly because most students have their days so filled up with school, club activities, homework, cram schools an
+    | entrance exams, that there remains very little time to follow interests that lie outside the mainstream hobbies / club the
+    |es.////On top of that, there's far less PC culture over there, mainly because entire generations use their phone for everyt
+    |ing online. When you say "internet" over there, most people will think of a phone first; browsing the web on a PC is the ex
+    |eption (at least that's how it felt to me 3 years ago).
+
+
+        |I agree with this assessment, after living in Japan for two years myself.////* Phones are used way more than PCs are in
+        |regards to the internet, and thus people's interest and usage of PCs is a lot lower. Phones are way more accessible.//*
+        |Young people's time is filled with school work. Early education doesn't involve a lot of computer education, much less 
+        |ncouraging "hacking".////This whittles the pool of potential candidates to a very small number. Good to see they've ack
+        |owledged the problem in cyber-security, considering China, one of their regional rivals, dwarfs them in comparison in t
+        |rms of numbers of tech-savvy hackers/security professionals.
+
+
+            |It's a big security flaw, but I can't help but think that phone hacking will become the norm in 5-10 years time any
+            |ay, so they might actually be ahead of the curve in that regard.  I just can't imagine everything being based on a 
+            |hysical network in the future.  It seems far too insecure.  
+
+
+                |You're going to see programs designed to crack phones, but they're going to be written on computers.
+
+
+                    |For now maybe, in a decade, who knows?
+
+
+                        |As a software developer, I need these things from my work device:////* Screen real estate. This means a
+                        |ility to support minimum of 1 decent size display, preferably 20" or higher. I'm currently using 2x 24"
+                        |displays.////* Physical mouse and keyboard. On-screen keyboard and touch accuracy &amp; speed just can'
+                        | be compared to physical equivalent. With physical keyboard I can type as fast as your average professi
+                        |nal writer/typer.////* Power, lots of it. I often have IDE, two web browsers, software I'm working on r
+                        |nning in background with "autobuild when changes are made" on, plus database and several other programs
+                        |(terminal, chat programs, email software etc.) all running at the same time. Often I have a virtual mac
+                        |ine image of another OS running alongside all of this. I can run my (work) Macbook Pro battery into gro
+                        |nd with this setup faster than you can blink, if it's not connected with a power cable. Phones and tabl
+                        |ts have nowhere enough power to compete.////In addition, mobile operating systems (Android, iOS etc) ar
+                        | just too limited to provide any kind of development platform. Even if the hardware was good enough on 
+                        |obile devices, it's the OS that ultimately limits development.
+
+
+                            |cloud computing, projector phones, bluetooth or light-based keyboards////think of the future
+
+
+                                |Cloud computing is a nice idea, but in practice there are too many issues with it right now. Ne
+                                |work speed, latency, reliabiltiy, cloud service provider reliability etc.////In few decades, pe
+                                |haps.
+
+
+                                    |A decade ago we were all using a Razr and plug-in headsets.  The rate things change is asto
+                                    |nding.  
+
+
+                                |Without the feedback, it would be a nightmare to develop on a "light keyboard" considering that
+                                |nearly all the work is in typing, even chicklet netbook keyboards are better. On top of that yo
+                                | need to find a nice blank wall if you will project and screen privacy aside, it would be a mas
+                                |ive battery hog. 
+
+
+                                |Shut the fuck up you have no idea what you're talking about. 
+
+
+                                    |Why so much hate?  People would have called me stupid for saying I'd be able to listen to B
+                                    |ngladeshi radio on my phone, in San Francisco.  Now there's an app for that.  Just because 
+                                    |ou can't imagine it doesn't mean it's stupid.  
+
+
+                        |Have you ever tried typing a long message on a phone? It is pretty difficult, it takes a long time. Now
+                        |imagine writing 30,000 lines of code, with no syntax errors, and maintaining readability. Pretty hard t
+                        |, wouldn't you think?////The problem with writing programs on phones is really to do with the fact that
+                        |phones are not designed to be efficient to use, so I doubt that we will ever see a rise in 'phone progr
+                        |mmers'!
+
+
+                            |Laptops were shit to use back when they had that damn nub in the middle of the keyboard for a mouse
+                            |  Things change, and quickly.  
+
+
+                        |I know, and you're wrong. How do I know? Because you have no idea what the fuck you're talking about 
+
+
+            |China stronk in cider security 
+
+
+        |And how do you recommend starting? I'm starting my college career as a computer science major and really want to get in
+        |olved in this, but I have zero idea where to start.
+
+
+            |Hacking 101.  You don't learn to hack.  You hack to learn
+
+
+                |And riding a bike, you don't learn to ride but ride to learn, but you still need a basic idea of what you're do
+                |ng, and that's where i'm stuck.
+
+
+                    |Work through all of these//http://exploit-exercises.com/////You'll need to learn C to do it though or you'l
+                    | end up getting Level 01 for Nebula (which is the one you should start with).
+
+
+                    |Program a botnet or a RAT. And then write a crypter to bypass antiviruses. Then check out metasploit and wr
+                    |te your own exploit.
+
+
+            |Hopefully you are already programming and familiar with *nix, but if not, that is a good place to start.
+
+
+                |Learning Java this year as an introductory programming class, but i'll have access to a *nix based lab soon, ca
+                |'t remember what one though. But I'll definitely look into that.
+
+
+                    |The people who learn the most are usually the ones who take the most initiative. If you want to learn about
+                    |computer security you need to invest a lot of time. I suggest starting immediately. Choose a unix distro an
+                    | set up a machine, or run it in virtualbox. I suggest ubuntu because it is great for beginners. Learn the i
+                    |s and outs of unix. The command line especially! Read up on the underlying architecture of the internet, an
+                    | learn about what protocols do what (tcp vs icmp vs udp, etc). Teach yourself basic C and bash. After you g
+                    |t a really good handle on unix, move on to reading about pen testing. Learn metasploit. Googling "pen testi
+                    |g basics" or "metasploit tutorial" should give you a jumping off point once you get that far.////If you rea
+                    |ly want to pursue this as a career you should start ASAP, because people who have been coding and using lin
+                    |x since middle school are going to have an advantage compared to people who waited until college.
+
+
+                        |Definitely the most helpful i've found, thank you! I'll definitely get cracking on it, never really had
+                        |the opportunity until now to do this, so I'm very lost and this is helpful! 
+
+
+                            |Also, when you get into the pentesting, I recommend taking a look at [The Basics of hacking and pen
+                            |tration Testing](http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=3
+                            |amp;cad=rja&amp;ved=0CE4QFjAC&amp;url=http%3A%2F%2Fupload.evilzone.org%2Fdownload.php%3Fid%3D506085
+                            |%26type%3Dzip&amp;ei=k75RUtTAI4364AOsyICIDA&amp;usg=AFQjCNGfbFL6SoK4HCLAT7GcLcSHy_BUtQ&amp;bvm=bv.5
+                            |537100,d.dmg)
+
+
+                        |I'll latch on to this recommending Xubuntu 12.04 rather than regular ubuntu. Xubuntu is just far more s
+                        |reamlined and efficient. Regardless of ubuntu variant, you always want to get the LTE editions (long-te
+                        |m support) since they're far less buggy than the latest version.
+
+
+                    |You do realize that with virtualbox you can have a *nix lab on your windows computer right?
+
+
+                        |I was wondering about that, didn't know that. I'll definitely look into it and try figuring it out.
+
+
+                            |Dual booting is a far better option IMO if you have the space.
+
+
+                            |the process for creating a new vm with virtualbox is very easy if you pick one of the more popular 
+                            |inux distros. I prefer [xubuntu](http://xubuntu.org/) as a general use distro. virtualbox will prac
+                            |ically lead you through the whole process
+
+
+            |The nice thing about security is that it is at all levels, from the design of the protocols to the very hardware co
+            |e runs on.////So it really depends on which area you're interested in. Sounds like you're just starting your degree
+            | so you'll eventually find something. Whatever you choose, you'll find something security related.////The important
+            |thing is to have the "hacker" mindset. When analyzing a system, don't just look at how it's supposed to work. Think
+            |about how it could be exploited. Figure out what would happen if you give it B when it expects A.
+
+
+            |Do you play any games? This really only applies to Windows, but I started "hacking" MMORPGs back when I was a teena
+            |er. It started out changing the games' RAM, say to change your X,Y,Z location (teleport), and moved on to modifying
+            |the games' compiled functions to change the behavior of the game client. I made a few thousand dollars off of selli
+            |g  bots that played repetitive parts of the games.////While cheating in multiplayer is extremely shitty, it is one 
+            |f the best things I ever did because it taught me so many unique lesson and started me off as a software engineer.
+
+
+            |Your school should have hackathons. The best thing you can do is to just show up and hack *anything*. It might seem
+            |intimidating at first, but seriously just show up and you will be pretty comfortable after a couple hackathons.
+
+
+                |Haven't heard anything like that at my school, but i guess it's worth looking into. 
+
+
+                    |Check with the programming clubs at your school.
+
+
+            |Gee,  I wonder what all these unemployed hackers are going to turn to for money when they realize there aren't enou
+            |h jobs?   Hmmm,  I wonder?  At least girls that take dancing get to fall back on stripping...  which is a win-win f
+            |r society :-) 
+
+
+        |The problem is that I'm of the opinion that this sort of thing can't be taught, not really. It is something that you re
+        |lly have to live.
+
+
+            |The Chinese teach it and have some of the best hackers in the world.////The 'hackers' the US government employs are
+            |'t traditional hackers, either.  Most of them are just guys that are good at math and were trained.
+
+
+                |Really,  the best in the world?   Do you have a list? 
+
+
+        |&gt; lacking in the "teaching stuff yourself" department ////This is common to most Asian-based culture and not just in
+        |the ways you've explained, and it's not just the school taking up time. If you have a problem, people don't generally t
+        |y to find a solution before approaching a friend or anyone, and it's not just PC problems. It could be anything, and th
+        | first thing we do is go call someone. ////I was in for a good dose of cultural shock when I went to a western country.
+        |For comparison, the women-folk in western country appear far more independent than the normal city person male.////I ha
+        |e a hypothesis as to why this situation exists in either places. In Asian countries, "human" is cheap. Not cheap in mon
+        |tary terms, which also it is. But also in emotional terms. You help fix something for your friends and they don't have 
+        |o get you a beer, or money or anything like that to "thank" you. If they do, it's considered as an insult... as if he's
+        |'buying' you. You just did it because hey you're friends and that's what friends do. Likewise, when you have problems w
+        |th something else (maybe your car or something like that) you can just drag him along and complain and bitch that he sh
+        |uld try to fix it. No siree, he isn't getting off easy. He HAS to do it if he knows how to. You don't say no to friends
+        | remember?////So, if you're going to have your problem solved in an abstracted way (i.e. calling a human solves your pr
+        |blem), how would you even know that you're interested in something? It's like, if you don't *know* what x86 floating po
+        |nt registers are, because your friend fixed it for you (for instance), how would you know that you're interested in vec
+        |or math or writing assembly code? ////Also, you won't take active interest in searching for shit online except whatever
+        |is culturally relevant to your time and location, like CS, Starcraft, Dota etc. You've never had to think about network
+        |problems, so you don't know wireshark exists, and so your potential interest in wifi hacking hasn't taken off at all.//
+        |/I don't know if I'm complicating or making it clearer but this is my rant, and I'm sorry to have made you read this.//
+        |/EDIT ---////Redditors fetishisizing that Asian culture worship academics unlike American culture are stupid. We don't 
+        |orship academics. We worship achievements. Did you come rank 1? You're great. Did you get a gold medal in something? Wo
+        |, popular. Are you able to recite derivations to complex formulae flawlessly? Brilliant. Who cares for the silly bunch 
+        |f people who actually know the concepts of programming and can program themselves? The teacher is going to ask only the
+        |e set questions so might as well commit them to memory with a `dd` instead of understanding the logic.////Tragically, k
+        |owing your content will not get you that good of a grade as much as just "printing" it from a textbook. Try to implemen
+        | a cool hack for a program asked in a test, bam you get zero. Why? Because you did it in a way that wasn't taught in cl
+        |ss. Which drops your score, which makes your rank lower than others. Which makes you, in the eyes of everyone else "Oh,
+        |he's one of those people" (Asians' know what I'm talking about) with regards to social standing in class. Basically, th
+        | popularity contest results is essentially your class rank.
+
+
+        |20% of the time, google developers get to use their imagination. And in that 20% of the time, 80% of products are born.
+
+
+            |Why are you talking like you have any idea what you're talking about? You saw a video once or read an article somew
+            |ere and now you regurgitate those numbers into any relevant discussion you stumble across? ////Fuck you, retard. Do
+            |'t talk about stuff you have absolutely no knowledge of. 
+
+
+                |When Google went public in 2004, the founders’ letter from co-founders Larry Page and Sergey Brin cited 20% tim
+                | as instrumental to the company’s ability to innovate, leading to “many of our most significant advances,” incl
+                |ding AdSense, which now accounts for about 25% of the company’s $50+ billion in annual revenue. Google engineer
+                | also used 20% time to incubate Gmail, Google Transit, Google Talk, and Google News, among other projects.   -H
+                |ffington Post
+
+
+        |My dog just farted and now my entire room smells fucking awful. I'm afraid to inhale through my nose.
+
+
+    |I did about 4 years roughly as a network admin.  The first thing you come to realize is that all the schooling and certs in
+    |the world means absolutely nothing.  What is useful then?  Time.  Years of actually working on networks and systems.  I'd s
+    |e guys that were excited about finishing various cisco certs or, well, whatever and you sit them down with a router or swit
+    |h and they act like you'd tied their hands behind their back.////Moral of the story, start young and learn by doing.  That'
+    | how you become a useful part of a team and/or society.
+
+
+        |Not to mention that any jackass can go online and get the answers verbatim for those certification tests and just cram 
+        |nd pass. It's not some underground test answer ring either, it's easy-to-find stuff.////I haven't looked at jobs lately
+        |but I looked at one at a large popular company and I don't remember any mention of certifications in the description, j
+        |st experience requirements. Maybe they're catching on.
+
+
+            |hello...I don't suppose you could provide some tips on how to find the answers verbatim? It would be greatly apprec
+            |ated.
+
+
+                |LOL, I was thinking "I hope someone else asks so I don't have to be THAT GUY"
+
+
+                    |Acknowledgement is the first step.
+
+
+                |http://serverfault.com/
+
+
+                    |http://imgur.com/gallery/gPkFsRF
+
+
+                        |Can you explain this? Is it because fixing something band-aid-style without really understanding it oft
+                        |n leads to another problem popping up?
+
+
+                            |I was under the impression that Domo arigato meant thank you or something along those lines 
+
+
+                |If you can't find this out yourself, then maybe you should reconsider what you want to do.
+
+
+                    |nah  //  *edit: you know maybe I should still I am just starting out I have yet to even take a single cert 
+                    |est but I have read in text books and passed a few classes at a collage, so I am not going to reconsider be
+                    |ore I even start. That is what I should have said sorry for the disrespect. 
+
+
+            |I agree. If I was to get certs, it would be for the pay-raise (I don't even work in this field, but I'm heavily inv
+            |lved in an adjacent one). For actually getting work done, Google-Fu and past experience will speak volumes more tha
+            | a piece of paper telling you you've successfully memorized the cisco bible or whatever.//
+
+
+        |&gt;I'd see guys that were excited about finishing various cisco certs or, well, whatever and you sit them down with a 
+        |outer or switch and they act like you'd tied their hands behind their back.////We used to test to see which people actu
+        |lly learned what they were doing in those certs. It was surprising how many had a CCNA and failed at the first stumblin
+        | block:////How do you get into the configure terminal mode?
+
+
+            |Oh man, I remember talking to this lady over the phone who couldn't even figure out how to console into anything.  
+            |*That**....was a long call.
+
+
+                |Lawdy.////I was speaking to my datacenter on site person the other day, and asked him to turn off every interfa
+                |e on a debian box and turn one on with this IP/netmask...////"how do I turn off an interface?"////Please get ou
+                | of my cage.
+
+
+        |&gt; Moral of the story, start young and learn by doing. That's how you become a useful part of a team and/or society./
+        |//And what if you don't?  Are you just worthless then?////
+
+
+            |Well, it might be too late to start young but it's never too late to learn by doing.
+
+
+            |If you don't ever do anything?  I'm pretty sure that would fit the definition.
+
+
+                |No, starting young; Obviously.
+
+
+                    |&gt;Obviously////I'm supposed to get that automatically from your vague reply to a statement with two quali
+                    |iers?  Okay....You don't have to start young, but it certainly helps.  I'm getting close to 30 and can alre
+                    |dy tell that learning complex things is more difficult than it used to be.  Can it be done to great success
+                    |  Of course.
+
+
+                    |Lol. You're an idiot //
+
+
+                |I think he's talking about the fact that you don't have to start young.
+
+
+        |Excellent point, I feel like this is the case anything useful too. Say if someone wants to become rich, the best thing 
+        |o do, is start young and start by doing.
+
+
+            |I want to become young.
+
+
+        |I find it hard to believe that companies hire IT people without degrees or certifications of any kind.
+
+
+            |Of course they help with getting a job. He's saying you still won't know shit if all your knowledge comes from stud
+            |ing for certs.
+
+
+                |The certs aren't for the $80K a year network security engineer job. The certs are to get your hired as the $11/
+                |r helpdesk guy, and you start from there.
+
+
+                    |Well, I doubt helpdesk jobs care much about whether you've got a CCNA or not.
+
+
+    |They really need to, none of the corporations over there give a shit about security except those owned overseas, with the e
+    |ception of perhaps Globalsign.
+
+
+    |You know what Japan needs? More people working on web design.////There, I said it. Their web design sucks. Your average Jap
+    |nese-made Japanese-run shopping website looks like a 2001 Dawson's Creek Geocities hosted fansite. I mean, look at this sit
+    |: http://www.rakuten.co.jp/. This is one of Japan's biggest and most successful websites by the way.////Yeah. Blazingly fas
+    | internet, state of the art technology in multiple areas, and a frequent contributor to life saving medical research. Web d
+    |sign of 14 year olds.
+
+
+        |That is because most Japanese people use mobile phones to browse the internet. Simple designs translate well on to mobi
+        |e web experience.
+
+
+            |This is correct. There was a huge generation of phone tech that the west skipped, too. You know how we went like di
+            |ectly from two tone nokias to iphones? Well, there were generations of phones in between in Japan, and many people 
+            |re still on those. They can't render complex sites.
+
+
+                |whereas Japan pretty much entirelly skipped most of the early PC era, going for consoles and phones instead. On
+                |y recently (relatively) have they started getting into General purpose computing.
+
+
+                    |Japan is losing interest in consoles now that handhelds can provide comparable gameplay. 3DS recently outso
+                    |d the Wii over there. Neither the PS4 or Xbox One will be launching initially in Japan.
+
+
+                        |Also because Japanese apartments are small in most cities where people live so it's not worth owning a 
+                        |onsole to play alone. Most people game on their commutes so it's a better investment to get a handheld.
+
+
+                            |They still have their arcades too. ////Only arcades around me are at the bowling alleys. If you can
+                            |even call that an arcade.
+
+
+                                |&gt; They still have their arcades too.////Not sure you've got causation flowing the right way 
+                                |n this one. If consoles haven't taken off there because most people don't have the space to pla
+                                | with friends, communal gaming would naturally stay in the arcades. Over here arcades face fier
+                                |er competition.
+
+
+                            |this makes a lot of sense. Most of my old group of buddies I would game with bought laptops just so
+                            |we could break out some gaming no matter where we happened to be. At Mcdonalds? Lets play TF2./////
+                            |Coffee shop? Who wants to play CSS?//////Buddies apartment? Lets set up a Minecraft server and play
+                            |LAN whild drunk all night!
+
+
+                                |playing TF2 at mcdonalds////sounds like a cool group of dudes
+
+
+                        |[Japan PS4 pre-orders sell out in minutes.](http://www.dualshockers.com/2013/10/04/the-ps4-sells-out-fa
+                        |ter-than-hotcakes-at-all-major-japanese-retailers-in-most-cases-within-minutes/)
+
+
+                            |Ok?
+
+
+                                |&gt; Japan is losing interest in consoles now that handhelds can provide comparable gameplay.//
+                                |/-mcilrain
+
+
+                                    |And?////If you're trying to suggest that a console's pre-orders being sold out is the sole 
+                                    |ndicator of a class of platform's success or viability then casts doubt on your reasoning a
+                                    |ility and understanding of the videogame market.
+
+
+                                        |&gt; If you're trying to suggest that a console's pre-orders being sold out is the sole
+                                        |indicator of a class of platform's success or viability then casts doubt on your reason
+                                        |ng ability and understanding of the videogame market.////So this console's sales mean n
+                                        |thing...////&gt; Japan is losing interest in consoles now that handhelds can provide co
+                                        |parable gameplay. 3DS recently outsold the Wii over there.////But this confirms console
+                                        | = doomed! ////Yeah you sound like a real expert on the videogame market.
+
+
+                                            |You're a fucking idiot. How does that seriously translate to "console sales mean no
+                                            |hing" in your head? Fucking moron. 
+
+
+                                            |&gt; But this confirms consoles = doomed!////I never said that.////Compared to othe
+                                            | countries, home consoles are becoming a relatively niche thing in Japan and consid
+                                            |ring their size, cost and lack of versatility you'd have to be delusional to not se
+                                            | the home console platform starting to die down in Japan.////How blind do you have 
+                                            |o be? Look at the publisher support! None of them want to devote the huge budgets n
+                                            |cessary to produce an eighth generation game aside from the international mainstays
+                                            |especially when they can make the same game for the 3DS for a third of the cost and
+                                            |sell twice as many copies.
+
+
+                                        |The pen is blueeeeeeee
+
+
+                                            |The god damn pen is blue!
+
+
+                                            |The supply is limmitteeedd
+
+
+                                        |No. It simply shows that Japan is not losing interest. It's probably a more complex sit
+                                        |ation if consoles are not doing as well as they used to in Japan. Look at the birthrate
+                                        |of Japan: 1.37 in 2012, and it has been famously low for a long time. The baby boomers 
+                                        |re already in college or have graduated. They're less likely to buy a console than peop
+                                        |e in high school or younger. 
+
+
+                        |And? A family can need anywhere from 1-4 3DS but only ever 1 Wii U.
+
+
+                            |You're not going to cut that Wii U up into 4 parts and then take each part on the train to school/w
+                            |rk.
+
+
+                                |Maybe *you're* not going to
+
+
+                |This isn't right, maybe in America not the rest of the world.
+
+
+            |Additionally, there is a culture difference when it comes to design. The West tends to prefer minimalism whereas th
+            | Japanese prefer to have "busy" layouts that optimize real estate for information. Japanese television follows simi
+            |ar patterns.//////A good example is Yahoo's dominance over Google in Japan. Compare each homepage (google.co.jp vs 
+            |ahoo.co.jp). //////Source: I work with Japanese technologists.
+
+
+                |That's interesting because I just experienced what you're talking about. I went on the rakuten site and the Jap
+                |nese version looked very cluttered and lively but when I went to the English version it was desolate. Could par
+                | of that also be the English version is less popular though?////edit: I found out the english version is buy.co
+                | that was apparantly bought out by rakuten
+
+
+            |This website looks nice on my phone
+
+
+            |So why not have a separate mobile site?
+
+
+                |because the most prevalent usage is mobile usage. In Japan, everyone has an internet capable phone. //////Not m
+                |ny people have personal computers unless they're rich (can afford a bigger apartment/house), a gamer, or have a
+                |small netbook for school work mostly because houses and apartments in Japan are tiny. Fun fact, Netbooks displa
+                | mobile versions of sites better because of the tiny resolution. //////Source: I know someone who's lived in To
+                |yo all of her life. I've asked about things like these. 
+
+
+                    |My host family had a personal computer as well as a laptop when I was in Japan, I never saw the computer tu
+                    |ned on and the laptop was used a little. //
+
+
+                    |For the most part you can detect mobile devices and serve mobile friendly websites automatically.  
+
+
+                        |I know, but the point I was trying to make is it's easier to just do one design since if you design for
+                        |mobile with simple text, it should translate and scale just as well to desktop, thus not spending money
+                        |on a second design. 
+
+
+                |The better question to ask is why not have a separate desktop site? ////And the answer is like why a lot of web
+                |ites still don't have mobile sites in America, it's not worth it. 
+
+
+            |There's also the fact that to (most of) our eyes, written Japanese just looks like noise since we can't understand 
+            |he characters. So while it's still messy by western standards, it's not as bad as it looks to us on first glance.
+
+
+            |That website (http://www.rakuten.co.jp/) isn't a mobile friendly website at all. Try adjusting the borders, if it's
+            |too thin then the "infoseek" button on the right side will disappear and you can't scroll to it. Also the buttons a
+            | the top are way too small to be considered mobile friendly.
+
+
+                |Try accessing it with your phone. It serves up a mobile friendly version. 
+
+
+                    |If the mobile version is different then why does the desktop version have to be so simple?  
+
+
+                        |because flashy for the sake of flashy is not the japanese way?
+
+
+                            |There's a difference between a good design and a flashy design 
+
+
+                                |Comparing that company's English and Japanese sites, the Japanese one appears to provide more i
+                                |formation (more sales, business practices, detailed sidebar) up front and suggests several item
+                                | that someone might be interested in purchasing. The English one provides a single sale and a l
+                                |st of categories of things people might be looking for, and if you scroll past those there's th
+                                | specific recommendations with a slightly more "modern" look to the arrows. Both are functional
+                                | but the English one appears less eager to be useful.
+
+
+                        |Look at the English site for comparison. It looks much more modern. Maybe that is the style that they l
+                        |ke, and are catering to Western countries with the more stylized version? Just because we do it one way
+                        | doesn't mean it's their preference too or better.
+
+
+                |Can confirm.  Works great in Chrome and Reddit is Fun app.  
+
+
+        |maybe it just make sense for Japanese targeted customers ////if it is different it does not mean it is stupid - it is j
+        |st diferent culture////as someone pointed out - their english version of this site looks very decent according to weste
+        |n culture standards
+
+
+            |^ this. Not all cultures try to pander to idiots.
+
+
+                |I don't think streamlining design means pandering to idiots. You're pretty much doing exactly what zenicaone wa
+                | talking about by saying different = worse
+
+
+                    |But le Americans r stoopid tho amirite?
+
+
+        |It's weird that the english website actually looks decent.
+
+
+            |Here is the English version: http://www.rakuten.com////For me, I think the Japanese just like that style of web des
+            |gn, where everything is compact and you need a degree to operate it.////I think the Westernized version has been ki
+            |d of dumbed down :(
+
+
+                |&gt;you need a degree to operate it.////It's a shoping wesbite..
+
+
+                    |SHOPPING 
+
+
+                    |I bet most Westerners would be lost if the website didn't consist of a few pretty pictures, a small text fi
+                    |ld for a full caps name of the item, and a big green "BUY NOW" button. 
+
+
+                |there are patterns in all japanese websites, they know how to navigate them.
+
+
+            |The english site is Buy.com. They were bought out by Rakuten.
+
+
+        |Why? Their target audience isn't complaining. They like it. It works. Everybody's happy.
+
+
+        |Everyone knows this, except Japanese people. The thing is, Japanese internet users don't WANT better design. Yahoo trie
+        | to streamline their Japanese homepage to match that of their overseas counterparts, but the Japanese users straight up
+        |went crazy and revolted about it until they changed it back.////I read somewhere in a poll as well that Japanese people
+        |actually preferred a cluttered, difficult to use design over more streamlined and user-friendly designs.
+
+
+            |I know what you're talking about regarding Japanese web design, but it seems strange when this same culture has min
+            |malistic Zen design. 
+
+
+                |To be fair, nothing would look minimalistic with kanji all over it.
+
+
+                    |i know you're joking, but [oh god it's minimal, and so beautiful.](http://i.imgur.com/CxoUZuv.jpg) 
+
+
+                |because being minimalistic means tightly mapping the interface with the complexity of the system. If a systems 
+                |as a lot of "touch" points with the user and you want to "simplify", you either have to reduce the complexity o
+                | the system by a complete "mechanical" redesign, or hide touch points from the users. The first option can clas
+                | with the system's requirements, while the latter is not very minimalistic nor "Zen" (only the superficial west
+                |rn interpretation of zen).
+
+
+            |Come on, man. *better* is entirely subjective.
+
+
+            |It makes sense that the Japanese prefer a crowded web page. 
+
+
+            |I'm a graphic designer and I love Japan... but I definitely wouldn't want to move to Japan and do my job there. Clu
+            |tered design would bother the everliving fuck out of me.
+
+
+                |That's just bad design.
+
+
+                    |That's just like, your cultural perception man. 
+
+
+            |&gt;but the Japanese users straight up went crazy and revolted about it until they changed it back.////Happens ever
+            |time youtube changes their layout. People hate change, but they'll get used to it.////Not dismissing the rest of yo
+            |r argument btw, but I think that one isn't unique to the Japanese.
+
+
+            |Do the sites operate better on older hardware since they seem to be strictly text based? I know my old 3G struggles
+            |with most websites that are heavy on scripting reducing my shitty phone to a crawl.
+
+
+            |Well, I wish we had too, the new yahoo design is hideous.
+
+
+            |You'd think people would be able to piece together that one of the most educated and weird cultures on the planet c
+            |uld only have weird web design by choice wouldn't you? Maybe not. 
+
+
+                |Weird?  In what way?  I bet they think we're weird over here with our Lady Gagas and Human Centipedes.  That's 
+                |ust what happens when you judge a culture from the outside.
+
+
+            |right down to that horrible monospaced font
+
+
+        |//The habits of watching are exactly different between Asian and western, that makes their web design in two different 
+        |ays. Asian like to grab information as much as possible at one glance while western prefer a more clear showcase. The r
+        |ason of the difference maybe relate to the languages they use. The interfaces of news programs in Asian and western cle
+        |rly point out the differences between Asian and western they want. 
+
+
+            |I should probably move to Japan or Korea, I'm an information Junky. 
+
+
+        |After a while, you start to wonder if what is just obvious to you, really is in fact better, or if it's all just down b
+        |ing used to A far, far more than B, going as far as your reasoning also all being made up from the same sort of things,
+        |where X aspects and elements that make up A are just "naturally" better than these Y ones that make up B.////I'm starti
+        |g to wonder this now. I've been aware to how people just accept what is normal to them to be the "correct" way, but I t
+        |o really thought how web design in Japan is... on a different level, one behind the west. But thinking about this now, 
+        |aybe there's far more too it, like the stuff I just said above. In fact I'm sure there is, as I'm having a bit of a nos
+        |algic feeling right now, after having gotten used to these sites made with rather different philosophies it would seem 
+        |nd having been living in Japan for 5 years now, remembering how I used to feel about such sites when I first started us
+        |ng them. (I'm also sure it's a LOT easier to find what you want in what appears to be a sea of information when you can
+        |flick through it all and recognise what you need in an instance, like I can naturally do in English yet no where near d
+        | as well in Japanese and could absolutely not do at all 5 years ago. Try a wikipedia article for example.)
+
+
+        |Japanese magazines and TV shows have that crowded look too. It's just a cultural thing I guess.
+
+
+        |Good point there!  ////That is one of the main reasons why I started a web dev company in Japan specializing in clean l
+        |oking designs that are also responsive for mobile users. ////When I first started out, it was just amazing how almost t
+        |e entire nation was still on IE6 (Internet Explorer 6) and still using it. (For those who aren't designers, IE6 is just
+        |a total nightmare for designers.) ////Not sure why that is but I have noticed that simple computer security protocols i
+        |e. updating software just isn't a thing for many Japanese here esp. considering that most of the entire nation are oldi
+        |s that are stubborn or just don't know how to update.////That also adds to the point that Japan being a graying nation 
+        |s also another reason why Japan is having problems looking for young talented hackers TMO. High costs of living and cra
+        |y working hours are taking away the essential love-making hours so that special talented someone is not born yet. It's 
+        |ike in Civ5 when you have a declining population, you lose out getting an Einstein.////Last but not least, since there 
+        |ren't that many young people it doesn't really help when what you got of your country's future is out there studying th
+        |ir brains out at cram schools or participating in club sports instead of spending that valuable time to explore.
+
+
+        |I have to wonder, do Japanese people actually like that kind of design?
+
+
+            |I'm half Chinese. Asian websites are designed like that because languages like Chinese, Japanese and Korean lend th
+            |mselves to much heavier compression than English does. You can fit a lot more text and information on the page with
+            |ut necessarily sacrificing clarity or breaking language rules. Also, smartphones are a lot bigger in Asia than in A
+            |erica. Cramming all of that stuff onto a page also makes mobile browsing more friendly. ////////Whenever I show Eng
+            |ish websites to my Asian friends they always comment on how much wasted space there is. They like the clutter, and 
+            |ust because it doesn't look nice it doesn't mean it's necessarily programmed or designed poorly. 
+
+
+                |So what you're saying is that Asians hate whites...^pace.////EDIT: Whitespace, people. Whitespace. It's a desig
+                | joke.
+
+
+                    |I chuckled 
+
+
+                    |[aaah](http://i.imgur.com/iR5bcMn.gif)
+
+
+                |I disagree that it's due to language density.  Even if you disregard the fact that everything is cluttered, it 
+                |till looks like shit.  Horrible colors, bad layout, poorly designed graphics and so forth.////Now, here's the t
+                |ing- design is objective.  To the Western eye, that looks like crap.  But, they might say the same of our websi
+                |es which do, admittedly, "waste" a lot of space.  ////So, I both get it and don't get it... if that makes sense
+                |  I can understand that tastes differ, but I can't come to recognize what looks nice about that sort of design.
+
+
+                    |&gt;Now, here's the thing- design is objective.////Not objective. Subjective. Objective means that it's the
+                    |same regardless of perspective.
+
+
+                        |Correct. Mistakenly used the wrong word.
+
+
+                    |Classic reddit down votes. Come on guys. Don't use down votes simply because his opinion is different. 
+
+
+                |Aren't all smart phones more or less the same size though? 
+
+
+            |Studies have shown that they do!
+
+
+                |I don't suppose you have a link to these studies?
+
+
+                    |[What more proof could you need.](https://www.google.com/search?q=japan+prefers+a+crowded+web+page&amp;ie=u
+                    |f-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a#q=%22Japanese+prefer+a+cr
+                    |wded+web+page%22&amp;rls=org.mozilla:en-US%3Aofficial&amp;safe=off)////PS: the google crawler works fast.
+
+
+                        |ahahahaha
+
+
+                        |wat...
+
+
+                        |First link is this submission.////You failed hard.
+
+
+                            |Both links were my submission, that was intentional.
+
+
+                                |good one..?
+
+
+                                    |thank you..?
+
+
+            |Yep. Look at Chinese and Japanese magazines, they look pretty similar.
+
+
+            |I think so. Their magazines and TV shows are often cluttered with text also.
+
+
+        |Other people's aesthetic is none of my business.
+
+
+        |Web designer who almost did his internship in Japan here. To my recollection, the biggest browser userbase over there i
+        | IE, so these sites are designed mainly around working in IE (whereas over here we'd design around Chrome/Firefox and t
+        |en provide IE support, this also explains the lack of innovation in websites, not to say all of them are like this - th
+        |re are some pretty cool websites in Japan.)////EDIT: Not sure why I'm being downvoted here but here are some statistics
+        |to back it up: http://clicky.com/marketshare/jp/web-browsers/
+
+
+        |different priorities.  perhaps they realize aesthetics are largely inconsequential to function.
+
+
+        |That website doesn't look that bad. Sure it's not an amazing orgy of web design, but it looks effective and arguably be
+        |ter than western sites like Amazon.
+
+
+        |Japanese users feel more relaxed and happy when presented with lots of text. And then throw in some images with text. T
+        |e reason the design looks like it does is because that is what converts users the best.////If you show them a modern US
+        |style design for a new service, the page will be pretty bare and the Japanese users will not feel comfortable. So you l
+        |se signups and sales, which is what drives online sites.
+
+
+        |There are so many excuses in response to you that it's astounding. I've worked with Japanese e-commerce websites, and h
+        |ve designed things in Japanese, and the simple truth is that, in general, their average web design could easily be much
+        |better. Yes there are cultural preferences, yes they use more mobile, but completely outside of these issues the design
+        |is often still crappy. It is entirely possible to pack in loads of information, in a mobile friendly format, and still 
+        |ook good to both western and eastern eyes. The content is not the problem, shitty design is. While that's an aesthetic 
+        |udgement, it's not purely cultural. There are plenty of Japanese websites that have what both westerners and easterners
+        |would agree is objectively good design (if there is such a thing, but that's a different debate). 
+
+
+        |To be fair, Apple has been pushing simplified design their entire time in business. //////Windows 8 looks like it was d
+        |awn up by the people who design fisher price toys. //By this point I'm pretty well used to minimalistic chunky design. 
+
+
+        |Asian markets are very inward looking. Especially the Korean, Chinese and Japanese Internet - western designs simply do
+        |sn't suit their tastes.
+
+
+        |I remember reading some stuff on the issue, it wasn't lack of training. it had to do with the ingrain culture of promot
+        |ng people as a reward. The gist of it was, people with talent were being promoted out of the areas they really needed t
+        | be in.////It had alot to do with all those hacks on their websites (sony...) that happened in the past couple of years
+
+
+        |to be fair, the western (english) version of Ratuken has a better design. 
+
+
+        |Wow, that really is a huge mess. Even the words are all messed up and jumbled.
+
+
+        |Good web design won't stop the Cylons. We need to be perfecting cyber security now, before the Japanese invent the Cylo
+        | race.
+
+
+        |Yes, that web design has quite an interesting font choice, can't expect people to understand what they are trying to ge
+        | across.
+
+
+        |The mobile version is not bad
+
+
+        |But their english page is okay.
+
+
+        |Perhaps it's because I can barely read any Japanese at all, but it feels like that entire web page is yelling at me. :(
+
+
+        |&gt;  http://www.rakuten.co.jp/////That looks just as cluttered as any Google site at its best. What's the problem?
+
+
+        |You also have to realize culture transcends things like web design, there's a lot more going on there than just shitty 
+        |eb design.
+
+
+        |Why do web design or security when you can make VIDEO GAMES!
+
+
+        |lol i bought a laptop from this site. It came with 7 Malware. I called them they said ship it back and we will refund y
+        |u in 7 days. After 7 days i was refunded my $ 757 dollars. Call me superstitious, but 7 is no longer a lucky number for
+        |me 
+
+
+            |...and you had an onion on your belt, which was the style at the time.
+
+
+        |Japan has a large elderly population who are very resistant to change, [Yahoo Japan](http://www.yahoo.co.jp) for exampl
+        | has all of the same design problems as the site you just posted, the problem is that old websites can't change their d
+        |sign easily without backlash, leading to websites that look like they were designed ten years ago because they were.
+
+
+            |That looked pretty good on my phone
+
+
+        |As a 14 year old web designer, I'm insulted.
+
+
+        |B-but rails....////Just kidding. Ruby is the worst language ever and Japan is responsible.
+
+
+            |Spoken like a freshman CS student. Please point out all the technical problems that makes Ruby the 'worst language 
+            |ver'.
+
+
+    |Is there something like this going on in America? 
+
+
+        |Pick a 3 letter agency, they probably do expos on it. That may lead to internships if you do well.  
+
+
+            |What on Earth would the EPA hire hackers for?
+
+
+                |Gotta hack the planet.
+
+
+                    |By our programs combined...
+
+
+                        |Love it.
+
+
+                    |HACK THE PLANET!
+
+
+                        |(guy in the background) HACK THA PLANAT!
+
+
+                            |HCK TH PLANAT!
+
+
+                    |I love you. 
+
+
+                |Serious answer, to protect EPA servers
+
+
+                |Protecting online ecosystems.
+
+
+                |pen testing their data servers probably. 
+
+
+        |I am in a computer science with security track at my school. Maryland is big on cybersecurity- I know I am one of a cou
+        |le hundred or so in my major.
+
+
+            |PM me if you're interested in Network Analysis and want a job when you graduate.
+
+
+                |Let's talk cashflow.
+
+
+                    |He'll probably get about tree fiddy
+
+
+                    |min cash, max flow.
+
+
+        |I've always imagined that it goes something like that first part of The Matrix, except instead of ~~Neo~~Thomas Anderso
+        | giving Agent Smith the finger, he accepts his job offer.
+
+
+        |Yes.
+
+
+        |Yes.
+
+
+        |I actually just joined up on this: http://www.cyberaces.org/////**Edit:** Oct 12 (Sat): Registration deadline//////You 
+        |ave until the 15th to take the first quiz I believe.////Following the rabbit hole: www.cyberaces.org -&gt; www.cyberfou
+        |dations.org -&gt; www.sans.org (provides $ for high school education initiative?)
+
+
+        |I don't believe so. There's been talks of starting stuff like this in America however I don't think there's been any ac
+        |ion. If I remember correctly one of our guest lecturers claimed that we only graduate something like 40% of the needed 
+        |mount of qualified cybersecurity students to fill these positions. Not only that, in firms where no one else exists to 
+        |ill these positions it's extremely hard to see whether or not these people are competent. 
+
+
+            |Sure there's been action. [CyberPatriot](http://www.uscyberpatriot.org/Pages/default.aspx) is a large competition f
+            |r high schoolers and I'm sure there are plenty more.
+
+
+        |There is but it hasnt caught on very much since its a very difficult field to get into since it pulls from both crimina
+        | justice and computer science. I graduated in a class size of 2 and the degree had only been made available for a year 
+        |rior to when i went there. when I got my degree in computer security (Computer Security and Information Assurance degre
+        | to be exact) most of the time to get into security, you just need certifications an it background and an interest. But
+        |its starting to sway more towards having your degree etc. 
+
+
+        |As an American, there's nothing going on in America right now.
+
+
+    |Too many NEET.
+
+
+        |For those that don't know, NEET stands for Not in Education, Employment, or Training.
+
+
+        |Welcome to the NHK. 
+
+
+    |ghost in the shell?
+
+
+        |ASCII what you did there.
+
+
+    |They need to.  China is.
+
+
+    |This and two more world wars to get Ghost in the Shell rolling by 2030.  Fucking chop-chop.
+
+
+    |The problem is that there is very little support to learn computer science or electrical engineering. I know that at the lo
+    |al university here, their CS tutoring hours are something like 11am-2pm or -3pm, Monday through Saturday. Those also happen
+    |to be the hours where the intro classes are also scheduled. When you finally do manage to squeeze in an hour or 45 minutes 
+    |o get some help, you get into a lab with 1 tutor and 12 students. Everyone drops out of the intro classes because there's n
+    | way to keep people interested. Yeah, it's cool that the guys who have always had an interest stick it out and make out, bu
+    | that doesn't change the fact the fact the number of people who can do more than set up a MAC address requirement on a rout
+    |r is very low.
+
+
+    |Are there certain cultures that seem to feature, promote, or for whatever reason, produce much better CS people, hackers, o
+    | whatever you'd like to call it? This is a legitimate question; there might be a selection bias or a confirmation bias goin
+    | on here, but I do get a sense that it's not equally distributed.////For example, in some of the Nordic countries, there se
+    |ms to be some very prolific folks. DVD John, Pirate Bay, Linus Torvalds, etc.////And then there's Israel, which had the unp
+    |blished MD5 attack that went into Iran; maybe that's simply because of the level of funding that they had?
+
+
+    |could be taken directly from some novel in the 80s:"in 2013 the japanese began a program to recruit cyber soldiers to take 
+    |ver the world or something"
+
+
+    |This makes me laugh. I work for a Japanese company and they are severely behind the times in terms of technology (10-15 yea
+    |s in some cases). Because of this, most of the IT staff are completely clueless and the majority have never even heard of L
+    |nux, cloud computing, or virtualization. Just to give you an idea of how clueless they are, we had an "IT expert" from Japa
+    | visit for several weeks because our office was rolling out a new ERP system. The dumb ass got busted by our local IT staff
+    |for downloading massive amounts (gigabytes worth) of porn over the wireless network during business hours. When confronted,
+    |he said he didn't think anyone could see him download porn over wireless.
+
+
+        |Aren't you generalizing too much? That's the IT staff of just one company.
+
+
+            |Expert implies that there is some level of commonly accepted level of knowledge that passes for expert among a gene
+            |al community. So this should reflect the general knowledge of the discipline.
+
+
+                |IT expert of one company, not necessarily representative of the IT industry in Japan. We don't even know the qu
+                |lifications of this 'expert,' aside from his being from Japan, works for a Japanese company, and that NoMo know
+                | him. 
+
+
+            |Regardless, it's true. The Japanese are actually very clueless when it comes to the latest in tech. That's not an e
+            |aggeration at all.
+
+
+            |Maybe I am, but this seems to be a common theme with every Japanese company I've ever dealt with. I currently work 
+            |or a Japanese company, but I have also worked with Japanese vendors and even a joint venture with a Japanese compan
+            | in the past. In every case they make great products but they are clueless about technology and marketing.
+
+
+    |The future of warfare will not be determined by how many guns you have, or how big your bullets are. Cyber warfare will bec
+    |me even more increasingly a part of future conflicts. Sending in 10,000 troops to overtake a city is a waste when a team of
+    |hackers can remotely kill all power and utilities.  
+
+
+        |It will play a big part, that's for sure. However, infantry is still the best way to hold ground.
+
+
+            |Dont get me wrong, man power is not easily replaced, and still necessary.
+
+
+            |Propaganda to sway the collective consensus is another tool.
+
+
+        |China is investing heavily in this apparently. Judging by the recent attacks on american websites they are getting fair
+        |y good. A very interesting read is an article from 1995 in which Chinese generals highlighted the importance of informa
+        |ion tech and hacking as a crucial part of wars in the future. Below some highlights from the article, which was also in
+        |pired by the US military at the time:////"Information warfare is a means of armed struggle aimed at seizing the decisiv
+        | military superiority and focused on the control and use of information." General Sullivan, U.S. Army Chief of Staff, h
+        |lds that "information is the most crucial combat effectiveness," with the essentials of "battlefield information warfar
+        |" being to "collect, process, and use enemy information, and to keep the enemy from acquiring and using our information
+        |" A U.S. combat theory analyst sums up the substance of information warfare in six points:////* To obtain intelligence 
+        |n enemy military, political, economic, and cultural "targets," and to keep the enemy from acquiring intelligence on one
+        |s own similar "objectives."////* To destroy or jam the enemy's C3I system, and to protect one's own C3I system.////* To
+        |ensure our use of outer space information and to keep the enemy from using space information.////* To establish a compr
+        |hensive data processing system that covers everything from sensing to firing.////* To establish a mobile and flexible i
+        |formation and intelligence data base.////* To use simulated means to help commanders make decisions."////And,more inter
+        |stingly:////"The essential substance of information warfare in the narrow sense is made up of five major elements and t
+        |o general areas. The five major elements are:////* Substantive destruction, the use of hard weapons to destroy enemy he
+        |dquarters, command posts, and command and control (C2) information centers////* Electronic warfare, the use of electron
+        |c means of jamming or the use of antiradiation [electromagnetic] weapons to attack enemy information and intelligence c
+        |llection systems such as communications and radar////* Military deception, the use of operations such as tactical feint
+        | [simulated attacks] to shield or deceive enemy intelligence collection systems////* Operational secrecy, the use of al
+        | means to maintain secrecy and keep the enemy from collecting intelligence on our operations////* Psychological warfare
+        | the use of TV, radio, and leaflets to undermine the enemy's military morale."////From:http://www.fas.org/irp/world/chi
+
+
+    |"Hackers" . . . sigh.
+
+
+    |Nice alliteration man
+
+
+    |I guess with "hackers" they mean professional programmers/coders 
+
+
+    |This sounds like the plot to an anime.
+
+
+    |Anything man-made, can be broken into.
+
+
+    |As a Security and Risk Analysis major, this bodes well for my future job market.
+
+
+    |Funny I see this on the front page right when I finish watching Ghost in the Shell...
+
+
+    |Neat. There could also be some value in setting up some faux systems for interested applicants to play blackhat/whitehat on
+
+
+    |I don't get it. Why would Japan want more people to log in to people's facebook accounts?
+
+
+    |Ghost in the shell sort of stuff.  Cool.
+
+
+    |That's a coincidence, this morning I got an alert saying 'suspicious sign-in prevented' and the location was from Japan, To
+    |yo. 
+
+
+    |The next generation will be fluent in using computing, it will be so second hand nature to them that the under workings wil
+    | be beyond comprehension.
+
+
+        |Maybe, maybe not. You don't learn how to program or how things work just by using some GUI's. I know a lot of people th
+        |t grew up with computers and can't do shit if there is not a big button for it. In my opinion the smartphone culture al
+        |o moves things in the wrong direction. Desktop computers are open plattforms and often tempt the users to become active
+        |and explore stuff. That is way harder with a smartphone.
+
+
+    |surprise, its japan
+
+
+    |Beautifulcreampie. What about Craiglist (the 9th most used website in the US). They still have their original layout from t
+    |e early 90s. Yet appeals to everyone due to its simplistic layout.
+
+
+    |Command and conquer generals - zero hour? 
+
+
+    |I too, love "Ghost in the Shell."
+
+
+    |Did anyone read this article?  "Japan is under growing pressure to generate more computer hackers…"
+
+
+    |Hmm, they're doing what America has been doing for over a decade, ever hear of the cybercorps?
+
+
+    |I suspect this may be a big sting operation to find the buy(s) who wrote [Perfect Dark](http://en.wikipedia.org/wiki/Perfec
+    |_Dark_(P2P)) (and possibly [Share](http://en.wikipedia.org/wiki/Share_(P2P)) too).////It's rarely heard of outside of Japan
+    | but Winny -&gt; Share -&gt; Perfect Dark (PD) were/are a series of encrypted, deniable and anonymous P2P systems. Sort of 
+    | high-bandwidth domestic Tor specifically for sharing files (don't P2P through Tor, the network doesn't have the bandwidth 
+    |or it). Downside is the minimum requirements are somewhat high; 100KB/s upload bandwidth and a 40GB cache folder. So far, t
+    |e only people identified using PD are those who foolishly used the same handle elsewhere. 
+
+
+    |hackers for security? seems legit.
+
+
+    |Don't make the mistake of thinking everyone in Japan is a technically advanced Sci Fi loving nerd. As a military American n
+    |twork security person here in Japan for the last 9 years, I can assure you that many Japanese lack coordination, common sen
+    |e and anticipation of danger. They simply can not design a better website. Send them overseas for two years and they are cu
+    |ed.
+
+
+    |[Relevant](http://media.tumblr.com/tumblr_m54aeejeco1qebvxl.gif)
+
+
+    |Ever heard of cryptoanalysis? It's exactly what do, and it is perfectly legal.
+
+
+    |THIS IS IT, GUYS////THIS IS HOW GHOST IN THE SHELL STARTS
+
+
+        |i was thinking the same thing. i really wish i could be apart of this. but i'm only beginner cracker and know only conv
+        |rsational japanese     -_-
+
+
+    |The word security makes me laugh
+
+
+    |You know what Japan needs? More people working on the god damn reactor.
+
+
+    |Yeah, 'cos I can't see *that* plan backfiring on them..
+
+
+        |The more hackers there are, the faster issues get fixed. When these software engineers get trained in hacking, they'll 
+        |e better at identifying and rectifying legitimate threats. The only way to train them for this is to teach them how to 
+        |ack. In addition, one or two additional hackers aren't going to make a huge difference. It's better to have a good pree
+        |ptive defense than to only have a passive defense.
+
+
+            |So it's a case of increasing home grown talent, which will inevitably lead to better overall protecting against for
+            |ign attacks.  Yes, training more Japanese hackers will result in more attacks internally, but those are less danger
+            |us than attacks from the outside.  ////i.e. if American hacker tries to hack a government installation, his motives
+            |are more likely mischievous or political than dangerous.  Compare that to an attack from a Chinese or Russian hacke
+            |, and the distinction becomes clearer.
+
+
+    |[deleted]
+
+
+        |radioactive radiation? What?
+
+
+            |The radiation is apparently undergoing decay, releasing further radiation. It doesn't stop there, though - it's rad
+            |ation all the way down.
+
+
+                |Fukushima: First perpetual power source
+
+
+            |He is making a comment on the radiation leaking from the Fukushima plant. But yea...
+
+
+            |There is a whole spectrum of mostly non-radioactive radiation, only the higher frequencies are ionizing.
+
+
+                |But radioactive means its radiating radiation. It has nothing to do with ionization
+
+
+                    |Radioactive atoms emit ionizing radiation when they decay. 
+
+
+                        |Not quite. Some of them emit ionizing rad
+
+
+        |How is this relevant to the thread?

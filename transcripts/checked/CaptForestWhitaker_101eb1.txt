@@ -1,0 +1,29 @@
+
+===============================================================Snapshot Start===============================================================
+|ID: c69l7po, Author: DELETED
+|*Friendbeast*////Vocabulary ++1'd
+
+    |ID: c69pgeq, Author: oboewan42
+    |FYI that's not valid code, it's either "++" or "+1". ////"++1" gives a compiler error because "++" is a unary operator.////
+
+        |ID: c69q879, Author: roger_ranter
+        |He meant: ++!, but hit the one instead.  Increment factorial.
+
+        |ID: c6olxm0, Author: kakemot
+        |+=1
+
+        |ID: c6cunn0, Author: DELETED
+        |*teach the controversy*
+
+        |ID: c69z07f, Author: Dmax12
+        |I think in GNU C you can i++ or ++i. the first increments then returns, the other returns the original value before the increment.
+
+    |ID: c69pe4s, Author: swagless
+    |I enjoy the thought that, in my dog's head, i am referred to as "friendbeast."
+
+    |ID: c69m4um, Author: dracovich
+    |Mine was "Slagbucket"
+
+    |ID: c69rbhp, Author: DELETED
+    |The Oatmeal creates such awesome words.
+================================================================Snapshot End================================================================

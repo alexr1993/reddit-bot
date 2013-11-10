@@ -1,0 +1,707 @@
+Dinner plate rim widths and coloring affect the perceived food portion size (larger rims -&gt; larger perceived food size)(/r/science)
+
+
+
+
+    |I sketched up a quick reference pic, it's a little hard to see it but I guess there's a difference there////http://i.imgur.
+    |om/Hg5EBE6.png////I think the solid blue rim is the most obvious difference, personally.  I guess when you see the rimless 
+    |late, it's pretty obviously a small plate but it's full, whereas when you add the larger rims, it's still a full plate, but
+    |now it's also a big plate too.
+
+
+        |[Here's their diagram from the paper](http://i.imgur.com/GSlcFij.png).////&gt; A) Standard stimulus (i.e. food size of 
+        |85 pixels on a plate with a 1/3 rim width-to-plate radius proportion) //is on right; Rimless plate with same food size 
+        |s on left and B) Standard stimulus is on left; same rim size //with smaller food size is on right //
+
+
+            |Why did they photoshop the macaroni instead of actually taking pictures of it on different plates?
+
+
+                |For consistency. That's why it's measured in pixels instead of actual length. It would be really hard to scoop 
+                |acaroni on to 4 different plates and have them all be exactly the same number of pixels wide/tall/diameter. Eve
+                | if they had the same height and width dimensions, if one were more circular and another was squared off then t
+                |e squared off one would actually *be* larger, ruining the experiment.
+
+
+                    |Just use a cookie cutter to portion them.
+
+
+                        |Still there would have been differences in how "full" the cookie cutters were. Photoshopping the pictur
+                        |s is the only way to achieve the consistency needed to be absolutely certain you're testing the right t
+                        |ing. Actual portion size is an unnecessary variable, one which is very easily remedied by photoshop.
+
+
+                            |Just fill the cookie cutter to the top and cut it off. Also, if you look at the bottom two pictures
+                            |the macaroni heap isn't the same size.
+
+
+                                |The caption on the picture:////&gt;B) Standard stimulus is on left; same rim size with smaller 
+                                |ood size is on right
+
+
+                |For accuracy between the photos, they wanted to show the difference with the exact same configuration of macaro
+                |i.
+
+
+                    |Yeah but some are obviously enlarged. Look at the bottom two. Those aren't the same size macaroni. 
+
+
+        |this is a very very good way of increasing your sales.I recently aquired a restaurant and the first thing i did was to 
+        |eplace all the plates with 40-50% bigger ones.Needless to say we sell more then 15% more with the same amount of custom
+        |rs. //(we sell by 100gr so it matters how much we put on the plate)
+
+
+            |Wouldn't it somehow make your clients think your portions are too small?
+
+
+                |... exactly the point, he said he runs a by-weight buffet style restaurant. It is influencing customers to buy 
+                |ore because the previous amount appeared to be insufficient.
+
+
+                    |Isn't that the opposite of the findings in this article?
+
+
+                        |he buys bigger plates overall, not plates with bigger rims. It's related to the study, but not the same
+                        |thing exactly. //
+
+
+                |I dunno it seems like that might be the point. With the small plates one thinks "wow that's a lot of food!" But
+                |with the larger plates perhaps one would think "I don't know if that will be enough, maybe we should get an app
+                |tizer as well!"
+
+
+                    |Also, perhaps the optical illusion only influences initial perceptions of the food, but the fullness of the
+                    |r stomach is what registers to their brain when deciding a few days later whether or not the meal satisfied
+                    |them.
+
+
+                    |I would definitely not go to a restaurant that looks like gives small portions but has standard prices.
+
+
+                        |For fancier restaurants smaller portion sizes are almost expected. Nobody's going to a restaurant with 
+                        | dress code expecting Cracker Barrel size portions.
+
+
+                            |True, although paying per 100 grams in a buffet is not fancy.
+
+
+            |Probably the same reason that those cups at by-weight frozen yogurt places are so damn big.
+
+
+            |Hooray for obesity.
+
+
+            |There is a pub chain franchise in the UK, called The Hungry Horse. They use larger plates as well. When I went to o
+            |e of their restaurants with my family, they were all banging on about the portion sizes and the large plates. After
+            |eating one of their meals I didn't feel anymore full up than if I'd have gone anywhere else, so I put it down to th
+            | illusion that the meal looked larger because it was on a larger oval shaped plate.
+
+
+        |I think the second one on the top looks like the largest portion. Not an obviously small plate, but the portion isn't d
+        |arfed by the plate like in every other case. To me a gigantic rim like the blue one just backfires, but I can see it to
+        |ally working with a reasonable rim versus no rim.//
+
+
+        |I was planning on saying, no pics no thanks. But u provide
+
+
+    | [link to pdf of article](https://db.tt/E4dQVaeZ) no subscription required.
+
+
+    |From an anecdotal perspective, I can believe this.  Earlier this year, I wanted to lose a few pounds and my wife suggested 
+    |sing a slightly smaller plate to cut my portions.  It worked.  I measured it out, and there was significantly less food on 
+    |he smaller plate.  To me, though, it looked like a full plate and when I finished eating it, I felt full.  Even though I kn
+    |w the trick, it still worked on me.
+
+
+        |So... I actually work with this team of researchers (Solutions science lab). This study deals with plate RIM size. ////
+        |owever, our group has worked on other studies that study plate SIZE itself, and yes, if you eat out off smaller plates 
+        |nd drink out of smaller glasses you consume less. Previous and active studies with families, including those in conjunc
+        |ion with the Packard Pediatric Weight Control Program, include "plate swapping". Participants in the studies/programs g
+        |ve up their larger, normal sized dishware and glassware for smaller ones pre-approved by our study group. ////If anyone
+        |s really interested in an AMA with first author Dr. Ariana McClain, pretty sure she'd be excited to do so. Throwing it 
+        |ut there. 
+
+
+            |I'm interested.
+
+
+            |I'd only expect this to take place within certain thresholds. Has anyone tried to identify the point where most peo
+            |le start to take additional portions in a counterproductive way?////Also, interested, if someone links me to it if 
+            |nd when it happens.
+
+
+                |Maybe it never stops working, maybe if you had to make like 6 trips with tea saucers you'd eat less than if you
+                |just had one big plate. 
+
+
+                    |Good point. Still worth a test to check. ////Just to clarify something just in case: I'm not only intereste
+                    | in comparing the extremes, but also different degrees. So, instead of one big plate vs. tea saucers, it'd 
+                    |e tiny tea saucers vs. larger ones, or something like that involving less extreme differences. I expect thi
+                    | sort of difference would vary more with individuals, but there still could be some sort of productive gene
+                    |alization that comes as a result.
+
+
+            |I came up with this idea independently a few years ago when I realized that I'm a lazy bastard and wouldn't get up 
+            |o stack my plate again even if I still wanted to eat. So I figured, if I go for the small plate to begin with, I'll
+            |eat less and won't be able to overeat.
+
+
+            |Sure, sounds neat. 
+
+
+            |Definitely interesting.////An observation though about drink containers. In Germany it is common in some places to 
+            |ave 0.2L beer glasses but in other areas: 0.35, 0.4, 0.5 and of course the 1L. The small containers seem to be drai
+            |ed faster than the larger portions (often as toasts). The limiting factor is delivery time.
+
+
+            |Isn't the typical plate used in America what used to be a platter? I thought I read that somewhere.
+
+
+                |I think most of the plates sold in stores (think: Bed, Bath &amp; Beyond, or IKEA), their size has increased. I
+                |think what most people think of when they think of giant dinner plate is restaurant portion sizes. THOSE have i
+                |creased significantly. 
+
+
+                    |Ok that jogged the memory for me yes you're correct restaurants have gone way up.
+
+
+                    |Would you be able to disclose the size of plate recommended/used?
+
+
+                        |Restaurants typically use 12-13inch dinner plate and a 8-9inch app plate. ////
+
+
+                            |After I saw your comment, it dawned on me how subjective "eating off a smaller plate" is. I have bo
+                            |h the dinner and app size, I could simply switch to app and be done with the inquiry. It'll be an i
+                            |teresting family experiment without the police showing up... like they normally do.
+
+
+                                |Police are always interrupting dinner.
+
+
+                                |That's exactly what we did. And we stuck with it.////Worked so well, that when we have to grab 
+                                |n of the "old" dinner plates for something it looks freakin' huge . . .
+
+
+                |People always say that we eat way more now than we did in the past, but I find that really hard to believe. I m
+                |an, I'm 5'11" 154lbs, and I can finish most restaurant portions. If I lived in the past, how much thinner would
+                |I be? It doesn't make sense that we eat SO much more now than in the past.
+
+
+                    |If you were in the past, you wouldn't be going to restaurants as often.
+
+
+                        |I rarely go to restaurants as it is, usually only for special occasions. But, I still eat a lot of food
+                        |at home, probably around a "restaurant portion" if I'm really hungry or really like what's being served
+                        |////And my point is-if I can eat modern restaurant portions and stay as slim as I am, then if I ate any
+                        |less I would lose weight. So, it doesn't make sense that people ate way less in the past because they w
+                        |ren't all skinny.
+
+
+                        |They had restaurants in the past, though.
+
+
+                    |I think they ate more in the past given the physical burdens placed on people. Difference is we eat far mor
+                    | sugars and dairy and they ate more vegetables and grains. No way could they eat less then go out and plow 
+                    |he back 40 on less.
+
+
+                    |Your weight and size says little about the amount of calories you burn per day. You could burn more calorie
+                    | then most people, I know I do. As an individual no direct comparison can be made due to those variances. /
+                    |//As a society it's very easy to compare. Look at the bajillion fatties around. Added to the fact that we l
+                    |ve a more sedentary lifestyle, it is easy to see why obesity is a problem. 
+
+
+                        |I thought that I had an abnormal fast metabolism before, but I've been told on here before that people'
+                        | metabolism are differently by only a small amount.
+
+
+                            |I've read about numerous studies that record the amount of movement a person makes in a day. There 
+                            |ere findings that between two people that have similar calorie intakes but vastly different weights
+                            |that the skinnier person has a much higher rate of 'micro movements', they essentially are never st
+                            |ll, essentially vibrating from their movements.
+
+
+            |Interested.
+
+
+            |Care to detail the summary out in non-research oriented terms?
+
+
+                |Of the active studies?
+
+
+            |I would be interested too.
+
+
+            |I'd be all over this. Would make for some interesting conversation!
+
+
+            |So, why wouldn't they just get more food once they finish a plate? I never actually fill up my plate with food when
+            |I eat-I serve myself some, eat it, and repeat until I'm done. 
+
+
+            |This seems to work when portioning is based on how much plate size is available.////However, doesn't other research
+            |show (on phone, no link) that consistent, measured portion sizes appear to be greater on a larger plate, fooling th
+            | eye and mind into satiation with fewer calories?
+
+
+            |I was going to make a "this is old news" type response, but I think you covered it already. :)
+
+
+        |I am actually currently doing graduate research on exactly this, and up to this point all that we have seen in respect 
+        |o controlling portion sizes completely supports what youve just said.
+
+
+        |Isn't this the opposite to the conclusions of the paper? According to them the food on the smaller plate should appear 
+        |ess than on the larger one.
+
+
+            |The paper actually didn't have anything to say about the size of the plate, only the rim of the plate.  Our brain m
+            |y not perceive that part of the plate as a part of the "food area" and that may make a difference in how rim size w
+            |uld affect the experiment vs. plate size.
+
+
+                |I'm curious to know in addition to the rim vs. portion, but what effect would additional items, e.g vegetables 
+                |ave on the perception of the plate rim. 
+
+
+            |The paper is about rim widths, noahisaac is talking about overall size. 
+
+
+            |After a read of the article &amp; wiki on the [Delboeuf Illusion](http://en.wikipedia.org/wiki/Delboeuf_illusion), 
+            |hings seem consistent:////* the illusion makes the "food circle" part of the plate appear larger where there's a wi
+            |e ring of colour on the outside of the plate//* a smaller plate makes it seem like there is more food compared to t
+            |e same amount of food on a larger plate////So, optical illusion makes it seem like the plate is larger than it actu
+            |lly is, I guess the illusion transfers onto the food itself?
+
+
+            |A larger rim gives the plate less usable area.  Effectively making it into a smaller plate.//
+
+
+                |Wouldn't people just start putting food on the rim?
+
+
+                    |It's possible, but comparing two plates of the same diameter and one with a larger rim,I would think people
+                    |would tend towards less food when the rim is larger
+
+
+            |Hmm, yes, you're right.  Now that I've actually RTFA, I guess I'm comparing apples and oranges.  In my case, the ri
+            | size on the plate was roughly the same.  It was just the plate itself that was smaller.////Now I'm curious.  I'll 
+            |ave to try this on myself with plates of varying rim sizes.
+
+
+            |A smaller plate would have a larger rim.
+
+
+                |Not necessarily. RIM size isn't standard among all plates. 
+
+
+                |No.  A smaller plate would be a smaller plate.  Rim size is independent.
+
+
+                    |This is incorrect.
+
+
+        |Interestingly, there was a similar study a while back that I remember which concluded that *fork size* also plays a rol
+        |. The larger the fork, the less people ate. I can't find the study but did find this article about it: http://www.scien
+        |edaily.com/releases/2011/07/110714150949.htm.
+
+
+            |That's interesting. Do you know if there's been any studies on food sharing? for some reason no matter how much foo
+            | i have, i always feel less satisfied if someone asks for whatever i'm eating. Even if my portion is too large, i f
+            |el as if i'm missing out on something and it causes me to eat more.
+
+
+            |Funny you should say that.  I give people [this](http://i.imgur.com/eHRI23k.jpg) when they are at my house and they
+            |barely eat anything!
+
+
+        |Wait so.. Me recently starting a diet, I should use smaller plates from now on? Also how the fuck do I estimate how man
+        | calories is in a bowl/plate of home made food with many multiple ingredients.. I am so confused as to that part of the
+        |diet.
+
+
+            |I would recommend using [My Fitness Pal](http://www.myfitnesspal.com). You can use it to track everything you eat d
+            |ring the day and they have an area that you can enter in your home made recipes.  
+
+
+            |I'm not a calorie counter, so I'm not sure I can help you there.  I stick to the rule of: carbs the size of your fi
+            |t, protein the size of your palm, and fat the size of your thumb.  Eat all the fresh vegetables you want, and eat f
+            |uit in moderation.  Using a smaller plate really helped me to enforce these rules.  Also, I exercise 4 or 5 days a 
+            |eek.
+
+
+                |Sounds like the anti-keto diet.
+
+
+                    |More like your regular old not eating like shit, a caveman, or a grazer diet. 
+
+
+            |www.myfitnesspal.com  really helps me with calorie counting.
+
+
+            |You create a recipe for whatever you cooked or plan to cook on a calorie counting site like MyFitnessPal, then log 
+            |hatever portion of the recipe you eat. It's easiest to do this by weight. Counting calories for home-cooked meals i
+            | incredibly easy once you understand the basics.
+
+
+        |Some times I just stare at an empty albeit big plate and go to sleep hungry. Works every time!
+
+
+        |the study indicates larger rims equals larger perceived food portion//
+
+
+    |I work for a dietician at a nursing home. We give 4 oz meat 6 oz veggies (per portion) and 2 oz of bread. Our food director
+    |made a push for restaurant style plates, and now the residents complain they get too much food. In short, I hate the newer 
+    |lates. 
+
+
+        |What constitutes "restaurant style plates"? Can you describe the plates you moved from and to because I'm having troubl
+        | understanding the difference. Thanks.
+
+
+            |They most likely mean the ones with the huge rims around them. Restaurants use them because they can serve less foo
+            | and make it look like more.
+
+
+        |Is there anything that residents in a nursing home don't complain about?
+
+
+    |According to one experiment, people will eat continuously from a bottomless bowl of soup.////[Video evidence](http://www.yo
+    |tube.com/watch?v=VKlx8k49Eqg)
+
+
+        |I didn't actually see any evidence in that video, he just showed a setup in the woods.
+
+
+            |Having not seen the video, that sounds like an extremely sketchy science experiment.
+
+
+                |The research won an "IgNobel Prize", an award to honor unusual research. It's more fun than it is proper scienc
+                |, but still often sparks interesting ideas.////More here://http://www.improbable.com/ig/
+
+
+                    |It is "proper science", because it's done with a scientific method. What's interesting about IgNobel is tha
+                    | they reward science which first makes you laugh and then think. One experiment with spaghetti has had resu
+                    |ts in physics overall.
+
+
+                        |I love the IgNobels for this reason. Except for the ones where they do first-time-studied-but-obvious-c
+                        |nclusion science. That has a necessary place in science to formally verify the "obvious" conclusion (so
+                        |etimes we discover non-obvious explanations that are fascinating in and of themselves), but the weird s
+                        |udies that have potentially unrelated implications are the best reason to read about the IgNobels IMO.
+
+
+                            |My favorite is the necrophiliac duck
+
+
+                |"Here, have some soup but don't pick up the bowl or anything...
+
+
+                    |why would you need to pick up the bowl?
+
+
+                        |So you never slide the bowl to a better position or anything? It just sits there completely unmoving?
+
+
+                            |Yes. 
+
+
+                        |If it never gets down to the bottom where you run out of soup and need to drink the broth, then you wou
+                        |dn't.
+
+
+            |To be fair he also showed a clip of a few women eating pizza. 
+
+
+        |Can confirm. Pasta bowls too.////Source: was an Olive Garden waitress.
+
+
+            |What about the breadsticks?
+
+
+                |After about basket three (going by the standard breadstick per person +1 per basket, max 5 per basket) there's 
+                | significant drop off in refills with the following exceptions: kids, sports teams, and "breadstick-in-soup-dip
+                |ers"
+
+
+                    |So if I want more breadsticks without having to nag the waitress, I should make sure she sees me dipping br
+                    |adsticks in the soup?  Huh.
+
+
+                        |Or just set the empty basket at the edge of the table, it will usually get someone's attention. Even th
+                        | hosts should know how to get you breadsticks if no one else is handy.
+
+
+            |I always order the never ending pasta bowl because it's cheaper than my usual order of fettucini alfredo on the reg
+            |lar menu, but I can never finish the first one. I've had a waitress laugh at me. :( ////I'm not a skinny woman eith
+            |r. I had no idea how the people behind us were throwing back that much pasta. 
+
+
+                |The first one comes out at a normal dinner portion, subsequent ones are a child portion, so really, don't feel 
+                |ad at all! I think the best/worst I saw at our restaurant was 13 bowls. Urgh.////One cool thing is that you can
+                |ask for a half and half bowl- half marinara half Alfredo is delicious!
+
+
+        |I thought this was going to be a video of me eating pho.
+
+
+        |&gt; continuously ////He states 73% more soup if it is bottomless.
+
+
+        |In fairness, I can continue to sip tomato soup pretty much forever, no matter the plate being used. I fucking love toma
+        |o soup.
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+    |Classic trick in restaurants. Small plate equals large perceived portion. If you are dealing with the jaded, a huge plate m
+    |kes a service look tiny, so they eat all of it. Eat all you want buffets, use tiny flat plates. I am not aware of rim size 
+    |eing used, but no doubt it soon will. 
+
+
+        |If you're going to all you can eat buffets while trying to portion control, you're doing it wrong.
+
+
+            |As owners you'd want to reduce the amount of food taken.
+
+
+    |You guys should check out [Livliga](http://www.livligahome.com/) if you're interested in plate size and portion control.///
+    |My girlfriend started working on the marketing for this company earlier in the year and I've had a number of occasion to di
+    |cuss plate size and food portion with the owner. It's pretty crazy that the american plate size has increased over 50% in t
+    |e past 100 years. ////Food definitely looks bigger and is psychologically more filling when you have a smaller place.
+
+
+    |This doesn't work for me. Every time I see a huge, thick plate brought out with giant rims I roll my eyes because it's so d
+    |sproportionate to the food on the plate. It's an average portion on a thick plate with a giant rim. But okay, restaurant, w
+    |atever, I see you trying to trick us into thinking we're eating a mega feast. ////My parents on the other hand? *Every time
+    | they ooh and ahh over those giant-ass plates. "Look how much food there is!" "Oooh, that's a *lot* of food!" Etc., etc. I 
+    |lways feel moderately annoyed at them praising the large portions when it's just a giant fucking *plate* with moderate port
+    |ons.
+
+
+        |Same...everytime I go to a family chain restaurant I get this huge huge plate with something small in the middle, and t
+        |e plate seems to dwarf the smaller portion even more by comparison. I tried looking at the diagram in the comment, and 
+        |y brain actually does make big rims -&gt; less food.
+
+
+    |The show Food Detectives studied this in an episode. [Wiki page](https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=
+    |&amp;source=web&amp;cd=2&amp;cad=rja&amp;ved=0CDYQFjAB&amp;url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFood_Detectives&amp;e
+    |=yHNRUs2oI4iG9QTHyIH4Dw&amp;usg=AFQjCNE7vnIEaSVoizgCOY9PKDbbGxK4Tg&amp;sig2=ZXZ9lJsJgo3wjiQUtPsz-A&amp;bvm=bv.53537100,d.eW
+    |)
+
+
+    |The restaurant I work in has two different styles of  plates. Both are 9" but on one style the rim is about 1" wider, makin
+    | all the difference in the world when it comes to plating.
+
+
+    |Wouldn't larger rims make it seem like there's less food, thus **smaller** perceived food size?
+
+
+        |No.////Larger plates would make it seem like there is less food. Not a larger rim.////Take 2 plates that are the same t
+        |tal size one with a 1/2" rim and one with a 2" rim. Put the exact same amount of food on both plates. The plate with th
+        | 2" rim is going to look like it has more food.////Why? Because the usable space of the plate is smaller with the 2" ri
+        | pate.////Our brain doesn't count the rim in the plate size so the 2" rim plate looks smaller than the 1/2" rim plate. 
+        |e already know that the same food on a smaller plate looks like more food.
+
+
+        |In real life.  This experiment used photos.  This is a cheap experiment.  It may be useful to advertisers, though.
+
+
+    |http://www.reddit.com/r/AMA/comments/1nukc3/iama_dr_arianna_mcclain_researcher_at_stanford/
+
+
+    |This is the opposite findings of previous psychological studies, but this one seems more thorough on the models. The other 
+    |nes were simple portion/ container. (e.g. "the meat needs to hang over the bun. The customer will like it." -Dave Thomas) W
+    |ere's somebody knowledgeable to explain?
+
+
+    |Check out "Mindless Eating" by Brian Wansink. Quick but fantastic read. He's cited a few times in this article. Here he is 
+    |uest lecturing for Kelly Brownell at Yale (another big time obesity guy)://http://oyc.yale.edu/psychology/psyc-123/lecture-
+
+
+    |Every time I eat, i end up loading the plate. I cannot plate food correctly (i cook) because i always have this habit of lo
+    |ding my plate down. When i have a smaller plate, I actually still load it completely but im eating less because less fits o
+    | there.
+
+
+    |Is their an accessible preprint around?////Edit: It is linked by this comment: http://www.reddit.com/r/science/comments/1nu
+    |6n/dinner_plate_rim_widths_and_coloring_affect_the/ccm395s
+
+
+    |As a chef: We already know this, and utilize it every day.
+
+
+    |Studies also show that Blue plates have been proven to reduce appetite.//
+
+
+        |I may have missed it but I dont think your link mentions blue plates//
+
+
+            |I am struggling to find a credible link but I'm pretty sure it is mentioned in a Radiolab episode. 
+
+
+                |You don't need to cite a source.  This is rather common knowledge.  Most restaurant facades follow the same col
+                |r scheme: red/yellow/green: [McDonald's](http://www.mcohio.com/images/operators/1000018997/mcdonalds_stores_and
+                |more_013.jpg), [Wendy's](http://www.dispatch.com/content/graphics/2010/07/05/wendy.jpg), [TGI Friday's](http://
+                |ww.nycprowler.com/prowler/wp-content/uploads/2013/08/TGI_Fridays_bldg.jpg), [Ruby Tuesday](http://www.pitch.com
+                |imager/ruby-tuesday/b/original/2206503/6725/4901843.0.jpg) - just off the top of my head.////Blue is not a comm
+                |nly natural color for food and is subconsciously unappetizing.////EDIT: Added links.
+
+
+                    |Maybe a source is unnecessary but calling it 'common knowledge' is probably pushing it. 
+
+
+                    |Reminds me of a George Carlin bit saying blueberries were purple.
+
+
+        |Yes, this is because in nature eating something "blue" is pretty unnatural and potential dangerous because it may be sp
+        |iled or rancid.
+
+
+    |There's all sorts of variables involved, such as amount and color of ambient or direct light, size and heft of tableware, a
+    |d of course, the type of food being eaten.////For instance, greasy or fatty food in dim blue light, eaten with large and he
+    |ty tableware, will generally turn off people.
+
+
+    |Where is the full article? 
+
+
+    |I always measured my portions based on the net weight of my food in my hand.////Basically, if it was heavy I knew I had to 
+    |o work out later.
+
+
+    |Is that why, when I order something at a restaurant that comes in a tiny portion, they put it on a gigantic plate?
+
+
+    |"These findings may help design plates to influence perceptions of food portion sizes." I thought it was about science but 
+    |urns out it is about marketing.
+
+
+    |Thank goodness innovative research like this is being undertaken by the best and brightest. It gives me great hope for huma
+    |ity.
+
+
+    |the rims are so big on my plate they become the plate. i get way more surface area to pile food on
+
+
+    |[deleted]
+
+
+    |Maybe I am having a brain fart but what do they mean by rim width?  Do they mean the thickness of the outside circumference
+    |(the rim) of the plate or the diameter of the plate circumference.
+
+
+    |I just started working in an Italian restaurant about two months ago and I wondered why our pasta dishes had these giant aw
+    |ward rims. they're a bitch to carry. TIL
+
+
+    |I started gaining weight when I switched to bigger plates, and always tried to eat it all up. So fellow skinny guys who "wi
+    |l never gain weight" (I used to be one of you), give it a try.
+
+
+    |This has been known for so long. There's no reason to do a study on this.
+
+
+    |I wonder if this would apply to pizzas with bigger crusts.
+
+
+    |this would be much more impressive if it actually led to eating more food. that's the implication, right? why not test it?/
+
+
+        |Wouldn't it likely lead to eating less, as there would be the *perception* that you had eaten more?
+
+
+            |There are probably other factors that influence perception of portion size and those might override others or inter
+            |ct in weird ways. I doubt the effect would disappear but it might very well be made smaller. Testing seems like a g
+            |od idea.
+
+
+    |I avoid this by always eating over my sink.  My wife didn't understand why i did this until we visited my ad and she work u
+    | to both of us eating breakfast over the sink.  Go bachelor habits!
+
+
+    |I work in food service and didn't know this wasn't a fact know.////also shit your onto us now..
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+        |But science necessitates that they prove it.
+
+
+            |&gt; prove ////Is a loaded laymans term that really doesn't mean the same thing in science.////The best substantiat
+            |d hypothesis  carries the day.////You cannot "prove" the earth orbits the sun.   You can only establish that it is 
+            |by far) the most likely mechanism that cohesively fits with known and existing data.////Which is why the public can
+            |t quite wrap it's head around global climate change / cigarettes causing strokes and heart disease being true, but 
+            |ever being "proven"
+
+
+                |&gt;theory ////You mean hypothesis.  Theory in scientific terms means something else.
+
+
+                |Not being a mathematician must be sad.
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+                    |[deleted]
+
+
+                        |[deleted]
+
+
+                            |[deleted]
+
+
+                                |[deleted]
+
+
+                |[deleted]
+
+
+                    |[deleted]
+
+
+    |Smaller plates and smaller bowls seriously work in curbing appetite and making you feel satisfied. Source: myself.
+
+
+    |I started using this at home after I went to the Seattle Science Center last year. In there was a display by elementary sch
+    |ol children offering the same information.////I serve my girlfriend ice cream in a ramekin, never a bowl, with a small spoo
+    |. It's the only way to ensure there will be any left for me.////The small plates are the most used at my house. It impacts 
+    |he grocery bill. To be honest, it also keeps my girlfriends weight consistent.////My girlfriend does not realize this is my
+    |reasoning.
+
+
+    |[deleted]
+
+
+    |[deleted]
+
+
+    |[deleted]

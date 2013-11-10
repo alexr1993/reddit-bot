@@ -1,0 +1,1138 @@
+How do Antidepressants (SSRIs and SNRIs) treat Anxiety Disorders?(/r/AskScience: Got Questions? Get Answers.)
+
+
+
+
+    |I'm a psychiatrist who works with children and adolescents, and I will provide some evidence, though I will give you the mo
+    |t complete answer:////WE DONT KNOW.  ////That they work is not in question (despite what some prominent naysayers will clai
+    |), as the metaanalysis of many of the SSRIs shows that they work, and they work both clinically and statstically more than 
+    |lacebo.  They perform as well as talk therapies in most head-to-head trials, and in fact, may be even more efficacious when
+    |combined with those therapies.////The mechanism of action has always assumed to be serotonin.  We know that serotonin depri
+    |ation (even dietary restriction of the amino acids that produce serotonin) INDUCES depression, anxiety, and suicidal thinki
+    |g.  So SSRI's, that block the reuptake of serotonin in neurological synapses, were assumed to be the treatment.  More serot
+    |nin=less anxiety.  Right?////Wrong.  The effects of SSRI's do not match the timing of the neurological effect of serotonin.
+    | The effect persists after the serotonin levels return to normal, and the SSRI's take MUCH longer to work than the simple i
+    |crease of available serotonin.////Now we look at second messenger systems.  It gets increasingly complex.  I've seen almost
+    |every pathway implicated.  Serotonin is definitely important, but it's more complex than we currently know.  When the secon
+    | messenger systems are identified, I firmly believe we will have an explosion of psychopharmaceutical targets to explore.//
+    |/While it's frustrating to not have an "answer," I feel a lot of the times "dumbing it down" to "your brain needs more sero
+    |onin" is a disservice because we know its not entirely true and we for whatever reason try to make a complex thing simple./
+    |//some sources that you may find very sciency but helpful:////you can get super-receptory in panic attacks:  http://www.ing
+    |ntaconnect.com/content/ben/cnsamc/2010/00000010/00000003/art00002////you can get philosophical and guess://http://rstb.roya
+    |societypublishing.org/content/368/1615/20120407.short////you can try and look at the whole system://http://www.sciencedirec
+    |.com/science/article/pii/S0149763411001710////you can marvel at what it means when ketamine treats depression so well but i
+    |completely:  //http://anp.sagepub.com/content/early/2013/05/07/0004867413486842.abstract////Basically, we're in a wonderous
+    |world when we're looking at the brain.  functionally, we know SSRI's work for most people (not all, and no, we don't know w
+    |y).  However, the why is very up in the air right now.////EDIT: as an aside: if you're interested in the brain, you're goin
+    | to have to get used to not knowing completely.  You can be part of the understanding process, but we are not in an era of 
+    |rain science where we know things definitively.  That's about the only definitive thing we know about the brain.  For me?  
+    |hen I prescribe SSRI's, I evaluate their effectiveness and ensure that they are safe through careful follow-up and screenin
+    |.  I leave the "why" to people who are way more sciency than I am, and trust that one day, we'll know why and have even bet
+    |er treatments available.////EDIT2: thank you, oh great internet, for reddit gold.////EDIT3: I'm gonna make a round of repli
+    |s now... to those sending PMs, I will reply... but to future PM-ers, please do not ask me personal clinical questions or op
+    |nion.  My responses, because of my title and position, could be construed as medical advice and I am very likely not in a p
+    |sition to help you!  I can answer generalized questions, but I need to put a boundary up for YOUR safety.
+
+
+        |This is an excellent answer.  ////The best description of psychopharmacological therapeutics I've ever heard was this: 
+        |///"It's like pouring gasoline on a car and hoping some gets into the gas tank."  ////Joseph J. Pancrazio (Bioengineeri
+        |g Chair at Mason University) said this at a AAAS conference on neuroenhancement about a month ago, and I thought it was
+        |brilliant.       
+
+
+            |brilliant quote, really.  i'm not ashamed to admit I often feel this way.
+
+
+            |I'm a pharmacist. I like to use a slightly different car analogy. I tend to use it to describe pharmacology in gene
+            |al, but it works here, too.////Imagine your brain is an engine. It's very intricate, and now it's making a grinding
+            |sound. We're gonna have to do something about it or it'll tear itself apart. Think of these drugs as a big honkin' 
+            |rench, and we can hit the engine with it until it stops making that grinding sound. We have a lot of experience wit
+            | hitting engines with wrenches, and we know that hitting the engine with certain wrenches in certain spots will sto
+            | that sound, but maybe we'll dent the engine. Maybe the a.c. won't work as well after we're done, and we're always 
+            |orry to see that happen. But our view is that having to open your window to cool yourself is a small price to pay f
+            |r keeping your engine running. You might disagree, and that's fine--it is your engine, after all. I'm just a mechan
+            |c trying to keep it running as long as possible.
+
+
+                |I was reading that stimulants like ritalin and dexedrine are actually the safest psychiatric meds out there. Is
+                |this accurate? I've always assumed that they were quite dangerous, but this implies that ssris have a greater c
+                |pacity for harm. 
+
+
+            |It's more like after a few decades of pouring various things onto a car, someone figured out that certain liquids h
+            |d a better chance of working. Then someone figured out that if you put certain kinds of liquids in this one port, a
+            |lot of times you suddenly have a fully functioning car. But no one knows exactly why or how that is working.
+
+
+                |The salient point being, that if something else is wrong with the car that can't be fixed by throwing certain l
+                |quids at a port, we still have to resort to pushing.
+
+
+                |[deleted]
+
+
+                |&gt; The salient point being, that if something else is wrong with the car that can't be fixed by throwing cert
+                |in liquids at a port, we still have to resort to pushing.////That kind of takes the point away from the quote. 
+                |he port in the metaphor is the knowledge of how things work. If we had that knowledge we could develop more exa
+                |t means of treatment that are more frequently effective, but we don't, so we're continuing to pour gasoline all
+                |over the car.
+
+
+            |Importantly though, the gas-&gt;car example seems to imply an understanding of *what* we are pouring over the car./
+            |//What is gas? One way of understanding something is understanding what it does to something else. ////Hormones wer
+            |n't conceived of by a human in a relatively "simple" process like inventing a car to move people and things in. The
+            |same intuition often doesn't apply. ////I know whenever i'm learning about endocrinology, someone often ends up say
+            |ng: It seems like a ridiculously difficult way to do this but this is how we do it. For example, in blood pressure 
+            |ontrol, we might have tons of different hormones all trying to reach the same end of raising BP, and it may seem ri
+            |iculous and ineffective but there are good reasons for why this mesh of cycles is the one we have. ////The car exam
+            |le works if we remember that we have no good idea what exactly gas tanks, gasoline or cars really are :)
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+            |[deleted]
+
+
+        |Just to add on to just how bad our knowledge is on how to treat mood disorders (because it's really scary).////- "Today
+        |s treatments remain sub-optimal, with **only ∼50% of all patients demonstrating complete remission**, although many mor
+        | (up to 80%) show partial responses."//(paywalled: http://www.sciencedirect.com/science/article/pii/S0896627302006530)/
+        |//- **Our manner of treating these mood disorders have been the same for the past 5-6 decades.**  Basically trying to i
+        |crease serotonin, dopamine, or norepinephrine (all different neurotransmitter chemicals that neurons use to signal one 
+        |nother).  So it's no surprise that it's the same percentage of people that respond to treatment as time goes on and we 
+        |evelop "new" drugs.  ////- "The mechanism of action of antidepressant medications is far more complex than their acute 
+        |echanisms might suggest...However, all available antidepressants **exert their mood-elevating effects only after prolon
+        |ed administration (several weeks to months)**, which means that enhanced serotonergic or noradrenergic neurotransmissio
+        | per se is not responsible for the clinical actions of these drugs."////- Which means that there's some downstream effe
+        |ts that are mediating the actual drug action we care about.  This explains why so many "depression" drugs work for thin
+        |s like PTSD, anxiety, OCD, eating disorders, and chronic pain syndrome.  It's hardly a targeted thing, and different dr
+        |gs probably have vastly different net effects past the increasing [insert chemical here] stage.  ////So yeah, there is 
+        | lot of things we don't know but we have to keep on treating people because, hey, what else can we do in the meantime?/
+
+
+            |Actually, the reason why there is a delay in SSRIs effects isn`t due entirely to downstream effects. The dessensiti
+            |ation of autoreceptors (who when they detect flooding of the synapse inhibit firing) takes a few weeks, and that is
+            |when the mechanism of increased serotonin starts working
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+                |[deleted]
+
+
+            |great reply.  as I'm clinical, I appreciate the tools we have... combined with therapeutic approaches, we generally
+            |do very well.  We're miles ahead of where we used to be.  Remember, despite the first bullet point, TCAs are FAR le
+            |s effective than SSRIs.  The SSRI generation changed a lot for the better.
+
+
+                |I was under the impression that in terms of efficacy MAOIA &gt; TCA &gt; SSRI, but that the side effect profile
+                |of SSRI/SNRI/atypicals was so much better, that in most cases it was "good enough".
+
+
+                    |noooooo ssri &gt; maoi = tca
+
+
+        |I'm really happy that this was the top comment. Is there still concern that selective publishing of positive findings h
+        |ve overestimated the benefits of SSRIs?
+
+
+            |This was a real thing, no doubt.  Bad pharma was bad, and the withholding of negative studies was detrimental and p
+            |ovided (ultimately) fodder for skepticism.  The current science around SSRI use tries its best to control for this 
+            |mong other factors.  There is always that concern, and "source of funding" is a critical aspect of review of any pu
+            |lication.  We should never relax against bias, whether it is financial, personal, or borne out of "desire to help."
+
+
+                |Bad pharma is still bad.  You're throwing chemicals into children's brains and you have no idea what they're do
+                |ng in there.////As someone who was a suicidal child myself, who kept getting pumped with drugs to treat my "dep
+                |ession", ill tell you something right now:////If someone had been able to see that it was because I was being c
+                |nstantly raped by a family member, they would have immediately understood the ramifications of what they were a
+                |out to do to me-- which was to effectively chemically shut me up until adulthood.////You're sniffing at the wro
+                |g end of this dog, doc.
+
+
+                |[deleted]
+
+
+                    |[deleted]
+
+
+        |I'd also like to add one thing about drugs used to treat anxiety disorders &amp; OCD. Cycloserine, an antibiotic used t
+        | treat tuberculosis, [has been shown to be incredibly effective when used as an adjunct to exposure therapy.](http://ww
+        |.healthemotions.org/symposium/set2.pdf) It's thought this works because it acts as an agonist for glutamine in NMDA rec
+        |ptors. NMDA receptors are incredibly important in memory &amp; learning. Cycloserine isn't a drug used for maintenance 
+        |f anxiety disorders. It's specifically used as a tool for exposure therapy, and is most effective if given within an ho
+        |r, before or after, therapy. It also loses efficacy the more it's used. 
+
+
+            |Glutamate is likely the next major wave of pharmacological agents.  It is unfortunately wrought with major side eff
+            |cts and "exciting and promising" research that hasn't been fully fleshed out yet.  It's a promising field, and I've
+            |remembered reading a meta-analysis of cycloserine in exposure therapy that was mostly positive.  Because I happen t
+            | work alongside a world-expert in OCD, I asked this to her just now... it seems the effect may be more mild than we
+            |initially hoped, but it still demonstrates some usefulness in improving the speed of recovery.
+
+
+        |Just to add to the weirdness surrounding serotonin, buspirone (a direct serotonin receptor agonist) *also* takes 2-4 we
+        |ks for therapeutic effect, and is not efficacious when dosed as needed. If simply adding serotonin was the required fix
+        |this wouldn't really make sense; you should be fine for as long as buspirone was in your system.////In pharmacy school 
+        |hey taught us an interesting hypothesis for this. Blocking SERT (the serotonin reuptake transporter) increases the amou
+        |t of serotonin in the synaptic cleft...but this also ups the amount that can bind to inhibitory pre-synaptic receptors,
+        |which for a while actually *decreases* natural serotonin production, until SERT is downregulated due to constant stimul
+        |tion.  ////Similarly with buspirone, it displaces serotonin from its post-synaptic receptors, thus leaving more to acti
+        |ate pre-synaptic receptors and again decrease production for a little bit. The reason its direct agonism isn't efficaci
+        |us in and of itself may be due to the fact that it binds a specific receptor subtype, and this one may not be all that 
+        |seful. However, if the hypothesis about how it eventually increases production of serotonin via downregulation of pre-s
+        |naptic receptors is true, then this could explain that because the increased serotonin production would activate all re
+        |eptor types.
+
+
+            |So this is why depression and suicidal ideation can increase in the first few weeks after beginning an antidepressa
+            |t?
+
+
+                |That's actually usually attributed to the fact that antidepressants tend to restore energy before restoring moo
+                |. 2-3 weeks after initiating therapy you might still be just as depressed, but suddenly be cured of the lack of
+                |energy that went with it. Once your volition is restored you are in danger of acting on your depressed mood/tho
+                |ghts by killing yourself.////I'm not entirely sure how that fits into the hypothesis I shared above; again, the
+                |real complete answer to all of this stuff is, "These things work, we can prove it with data, but we really don'
+                | know *how* they work.."
+
+
+        |One of things I love in this topic is how anxiety is related to depression. While a lot of people might anecdotally sug
+        |est that anxiety feeds into depression there is a really pretty cool mechanism for it. Cortisol (a hormone that gets ci
+        |culated during periods of stress) seems to be a transcription factor for the serotonin transporter protein! One of my f
+        |vourite things to mention when depression comes up.
+
+
+            |I've not heard that explanation!  Can you send me a source sometime here or in pm?  I can hunt for it but i feel I 
+            |ill forget amidst all the replies.
+
+
+                |I'm unaware of any direct evidence that the serotonin transporter (SLC6A4) is under control of the glucocortico
+                |d receptor (Nuclear hormone receptor for cortisol).  But there's indirect evidence (in skin) (http://www.ncbi.n
+                |m.nih.gov/pubmed/23161175), and there associations between regulatory regions of the serotonin transporter gene
+                |and response to chronic stress (http://www.biologicalpsychiatryjournal.com/article/S0006-3223(09)01272-4/abstra
+                |t), which suggests something is going on in the enhancer region of the gene under stress.//
+
+
+                    |thank you!  Reading for me.
+
+
+            |Once again, in English, please? Recovering hypochondriac dad here, with enough understanding of medicine to have *s
+            |opped* with the over-the-top self-diagnosing. My 16 year old son was just started on an SSRI this week, and I'm try
+            |ng to learn anything I can about his condition and what can be done about it.
+
+
+                |its a proposed way that SSRI's may help anxiety.  Don't concern yourself dad.  Talk to your doctor!  SSRI's are
+                |a good choice for childhood anxiety and depression, and even better when combined with therapies like CBT or (e
+                |en better? maybe?) interpersonal therapy.
+
+
+                    |What do you think the long term effects of SSRI usage can result in? like 13 years on SSRI's for OCD? Any r
+                    |search on if SSRI's interact positively or negative with puberty? 
+
+
+                        |I've replied to the long term question somewhere here... overloaded with responses so please go through
+                        |my post history.  Sorry for that! ////edit://http://www.reddit.com/r/askscience/comments/1o85jg/how_do_
+                        |ntidepressants_ssris_and_snris_treat/ccpxzej
+
+
+        |Great comment. Have you seen [this article](http://seedmagazine.com/content/article/the_reinvention_of_the_self/) discu
+        |ses Elizabeth Gould's work that suggests that SSRIs work because they increase the rate of neurogenesis? Edit: hit save
+        |too soon.
+
+
+            |There does seem to be a neurogenerative effect of many of our psychotherapeutics.  I can't really comment much more
+            |about it because at a certain point of brain anatomy, my eyes glaze and a drop of drool escapes my mouth.  I'm bein
+            | slightly silly but I'd rather just marvel at the possibility than speak about what I don't know.////Lithium may cr
+            |ate positive physical brain changes WITHIN 6 WEEKS.  It's incredible to imagine what we will be able to do when we 
+            |nderstand more about mechanism.////edit: and happy cake day!
+
+
+        |Thanks for such an in-depth answer. As someone with a crippling anxiety disorder I can only hope we find out why what w
+        | have works so we can improve on it. 
+
+
+            |that's how it works... we refine, refine refine!  I hope you find treatments that help.
+
+
+        |Thanks for your extensive write-up. Two questions out of interest in this matter:  //What is your stance on the 'antide
+        |ressants don't outperform placebo's' debate?  //What is your stance on the 'exercise is just as effective as antidepres
+        |ants' debate?
+
+
+            |My stance is what the current treatment tells us:  ////a) even if we include the negative studies, the SSRI effect 
+            |n depression (NNT=6-10) and anxiety (NNT=3-5) is greater than placebo and both clinically and statistically signifi
+            |ant.  ////b) I used to accept the science of the time that "for mild-moderate depression," SSRI's are the same as p
+            |acebo/exercise/supportive therapies, however the more recent science pretty much debunks that... SSRI's are superio
+            | for depressive and anxious symptoms vs. placebo in ALL levels (mild, moderate, and severe).  I haven't seen head-t
+            |-head studies with exercise, but the effect of exercise is weak at best for anything more than a mild depression.  
+            |///Depression is rarely due to "lack of effort," which is where the anecdotal effort to exercise seems to come from
+            |////That being said, i routinely recommend exercise to all of my patients, not only for the mild psychological bene
+            |it, but to the benefit of their entire health.////I'm sorry, I'm at work and cannot source this.  If it's important
+            |to you, I will make an effort to do so.
+
+
+                |I think a pretty good followup question is  -&gt; how good is the placebo? I believe there's some research show
+                |ng interesting placebo effects in developed countries. http://www.sciencedirect.com/science/article/pii/S030439
+                |99700016X////Without the side effects of SSRI's//Nausea//Nervousness, agitation or restlessness//Dizziness//Red
+                |ced sexual desire or difficulty reaching orgasm or inability to maintain an erection (erectile dysfunction)//Dr
+                |wsiness//Insomnia//Weight gain or loss//Headache//Dry mouth//Vomiting//Diarrhea//http://www.mayoclinic.com/heal
+                |h/ssris/MH00066
+
+
+                    |It is currently deemed unethical to give a patient a placebo treatment.  There are moments I struggle with 
+                    |his, but overall, I agree.  There is VERY STRONG support that SSRI's are a better approach for anxiety and 
+                    |epression anyway, so that adds to the ethical struggle.////Physicians used to write certain codes on prescr
+                    |ptions to instruct the pharmacist to create a placebo.  This is no longer considered ethical.////**Also, pl
+                    |cebo pills cause all of the side effects you mentioned above, as well as being less efficacious.**
+
+
+                    |Side effects are collected in a catch all manner.  In trials, the rate of side effects of the active drug a
+                    |e compared to placebo.  Even with placebo, patients still routinely report all of the above side effects ar
+                    |und 1-2% of the time.  The actual side effects are those that are reported statistically significantly abov
+                    | the frequency of the side effect in placebo.  All of the side effects found regardless of this comparison 
+                    |re reported so that post-marketing data can be gathered to ensure that the studies didn't miss something si
+                    |nificant.  SSRIs are generally considered a pretty benign drug that few patients discontinue due to side ef
+                    |ects.  The older antidepressants before SSRIs had many more side effects and were thus harder for patients 
+                    |o tolerate.
+
+
+        |I'm a smarty pants medical doctor who thought he knew a fair amount about his subject until I read your discussion.  Th
+        |nk you so much.////It is the rare individual who can explain such difficult topics at multiple levels at once.
+
+
+            |Thanks, Dr. Smartypants!
+
+
+        |Interesting. SSRIs sound as though they have a similar mechanism to MDMA. Is MDMA an SSRI? If not, what differs? (obvio
+        |sly chemical makeup, I am curious why MDMA would not fall in the SSRI category)////If this is a stupid question, much a
+        |ologies, I'm not particularly familiar with biology
+
+
+            |SSRI's block the reuptake of serotonin (and affect other receptors) which increases serotonin in the synapse.  MDMA
+            |stimulates the release of MULTIPLE neurotransmitters including serotonin.  Because it effects the transporters that
+            |normally keep serotonin in the presynaptic cell, it's kind of the same effect.  However, because MDMA stimulates th
+            | release of the other neurotransmitters, it's not the same.////I will say, however, that proponents of MDMA recreat
+            |onal use focus so much on serotonin with MDMA that it's a frustrating thing to witness.  MDMA is not an established
+            |treatment for depression or anxiety.  I'm not against the research of it and its analogues, and I do believe if it'
+            | actually MDMA it's generally safe in a developed brain, but it is a major pharmacological intervention.
+
+
+                |im kind of curious what you think about how psychedelics in general work for people with anxiety. I've read a f
+                |w studies on how psychedelics in general help out with a few mental disorders (mostly anxiety, depression, and 
+                |TSD)
+
+
+                    |Calling them studies at this point is rather generous.  It is a major pharmacological intervention that BEA
+                    |S STUDYING, and I would love to see more research into it.  I am skeptical of the "early" science that is s
+                    | often loved by psychadelic proponents (1960's research), because the methodology, reproduceability, ethics
+                    | and bias is so profoundly errored, but they are interesting compounds.////I would not recommend psychadeli
+                    |s for anyone with anxiety generally, in the same way that I wouldn't recommend taking psychadelics for canc
+                    |r.  They have a pharmacological effect, and have pharmacological risks, but we do not know if they are effi
+                    |acious as a treatment.////Psychadelics and ergot alkaloids for migraine?  I've seen some convincing researc
+
+
+                        |that's fair, at this point they have only really done small studies in different parts of the world.  B
+                        |t what they studies show is fairly promising, plus all of the anecdotal evidence seems to be support by
+                        |what these prelim. studies are showing.  Not all of it is from the 60's, maps.org has some pretty nice 
+                        |nformation.
+
+
+                        |I think, particularly when it comes to psychedelics, you need to dis-aggregate "anxiety". Someone with 
+                        |eneralized anxiety, who might be absolutely paranoid about any loss of control of bodily function, ment
+                        |l process, or social inhibitions (a 'control freak'), will not have a good time on psychedelics unless 
+                        |hat person receives a lot of help from fellow drug takers, or pairs that psychedelic with another drug 
+                        |ith relaxing effects (say marijuana).////On the other hand, someone with a specific anxiety (say, socia
+                        | phobia, post-traumatic stress, existential angst) might benefit from the clarity of mind and alternati
+                        |e perspective that psychedelics allow. This has been my experience, and psychedelics have definitely ha
+                        | therapeutic value.////What do you think of this reasoning?
+
+
+                            |gotta say that as the skeptical guy i am, i start from a position of "interesting but doubtful" and
+                            |try to convince myself.  There is so little evidence for me to say anything except "we'll see."  I'
+                            | very doubtful that LSD/psychadelics for PTSD is going to pan out.  It will likely pan out the way 
+                            |MDR pans out... it works!  But the EMDR part of it is totally useless (it's helpful, supportive the
+                            |apy).
+
+
+                        |This is just an anecdote, but I suffered from anxiety for quite a few years.  I took MDMA last year wit
+                        | friends and my anxiety disappeared almost completely for the duration of the 'trip'.  I had been takin
+                        | Mirtazepine for about a year before this and it helped, but it was nothing compared to this, it really
+                        |felt like some 'miracle cure'.////I'm never going to take it again as I just wanted to try it once, but
+                        |it was a pretty amazing experience.  I'm sticking with psychological solutions, I'm in the best state I
+                        |ve been in and improving, I'll get over it eventually.
+
+
+                            |there was a time that MDMA was used in psychotherapy without much ethical consideration... i think 
+                            |here may be a place for MDMA research.  Street MDMA is just far too risky (check out http://www.ecs
+                            |asydata.org/stats.php sometime!)
+
+
+                    |We are currently studying LSD as an antidepressant here a at Kings College, London, UK. So far in trials wi
+                    |h a psychotherapist it is showing more success than any commercial anti depressant available on the market.
+                    |I work under Professor Nutt before anyone asks.
+
+
+                |I do agree. I'd like to see more research. I think there is a lot of potential in MDMA. It is almost a shame th
+                |t recreational use is so popular. That seems to have a lot to do with why MDMA is scheduled as it is in most de
+                |eloped countries. I think the recreational obsession is somewhat of a hindrance to research in this area. 
+
+
+                    |Yes, and to be fair, it shouldn't be.  The recreational use of MDMA is entirely different from its therapeu
+                    |ic use.  I'm always astounded to see advocates for RECREATION tout it's use as a medicine.  The same "the s
+                    |ience doesn't show it's harmful" arguments exist in the "the science doesn't show it's helpful" side, and y
+                    |t every proponent shoves poor science down the naysayer's throats.////I am not anti-recreational use of a d
+                    |ug, if it is safe.  I'm fine with evaluating safety.  Therapeutic use of a drug is NOT RECREATIONAL.  
+
+
+                        |I think the most interesting line of research with respect to MDMA is it's effect on the mirror neurons
+                        |and the implications for autism, rather than any comparison to SSRIs.////Even more fascinating is the i
+                        |plications for cognition, which while largely unexplored to date, seem tauntingly obvious.  The same ne
+                        |ral networks which aid in our own locomotion are activated when we see others perform the movements and
+                        |are also implicated in our ability to empathize with another's thoughts - putting ourselves into their 
+                        |ognitive rather locomotive shoes.  That's impressive abstraction for the network and might play a criti
+                        |al role in abstract thought altogether.
+
+
+                    |It is unfortunate that research is stifled by law, as many psychedelic compounds are potential therapies fo
+                    | different psychiatric illnesses. But I think it is wrong to not allow people to explore their consciousnes
+                    | with the use of these compounds. Check out maps.org to see what the latest research entails for things lik
+                    | mdma assisted therapy for PTSD, ibogaine for addiction, psilocybin for end of life anxiety etc. some very 
+                    |ool and wonderful stuff. 
+
+
+            |SSRI's and MDMA do not have the same method of action. MDMA is a serotonin releasing agent, causing an abundance of
+            |serotonin in the synapse by essentially dumping it all out.   SSRI's also increase available serotonin in the synap
+            |e but via different mechanism which blocks the reuptake of serotonin that has already been released.   Taken togeth
+            |r, SSRIs reduce the effects of MDMA by reducing the amount of MDMA transported to its primary point of action.  MDM
+            | not only has effects on the serotonin system but has effects of the dopamine and norepinephrine systems as well.
+
+
+            |The brain scans from the ABC documentary Ecstasy Rising showed that normal serotonin function was recovered after 2
+            |3 months of ecstasy abstinence. I am under the impression that MDMA depletes serotonin reserves, while SSRI's block
+            |re-uptake (keep them used longer). Also post-MDMA depression that lasts almost a week afterwards is a pretty common
+            |user experience.
+
+
+                |absolutely... for many drugs (heroin, cocaine, mdma, amphetamines), depression is definitely in the withdrawal.
+
+
+        |&gt;That they work is not in question (despite what some prominent naysayers will claim), as the metaanalysis of many o
+        | the SSRIs shows that they work, and they work both clinically and statstically more than placebo.////What do you make 
+        |f the idea that they're merely "active placebos"? There seems to be a steady trickle of meta-analyses which which show 
+        |ery little difference in effect size between conventional anti-depressants and a placebo with discernable side effects.
+
+
+            |These meta-analyses are not as rigorous as I would like, and they discount some (obviously) impacting trends.  The 
+            |ore sites a study uses, the higher the placebo rate.  So the "gold standard" - a multi-center randomized placebo-co
+            |trolled study - may actually be not so golden - recruitment initiatives and payments, inappropriate criteria applic
+            |tion, etc, feed into this, though it's not well understood.  When you control for this effect, the separation betwe
+            |n drug and placebo becomes much more obvious.////I work with children and youth, and the evidence for SSRI's in chi
+            |dren with ANXIETY is very compelling.  The evidence for SSRI's in children with DEPRESSION is *slightly* less compe
+            |ling, but still statistically and clinically significant.   
+
+
+            |I think a big factor here is that *placebo effect* is highly variable between institutions in all clinical trials, 
+            |ut particularly those that involve self reported measures (pain, depression, anxiety--http://www.ncbi.nlm.nih.gov/p
+            |bmed/8740611).  So the more sites you include in a study, the more variable the placebo effect is going to be, and 
+            |he more that will increase error bars on effect sizes you compute.
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+                    |[deleted]
+
+
+        |[For more reading here is a neat recent thread on the topic of what we do and don't know about causes of mental illness
+        |and why](http://www.reddit.com/r/askscience/comments/1mnytc/if_certain_types_of_mental_illness_are_caused_by/)
+
+
+        |I think that this is a good opportunity to bring up the [SSRE class of antidepressants](http://en.wikipedia.org/wiki/Se
+        |ective_serotonin_reuptake_enhancer).
+
+
+            |before we get too excited about tianeptine, I would caution you that many drugs look excellent at the phase tianept
+            |ne is right now, and do not pan out for various reasons.  larger, more robust studies are definitely necessary.  Co
+            |parisons of tianeptine to nortryptaline don't count.
+
+
+                |Tianeptine looks to be over 50 years old. Shouldn't it have mountains of evidence already if it worked? It's al
+                |o dosed three times a day and is tricyclic and probably has all of the same side effects. I don't see anyone ge
+                |ting to excited over it lol
+
+
+                    |it's showing resurgence in European countries. 
+
+
+        |[deleted]
+
+
+        |If we are not entirely sure how the medication works how did it come into existence to begin with? Did medical research
+        |think it worked a certain way, then later found out that it didn't even though it created the desired effect? Also, isn
+        |t it rather dangerous to prescribe a medication when we aren't entirely certain how it works? Is this common practice w
+        |th other medications as well? What is the medical community's opinion on this?////I don't mean this in any kind of host
+        |le or accusatory way. I am legitimately curious.
+
+
+            |I would have to legitimately research this ... but what I remember is that in patients who received "serotonin-crea
+            |ing-amino-acid"-starved diets, excessive depression and anxiety occurred.. this spurred the original desire to find
+            |serotonin-enhancers.  The tricyclics had strong effect but were dangerous.  The advent of the SSRI revolutionized d
+            |pression treatment.  Generally safe drugs that do not immediately kill in overdose (a problem with depressed patien
+            |s), that have a FAVOURABLE side effect profile in relativity, and appear to separate much more clearly for placebo.
+            |///For example, in children, there is not a single study that demonstrates superiority of tricyclics vs. placebo.  
+            |or SSRI's, there is overwhelming evidence that fluoxetine and citalopram are superior to placebo, plus they're much
+            |safer with far less disabling side effects.
+
+
+        |How do SSRI's differ from the drug I take which is an NRI (Straterra). It's my understanding that Straterra works quite
+        |well on ADD because Norepinephrine which has been linked to parts of the brain controlling attention span. Are you sayi
+        |g that as with SSRI's, that may not necessarily be the case and there are a number of other factors that may be going o
+        |?////Thank you for your well written post, I have always been under the impression that these drugs were fairly well un
+        |erstood and now that I've been doing some reading, I see that isn't necessarily the case. Straterra was apparently init
+        |ally trialed as an Anti-depressent and they found that instead it helped with ADD.
+
+
+            |Yep!  that's the story i tell - developed as an antidepressant, found to be anti-ADHD.  This is similar to many oth
+            |r medications (rogaine(R) started as a heart medicatoin but it grew hair on people!), viagra started as a circulato
+            |y medication and "oops! boner!"... and the way drug development and research goes.////In ADHD, there are almost 12 
+            |andidate genes currently involving dopamine, glutamate, serotonin and norepinepherine.  So it's DEFINITELY not as s
+            |mple as "norepinepherine".  There are many factors going on.  It's nebulous currently, but we work to understand mo
+            |e and more each day.
+
+
+                |Would you mind pointing to a resource that gives the location/name of these ADHD candidate genes.  I am researc
+                |ing this now and would really appreciate that list, along with the frequency of the risk alleles (I can probabl
+                | find that info myself if you give me the gene names/location)
+
+
+                    |Wikipedia...  ADHD...  genetics...  as of right now the list looks complete!   I never source Wikipedia but
+                    |it's 2am and here I am still replying.. 
+
+
+        |With such rapid development and growth in the brains of children, is there really sound evidence that prescribing these
+        |psychoactive compounds to children has a negligible effect in the long (20-30 years) run?
+
+
+            |I can't answer that question with a ton of great science, but I encounter it every day in my practice when parents 
+            |r children ask me.////This is what I say.////"I don't know.  It appears to be safe, and we have many examples and s
+            |aller studies looking at long term use, but I don't know.  I DO KNOW that anxiety and depression, left untreated, c
+            |n seriously ruin someone's trajectory in life, and can be dangerous.   I don't know how long you need to take this 
+            |edication, but right now it appears that if we can get you better in 6 months, we can try taking it away.  But if y
+            |u need it because it stops your anxiety, then it is necessary and we will have to accept the risk."////It's a mouth
+            |ul, but it's honest and accurate.  Depression and anxiety are crippling conditions that cause more disability in th
+            | world than any other illnesses combined.  They are serious illnesses that can change and drastically reduce qualit
+            | of life.
+
+
+                |I wish they would go into the "side effects" of some these drugs in more detail. I'm a supporter of science and
+                |treating chemical imbalance in the brain, but having had depression for most of my life, nothing has been effec
+                |ive. The last stuff I was on (generic Prozac) worked briefly but soon left me feeling hollow, like a zombie car
+                |board cutout. I don't think most doctors actually truly understand what some of the effects of these drugs can 
+                |e like. My world feels permanently shrunken because of this stuff.////Anyway, not to throw in anecdotal fluff, 
+                |ut it generally seems that despite understanding the science and mechanics of something, many doctors have neve
+                | experienced a lot of these conditions (such as depression) and are at a disadvantage when speaking to patients
+
+
+        |SO happy to see this as top response. Seen so much misinformation on Reddit on this subject...
+
+
+        |Hey, I have a couple of questions. I'm actually happy that this post blew up on this sub - I was considering posting a 
+        |imilar question myself. Why are anxiety and depression both treated with SSRI's? As someone who has mild anxiety, I jus
+        | don't feel like being anxious is like being depressed at all. I feel panicky and my heart rate skyrockets when I'm anx
+        |ous. I don't really know a lot about depression, but I think feeling sad/hopeless/unmotivated is completely different t
+        |an being in a constant state of panic with a racing heart. How do SSRI's treat both mental illnesses even though they s
+        |em completely unrelated and have completely different symptoms?////Also, why do SSRI's treat panic disorder? I understa
+        |d panic disorder is pretty similar to anxiety disorders, especially GAD, but how is it that they can prevent panic atta
+        |ks? Panic attacks are a whole cocktail of awfulness - panic, racing heart, numb face/limbs, chest pains/tightness, feel
+        |ngs of heart attack/death, hyperventilation, faintness, nausea, heart palpitations, derealization, etc. How is it that 
+        |ust messing with your serotonin prevents all those symptoms? It seems like serotonin has little to nothing to do with b
+        |dily numbness, panic, heart palpitations, hyperventilation, etc.////These are questions that I've wondered since I star
+        |ed taking SSRI's, so I would be very interested in any answer you have for me! 
+
+
+            |why they are both treated with SSRI likely relates to a common neurological pathway.  both depression and anxiety a
+            |e highly comorbid (if you have one you have a much greater chance of the other).  That being said, my answer doesn'
+            | get much beyond that.////Anxiety, long term, can lead to depression.  Depression can have comorbid anxiety.  They 
+            |re related, and having one increases the risk of the other.////The way that SSRIs work in panic attack is likely -a
+            |most entirely- to do with the fear response and serotonin's role in it - the receptors don't completely match up bu
+            | most of the studies, it looks like in our fear response centers (amygdala, limbic system), serotonin receptor inhi
+            |ition/activation (depending on the subtype) makes a big difference.
+
+
+        |[deleted]
+
+
+        |&gt; //&gt; //&gt; While it's frustrating to not have an "answer," I feel a lot of the times "dumbing it down" to "your
+        |brain needs more serotonin" is a disservice because we know its not entirely true and we for whatever reason try to mak
+        | a complex thing simple.////Looking at second messengers is still "dumbing it down", because all of this stuff ignores 
+        |he fact that the wiring of the brain matters. This strategy has always appeared to me to be basically akin to hitting t
+        |e brain repeatedly with a large chemical hammer. Hey, it works! Sometimes. In a manner we don't understand. Science.
+
+
+            |That's like saying "we know our solar system "is dumbing it down.  A number of highly detailed mechanisms have been
+            |proposed and are promising for the second messenger systems in antidepressant action.////SSRI treatment is a risk/b
+            |nefit analysis.  if the risk or harm outweighs the benefit, then you try something else.  But in most people, SSRI 
+            |reatment is the best option.  It's not a "large chemical hammer".   I do think it's a chemical hammer though, an im
+            |recise tool we use to the best of our knowledge. Most people who take SSRI medications encounter none-to-nuisance s
+            |de effects.
+
+
+                |I think it's much better to be explicit about the fact that we're essentially just trying random shit, there is
+                |no theory as to why this is effective, and as far as I know, we're nowhere close to developing one. We might be
+                |close to finding more drug targets, but that's not even close to the same thing.////Sure, blunt instruments are
+                |great in the face of disease, if you have nothing else. Radiation and chemotherapy were used to treat tumors lo
+                |g before we understood the basis of cancer or why those treatments were efficacious.////But there is a huge dis
+                |ervice being done to the public by people who describe depression, anxiety, etc. as a problem of serotonin leve
+                |s, or mental health problems as a "chemical imbalance" in the brain more generally. That is bollocks, and it gi
+                |es people the wrong idea about the nature of their problem and how it can or cannot be solved.////So, by all me
+                |ns, continue to give people SSRIs, if it's effective and has few side effects. But let's not pretend we underst
+                |nd what we're doing or the nature of the problem we're treating.
+
+
+                    |you need to really better understand how medical science works.  Our understanding does not "pop in."  It d
+                    |velops, through targeted experimentation, observation, and testing.////We understand a lot about the brain,
+                    |way more than the generations before me did.  However, there is still much more to learn.  Why must you boi
+                    | it down to "we know nothing?"  This anti-scientific approach gains you no benefit.
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+                    |[deleted]
+
+
+                        |[deleted]
+
+
+                            |[deleted]
+
+
+            |[deleted]
+
+
+        |Hi, ////I was wondering how a SSRI is different than something like sumatriptan (serotonin agonist?) prescribed for mig
+        |aines. I don't really know how it works other than affecting something related to serotonin and I hope you can help!///
+        |Thanks
+
+
+            |Because of the multiple serotonergic activities of sumatriptan, it seems that it causes more anxiety and depression
+            |as a side effect.  I've not seen any evidence of its use to treat depression.  Because the SSRI likely works throug
+            | a balance of serotonergic AND second-messenger systems, I suspect sumatriptan is just too rawly serotonergic.////I
+            |don't regularly work with sumatriptan, so I don't know too much more about that.
+
+
+        |[deleted]
+
+
+            |the stimulant theory in ADHD is that it stimulates inhibitory neurons (pushes down the BRAKE PEDAL harder), though 
+            |t's very complex and not that simple.
+
+
+                |I don't know how related this is, but it's a thought I had. Some people say that when you give stimulant medica
+                |ions to people with ADHD, it slows them down. And when you give the same medication to someone without ADHD, it
+                |speeds them up. That's supposedly the main paradoxical effect of stimulants with respect to ADHD. But I don't t
+                |ink that is entirely true. I believe that if you give *anyone* a low dose of a stimulant, it slows them down. I
+                | you gave an ADHD individual more stimulant than they need, it speeds them up too. 
+
+
+                    |I don't know the answer to it.  the textbook answer is that therapeutic doses of stimulants to people witho
+                    |t ADHD have a similar side effect profile, with hyperfocus being increased.
+
+
+        |In op's post, he says giving them More serontoin seems counter productive, but isnt that how ADD treatment works?////So
+        | is it known why ADD medicine works and could it be for the same reason?
+
+
+            |i mostly work with emergency psychiatry (Depression, suicide, psychosis, etc).  I'm not an ADHD expert, but the dop
+            |minergic system is the one most implicted in ADHD, in the prefrontal cortex and ... some other area I forget.
+
+
+        |How do you feel about the usage of deprenyl and / or the usage of psilocybin as a means to treat patients with depressi
+        |n that have been otherwise unresponse to SSRIs or MAOIs? 
+
+
+            |Psilocybin - not really my area to comment but very skeptical.////Deprenyl - MAOIs are tragically underused, due to
+            |a overhyped, nonsensical approach to an unlikely side effect ("the wine and cheese effect").  The general algorhitm
+            |I adhere to is:////(this is only for the pill side of the equation)////* Try SSRI 1 - to full tolerated dose////* S
+            |itch to SSRI 2 - to full tolerated dose////* Switch to Non-SSRI - (Mirtazepine, venlafaxine, bupropion) based  upon
+            |patient profile/selection (each has its side effect profile)//(my addition, most don'tdo this) Switch to MAO-I////*
+            |consider combination therapy, consider diagnosis, consider symptomatic treatment, consider ECT
+
+
+        |What's this I hear that statistical evidence suggests SSRIs are no better than placebos?  Even 60 minutes spent a segme
+        |t interviewing these naysayers. Is this because placebos are very powerful psychological treatment devices or that the 
+        |ata is being misinterpreted?
+
+
+            |garbage in garbage out has part to do with it... the increasing placebo rate over the past 30 years and the correla
+            |ion with larger studies and placebo rates has something to do with it.  Despite all of this, SSRI's are still super
+            |or to placebo, but the bar is artificially raised by the recent trend of increasing placebo response.
+
+
+        |Much like **acupuncture**, with respect to meta-studies supporting it, medical science not being able to really explain
+        |it, and it working clinically.
+
+
+            |acupuncture does not likely work clinically.  comparing it to sham treatments leads to negligible results. the proc
+            |dure of acupuncture helps people, likely through expectancy/placebo.
+
+
+        |To add to this- someone asked me the great question the other day of why does an ssri sometimes makes these symptoms wo
+        |se? I have a friend doing research in this area and her response is basically that in some people, an ssri can actually
+        |affect the receptors as well making them less able to receive the serotonin. I thought it was rather interesting and a 
+        |ood thing to know when diving into clinical neuroscience. 
+
+
+        |I've heard that after a time, SSRI's induce epigenetic methylation of neural DNA that could account for the delayed res
+        |onse to the drug. Do you have any info on this?
+
+
+            |I understood a portion of that!////No, in all seriousness, methylation and other processes of epigenetics are reall
+            | taking off and I do my best to catch up, but I don't know enough to answer in a qualified way.////Epigenetics is a
+            |huge component of 2010+ psychiatry, and I'm very excited as it also starts answering the nurture-nature question in
+            |a very interesting way.
+
+
+                |He is asking can SSRI's turn genes on and off in your brain/nerve cells. I wish people would add english after 
+                |heir technobabble.
+
+
+        |Have you heard anything about the efficacy of rTMS when treating depression and or mood disorders?
+
+
+            |most studies show it to be of mild effect... perhaps moderate.  it's not as strong as most biological treatments, b
+            |t seems to be very safe.
+
+
+        |What do you think of the increased risk of suicide with SSRIs compared with placebo?
+
+
+            |overhyped mostly, but an important black box warning... what we know:////treating depression with SSRI (NNT=5-7) fa
+            | outweighs the risk of increased suicidal thinking (NNH=86+), and time to suicidal thinking is DECREASED with SSRI 
+            |reatment.////likely, the initial scare was due to secondary outcome measure science rather than primary outcome mea
+            |ure science, and the increase is likely very low.////In young people, I still warn about it.  the rate seems to be 
+            |bout 1/80 to 1/125 of increased thinking vs. placebo, but clinically its much less.
+
+
+        |[deleted]
+
+
+            |this used to be true.  now, all studies must be registered with the federal government and must be reported on rega
+            |dless of the outcome.  selective publication is no longer allowed.////bias, on the other hand, persists.  one must 
+            |lways guard against it.////that being said, it's not all bullshit.  being aware of bias is important but it doesn't
+            |invalidate the result.  but when non-biased sources confirm it, you feel better.
+
+
+        |[deleted]
+
+
+            |See above!  If they work, I suspect it is worth it.  If you don't feel that they are doing anything for you, then a
+            |trial off of them is warranted.  Speak with your physician about it!
+
+
+        |If we know that serotonin deprivation induces depression, then shouldn't tianeptine not work since increases reuptake o
+        | serotonin?  Am I missing something here?
+
+
+            |there are likely multiple pathways to depression.  we do not use SSRE medications in Canada so I have very little e
+            |perience, sorry!
+
+
+                |I'm still curious why we should think we know that serotonin deprivation induces depression.  An increase in se
+                |otonin helping ease depressive symptoms doesn't show that a lack of serotonin causes depression.  If I put on a
+                |blanket I'll be warmer, but I don't get cold because of blanket deprivation (at least not in the relevant sense
+                |.
+
+
+                    |the serotonin deprivation comes from very early studies (50s and 60s), where drugs and treatments that depl
+                    |ted serotonin caused tremendous depression and anxiety.////a great overview of the serotonin hypothesis is 
+                    |ere... though it doesn't mention the above://http://www.webmd.com/depression/features/serotonin
+
+
+        |I dont know about the US but in the UK it is felt that SSRIs are ineffective in treating depression in those aged less 
+        |han 18 years with fluoxetine being the only one to have limited evidence to support its use. Is there a physiological r
+        |ason for this or is there just not enough research carried out in the subject? 
+
+
+            |Probably the latter.   citalopram separates in youth as well.   for anxiety, all ssris save paroxetine are useful i
+            | children. ////we need more child studies! ////interestingly.. no study of TCAs in children had ever separated from
+            |placebo.   like.   ever. 
+
+
+        |I'm pretty sure that the answer to this is we don't know but I'm going to ask anyway. During SSRI withdrawal I experien
+        |ed brain zaps. I don't believe that is a technical term but I always wondered what the heck is actually going on under 
+        |he hood. What is a brain zap?
+
+
+        |What are you feelings on the current growing ideas behind the neuropsychological theory of antidepressant treatment? Wh
+        |reby long acting antidepressant treatments (SSRIs) alter the balance of emotional and experiential processing from a mo
+        |e negative bias to a more positive one, resulting long term in a change in appraisal of emotional stimuli. Catherine Ha
+        |mer of Oxford University is leading the way in this growing area of research (http://bjp.rcpsych.org/content/195/2/102.
+        |ull, http://ajp.psychiatryonline.org/article.aspx?articleID=101229&amp;RelatedWidgetArticles=true, http://www.sciencedi
+        |ect.com/science/article/pii/S0006322309013195). In addition, could you give a psychiatrists view on recent advancements
+        |in being able to tap into these biases by antidepressants in a preclinical setting? As I think it may help drug develop
+        |ent in the future, not only in terms of drug screening but also reducing the number of non-effective treatments getting
+        |into clinical trials (http://www.nature.com/npp/journal/v38/n9/abs/npp201369a.html).
+
+
+        |SSRI'S are the worst medication there is. I took prozac and eleva for 6 months and nearly committed suicide, i was so d
+        |ssociated. Came off them and i still feel dissociated but a lot better and happier.
+
+
+        |As you said, there are prominent nay-sayers, and let me preface this by saying I'm in no way "sinency". ////As you say,
+        |it's a big unknown why SSRIs work, and many possibilities have been suggested, and you yourself, as you say, leave the 
+        |why" up to the sincey folks. So taking that into account, is it possible that "Big pharma", for lack of a better genera
+        |ization, is more interested in profit  than real working treatment? How likely is it that SSRIs really don't work that 
+        |ell, and it's the attention, care and therapy that most often goes with it that makes the difference. Could this "big p
+        |arma" be influencing studies that make it seem like SSRIs are effective? Perhaps not intentionally deceiving, but large
+        | profit-seeking institutions are built around making their product preform well, and perhaps that becomes a self fulfil
+        |ing goal.
+
+
+        |I am an MD, PhD candidate doing research into this field, teaching integrative neuroscience and neuroanatomy in psychia
+        |ry at medschool.////"WE DONT KNOW" is a bit outdate. "WE HAVE AN IDEA NOW"////Fear is generated by a "neural network" o
+        | brain structures that communicate using transmitter substances such as Dopamine, Serotonin etc.////This network must a
+        |apt to different inputs modalities: Lots of fear, small fear, learning fear, adapting to fear.////It has been shown tha
+        | in Anxiety disorders, we dont simply have a "lack of serotonin"...////The system (specifically, a subunit of the Amygd
+        |la our "fear processing center) is hyperactive. This hyperactive state can not be lowered and the system can not re-ada
+        |t or "calm down". ////This is shown in a reduction of neuroplasticity and neurogenic processes: The system is "stuck" o
+        | high. ////an SSRI is a substance known to increase levels of serotonin. This is not the effect that improves an anxiet
+        | disorder. There are multiple other mechanisms, (Gaba metabolites, neurotrophic induction, architectural remodeling) th
+        |t lead to an increase in plasticity: The system can adapt again.////It is thought, that the "delay" in SSRIs (2-3 weeks
+        | is due to the need for the brain to give itself the oppotunity re-model and re-adjust itself. ////TL;DR "SSRIs attenua
+        |e anxiety disorders by increasing synaptic plasticity in fear networks"////TL;DR scientific "Amygdalofugal, striatal an
+        | subcortical pathways may be involved in SSRI attenuation of neuroplastic processes in GAD."//
+
+
+        |First, from the husband of someone with severe depression / anxiety and panic disorder, thank you. Anything you can do 
+        |o explain things more clearly as you have done here is an invaluable service.////____////And now on a completely differ
+        |nt note:////&gt; "we are not in an era of brain science where we know things definitively. That's about the only defini
+        |ive thing we know about the brain."////____////I work in technology, a field which is currently overflowing with a cult
+        |known as "The Singularity" (here on Reddit, /r/singularity/ ), where they're determined that the human brain is so triv
+        |al that they can replicate it with a few calculators wired together. This is their ultimate goal of Artificial Intellig
+        |nce (AI), in the larger scope of the transhumanist movement (/r/transhuman , example), which has goals to either (a) "u
+        |load" the human mind to computer networks and be immortal, or (b) create AI so powerful that it can itself in turn buil
+        | even more powerful AI, eventually becoming a benevolent computer god which will then possibly help goal-a happen or at
+        |least transform our society into a utopia.////Again, their argument is that the human brain is *trivial*, nothing but a
+        |bunch of wires. They could have paradise already, if only us sourpuss doom-and-gloom reality-loving naysayers would get
+        |out of their way. I'm not talking about a fringe movement here: This is central to TED talks, Silicon Valley conference
+        |, major Comp-Sci gurus, there's piles of books out there...////I have now realized that there's nothing you could do ab
+        |ut this, but I just wanted to whine about it. And it would be a better world if your quote were louder and bolder and i
+        | more places, like, say, nailed to a few foreheads out there, because along with the lunatic movement are some genuinel
+        | sane people who have been lied to a lot.//
+
+
+    |7th year behavioral neuroscience graduate student here with a focus in drugs of addiction. I have also been taking SSRIs fo
+    | 6 years, and I've read a lot about them and been to multiple lectures, classes, etc... ////While everyone is mostly right 
+    |bout the actions of SSRIs and SNRIs, I wanted to add that there is a functional neuroanatomical component to this system th
+    |t is being ignored. In short, there are many areas that help regulate the stress system (aka the hypothalamic-pituitary-adr
+    |nal axis), which include the amyglada and hippocampus. SSRIs increase serotonin output onto these areas, and via second mes
+    |engers increase brain-derived neurotrophic factors (BNDF). BDNF, in turn, increases dendritic branching and thus increases 
+    |egulation of this dis-regulated HPA axis. This process usually takes about 3 weeks, and this is why SSRIs take a few weeks 
+    |o work. ////Contrary to what DijonPepperberry stated, SSRIs may not even regulate the serotonin receptor density in the bra
+    |n ([source](http://www.sciencedirect.com/science/article/pii/0028390894900736)), but it may change the receptor sensitivity
+    |and interactions with G-proteins ([source](http://www.nature.com/npp/journal/v26/n5/abs/1395838a.html)). ////So, this is th
+    | best answer I've gotten so far as to how SSRIs work and why it takes so long for them to work.  ////Here are some more in 
+    |epth reviews if you're interested:////1)[Reuptake inhibitors of dopamine, serotonin and noradrenaline](http://www.ncbi.nlm.
+    |ih.gov/pubmed/22249822)////2)[Escitalopram, an antidepressant with an allosteric effect at the serotonin transporter--a rev
+    |ew of current understanding of its mechanism of action.](http://www.ncbi.nlm.nih.gov/pubmed/21901317)////3)[Selective serot
+    |nin-reuptake inhibitors in the treatment of panic disorder: a systematic review of placebo-controlled studies.](http://www.
+    |cbi.nlm.nih.gov/pubmed/20662754)
+
+
+        |You're probably more into the neoropharmacological side than I am, but I don't believe I've mentioned receptor density 
+        |r sensitivity!  I defer to your expert knowledge with respect to the advanced science.////I would also suggest, that th
+        | best explanation for how SSRI's work and why it takes so long is still very much in the "proposed" category and not in
+        |the "established" category.////We move closer every day.
+
+
+            |I totally agree. I must have read your post wrong. I just wanted to clarify that action isn't only at the serotiner
+            |ic synapse and has downstream consequences (which you touched on). 
+
+
+                |No worries.. you had me impressed at "7th year... "
+
+
+        |Thank you for this.  That explanation made a lot of sense.
+
+
+            |You're welcome. Glad I could help. 
+
+
+        |[deleted]
+
+
+            |all antidepressants except a very few (prozac being one) have significant discontinuation syndromes from stopping t
+            |em immediately.  please consult your physician, as there are safe ways to stop taking medication.////SSRI discontin
+            |ation syndrome should not be confused with addiction - if something benefits you, and treats an illness, it is a he
+            |pful thing.  Stopping it causes discontinuation, in the same way that stopping high-blood-pressure pills can make y
+            |ur blood pressure skyrocket.  This is not addiction, this is a rebound effect and a known phenomenon for many medic
+            |tions.
+
+
+        |Another reason why SSRIs take several weeks to kick in may more broadly be "altering gene expression takes a while."
+
+
+    |I'm a medicinal chemist; my PhD thesis was on the development of new antidepressants.////Here is my understanding of the "s
+    |ory" behind SSRIs and SNRIs:////In the 1950s, two anti-tuberculosis medications (isoniazid and iproniazid) were accidentall
+    | found to be effective as antidepressants and later discovered to be a monoamine oxidase inhibitors (MAOIs). Their antidepr
+    |ssant effect was then attributed to this activity, and chemists started making new MAOIs to improve their effectiveness.///
+    |In the 1960s, Clomipramine (another MAOI) was discovered to relieve anxiety without causing either sedation or stimulation,
+    |which was a common side effect of MAOIs. Researchers discovered that this drug primarily inhibited the reuptake of serotoni
+    |, and correlated its biological effects with this pharmacological activity. The chemists got back to work and made a bunch 
+    |f improved serotonin reuptake inhibitors which led to the SSRIs we know today (Prozac, Citalopram etc).////In recent years,
+    |serotonin reuptake has been combined with noradernaline reuptake ihibition, as noradernaline is also closely associated wit
+    | mood. This led to the SNRIs and SNRI/SSRI reuptake inhibitor drugs we use today. Why do we use them? Because clinical tria
+    |s prove their effectiveness. How are they *supposed* to work? By increasing the amount of neurotransmitter floating about i
+    | the brain. Why does this help with anxiety? More "successful" transmission of signals in mood-associated pathways in the b
+    |ain leads to less anxiety and long-term structural changes on the micro and macro scale, helping the patient to overcome an
+    |iety.////That's my two cents. I hope you enjoyed this history lesson helps to put things into context!
+
+
+        |i truly love the history of medicine, thank you!
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+    |http://www.youtube.com/watch?v=hNsIiq-5354////This talk by Ron Duman (professor of neurobiology and of pharmacology at Yale
+    | covers some current theories on the mechanisms of anti-depressant medication. The ultimate purpose of the talk is to show 
+    |ow NMDA antagonists can compete in this field, but he begins with a discussion of the mechanisms of depression and SSRIs.//
+    |/**Here's the short version**. Stress hormones are regulated, in part, by the hippocampus. The hippocampus is degraded by e
+    |cess stress, which decreases its ability to regulate stress. It's a nasty loop. SSRI drugs have been shown to cause increas
+    | neural growth factors in the hippocampus. This should allow the hippocampus to better deal with stress, which should help 
+    |ith depression and anxiety.
+
+
+        |I read the article posted above only to be dismayed when this guys short version summed it up really well
+
+
+    |[deleted]
+
+
+    |Verbatim from Goodman &amp; Gilman's The Pharmacological Basis of Therapeutics:////"SSRI treatment causes stimulation of 5-
+    |T1A and 5-HT7 autoreceptors on cell bodies in the raphe nucleus and of 5-HT1D autoreceptors on serotonergic terminals, and 
+    |his reduces serotonin synthesis and release toward pre-drug levels. With repeated treatment with SSRIs, there is a gradual 
+    |own-regulation and desensitization of these autoreceptor mechanisms. In addition, down-regulation of postsynaptic //5-HT2A 
+    |eceptors may contribute to antidepressant efficacy directly or by influencing the function of noradrenergic and other neuro
+    |s via serotonergic heteroreceptors. Other postsynaptic 5-HT receptors likely remain responsive to increased synaptic concen
+    |rations of 5-HT and contribute to the therapeutic effects of the SSRIs.////Later-developing effects of SSRI treatment also 
+    |ay be important in mediating ultimate therapeutic responses. These include sustained increases in cyclic AMP signaling and 
+    |hosphorylation of the nuclear transcription factor CREB, as well as increases in the expression of trophic factors such as 
+    |DNF. In addition, SSRI treatment increases neurogenesis from progenitor cells in the dentate nucleus of the hippocampus and
+    |subventricular zone (Santarelli et al., 2003). In animals models, some behavioral effects of SSRIs depend on increased neur
+    |genesis (probably via increased expression of BDNF and its receptor TrkB), suggesting a role for this mechanism in the anti
+    |epressant effects. Recent evidence indicates the presence of neural progenitor cells in the human hippocampus, providing so
+    |e support for the relevance of this mechanism to the clinical situation (Manganas et al., 2007). Further, repeated treatmen
+    | with SSRIs reduces the expression of SERT, resulting in reduced clearance of released 5-HT and increased serotonergic neur
+    |transmission. These changes in transporter expression parallel behavioral changes observed in animal models, suggesting som
+    | role for this regulatory mechanism in the late-developing effects of SsRIs (Zhao et al., 2009). These persistent behaviora
+    | changes depend on increased serotonergic neurotransmission, similar to what has been demonstrated clinically using depleti
+    |n strategies (Delgado et al., 1991)."//////O'Donnell JM, Shelton RC. Chapter 15. Drug Therapy of Depression and Anxiety Dis
+    |rders. In: Brunton LL, Chabner BA, Knollmann BC, eds. Goodman &amp; Gilman's The Pharmacological Basis of Therapeutics. 12n
+    | ed. New York: McGraw-Hill; 2011. http://www.accesspharmacy.com/content.aspx?aID=16663059. Accessed October 11, 2013.////TL
+    |DR: Receptor downregulation, which takes a couple weeks (and explains the initial anxiety when SSRIs are given to a patient
+    |with GAD) and a whole bunch of other stuff they're not quite sure about yet.
+
+
+        |another good source is probably Stahl's Essential Psychopharmacology.
+
+
+            |Staaaahhhhhhlllllll!
+
+
+    |One very highly-cited article talking about SSRI's effect on creating new neurons in the hippocampus of the brain: http://p
+    |ylab.idv.tw/personnel/cjhong/%E6%95%99%E5%AD%B8/%E5%8B%95%E7%89%A9%E6%A8%A1%E5%BC%8F/Animal%20models/Depression/Science2003
+    |%20Requirement%20of%20hippocampal%20Neurogenesis%20for%20the%20Behavioral.pdf
+
+
+    |[deleted]
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+    |So... is there no point in going on them at all then, I'm reading in these comments that they work just as well as talk. I'
+    | an extremely depressed person and am wary about trying an SSRI because I don't want it to push me into a further depressed
+    |suicidal state. I also don't want to stay how I am now. Is it worth it if I combine it with cognitive therapy? Or should i 
+    |ot even bother 
+
+
+        |I think support systems and having someone to talk to is critically important in reinforcing the effects of both CBT an
+        | antidepressant treatment. There are growing theories in the depression literature that antidepressant activity may be 
+        |ased not only on the extensive science discussed in this askreddit, but also the way in which we perceive and remember 
+        |xperiences we have. This means that antidepressants (and perhaps CBT) may act to remediate depression through making pa
+        |ients perceive everyday interactions and subsequent memories of those activities more positive, such that the overwhelm
+        |ng negativity or anhedonia towards life or activities are reduced. The reason I believe seeking support throughout your
+        |treatment is important is because it will help to reinforce these effects. This is area if you're interested is known a
+        | the neuropsychological theory of antidepressant treatment and Catherine Harmer from Oxford University has been one of 
+        |he frontrunners in building it (http://bjp.rcpsych.org/content/195/2/102.full). Hope this helps and you seek the treatm
+        |nt you want and begin to feel better.
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+    |[deleted]
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+    |[deleted]
+
+
+    |[deleted]
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+    |Many people with panic disorder in particular find that they don't work, or at least that they can't stick the treatment fo
+    | long enough. It's fairly common to find that they increase panic attacks and their severity. ////'Anxiety' is a large term
+    |and there can be different underlying causes of anxiety disorders. It can sometimes be linked to depression, but often isn'
+    |. However, particularly in generalised anxiety disorder, people will have a negative interpretation style that will make th
+    |m see almost everything as threatening, and it's easy to see that SSRIs may help with that, as they help with similar negat
+    |ve styles in depression. But if benzodiazepines didn't have such problems with dependence and loss of efficacy, there would
+    |be no doubt they were the most effective drugs for anxiety. 
+
+
+        |[deleted]
+
+
+        |Out of curiosity where did you get your information? It seems to be off. At least from my understanding. I am talking f
+        |om experience as I was diagnosed with Panic Disorder and Agoraphobia and have spoken with psychiatrists and therapists 
+        |n this subject.////&gt;It can sometimes be linked to depression, but often isn't.////This is the main reason I logged o
+        | and commented, because from my understanding this is wrong. ////&gt;Anxiety disorders are often comorbid with other me
+        |tal disorders, particularly clinical depression, which may occur in as many as 60% of people with anxiety disorders. //
+        |/Source: http://www.psychiatrictimes.com/articles/understanding-comorbid-depression-and-anxiety////I also wanted to add
+        |that Sertraline helped me A LOT personally. Just as much if not more then the CBT therapy I did for half a year. I have
+        |been off/done with both since February and have had no large anxiety spikes nor panic attacks luckily! //////////////
+
+
+            |From my clinical psychology textbooks and various journals over the years. That estimate is the highest I've seen f
+            |r comorbidity by quite a long way, and certainly in panic disorder the rate is nowhere near that. The rate is defin
+            |tely significant, but what I was saying was depression and anxiety are not the same thing as far as we know.////If 
+            |ertraline helped you, that's great; it does help some people. Just not all. It's never going to be as effective a t
+            |eatment for anxiety as benzodiazepines. And i wouldn't call either a cure.
+
+
+    |Sort of a follow-up question: What causes the sexual side effects of certain SSRI's? I'm currently on Lexapro and my stamin
+    | has gone from average to "Are you done yet?" and sometimes I can't orgasm at all. 
+
+
+        |Upregulation of serotonin generally (since that's what you're doing by inhibiting serotonin reuptake transporters or SE
+        |Ts) leads to serotonin increase at several different types of serotonin receptors. Some are more linked to anxiety (5-H
+        |2a, for example; this one is also stimulated by LSD and gives you hallucinations, and is inhibited therefore by 5-HT2a-
+        |pecific antagonists to treat schizophrenia) while others like 5-HT3, if overstimulated by serotonin, may lead to sexual
+        |dysfunction. It's a rather unfortunate side-effect of specifically the antidepressants that target serotonin (including
+        |SSRIs, SNRIs, TCADs, and I presume MAOIs/alpha 2 antagonists).////BUT! NDRIs, or norepinephrine dopamine reuptake inhib
+        |tors, actually don't affect serotonin and therefore don't have sexual side-effects (or weight gain). Different set of p
+        |tential side-effects here though; increasing dopamine may precipitate psychosis, especially in schizophrenics, and the 
+        |rug may induce a tremor, anxiety, and insomnia.////As a 2nd-year med student I can't exactly tell you "well you should 
+        |bviously switch to X medication," but if you truly hate that sexual side-effect, it may be worth a shot to have a chat 
+        |ith your PCP about an NDRI like wellbutrin.
+
+
+        |I was on lexapro for a while but had to stop because of the sexual side effects. Ask your doctor about Wellbutrin. I'm 
+        |n it now and not only does it treat my depression/anxiety better than lexapro, I can still bang like a race horse.
+
+
+    |I would like knowledgeable people to shed some light on this:////Some people say it takes an SSRI weeks to work. Some peopl
+    | say they can notice effects in less than 1 day. If we exclude placebo effect, what is different about the people who notic
+    | effects in less than 1 day?  
+
+
+    |[deleted]
+
+
+    |I am an MD, PhD candidate doing research into this field, teaching integrative neuroscience and neuroanatomy in psychiatry 
+    |t medschool.////"WE DONT KNOW" is a bit outdate. "WE HAVE AN IDEA NOW"////Fear is generated by a "neural network" of brain 
+    |tructures that communicate using transmitter substances such as Dopamine, Serotonin etc.////This network must adapt to diff
+    |rent inputs modalities: Lots of fear, small fear, learning fear, adapting to fear.////It has been shown that in Anxiety dis
+    |rders, we dont simply have a "lack of serotonin"...////The system (specifically, a subunit of the Amygdala our "fear proces
+    |ing center) is hyperactive. This hyperactive state can not be lowered and the system can not re-adapt or "calm down". ////T
+    |is is shown in a reduction of neuroplasticity and neurogenic processes: The system is "stuck" on high. ////an SSRI is a sub
+    |tance known to increase levels of serotonin. This is not the effect that improves an anxiety disorder. There are multiple o
+    |her mechanisms, (Gaba metabolites, neurotrophic induction, architectural remodeling) that lead to an increase in plasticity
+    | The system can adapt again.////It is thought, that the "delay" in SSRIs (2-3 weeks) is due to the need for the brain to gi
+    |e itself the oppotunity re-model and re-adjust itself. ////TL;DR "SSRIs attenuate anxiety disorders by increasing synaptic 
+    |lasticity in fear networks"////TL;DR scientific "Amygdalofugal, striatal and subcortical pathways may be involved in SSRI a
+    |tenuation of neuroplastic processes in GAD."//
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+    |[deleted]
+
+
+        |[deleted]
+
+
+            |[deleted]
+
+
+                |[deleted]
+
+
+                    |[deleted]
+
+
+    |[deleted]
+
+
+        |[deleted]
