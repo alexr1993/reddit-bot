@@ -119,3 +119,21 @@ Im going to narrow things down to:
 
 
 Seems like CPU isn't an issue so I'm going to calculate as much as I can at runtime e.g. score = ups - downs
+
+09/11/13
+
+Two types of reference; a submission reference, which is composed of a combination of title + content + selftext,
+and a comment reference, which is likely to be just text, and therefore probably easier to analyse.
+
+examples:
+
+submission reference: http://www.reddit.com/r/pics/comments/1q4i4e/i_miss_my_phone/,
+
+referring to http://www.reddit.com/r/pics/comments/1q3tfu/i_miss_my_phone/
+
+comment reference: http://www.reddit.com/r/IAmA/comments/1o5ndh/iama_guy_who_went_from_430_pounds_to_170_pounds/ccp40hs
+
+referring to http://www.reddit.com/r/AskReddit/comments/1nzfg3/what_is_the_weirdest_thing_money_can_legally_buy/ccnjg1i
+
+Like with references, there are submission and comment referees. It seems like comment referees are likely to be
+crazy stories in a sub like ask reddit, usually a top level comment.

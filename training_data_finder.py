@@ -28,8 +28,6 @@ class SnapshotTree:
 
     Top level is the root, which contains just one comment.
 
-    FOR NOW THE ROOT MUST BE A SUBMISSION, NOT COMMENT
-
     The second level contains the comment which the snapshot is focusing on,
     along with all of its siblings.
 
@@ -41,7 +39,6 @@ class SnapshotTree:
     if its parent is a reference, so we use the parent as the starting
     point, look at the siblings for more support and then check the children
     for corroboration. 
-
     """
 
     def __init__(self, root, tier2, tier3):
@@ -58,10 +55,11 @@ class SnapshotTree:
         
         assert len(tier2) == len(tier3), "Tier 2 and Tier 3 should have the same length"
 
-    def ToString(self):
+    def to_string(self):
 
+        out = OtherUtils.create_text_headline("Snapshot Start", '=', OUTPUT_WIDTH)
         # root string
-        out = self.root.ToString()
+        out += self.root.to_string()
 
         for i in range(0, len(self.tier2)):
 
@@ -71,14 +69,17 @@ class SnapshotTree:
             depth = 1
 
             out += NEWLINE * 2
-            out += t2.ToString(depth) # direct child comment
+            out += t2.to_string(depth) # direct child comment
 
             for t3 in tier3:
 
                 depth = 2
 
                 out += NEWLINE * 2
-                out += t3.ToString(depth) # grandchild
+                out += t3.to_string(depth) # grandchild
+
+
+        out += OtherUtils.create_text_headline("Snapshot End", '=' ,OUTPUT_WIDTH)
 
         return out
 
@@ -86,7 +87,7 @@ class SnapshotTree:
 
 
 class Post:
-
+    """Base class for comment and submission"""
     __metaclass__ = ABCMeta
 
     def __init__(self, data):
@@ -100,7 +101,7 @@ class Post:
         self._id         = data.id # id is private as mongo likes that
         self.name        = data.name
 
-    def ToString(self):
+    def to_string(self):
         assert False, "Abstract Method called"
 
 class Comment(Post):
@@ -112,7 +113,7 @@ class Comment(Post):
         self.parent_id = data.parent_id
         self.body = data.body
 
-    def ToString(self, depth=0):
+    def to_string(self, depth=0):
 
         text_width = OUTPUT_WIDTH - TAB_LENGTH * depth
 
@@ -120,8 +121,8 @@ class Comment(Post):
 
         no_nls = self.body.replace('\n', "//")
         
-        formatted = (' ' * TAB_LENGTH * depth) + "ID=" + self._id + ', Author=' + self.author
-        formatted += NEWLINE + (' ' * TAB_LENGTH * depth) + '|' + "Post ID: " + self._id
+        formatted = (' ' * TAB_LENGTH * depth) + "|ID: " + self._id + ', Author: ' + self.author
+
 
         for i in range(num_output_lines):
 
@@ -138,11 +139,6 @@ class Comment(Post):
 
         return formatted
 
-    def IsChildOf(self, comment):
-        """Return true if comment is parent of this"""
-        return self.parent_id == comment.name
-
-
 class Submission(Post):
 
     def __init__(self, data):
@@ -154,11 +150,9 @@ class Submission(Post):
         self.url = data.url
         self.subreddit = data.subreddit.display_name # this is the actual sub name
 
-    def ToString(self):
+    def to_string(self):
 
-        output = "-" * OUTPUT_WIDTH + NEWLINE
-
-        output += "Title: " + self.title + '(/r/' + self.subreddit + ')' + NEWLINE * 2
+        output = "Title: " + self.title + '(/r/' + self.subreddit + ')' + NEWLINE * 2
         output += "Author: " + self.author + NEWLINE * 2
 
         if self.selftext:
@@ -190,7 +184,12 @@ class SnapshotTreeFactory:
 
     def CreateSnapshotTree(self):
 
-        root = Comment(self.root)
+        if isinstance(self.root, praw.objects.Comment):
+            root = Comment(self.root)
+        elif isinstance(self.root, praw.objects.Submission):
+            root = Submission(self.root)
+        else:
+            raise TypeError("Snapshot tree must have submission/comment as root")
 
         # create comment objects for root's direct children
         tier2 = [Comment(t2) for t2 in self.tier2]
@@ -291,3 +290,12 @@ class PRAWUtil:
                     print(error_string)
                     continue
 
+class OtherUtils:
+    def create_text_headline(headline, char, width):
+        """Create text dividiers e.g. ------New Section------ char is the
+        filler on either side
+        """
+        sidelength = math.floor((width - len(headline)) / 2)
+        line = (char * sidelength) + headline + (char * sidelength)
+
+        return NEWLINE + line + NEWLINE
