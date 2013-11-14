@@ -3,5 +3,5 @@
 3	http://www.reddit.com/r/AskReddit/comments/1nzfg3/what_is_the_weirdest_thing_money_can_legally_buy/ccnjg1i
 4   http://www.reddit.com/r/pics/comments/1q3tfu/i_miss_my_phone/
 6 http://www.reddit.com/r/pics/comments/1qg9zb/would_you/
-
+7 http://www.reddit.com/r/WTF/comments/1qkd9x/secret_staircase_reveals_terrifying_secret/ # banana for scale
 perhaps model each askreddit reply as a submission
