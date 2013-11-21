@@ -4,4 +4,6 @@
 4   http://www.reddit.com/r/pics/comments/1q3tfu/i_miss_my_phone/
 6 http://www.reddit.com/r/pics/comments/1qg9zb/would_you/
 7 http://www.reddit.com/r/WTF/comments/1qkd9x/secret_staircase_reveals_terrifying_secret/ # banana for scale
+8 http://www.reddit.com/r/pics/comments/1r2kyx/we_repurposed_a_lane_from_an_old_bowling_alley/
+9 http://www.reddit.com/r/funny/comments/1r3axu/friend_of_mine_got_cropped_out_of_the_middle_of_a/
 perhaps model each askreddit reply as a submission
