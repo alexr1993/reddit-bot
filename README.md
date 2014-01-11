@@ -82,41 +82,39 @@ memory is the main bottleneck at the moment
 some of these subreddits are not helping
 
 
-# /r/adviceanimals
-# /r/AskReddit
-# /r/aww
-# /r/bestof
-# /r/books
-# /r/earthporn
-# /r/explainlikeimfive
-# /r/funny
-# /r/gaming
-# /r/gifs
-# /r/IAmA
-# /r/movies
-# /r/music
-# /r/news
-# /r/pics
-# /r/science
-# /r/technology
-# /r/television
-# /r/todayilearned
-# /r/videos
-# /r/worldnews
-# /r/wtf
+/r/adviceanimals
+/r/AskReddit
+/r/aww
+/r/bestof
+/r/books
+/r/earthporn
+/r/explainlikeimfive
+/r/funny
+/r/gaming
+/r/gifs
+/r/IAmA
+/r/movies
+/r/music
+/r/news
+/r/pics
+/r/science
+/r/technology
+/r/television
+/r/todayilearned
+/r/videos
+/r/worldnews
+/r/wtf
 
 Im going to narrow things down to:
-
-# /r/adviceanimals
-# /r/AskReddit
-# /r/funny
-# /r/gifs
-# /r/IAmA
-# /r/pics
-# /r/todayilearned
-# /r/videos
-# /r/wtf
-
+/r/adviceanimals
+/r/AskReddit
+/r/funny
+/r/gifs
+/r/IAmA
+/r/pics
+/r/todayilearned
+/r/videos
+/r/wtf
 
 Seems like CPU isn't an issue so I'm going to calculate as much as I can at runtime e.g. score = ups - downs
 
