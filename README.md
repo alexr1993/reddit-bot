@@ -143,3 +143,7 @@ referring to http://www.reddit.com/r/AskReddit/comments/1nzfg3/what_is_the_weird
 
 Like with references, there are submission and comment referees. It seems like comment referees are likely to be
 crazy stories in a sub like ask reddit, usually a top level comment.
+
+23/01/14
+
+Starting with a supervised classifier with a single example: Is this thread a reference to the banana for scale joke or not. A frequency distribution of words from the thread will be the feature vector.
