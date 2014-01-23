@@ -1,4 +1,4 @@
-Reddit-Bot - GPL 3.0
+Reddit-Bot
 ==========
 
 Finds references made about popular threads
@@ -12,6 +12,14 @@ images and references made using images.
 To start off I am going to cheat by using references people have pointed out
 already, perhaps by text or by posting that captain america "I get that 
 reference" gif
+
+The criteria for success of this project is the ability to identify a thread
+or comment as being a reference to a previous thread, at very least inside a
+given timeframe such as a week.
+
+The optimistic aim is to be able to classify new posts as being completely
+original or a reference/repost before it reaches hot/front page or a human
+user points it out.
 
 
 01/10/13:

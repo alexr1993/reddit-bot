@@ -219,7 +219,7 @@ class PRAWUtil:
 
 
         assert isinstance(post, praw.objects.Comment) or \
-               isinstance(post, praw.objects.Submission)
+               isinstance(post, praw.objects.Submission), type(post)
 
         permalink = post.permalink
         name = post.name
@@ -257,7 +257,7 @@ class PRAWUtil:
             # no more replies
             if more == []:
 
-                print(str(len(output)) + " replies found for " + permalink + "\n")
+                # print(str(len(output)) + " replies found for " + permalink + "\n")
 
                 for reply in output:
                     assert(isinstance(reply, praw.objects.Comment))
@@ -289,6 +289,26 @@ class PRAWUtil:
 
                     print(error_string)
                     continue
+
+    def get_all_child_comments(post, depthlimit=None, depth=0):
+        '''
+        Accepts PRAW.objects.Comment
+        Returns depthlimit layers of child comments in flat list'''
+
+        assert(depthlimit >= 1)
+        assert(depth >= 0)
+        assert(isinstance(post, praw.objects.Comment)), type(post)
+
+        if(depth + 1 == depthlimit):
+            return [post] + PRAWUtil.get_all_direct_children(post)
+
+        else:
+            output = [post]
+            for child in PRAWUtil.get_all_direct_children(post):
+                output.append(child)
+                output += PRAWUtil.get_all_child_comments(child, depthlimit, \
+                    depth + 1)
+            return output
 
 class OtherUtils:
     def create_text_headline(headline, char, width):
