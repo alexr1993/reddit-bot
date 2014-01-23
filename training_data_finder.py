@@ -305,7 +305,7 @@ class PRAWUtil:
         else:
             output = [post]
             for child in PRAWUtil.get_all_direct_children(post):
-                output.append(child)
+                # output.append(child) this causes duplication
                 output += PRAWUtil.get_all_child_comments(child, depthlimit, \
                     depth + 1)
             return output

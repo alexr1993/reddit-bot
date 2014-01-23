@@ -89,51 +89,88 @@ def create_corpus(thread):
 
 	return normalise_corpus(corpus)
 
+def write_corpus_to_file(corpus, path):
+	f = open(path, 'w+')
+
+	for word in corpus:
+		f.write(word)
+		f.write(' ')
+	f.close()
+
 ## Main
+ 
+# banana for scale urlsf = open('corpus.txt', 'w')
 
-url1 = "http://www.reddit.com/r/pics/comments/1q3tfu/i_miss_my_phone"
-url2 = "http://www.reddit.com/r/pics/comments/1q56q3/i_miss_my_printer/"
-url3 = "http://www.reddit.com/r/funny/comments/1reeuf/we_bought_a_big_ass_pizza_today_my_wife_asked_me/"
-url4 = "http://www.reddit.com/r/pics/comments/1q5j8o/i_miss_my_pencil/"
-url5 = "http://www.reddit.com/r/worldnews/comments/1qluvy/indian_train_strikes_herd_of_40_elephants/cde4vvv"
+# for word in corpus:
+# 	f.write(word)
+# 	f.write(' ')
 
-urls = [url1,url2,url3,url4,url5]
+# f.close()
+banana1 = 'http://www.reddit.com/r/worldnews/comments/1qluvy/indian_train_strikes_herd_of_40_elephants/cde4vvv'
+banana2 = 'http://www.reddit.com/r/pics/comments/1rcx07/caught_a_little_octopus_in_costa_rica/cdm6mj2'
+banana3 = 'http://www.reddit.com/r/funny/comments/1reeuf/we_bought_a_big_ass_pizza_today_my_wife_asked_me/'
+banana4 = 'http://www.reddit.com/r/funny/comments/1rj8l8/reddit_right_now_fixed/'
+banana5 = 'http://www.reddit.com/r/aww/comments/1rkij9/my_girlfriend_works_at_an_animal_shelterso_when/'
+
+
+
+
+
+
+banana_for_scale_urls = [banana1, banana2, banana3, banana4, banana5]
+banana_for_scale_urls = [banana2]
 
 threads = []
 
 # for url in urls:
-# 	print(url)
+# 	print(url)/media/alex/Hitachi
 # 	threads += get_thread(url)
 
 front_page = REDDIT.get_front_page()
+links = [submission.permalink for submission in front_page]
 
-for submission in front_page:
-	threads += get_thread(submission.permalink)
+for submission in banana_for_scale_urls:
+	threads.append(get_thread(submission))
 
+corpora = []
+
+# want separate corpus for each thread
+for thread in threads:
+	corpora.append(create_corpus(thread))
+
+out_folder = '/media/alex/Hitachi/raw_data/banana_for_scale_corpora/'
+corpus_id = 1
+for corpus in corpora:
+	write_corpus_to_file(corpus, out_folder + str(corpus_id) + '.txt')
+	corpus_id += 1
+
+	# so I don't spawn 2 million files on my desktop again...
+	if corpus_id > 100:
+		break
 
 
 # want a text corpus of everything said in the thread
-corpus = create_corpus(threads)
+#master_corpus = create_corpus(threads)
 
 
 
-counter = collections.Counter(corpus)
+#counter = collections.Counter(master_corpus)
 
-most_common = counter.most_common(200) # returns n most common, all if none
+#most_common = counter.most_common(200) # returns n most common, all if none
 
 # sorted set of words, values are the quanitity
-dictionary = dict(counter)
+#dictionary = dict(counter)
 
-word_count = sum(dictionary.values())
-vocabulary_size = len(dictionary)
+#word_count = sum(dictionary.values())
+#vocabulary_size = len(dictionary)
 
-f = open('corpus.txt', 'w')
+# f = open('corpus.txt', 'w')
 
-for word in corpus:
-	f.write(word)
-	f.write(' ')
+# for word in corpus:
+# 	f.write(word)
+# 	f.write(' ')
 
-f.close()
+# f.close()
 
 
 
