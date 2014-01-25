@@ -12,16 +12,23 @@ import re
 from start_interactive_shell import start_interactive_shell
 from stemming.porter2 import stem
 import training_data_finder
+from os import listdir
 
 
 global REDDIT
-REDDIT = praw.Reddit('alexr1993@gmail.com')
+global SUBREDDIT_NAMES
+global MULTI_REDDIT
+global RAW_DATA_DIR
 
 def normalise_word(word):
 	'''Processes word so it can be inserted into text corpus'''
-	word = re.sub('\W', '', word) # remove non word characters
+
+	# don't strip chars out of hyperlinks/subreddit links
+	if not re.match('https?://|/r/|www', word):
+		word = re.sub('\W', '', word) # remove non word characters
+		word = stem(word) # don't want to stem if giving to nltk
+
 	word = word.lower()
-	#word = stem(word) # don't want to stem if giving to nltk
 	return word
 
 def get_thread(url, timelimit=20):
@@ -85,20 +92,84 @@ def create_corpus(thread):
 	for comment in thread:
 		thread_string += comment.body + ' '
 
-	corpus = thread_string.replace("\n", ' ').split(' ')
+	## must ensure that words are separated correctly before they are passed
+	#  on to be individually normalised
+
+	# remove square and round brackets as they are used for embedding image
+	# links in quotes
+	thread_string = re.sub('[\[\]\(\)]', ' ', thread_string)
+
+	# split on any form of whitespace
+	corpus = re.split('\s+', thread_string)
 
 	return normalise_corpus(corpus)
 
 def write_corpus_to_file(corpus, path):
-	f = open(path, 'w+')
+	'''Accepts list of strings and a path *.txt'''
+	f = open(path, 'w')
 
 	for word in corpus:
 		f.write(word)
 		f.write(' ')
 	f.close()
 
+def read_corpus_from_file(path):
+	'''Accepts location of txt file, returns list of words in the file'''
+	f = open(path, 'r')
+	contents = f.read()
+
+	# split on whitespace
+	corpus = re.split('\s+', contents)
+
+	return corpus
+
+def scrape_thread_to_file(url, dir):
+	'''
+	Accepts an URL, fetches praw comments from it, converts them into a
+	corpus, then writes the corpus to a file in directory dir, with a
+	generated unique name
+	'''
+
+	thread = get_thread(url)
+	root = thread[0]
+
+	# unique idenditifer for a comment tree/thread
+	thread_id = root.author.name
+	thread_id += '_' + root.name
+
+	corpus = create_corpus(thread)
+
+	write_corpus_to_file(corpus, dir + thread_id + '.txt')
+
+	# no return, just write to file
+
+#############################################################################
+## Initialise Globals
+REDDIT = praw.Reddit('alexr1993@gmail.com')
+
+SUBREDDIT_NAMES = (
+    "adviceanimals",
+    "AskReddit",
+    "funny",
+    "gifs",
+    "IAmA",
+    "pics",
+    "todayilearned",
+    "videos",
+    "wtf"
+)
+
+multi_string = '+'.join(SUBREDDIT_NAMES)
+
+# accepts "funny+askreddit+wtf" etc
+MULTI_REDDIT = REDDIT.get_subreddit(multi_string)
+
+RAW_DATA_DIR = '/media/alex/Hitachi/raw_data/'
+OUT_FOLDER = RAW_DATA_DIR + 'generic_corpora/'
+
+#############################################################################
 ## Main
- 
+
 # banana for scale urlsf = open('corpus.txt', 'w')
 
 # for word in corpus:
@@ -106,6 +177,8 @@ def write_corpus_to_file(corpus, path):
 # 	f.write(' ')
 
 # f.close()
+
+# these 5 banana for scale urls have my peel of approval
 banana1 = 'http://www.reddit.com/r/worldnews/comments/1qluvy/indian_train_strikes_herd_of_40_elephants/cde4vvv'
 banana2 = 'http://www.reddit.com/r/pics/comments/1rcx07/caught_a_little_octopus_in_costa_rica/cdm6mj2'
 banana3 = 'http://www.reddit.com/r/funny/comments/1reeuf/we_bought_a_big_ass_pizza_today_my_wife_asked_me/'
@@ -115,12 +188,13 @@ banana5 = 'http://www.reddit.com/r/aww/comments/1rkij9/my_girlfriend_works_at_an
 
 
 
-
+bananaposts = REDDIT.search('banana for scale', multi_reddit)
 
 banana_for_scale_urls = [banana1, banana2, banana3, banana4, banana5]
-banana_for_scale_urls = [banana2]
+
 
 threads = []
+corpora = []
 
 # for url in urls:
 # 	print(url)/media/alex/Hitachi
@@ -129,24 +203,14 @@ threads = []
 front_page = REDDIT.get_front_page()
 links = [submission.permalink for submission in front_page]
 
-for submission in banana_for_scale_urls:
-	threads.append(get_thread(submission))
+#for submission in links:
+#	scrape_thread_to_file(submission, OUT_FOLDER)
 
-corpora = []
 
-# want separate corpus for each thread
-for thread in threads:
-	corpora.append(create_corpus(thread))
+## Read in all downloaded corpora
+files = [f for f in listdir(OUT_FOLDER) if re.match('.*.txt', f)]
 
-out_folder = '/media/alex/Hitachi/raw_data/banana_for_scale_corpora/'
-corpus_id = 1
-for corpus in corpora:
-	write_corpus_to_file(corpus, out_folder + str(corpus_id) + '.txt')
-	corpus_id += 1
 
-	# so I don't spawn 2 million files on my desktop again...
-	if corpus_id > 100:
-		break
 
 
 # want a text corpus of everything said in the thread

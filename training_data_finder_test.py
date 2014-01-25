@@ -32,11 +32,7 @@ SUBREDDIT_NAMES = (
     "wtf"
 )
 
-multi_string = ""
-
-for s in SUBREDDIT_NAMES:
-    multi_string += s
-    multi_string += "+"
+multi_string = '+'.join(SUBREDDIT_NAMES)
 
 multi_string = multi_string[:len(multi_string) - 1] # cut off trailing +
 
