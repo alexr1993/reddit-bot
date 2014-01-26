@@ -19,6 +19,8 @@ global REDDIT
 global SUBREDDIT_NAMES
 global MULTI_REDDIT
 global RAW_DATA_DIR
+global GENERIC_FOLDER
+global BANANA_FOLDER
 
 def normalise_word(word):
 	'''Processes word so it can be inserted into text corpus'''
@@ -113,16 +115,6 @@ def write_corpus_to_file(corpus, path):
 		f.write(' ')
 	f.close()
 
-def read_corpus_from_file(path):
-	'''Accepts location of txt file, returns list of words in the file'''
-	f = open(path, 'r')
-	contents = f.read()
-
-	# split on whitespace
-	corpus = re.split('\s+', contents)
-
-	return corpus
-
 def scrape_thread_to_file(url, dir):
 	'''
 	Accepts an URL, fetches praw comments from it, converts them into a
@@ -134,116 +126,126 @@ def scrape_thread_to_file(url, dir):
 	root = thread[0]
 
 	# unique idenditifer for a comment tree/thread
-	thread_id = root.author.name
+	if root.author:
+		thread_id = root.author.name
+	else:
+		thread_id = 'deleted'
 	thread_id += '_' + root.name
 
 	corpus = create_corpus(thread)
 
 	write_corpus_to_file(corpus, dir + thread_id + '.txt')
-
 	# no return, just write to file
 
-#############################################################################
-## Initialise Globals
-REDDIT = praw.Reddit('alexr1993@gmail.com')
-
-SUBREDDIT_NAMES = (
-    "adviceanimals",
-    "AskReddit",
-    "funny",
-    "gifs",
-    "IAmA",
-    "pics",
-    "todayilearned",
-    "videos",
-    "wtf"
-)
-
-multi_string = '+'.join(SUBREDDIT_NAMES)
-
-# accepts "funny+askreddit+wtf" etc
-MULTI_REDDIT = REDDIT.get_subreddit(multi_string)
-
-RAW_DATA_DIR = '/media/alex/Hitachi/raw_data/'
-OUT_FOLDER = RAW_DATA_DIR + 'generic_corpora/'
+def scrape_threads_to_folder(urls, dir):
+	for url in urls:
+		scrape_thread_to_file(url, dir)
 
 #############################################################################
-## Main
 
-# banana for scale urlsf = open('corpus.txt', 'w')
+if __name__ == "__main__":
 
-# for word in corpus:
-# 	f.write(word)
-# 	f.write(' ')
+	## Initialise Globals
+	REDDIT = praw.Reddit('alexr1993@gmail.com')
 
-# f.close()
+	SUBREDDIT_NAMES = (
+	    "adviceanimals",
+	    "AskReddit",
+	    "funny",
+	    "gifs",
+	    "IAmA",
+	    "pics",
+	    "todayilearned",
+	    "videos",
+	    "wtf"
+	)
 
-# these 5 banana for scale urls have my peel of approval
-banana1 = 'http://www.reddit.com/r/worldnews/comments/1qluvy/indian_train_strikes_herd_of_40_elephants/cde4vvv'
-banana2 = 'http://www.reddit.com/r/pics/comments/1rcx07/caught_a_little_octopus_in_costa_rica/cdm6mj2'
-banana3 = 'http://www.reddit.com/r/funny/comments/1reeuf/we_bought_a_big_ass_pizza_today_my_wife_asked_me/'
-banana4 = 'http://www.reddit.com/r/funny/comments/1rj8l8/reddit_right_now_fixed/'
-banana5 = 'http://www.reddit.com/r/aww/comments/1rkij9/my_girlfriend_works_at_an_animal_shelterso_when/'
+	multi_string = '+'.join(SUBREDDIT_NAMES)
 
+	# accepts "funny+askreddit+wtf" etc
+	MULTI_REDDIT = REDDIT.get_subreddit(multi_string)
 
+	RAW_DATA_DIR = '/media/alex/Hitachi/raw_data/'
+	GENERIC_FOLDER = RAW_DATA_DIR + 'generic_corpora/'
+	BANANA_FOLDER = RAW_DATA_DIR + 'banana_for_scale_corpora/'
 
+	###########################################################################
+	## Main
 
-bananaposts = REDDIT.search('banana for scale', multi_reddit)
+	# banana for scale urlsf = open('corpus.txt', 'w')
 
-banana_for_scale_urls = [banana1, banana2, banana3, banana4, banana5]
+	# for word in corpus:
+	# 	f.write(word)
+	# 	f.write(' ')
 
+	# f.close()
 
-threads = []
-corpora = []
-
-# for url in urls:
-# 	print(url)/media/alex/Hitachi
-# 	threads += get_thread(url)
-
-front_page = REDDIT.get_front_page()
-links = [submission.permalink for submission in front_page]
-
-#for submission in links:
-#	scrape_thread_to_file(submission, OUT_FOLDER)
-
-
-## Read in all downloaded corpora
-files = [f for f in listdir(OUT_FOLDER) if re.match('.*.txt', f)]
-
-
-
-
-# want a text corpus of everything said in the thread
-#master_corpus = create_corpus(threads)
+	# these 5 banana for scale urls have my peel of approval
+	#saving these for test data
+	banana1 = 'http://www.reddit.com/r/worldnews/comments/1qluvy/indian_train_strikes_herd_of_40_elephants/cde4vvv'
+	banana2 = 'http://www.reddit.com/r/pics/comments/1rcx07/caught_a_little_octopus_in_costa_rica/cdm6mj2'
+	banana3 = 'http://www.reddit.com/r/funny/comments/1reeuf/we_bought_a_big_ass_pizza_today_my_wife_asked_me/'
+	banana4 = 'http://www.reddit.com/r/funny/comments/1rj8l8/reddit_right_now_fixed/'
+	banana5 = 'http://www.reddit.com/r/aww/comments/1rkij9/my_girlfriend_works_at_an_animal_shelterso_when/'
 
 
+	bananaposts = REDDIT.search('banana for scale', limit=40)
 
-#counter = collections.Counter(master_corpus)
-
-#most_common = counter.most_common(200) # returns n most common, all if none
-
-# sorted set of words, values are the quanitity
-#dictionary = dict(counter)
-
-#word_count = sum(dictionary.values())
-#vocabulary_size = len(dictionary)
-
-# f = open('corpus.txt', 'w')
-
-# for word in corpus:
-# 	f.write(word)
-# 	f.write(' ')
-
-# f.close()
+	banana_for_scale_urls = [banana1, banana2, banana3, banana4, banana5]
 
 
+	threads = []
+	corpora = []
 
-#############################################################################
-#start_interactive_shell()
+	# for url in urls:
+	# 	print(url)/media/alex/Hitachi
+	# 	threads += get_thread(url)
 
-import readline # optional, will allow Up/Down/History in the console
-import code
-vars = globals().copy()
-vars.update(locals())
-shell = code.InteractiveConsole(vars)
-shell.interact()
+	front_page = MULTI_REDDIT.get_top(limit=25)
+
+	# these links are the threads which will be scraped
+	links = [submission.permalink for submission in bananaposts]
+
+	scrape_threads_to_folder(links, BANANA_FOLDER)
+
+
+	## Read in all downloaded corpora
+	files = [f for f in listdir(BANANA_FOLDER) if re.match('.*.txt', f)]
+
+
+
+
+	# want a text corpus of everything said in the thread
+	#master_corpus = create_corpus(threads)
+
+
+
+	#counter = collections.Counter(master_corpus)
+
+	#most_common = counter.most_common(200) # returns n most common, all if none
+
+	# sorted set of words, values are the quanitity
+	#dictionary = dict(counter)
+
+	#word_count = sum(dictionary.values())
+	#vocabulary_size = len(dictionary)
+
+	# f = open('corpus.txt', 'w')
+
+	# for word in corpus:
+	# 	f.write(word)
+	# 	f.write(' ')
+
+	# f.close()
+
+
+
+	#############################################################################
+	#start_interactive_shell()
+
+	import readline # optional, will allow Up/Down/History in the console
+	import code
+	vars = globals().copy()
+	vars.update(locals())
+	shell = code.InteractiveConsole(vars)
+	shell.interact()
