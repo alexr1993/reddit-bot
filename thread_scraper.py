@@ -4,16 +4,12 @@
 #  normalising words and manipulating the corpus until it represents a
 #  feature vector or something that can easily be transformed into one
 
-import collections
+
 import json
-from pprint import pprint
 import praw
 import re
-from start_interactive_shell import start_interactive_shell
 from stemming.porter2 import stem
 import training_data_finder
-from os import listdir
-
 
 global REDDIT
 global SUBREDDIT_NAMES
@@ -109,10 +105,7 @@ def create_corpus(thread):
 def write_corpus_to_file(corpus, path):
 	'''Accepts list of strings and a path *.txt'''
 	f = open(path, 'w')
-
-	for word in corpus:
-		f.write(word)
-		f.write(' ')
+	f.write(' '.join(corpus))
 	f.close()
 
 def scrape_thread_to_file(url, dir):
@@ -193,52 +186,12 @@ if __name__ == "__main__":
 
 	banana_for_scale_urls = [banana1, banana2, banana3, banana4, banana5]
 
-
-	threads = []
-	corpora = []
-
-	# for url in urls:
-	# 	print(url)/media/alex/Hitachi
-	# 	threads += get_thread(url)
-
 	front_page = MULTI_REDDIT.get_top(limit=25)
 
 	# these links are the threads which will be scraped
 	links = [submission.permalink for submission in bananaposts]
 
 	scrape_threads_to_folder(links, BANANA_FOLDER)
-
-
-	## Read in all downloaded corpora
-	files = [f for f in listdir(BANANA_FOLDER) if re.match('.*.txt', f)]
-
-
-
-
-	# want a text corpus of everything said in the thread
-	#master_corpus = create_corpus(threads)
-
-
-
-	#counter = collections.Counter(master_corpus)
-
-	#most_common = counter.most_common(200) # returns n most common, all if none
-
-	# sorted set of words, values are the quanitity
-	#dictionary = dict(counter)
-
-	#word_count = sum(dictionary.values())
-	#vocabulary_size = len(dictionary)
-
-	# f = open('corpus.txt', 'w')
-
-	# for word in corpus:
-	# 	f.write(word)
-	# 	f.write(' ')
-
-	# f.close()
-
-
 
 	#############################################################################
 	#start_interactive_shell()

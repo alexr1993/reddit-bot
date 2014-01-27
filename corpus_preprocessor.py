@@ -1,4 +1,5 @@
 ## This file is as part of the ref bot project
+from thread_scraper import write_corpus_to_file
 
 """
 Tools for reading corpora from disk and converting them into feature vectors
@@ -12,7 +13,7 @@ def read_corpus_from_file(path):
     '''Accepts location of txt file, returns list of words in the file'''
     f = open(path, 'r')
     contents = f.read()
-
+    f.close()
     # split on whitespace
     corpus = re.split('\s+', contents)
 
@@ -35,23 +36,30 @@ def augment_features(counter):
         counter[word] *= (1 / most_common)
         #counter[word] += 0.5
 
-
     return counter
 
-def reduce_dimensionality(list_of_vectors):
+def reduce_dimensionality(vector, schema):
     '''
-    Returns a list of feature vectors all representing the same word
-    frequency distribution from each corpus given as an argument.
-    If any input corpora do not have words which are selected they will be
-    set to zero
+    Really simple dimensionality reduction - remove all words in vector which
+    are not in the schema
+
+    vector : list of [word, frequency]
+    schema : list of words
     '''
 
     # This will involve going through the whole sum of corpora and finding
     # the 50 highest scoring words, then reducing each corpus to only
     # those words
+    vector = [word for word in vector if word[0] in schema]
+
+    non_occuring_words = set(schema).difference(set(dict(vector)))
+    non_occuring_words = [(word, 0) for word in non_occuring_words]
 
 
-    return list_of_vectors
+    vector += list(non_occuring_words)
+
+
+    return sorted(vector)
 
 def create_feature_vector(corpus):
     '''
@@ -61,7 +69,7 @@ def create_feature_vector(corpus):
     counter = collections.Counter(corpus)
 
     # normalise vector using corpus statistics
-    counter = augment_features(counter)
+    dictionary = augment_features(counter)
 
     vector = dict(counter) # extra f'nality of counter not needed now
 
@@ -69,29 +77,110 @@ def create_feature_vector(corpus):
     vocabulary_size = len(counter)
 
 
-    feat_vec = [(word, vector[word]) for word in vector]
+    feat_vec = [(word, dictionary[word]) for word in dictionary]
     feat_vec.sort() # want in dictionary order
-
 
     return feat_vec
 
-# sudo python3.3 corpus_preprocessor.py '/media/alex/Hitachi/raw_data/generic_corpora/
+def create_vocabulary_schema(feature_vecs, dimensionality):
+    '''
+    Create a schema of a given dimensionality based on a list of feature
+    vectors. The highest scoring words will be put in the schema
+
+    feature_vecs : list of feature vectos [[word1,freq1],...,[wordm,freqm]]
+        sorted in alphabetical order
+    dimensionality : number of words the output schema will contain
+
+    This function assumes all vectors features have been normalised - ie they
+    have the same scale
+    '''
+    total_counter = collections.Counter()
+
+    for vec in feature_vecs:
+        # remove words under 3 letters cos they're noise
+        vec = [word for word in vec if len(word[0]) > 3]
+
+        counter = collections.Counter(dict(vec))
+        total_counter += counter
+
+    schema = list(dict(total_counter.most_common(dimensionality)))
+
+    return schema
+
+def create_schema_using_directory(dir, name):
+    '''
+    dir : path to a directory containing 1 or more corpora
+    dimensionality : K value for output schema
+
+    schema is written to SCHEMA_PATH/name.txt
+
+    dir must have a folder named 'training' containing th corpora
+    '''
+    path = '/'.join([DATA_ROOT, dir, 'training'])
+
+    files = [f for f in listdir(path) if re.match('.*.txt', f)]
+
+    vectors = []
+
+    for file in files:
+        corpus = read_corpus_from_file('/'.join([path, file]))
+        vec = create_feature_vector(corpus)
+        vectors.append(vec)
+
+    schema = create_vocabulary_schema(vectors, K)
+
+    write_corpus_to_file(schema, '/'.join([SCHEMA_PATH, name + '.txt']))
+    print("Created schema " + name + "in " + SCHEMA_PATH)
+
+def create_feature_vector_set(dir, schema_name):
+    '''
+    dir : e.g. generic_corpora/training
+    schema : e.g. banana
+    '''
+    schema = read_corpus_from_file('/'.join([SCHEMA_PATH,\
+        schema_name + '.txt']))
+
+    files = listdir('/'.join([DATA_ROOT, dir]))
+
+    vectors = []
+
+    for file in files:
+        corpus = read_corpus_from_file('/'.join([DATA_ROOT, dir, file]))
+        vec = create_feature_vector(corpus)
+        vec = reduce_dimensionality(vec, schema)
+        vectors.append(vec)
+
+    return vectors
+
+global DATA_ROOT
+global SCHEMA_PATH
+global K
+
 if __name__ == "__main__":
 
     import sys
-    path = sys.argv[1]
+    topic = sys.argv[1]
+    data_set = sys.argv[2]
+
+    DATA_ROOT = '/media/alex/Hitachi/raw_data'
+    SCHEMA_PATH = '/'.join([DATA_ROOT, 'topic_schemas'])
+    K = 100
 
     ## Read in all downloaded corpora
-    files = [f for f in listdir(path) if re.match('.*.txt', f)]
+    files = [f for f in listdir('/'.join([DATA_ROOT, topic, data_set])) \
+        if re.match('.*.txt', f)]
 
     pprint(files)
 
-    ## Need to create vectors for each word in thread, the value is the
-    #  fraction of the corpus the word takes up
+    #create_schema_using_directory('banana_for_scale_corpora', 'banana')
+    #create_schema_using_directory('generic_corpora','generic')
 
-    corpus1 = read_corpus_from_file(path + files[0])
+    ## Create feature vectors ready for training/testing
+    vecs = create_feature_vector_set('banana_for_scale_corpora/test', 'banana')
 
-    vec = create_feature_vector(corpus1)
+
+
+
 
     # useful for viewing vec in order 
     # pprint(sorted(vec, key=lambda word: word[1]))
