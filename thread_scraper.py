@@ -184,14 +184,15 @@ if __name__ == "__main__":
 
 	bananaposts = REDDIT.search('banana for scale', limit=40)
 
+
 	banana_for_scale_urls = [banana1, banana2, banana3, banana4, banana5]
 
-	front_page = MULTI_REDDIT.get_top(limit=25)
+	#front_page = MULTI_REDDIT.get_top(limit=25)
 
 	# these links are the threads which will be scraped
 	links = [submission.permalink for submission in bananaposts]
 
-	scrape_threads_to_folder(links, BANANA_FOLDER)
+	scrape_threads_to_folder(banana_for_scale_urls, BANANA_FOLDER)
 
 	#############################################################################
 	#start_interactive_shell()

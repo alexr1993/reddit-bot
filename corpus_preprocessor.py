@@ -130,7 +130,7 @@ def create_schema_using_directory(dir, name):
     schema = create_vocabulary_schema(vectors, K)
 
     write_corpus_to_file(schema, '/'.join([SCHEMA_PATH, name + '.txt']))
-    print("Created schema " + name + "in " + SCHEMA_PATH)
+    print("Created schema " + name + " in " + SCHEMA_PATH)
 
 def create_feature_vector_set(dir, schema_name):
     '''
@@ -148,8 +148,11 @@ def create_feature_vector_set(dir, schema_name):
         corpus = read_corpus_from_file('/'.join([DATA_ROOT, dir, file]))
         vec = create_feature_vector(corpus)
         vec = reduce_dimensionality(vec, schema)
-        vectors.append(vec)
 
+        # finally strip words away so a vector of numbers remains
+        vec = [pair[1] for pair in vec]
+
+        vectors.append(vec)
     return vectors
 
 global DATA_ROOT
@@ -172,14 +175,32 @@ if __name__ == "__main__":
 
     pprint(files)
 
-    #create_schema_using_directory('banana_for_scale_corpora', 'banana')
-    #create_schema_using_directory('generic_corpora','generic')
+    create_schema_using_directory('banana_for_scale_corpora', 'banana')
+    create_schema_using_directory('generic_corpora','generic')
 
     ## Create feature vectors ready for training/testing
-    vecs = create_feature_vector_set('banana_for_scale_corpora/test', 'banana')
+    banana_training_vecs = create_feature_vector_set('banana_for_scale_corpora/training', 'banana')
+    generic_training_vecs = create_feature_vector_set('generic_corpora/training', 'generic')
 
+    # cross validation data found by surfing reddit not in search
+    banana_cv_vecs = create_feature_vector_set('banana_for_scale_corpora/cv', 'banana')
 
+    banana_test_vecs = create_feature_vector_set('banana_for_scale_corpora/test', 'banana')
+    generic_test_vecs = create_feature_vector_set('generic_corpora/test', 'generic')
 
+    
+
+    ## BUILD A CLASSIFIER FROM THIS PREPROCESSED DATA - THIS CODE SHOULD SOON BE MOVED
+    #  TO ANOTHER FILE
+    import numpy as np
+    X = banana_training_vecs + generic_training_vecs # concat all training data
+    # create list of labels
+    y = [1 for x in banana_training_vecs] + [0 for x in generic_training_vecs]
+
+    from sklearn.naive_bayes import MultinomialNB
+    clf = MultinomialNB()
+    clf.fit(X,y)
+    print(clf.predict(generic_test_vecs[0])) # should be 0 for all generic vecs
 
 
     # useful for viewing vec in order 
@@ -193,4 +214,5 @@ if __name__ == "__main__":
     vars.update(locals())
     shell = code.InteractiveConsole(vars)
     shell.interact()
+
 
