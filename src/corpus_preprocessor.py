@@ -15,7 +15,7 @@ def read_corpus_from_file(path):
     contents = f.read()
     f.close()
     # split on whitespace
-    corpus = re.split('\s+', contents)
+    corpus = re.split('\s+', contents.strip())
 
     return corpus
 
@@ -77,7 +77,8 @@ def create_feature_vector(corpus):
     vocabulary_size = len(counter)
 
 
-    feat_vec = [(word, dictionary[word]) for word in dictionary]
+    feat_vec = [(word, dictionary[word]) for word in dictionary \
+        if word not in STOP_WORDS]
     feat_vec.sort() # want in dictionary order
 
     return feat_vec
@@ -100,8 +101,9 @@ def create_vocabulary_schema(feature_vecs, dimensionality, stop_words=[]):
         # remove words under 3 letters cos they're noise
         # TODO remove word length minimum when stop word f'nality is 
         # implemented
-        vec = [word for word in vec if len(word[0]) > 3 and \
-            word[0] not in stop_words]
+        #
+        # or put len(word) > 3 if needed
+        vec = [word for word in vec if word[0] not in stop_words]
 
         counter = collections.Counter(dict(vec))
         total_counter += counter
@@ -120,9 +122,7 @@ def create_schema_using_directory(dir, name):
     dir must have a folder named 'training' containing th corpora
     '''
     path = '/'.join([DATA_ROOT, dir, 'training'])
-
     files = [f for f in listdir(path) if re.match('.*.txt', f)]
-
     vectors = []
 
     for file in files:
@@ -131,8 +131,10 @@ def create_schema_using_directory(dir, name):
         vectors.append(vec)
 
     schema = create_vocabulary_schema(vectors, K)
+    pprint(schema)
+    ScrapingUtils.write_corpus_to_file(schema, \
+        '/'.join([SCHEMA_PATH, name + '.txt']))
 
-    ScrapingUtils.write_corpus_to_file(schema, '/'.join([SCHEMA_PATH, name + '.txt']))
     print("Created schema " + name + " in " + SCHEMA_PATH)
 
 def create_feature_vector_set(dir, schema_name):
@@ -158,15 +160,20 @@ def create_feature_vector_set(dir, schema_name):
         vectors.append(vec)
     return vectors
 
+DATA_ROOT = '/media/alex/Hitachi/raw_data'
+SCHEMA_PATH = '/'.join([DATA_ROOT, 'topic_schemas'])
+K = 100
+STOP_WORDS = read_corpus_from_file( \
+    '/'.join([DATA_ROOT, 'stop_words', 'generic.txt']))
+
+
 if __name__ == "__main__":
 
     # import sys
     # topic = sys.argv[1]
     # data_set = sys.argv[2]
 
-    DATA_ROOT = '/media/alex/Hitachi/raw_data'
-    SCHEMA_PATH = '/'.join([DATA_ROOT, 'topic_schemas'])
-    K = 100
+
 
     ## Read in all downloaded corpora
     # files = [f for f in listdir('/'.join([DATA_ROOT, topic, data_set])) \
@@ -181,16 +188,28 @@ if __name__ == "__main__":
     ## CLASSIFY BANANA FOR SCALE STUFF
 
     ## Create feature vectors ready for training/testing
-    banana_training_vecs = create_feature_vector_set('banana_for_scale_corpora/training', 'nsa')
-    generic_training_vecs = create_feature_vector_set('generic_corpora/training', 'nsa')
-    nsa_training_vecs = create_feature_vector_set('nsa_corpora/training', 'nsa')
+    # banana_training_vecs = \
+    #     create_feature_vector_set('banana_for_scale_corpora/training', 'nsa')
 
-    # cross validation data found by surfing reddit not in search
-    banana_cv_vecs = create_feature_vector_set('banana_for_scale_corpora/cv', 'nsa')
+    # generic_training_vecs = \
+    #     create_feature_vector_set('generic_corpora/training', 'nsa')
 
-    banana_test_vecs = create_feature_vector_set('banana_for_scale_corpora/test', 'nsa')
-    generic_test_vecs = create_feature_vector_set('generic_corpora/test', 'nsa')
-    nsa_test_vecs = create_feature_vector_set('nsa_corpora/test', 'nsa')
+    # nsa_training_vecs = \
+    #     create_feature_vector_set('nsa_corpora/training', 'nsa')
+
+
+    # # cross validation data found by surfing reddit not in search
+    # banana_cv_vecs = \
+    #     create_feature_vector_set('banana_for_scale_corpora/cv', 'nsa')
+
+    # banana_test_vecs = \
+    #     create_feature_vector_set('banana_for_scale_corpora/test', 'nsa')
+
+    # generic_test_vecs = \
+    #     create_feature_vector_set('generic_corpora/test', 'nsa')
+
+    # nsa_test_vecs = \
+    #     create_feature_vector_set('nsa_corpora/test', 'nsa')
 
     #########################################################################
 

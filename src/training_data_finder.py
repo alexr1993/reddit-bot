@@ -119,7 +119,8 @@ class Comment(Post):
 
         no_nls = self.body.replace('\n', "//")
         
-        formatted = (' ' * TAB_LENGTH * depth) + "|ID: " + self._id + ', Author: ' + self.author
+        formatted = (' ' * TAB_LENGTH * depth) + "|ID: " + self._id + ', Author: ' \
+            + self.author
 
 
         for i in range(num_output_lines):
@@ -231,13 +232,16 @@ class PRAWUtil:
 
         while True:
 
-            # list for the more comments so we can tell when there have been two in the same set
+            # list for the more comments so we can tell when there have been
+            # two in the same set
             more = []
 
             for r in replies:
 
                 # append child comments to output
-                if r.parent_id == name and isinstance(r, praw.objects.Comment):
+                if r.parent_id == name and \
+                        isinstance(r, praw.objects.Comment):
+                        
                     output.append(r) # Recursively instantiate children... possibly needs to be changed.
 
                 # there should only be one morecomments object for each parent per reply set

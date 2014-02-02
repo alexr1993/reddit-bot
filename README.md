@@ -1,6 +1,13 @@
 Reddit-Bot
 ==========
 
+This project currently looks like a building site, I'm still heavily
+experimenting with different ideas but essentially part 1 is topic
+clustering/classification then part 2 is detection of an in-joke or 
+reference to some sort of Reddit folk-lore...
+
+===
+
 Finds references made about popular threads
 
 We have references people make in comments to posts either popular recently or
