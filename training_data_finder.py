@@ -3,6 +3,9 @@
 #
 #
 #
+"""
+Contains code created to aid the procurement of training data for ref_bot
+"""
 
 from abc import ABCMeta
 from abc import abstractmethod
@@ -10,11 +13,6 @@ import praw
 import re
 import math
 import time
-
-"""
-Contains code created to aid the procurement of training data for ref_bot
-
-"""
 
 global NEWLINE
 global TAB_LENGTH

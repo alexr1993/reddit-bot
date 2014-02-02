@@ -1,9 +1,9 @@
 ## This file is as part of the ref bot project
-from thread_scraper import write_corpus_to_file
-
 """
 Tools for reading corpora from disk and converting them into feature vectors
 """
+
+from thread_scraper import ScrapingUtils
 import collections
 from pprint import pprint
 from os import listdir
@@ -82,7 +82,7 @@ def create_feature_vector(corpus):
 
     return feat_vec
 
-def create_vocabulary_schema(feature_vecs, dimensionality):
+def create_vocabulary_schema(feature_vecs, dimensionality, stop_words=[]):
     '''
     Create a schema of a given dimensionality based on a list of feature
     vectors. The highest scoring words will be put in the schema
@@ -98,7 +98,10 @@ def create_vocabulary_schema(feature_vecs, dimensionality):
 
     for vec in feature_vecs:
         # remove words under 3 letters cos they're noise
-        vec = [word for word in vec if len(word[0]) > 3]
+        # TODO remove word length minimum when stop word f'nality is 
+        # implemented
+        vec = [word for word in vec if len(word[0]) > 3 and \
+            word[0] not in stop_words]
 
         counter = collections.Counter(dict(vec))
         total_counter += counter
@@ -129,7 +132,7 @@ def create_schema_using_directory(dir, name):
 
     schema = create_vocabulary_schema(vectors, K)
 
-    write_corpus_to_file(schema, '/'.join([SCHEMA_PATH, name + '.txt']))
+    ScrapingUtils.write_corpus_to_file(schema, '/'.join([SCHEMA_PATH, name + '.txt']))
     print("Created schema " + name + " in " + SCHEMA_PATH)
 
 def create_feature_vector_set(dir, schema_name):
@@ -155,56 +158,39 @@ def create_feature_vector_set(dir, schema_name):
         vectors.append(vec)
     return vectors
 
-global DATA_ROOT
-global SCHEMA_PATH
-global K
-
 if __name__ == "__main__":
 
-    import sys
-    topic = sys.argv[1]
-    data_set = sys.argv[2]
+    # import sys
+    # topic = sys.argv[1]
+    # data_set = sys.argv[2]
 
     DATA_ROOT = '/media/alex/Hitachi/raw_data'
     SCHEMA_PATH = '/'.join([DATA_ROOT, 'topic_schemas'])
     K = 100
 
     ## Read in all downloaded corpora
-    files = [f for f in listdir('/'.join([DATA_ROOT, topic, data_set])) \
-        if re.match('.*.txt', f)]
+    # files = [f for f in listdir('/'.join([DATA_ROOT, topic, data_set])) \
+    #     if re.match('.*.txt', f)]
 
-    pprint(files)
+    #pprint(files)
 
     create_schema_using_directory('banana_for_scale_corpora', 'banana')
     create_schema_using_directory('generic_corpora','generic')
+    create_schema_using_directory('nsa_corpora', 'nsa')
+
+    ## CLASSIFY BANANA FOR SCALE STUFF
 
     ## Create feature vectors ready for training/testing
-    banana_training_vecs = create_feature_vector_set('banana_for_scale_corpora/training', 'banana')
-    generic_training_vecs = create_feature_vector_set('generic_corpora/training', 'generic')
+    banana_training_vecs = create_feature_vector_set('banana_for_scale_corpora/training', 'nsa')
+    generic_training_vecs = create_feature_vector_set('generic_corpora/training', 'nsa')
+    nsa_training_vecs = create_feature_vector_set('nsa_corpora/training', 'nsa')
 
     # cross validation data found by surfing reddit not in search
-    banana_cv_vecs = create_feature_vector_set('banana_for_scale_corpora/cv', 'banana')
+    banana_cv_vecs = create_feature_vector_set('banana_for_scale_corpora/cv', 'nsa')
 
-    banana_test_vecs = create_feature_vector_set('banana_for_scale_corpora/test', 'banana')
-    generic_test_vecs = create_feature_vector_set('generic_corpora/test', 'generic')
-
-    
-
-    ## BUILD A CLASSIFIER FROM THIS PREPROCESSED DATA - THIS CODE SHOULD SOON BE MOVED
-    #  TO ANOTHER FILE
-    import numpy as np
-    X = banana_training_vecs + generic_training_vecs # concat all training data
-    # create list of labels
-    y = [1 for x in banana_training_vecs] + [0 for x in generic_training_vecs]
-
-    from sklearn.naive_bayes import MultinomialNB
-    clf = MultinomialNB()
-    clf.fit(X,y)
-    print(clf.predict(generic_test_vecs[0])) # should be 0 for all generic vecs
-
-
-    # useful for viewing vec in order 
-    # pprint(sorted(vec, key=lambda word: word[1]))
+    banana_test_vecs = create_feature_vector_set('banana_for_scale_corpora/test', 'nsa')
+    generic_test_vecs = create_feature_vector_set('generic_corpora/test', 'nsa')
+    nsa_test_vecs = create_feature_vector_set('nsa_corpora/test', 'nsa')
 
     #########################################################################
 
