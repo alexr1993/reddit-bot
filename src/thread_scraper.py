@@ -9,6 +9,7 @@ Implements the capability of turning threads on Reddit into text corpora
 
 import json
 import praw
+import praw.errors
 import re
 from stemming.porter2 import stem
 import training_data_finder
@@ -19,7 +20,7 @@ class ThreadScraper:
     Contains methods which turn reddit threads/comment trees into text
     corpora ready for classification
     """
-    def __init__(self, urls=None, dir=None):
+    def __init__(self, urls=None, dir=""):
 
         if type(urls) is list:
             self.urls = urls
@@ -30,7 +31,7 @@ class ThreadScraper:
 
         if dir:
             assert dir[-1] == '/', "Input directory must end in /"
-        self.dir = RAW_DATA_DIR + dir
+        self.dir = GENERIC_FOLDER + dir
 
 
     @staticmethod
@@ -41,7 +42,7 @@ class ThreadScraper:
         if not re.match('https?://|/r/|www', word):
             word = re.sub('\W', '', word) # remove non word characters
             word = stem(word) # don't want to stem if giving to nltk
-
+            word = ""
         word = word.lower()
         return word
 
@@ -93,7 +94,11 @@ class ThreadScraper:
 
         # need to clean up corpus
         for i in range(len(corpus)):
-            normalised_corpus.append(ThreadScraper.__normalise_word(corpus[i]))
+            normalised_word = ThreadScraper.__normalise_word(corpus[i])
+            # Ignore all non-link words
+            if len(normalised_word) == 0:
+                continue
+            normalised_corpus.append(normalised_word)
 
         return normalised_corpus
 
@@ -115,7 +120,29 @@ class ThreadScraper:
         # split on any form of whitespace
         corpus = re.split('\s+', thread_string)
 
-        return ThreadScraper.__normalise_corpus(corpus)
+        normalised = ThreadScraper.__normalise_corpus(corpus)
+
+        normalised = sorted(normalised)
+
+        # Add subreddits where this link has been posted
+        output = []
+        for link in normalised:
+            output.append(link)
+            matches = REDDIT.search(link)
+
+            iterator = iter(matches)
+            while True:
+                try:
+                    match = next(iterator)
+                    url = match.subreddit.url
+                    output.append("    " + url)
+                except StopIteration:
+                    break
+                except praw.errors.RedirectException:
+                    url = thread.getSubredditUrl()
+                    output.append("    " + url)
+
+        return output
 
     @staticmethod
     def __scrape_thread(url, directory=None):
@@ -139,7 +166,7 @@ class ThreadScraper:
         corpus = ThreadScraper.__create_corpus(thread)
 
         if directory:
-            ScrapingUtils.write_corpus_to_file(corpus, directory + thread_id + '.txt')
+            ScrapingUtils.write_corpus_to_file(corpus, url, directory + thread_id + '.txt')
         else:
             return corpus
 
@@ -163,13 +190,20 @@ class ThreadScraper:
         urls = [sub.permalink for sub in results]
         self.urls += urls
 
+    def addHotList(self, limit=20):
+        results = MULTI_REDDIT.get_hot(limit=limit)
+        urls = [sub.permalink for sub in results]
+        self.urls += urls
+
 class ScrapingUtils:
     
     @staticmethod
-    def write_corpus_to_file(corpus, path):
+    def write_corpus_to_file(corpus, url, path):
         '''Accepts list of strings and a path *.txt'''
         f = open(path, 'w')
-        f.write(' '.join(corpus))
+        f.write("Scraped from " + url + " as part of the subreddit " + SUBREDDIT_STRING_ID)
+        f.write("\n")
+        f.write('\n'.join(corpus))
         f.close()
         print("Wrote corpus to " + path)
 
@@ -200,7 +234,7 @@ if __name__ == "__main__":
     banana5 = 'http://www.reddit.com/r/aww/comments/1rkij9/my_girlfriend_works_at_an_animal_shelterso_when/'
 
 
-    bananaposts = MULTI_REDDIT.search('banana for scale', limit=40)
+    #bananaposts = MULTI_REDDIT.search('banana for scale', limit=40)
     #nsaposts = REDDIT.search('nsa', limit=80)
 
 
@@ -212,11 +246,13 @@ if __name__ == "__main__":
     # these links are the threads which will be scraped
     # links = [submission.permalink for submission in nsaposts]
 
-    # for url in links:
+    # for url in links:MULTI_REDDIT
     #   ThreadScraper(url, 'nsa_corpora/')
 
-    ts = ThreadScraper(dir='nsa_corpora/')
-    ts.find('nsa', 80)
+    ts = ThreadScraper()
+    #ts.find('nsa', 80)
+    ts.addHotList(3)
+
     ts.scrape()
 
 

@@ -17,19 +17,22 @@ global BANANA_FOLDER
 
 ## Initialise Globals
 REDDIT = praw.Reddit('reddit.com/u/topic_bot')
-SUBREDDITS = (
-    "adviceanimals",
-    "AskReddit",
-    "funny",
-    "gifs",
-    "IAmA",
-    "pics",
-    "todayilearned",
-    "videos",
-    "wtf"
-)
+SUBREDDITS =[
+    "olymgifs"
+    # "adviceanimals",
+    # "AskReddit",
+    # "funny",
+    # "gifs",
+    # "IAmA",
+    # "pics",
+    # "todayilearned",
+    # "videos",
+    # "wtf"
+]
 # accepts "funny+askreddit+wtf" etc
-MULTI_REDDIT = REDDIT.get_subreddit('+'.join(SUBREDDITS))
-RAW_DATA_DIR = '/media/alex/Hitachi/raw_data/'
+length = len(SUBREDDITS)
+SUBREDDIT_STRING_ID = '+'.join(SUBREDDITS) if length > 1 else SUBREDDITS[0]
+MULTI_REDDIT = REDDIT.get_subreddit(SUBREDDIT_STRING_ID)
+RAW_DATA_DIR = '/media/larry/Hitachi/raw_data/'
 GENERIC_FOLDER = RAW_DATA_DIR + 'generic_corpora/'
 BANANA_FOLDER = RAW_DATA_DIR + 'banana_for_scale_corpora/'
