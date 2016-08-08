@@ -80,7 +80,7 @@ class ThreadScraper:
             thread.replace_more_comments(limit=max_calls, threshold=0)
             thread = thread.comments # ditch everything but comments
 
-            print("got comments")
+            print("got comme`nts")
 
         #for comment in thread:
         #   assert(isinstance(comment, praw.objects.Comment)), type(comment)
