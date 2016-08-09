@@ -16,7 +16,7 @@
     {
       "matches": ["https://www.reddit.com/*"],
       "css": [],
-      "js": ["myscript.js"]
+      "js": ["jquery-3.1.0.js", "myscript.js"]
     }
   ]
 }
