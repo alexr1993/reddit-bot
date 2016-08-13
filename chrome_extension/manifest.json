@@ -14,7 +14,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://www.reddit.com/*"],
+      "matches": ["https://www.reddit.com/", "https://www.reddit.com/r/*"],
       "css": [],
       "js": ["jquery-3.1.0.js", "myscript.js"]
     }
