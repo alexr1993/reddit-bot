@@ -1,46 +1,55 @@
-let service = "https://jukeboxxy.com/reddit";
+let service =  "http://localhost:8080/search";// "https://jukeboxxy.com/reddit";
 let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
 
-var fetchedPosts = [];
+var fetchedPosts = {};
 
 var fetchSubreddits = function() {
   var posts = document.querySelectorAll("a.title.srTagged"); // Visible posts seem to have srTagged class
-  if (posts.length <= fetchedPosts.length) {
+  var unfetchedPosts = [];
+  var unfetchedUrls = [];
+
+  posts.forEach(function (p) {
+    let url = p.href;
+    if (fetchedPosts[url] === undefined && internalPost.exec(url) === null) {
+      unfetchedPosts.push(p);
+      unfetchedUrls.push(p.href);
+    }
+  });
+
+  if (unfetchedPosts.length === 0) {
     return;
   }
 
-  let startIx = fetchedPosts.length;
-  fetchedPosts = posts;
+  console.log("unfetchedPosts" + unfetchedUrls.length);
 
-  var newPosts = [];
-  if (startIx === 0) {
-    newPosts = posts;
-  } else {
-    newPosts = Array.from(posts).slice(startIx - 1);
-  }
+  $.ajax({
+    type: "POST",
+    url: service,
+    contentType: "application/json",
+    data: JSON.stringify({urls: unfetchedUrls}),
+    dataType: "json",
+    success: function( submissionData ) {
+      unfetchedPosts.forEach(function(p) {
+        let subData = submissionData.submissions[p.href];
+        if (subData === undefined) {
+          return; // Data is not available yet
+        }
 
-  console.log("newPosts" + newPosts.length);
+        // TODO register fetched post
+        fetchedPosts[p] = true;
 
-  newPosts.forEach(function (t) {
-    if (internalPost.exec(t.href) !== null) {
-      return; // Reddit doesn't support searching for subreddits with self posts (very well)
-    }
-    console.log("Searching "+ t.href);
-
-    // TODO make this work with never ending reddit
-    $.get(service, { url: t.href } )
-    .done(function( data ) {
-      let subreddits = JSON.parse(data)
-      subreddits.forEach(function(subreddit) {
-        var newElement = document.createElement("a");
-        newElement.style.color = "red";
-        newElement.classList = ["subreddit", "hover"];
-        newElement.textContent = " " + subreddit;
-        newElement.href = "https://www.reddit.com" + subreddit;
-        var parent = t.parentElement;
-        parent.appendChild(newElement);
+        subData.forEach(function(subDatum) {
+          let subreddit = subDatum.subredditName;
+          var newElement = document.createElement("a");
+          newElement.style.color = "red";
+          newElement.classList = ["subreddit", "hover"];
+          newElement.textContent = " " + subreddit;
+          newElement.href = "https://www.reddit.com" + subreddit;
+          var parent = p.parentElement;
+          parent.appendChild(newElement);
+        });
       });
-    });
+    }
   });
 };
 
