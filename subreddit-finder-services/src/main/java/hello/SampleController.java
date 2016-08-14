@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Channel;
@@ -25,7 +27,12 @@ import com.fasterxml.jackson.databind.JavaType;
 public class SampleController {
     private final static String QUEUE_NAME = "request queue";
     private final Channel channel;
-    private static final JedisPool pool = new JedisPool(new JedisPoolConfig(), "localhost");
+    private static final JedisPoolConfig config;
+    static {
+        config = new JedisPoolConfig();
+        config.setMaxTotal(8);
+    }
+    private static final JedisPool pool = new JedisPool(config, "localhost");
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
     public SampleController() throws IOException {
@@ -37,25 +44,30 @@ public class SampleController {
 
     }
 
+    @CrossOrigin(origins = "*")
     @RequestMapping(value = "/search", method = RequestMethod.POST)
     public RetrieveSubmissionDataResponse search(@RequestBody SearchRequest req) throws IOException {
-        final Jedis jedis = pool.getResource();
         final ImmutableMap.Builder<String, List<SubmissionData>> mapBuilder = new ImmutableMap.Builder<>();
+        final Jedis jedis = pool.getResource();
+        try {
 
-        for (final String url : req.urls) {
-            final String searchDataJson = jedis.get(url);
-            System.out.println(" [x] Read '" + searchDataJson + "' from cache");
+            for (final String url : req.urls) {
+                final String searchDataJson = jedis.get(url);
+                System.out.println(" [x] Read '" + searchDataJson + "' from cache");
 
-            if (searchDataJson == null) {
-                final String message = url;
-                channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
-                System.out.println(" [x] Sent '" + message + "'");
-                continue;
+                if (searchDataJson == null) {
+                    final String message = url;
+                    channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
+                    System.out.println(" [x] Sent '" + message + "'");
+                    continue;
+                }
+
+                final JavaType type = objectMapper.getTypeFactory().constructCollectionType(List.class, SubmissionData.class);
+                final List<SubmissionData> submissionData = objectMapper.readValue(searchDataJson, type);
+                mapBuilder.put(url, submissionData);
             }
-
-            final JavaType type = objectMapper.getTypeFactory().constructCollectionType(List.class, SubmissionData.class);
-            final List<SubmissionData> submissionData = objectMapper.readValue(searchDataJson, type);
-            mapBuilder.put(url, submissionData);
+        } finally {
+            jedis.close();
         }
         final Map<String, List<SubmissionData>> map = mapBuilder.build();
         return new RetrieveSubmissionDataResponse(map);
