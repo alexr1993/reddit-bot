@@ -5,6 +5,9 @@ app = Flask(__name__)
 from flask.ext.cors import CORS
 CORS(app)
 
+from celery import Celery
+app = Celery('tasks', backend='amqp', broker='amqp://')
+
 import json
 import praw
 

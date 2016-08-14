@@ -16,6 +16,12 @@ channel.queue_declare(queue_name)
 
 def callback(ch, method, properties, body):
     print(" [x] Received %r" % body)
+
+    cached = cache.get(body)
+    # TODO check timestamp is older than x (also do this frontend)
+    if cached is not None:
+        return
+
     matches = r.search(body)
 
     iterator = iter(matches)
@@ -42,4 +48,8 @@ channel.basic_consume(callback,
                       no_ack=True)
 
 print(' [*] Waiting for messages. To exit press CTRL+C')
-channel.start_consuming()
+try:
+    channel.start_consuming()
+except Exception as ex:
+    print(ex)
+    print("wtf")
