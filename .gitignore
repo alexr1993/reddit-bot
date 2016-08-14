@@ -12,7 +12,7 @@ env
 # ----
 .idea
 .shelf
-/*.iml
+*.iml
 /*.ipr
 /*.iws
 /buildSrc/*.iml
