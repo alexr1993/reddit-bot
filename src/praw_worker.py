@@ -3,6 +3,8 @@ import pika
 import praw
 import redis
 import json
+import datetime
+import time
 
 r = praw.Reddit(user_agent='subreddit finder chrome extension')
 cache = redis.StrictRedis(host='localhost', port=6379, db=0)
@@ -29,10 +31,18 @@ def callback(ch, method, properties, body):
     while True:
         try:
             match = next(iterator)
-            sub = str(match.subreddit)
-            submissionData = {"subredditName": sub}
+
+            submissionData = {
+                "subredditName": str(match.subreddit),
+                "cache_timestamp_utc": int(time.mktime(datetime.datetime.utcnow().timetuple())),
+                "permalink": match.permalink,
+                "score": match.score,
+                "url": match.url,
+                "author": str(match.author),
+                "created_utc": match.created_utc 
+            }
             output.append(submissionData)
-            print("    " + sub)
+            print("    " + str(submissionData))
         except StopIteration:
             break
         except praw.errors.RedirectException:
@@ -48,8 +58,9 @@ channel.basic_consume(callback,
                       no_ack=True)
 
 print(' [*] Waiting for messages. To exit press CTRL+C')
-try:
-    channel.start_consuming()
-except Exception as ex:
-    print(ex)
-    print("wtf")
+while True:
+    try:
+        channel.start_consuming()
+    except Exception as ex:
+        print(ex)
+        print("wtf")
