@@ -1,4 +1,4 @@
-package hello;
+package com.alexremedios.subredditfinderservice;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;

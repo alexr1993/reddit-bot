@@ -1,4 +1,4 @@
-package hello;
+package com.alexremedios.subredditfinderservice;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -19,13 +19,13 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = MockServletContext.class)
 @WebAppConfiguration
-public class SampleControllerTest {
+public class SubmissionControllerTest {
 
     private MockMvc mvc;
 
     @Before
     public void setUp() throws Exception {
-        mvc = MockMvcBuilders.standaloneSetup(new SampleController()).build();
+        mvc = MockMvcBuilders.standaloneSetup(new SubmissionController()).build();
     }
 
     @Test
