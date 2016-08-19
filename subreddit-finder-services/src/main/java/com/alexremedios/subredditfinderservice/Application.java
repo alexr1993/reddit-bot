@@ -12,7 +12,7 @@ public class Application {
     private static final Logger log = Logger.getLogger(Application.class);
 
     public static void main(String[] args) {
-        System.setProperty("logging.file", "/home/larry/servicelogs/service.log");
+        System.setProperty("logging.file", "logs/service.log");
 
 
         log.info("Starting Application");
