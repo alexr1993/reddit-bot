@@ -1,14 +1,16 @@
 package com.alexremedios.subredditfinderservice;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.google.common.collect.ImmutableMap;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,13 +21,15 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 import java.io.IOException;
+import java.time.Clock;
+import java.time.Instant;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @RestController
-@Log4j
+@Slf4j
 public class SubmissionController {
-
     private final static String QUEUE_NAME = "request queue";
     private final Channel channel;
     private static final JedisPoolConfig config;
@@ -34,7 +38,9 @@ public class SubmissionController {
         config.setMaxTotal(8);
     }
     private static final JedisPool pool = new JedisPool(config, "localhost");
-    private static final ObjectMapper objectMapper = new ObjectMapper();
+    private static final ObjectMapper objectMapper = new ObjectMapper().setPropertyNamingStrategy(
+                PropertyNamingStrategy.CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES)
+            .setSerializationInclusion(JsonInclude.Include.NON_NULL);
 
     public SubmissionController() throws IOException {
         ConnectionFactory factory = new ConnectionFactory();
@@ -44,6 +50,7 @@ public class SubmissionController {
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 
     }
+    private static final JavaType type = objectMapper.getTypeFactory().constructType(SubmissionCacheData.class);
 
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/search", method = RequestMethod.POST)
@@ -51,20 +58,27 @@ public class SubmissionController {
         final ImmutableMap.Builder<String, List<SubmissionData>> mapBuilder = new ImmutableMap.Builder<>();
         try (Jedis jedis = pool.getResource()) {
 
-            for (final String url : req.urls) {
+            for (final String url : req.urls.stream().distinct().collect(Collectors.toList())) {
+                if (url == null || url.isEmpty()) {
+                    continue;
+                }
                 try {
                     final String searchDataJson = jedis.get(url);
-                    System.out.println(" [x] Read '" + searchDataJson + "' from cache");
+                    log.info(" [x] Read '" + searchDataJson + "' from cache");
 
                     if (searchDataJson == null) {
-                        channel.basicPublish("", QUEUE_NAME, null, url.getBytes());
-                        System.out.println(" [x] Sent '" + url + "'");
+                        enqueue(url, jedis);
                         continue;
                     }
 
-                    final JavaType type = objectMapper.getTypeFactory().constructCollectionType(List.class, SubmissionData.class);
-                    final List<SubmissionData> submissionData = objectMapper.readValue(searchDataJson, type);
-                    mapBuilder.put(url, submissionData);
+                    final SubmissionCacheData cacheData = objectMapper.readValue(searchDataJson, type);
+
+                    if (isPending(cacheData)) {
+                        log.info("Url is pending in queue");
+                        continue;
+                    }
+
+                    mapBuilder.put(url, cacheData.getSubmissionDataList());
                 } catch (final Exception exception) {
                     log.error("Failed to process URL " + url, exception);
                 }
@@ -77,9 +91,47 @@ public class SubmissionController {
         return new RetrieveSubmissionDataResponse(map);
     }
 
+
+    private void enqueue(final String url, final Jedis jedis) throws IOException {
+        try {
+            channel.basicPublish("", QUEUE_NAME, null, url.getBytes());
+            log.info(" [x] Sent '" + url + "'");
+        } catch (final IOException exception) {
+            log.error("Failed to publish to queue: '" + url + "'");
+            throw exception;
+        }
+
+        final SubmissionCacheData pendingSubData = SubmissionCacheData.builder()
+                .cacheTimestampUtc(String.valueOf(Instant.now(Clock.systemUTC()).getEpochSecond()))
+                .build();
+
+        try {
+            jedis.set(
+                    url.getBytes(),
+                    objectMapper.writeValueAsBytes(pendingSubData),
+                    "NX".getBytes(),
+                    "EX".getBytes(),
+                    10
+                    );
+            log.info(" [x] Cached pending object for '" + url + "'");
+        } catch (final Exception exception) {
+            log.error("Failed to create pending data object: '" + url + "'");
+        }
+    }
+
     @Data
     @AllArgsConstructor
     public static class RetrieveSubmissionDataResponse {
         private Map<String, List<SubmissionData>> submissions;
+    }
+
+//    private boolean isOlderThan(final SubmissionCacheData cacheData, final int ageSeconds) {
+//        final long nowSeconds = Instant.now(Clock.systemUTC()).getEpochSecond();
+//        final long cacheTimeSeconds = Long.parseLong(cacheData.getCacheTimestampUtc());
+//        return Math.abs(nowSeconds - cacheTimeSeconds) < ageSeconds;
+//    }
+
+    private boolean isPending(final SubmissionCacheData cacheData) {
+        return cacheData.getSubmissionDataList() == null;
     }
 }
