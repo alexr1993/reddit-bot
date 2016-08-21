@@ -1,4 +1,4 @@
-let service =  "http://localhost:8080/search";// "https://jukeboxxy.com/reddit";
+let service = "http://localhost:8080/search";// 
 let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
 
 var fetchedPosts = {};
@@ -31,12 +31,12 @@ var formatDate = function(date) {
   }
 
   let diffDays = diffHours/24;
-  if (diffDays < 32) {
+  if (diffDays < 31) {
     return Math.floor(diffDays) + " days ago";
   }
 
   let diffMonths = diffDays/30;
-  if (diffMonths < 13) {
+  if (diffMonths < 12) {
     return Math.floor(diffMonths) + " months ago";
   }
 
@@ -52,7 +52,7 @@ var presentSubmissionData = function(linkTag, subData) {
   }
 
   subData.sort(function(a, b) {
-    let keyA = a.created_utc, keyB = b.created_utc;
+    let keyA = a.createdUtc, keyB = b.createdUtc;
     if (keyA > keyB) {
       return -1;
     }
@@ -67,7 +67,7 @@ var presentSubmissionData = function(linkTag, subData) {
     let subredditCell = createCell();
     let scoreCell = createCell();
 
-    let date = new Date(subDatum.created_utc * 1000);
+    let date = new Date(subDatum.createdUtc * 1000);
     dateCell.textContent = formatDate(date);
     dateCell.href = subDatum.permalink;
 
