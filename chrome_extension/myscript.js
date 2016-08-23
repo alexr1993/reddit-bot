@@ -1,14 +1,41 @@
-let service = "http://localhost:8080/search";// 
+let service = "https://jukeboxxy.com/search"; //"http://localhost:8080/search";// 
 let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
 
 var fetchedPosts = {};
+let fontColor = "rgb(0, 204, 102)";
+
+var showingAll = false;
+/* Add button to toggle table on page */
+(function() {
+  var toggle = function() {
+    showingAll = !showingAll;
+    pageToggle.textContent = showingAll ? "Hide Post Lists" : "Show Post Lists";
+
+    let tables = document.querySelectorAll(".greentable");
+    for (var i = 0; i < tables.length; i++) {
+      tables[i].style.display = showingAll ? "block" : "none";
+    }
+  }
+
+  let pageToggle = document.createElement("a");
+  pageToggle.style.cursor = "pointer";
+  let li = document.createElement("li");
+  li.appendChild(pageToggle);
+  pageToggle.onclick = toggle;
+  pageToggle.textContent = showingAll ? "Hide Post Lists" : "Show Post Lists";
+  let pageTabs = document.querySelector(".tabmenu");
+  pageTabs.appendChild(li);
+}());
+
+
+
 
 // TODO images hosted on i.reddit will not be linked from the <a>.
 // The post links to the comments, but the thumbnail/expando loads the image both on reddit and RES
 
 var createCell = function() {
   let cell = document.createElement("a");
-  cell.style.color = "rgb(0, 204, 102)";
+  cell.style.color = fontColor;
   return cell;
 };
 
@@ -46,7 +73,7 @@ var formatDate = function(date) {
 };
 
 var presentSubmissionData = function(linkTag, subData) {
-  let parentElement  = linkTag.parentElement.parentElement;
+  let parentElement = linkTag.parentElement.parentElement;
   if (!Array.from(parentElement.classList).includes("entry")) {
     console.log("Cannot find submission top-level container for post " + linkTag.href);
   }
@@ -58,8 +85,26 @@ var presentSubmissionData = function(linkTag, subData) {
     }
     return 1;
   });
-
+  let toggleButton = document.createElement("div");
+  toggleButton.style.cursor = "pointer";
   let table = document.createElement("table");
+  table.style.display = showingAll ? "block" : "none";
+  table.classList = ["greentable"];
+  toggleButton.textContent = subData.length - 1 + " other submissions";
+  toggleButton.color = fontColor;
+  toggleButton.style.paddingTop = "3px";
+  toggleButton.style.paddingBottom = "4px";
+
+  toggleButton.onclick = function (e) {
+    if (table.style.display === "block") {
+      table.style.display = "none";
+    } else {
+      table.style.display = "block";
+    }
+  };
+
+  parentElement.appendChild(toggleButton);
+
   parentElement.appendChild(table);
   subData.forEach(function(subDatum) {
     let subreddit = subDatum.subredditName;
@@ -127,9 +172,7 @@ var fetchSubreddits = function() {
           return; // Data is not available yet
         }
 
-        // TODO register fetched post
         fetchedPosts[p] = true;
-
         presentSubmissionData(p, subData);
       });
     }
