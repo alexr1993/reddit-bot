@@ -1,10 +1,10 @@
-let service = "https://jukeboxxy.com/search"; //"http://localhost:8080/search";// 
+let service = "https://jukeboxxy.com/search";// 
 let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
 
 var fetchedPosts = {};
 let fontColor = "rgb(0, 204, 102)";
 
-var showingAll = false;
+var showingAll = true;
 /* Add button to toggle table on page */
 (function() {
   var toggle = function() {
@@ -27,7 +27,13 @@ var showingAll = false;
   pageTabs.appendChild(li);
 }());
 
-
+let getDateString = function(date) {
+  let options = {
+      weekday: "long", year: "numeric", month: "short",
+      day: "numeric", hour: "2-digit", minute: "2-digit"
+  };
+  return date.toLocaleTimeString("en-us", options);
+};
 
 
 // TODO images hosted on i.reddit will not be linked from the <a>.
@@ -67,7 +73,7 @@ var formatDate = function(date) {
     return Math.floor(diffMonths) + " months ago";
   }
 
-  return date.toUTCString();
+  return getDateString(date);
   //let diffYears = diffMonths/12;
   //return Math.floor(diffYears) + " years ago";
 };
