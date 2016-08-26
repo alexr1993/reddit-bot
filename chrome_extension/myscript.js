@@ -3,7 +3,7 @@ let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
 
 var fetchedPosts = {};
 let fontColor = "rgb(0, 204, 102)";
-
+var isRequestInFlight = false;
 var showingAll = true;
 /* Add button to toggle table on page */
 (function() {
@@ -160,6 +160,7 @@ var fetchSubreddits = function() {
   });
 
   if (unfetchedPosts.length === 0) {
+    isRequestInFlight = false;
     return;
   }
 
@@ -181,8 +182,18 @@ var fetchSubreddits = function() {
         fetchedPosts[p] = true;
         presentSubmissionData(p, subData);
       });
+      isRequestInFlight = false;
     }
   });
 };
 
-setInterval(fetchSubreddits, 1000);
+// Never stop checking because never-ending reddit might be on
+let runRequest = function() {
+  if (!isRequestInFlight) {
+    isRequestInFlight = true;
+    fetchSubreddits();
+  }
+  setTimeout(runRequest, 1000);
+};
+
+runRequest();
