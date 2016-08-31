@@ -11,6 +11,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.time.Clock;
 import java.time.Instant;
@@ -32,33 +33,39 @@ import java.util.stream.Collectors;
 public class SubmissionController {
     private final static String QUEUE_NAME = "request queue";
     private final Channel channel;
-    private static final JedisPoolConfig config;
-    static {
-        config = new JedisPoolConfig();
-        config.setMaxTotal(8);
-    }
-    private static final JedisPool pool = new JedisPool(config, "localhost");
+
+    private final JedisPool pool;
     private static final ObjectMapper objectMapper = new ObjectMapper().setPropertyNamingStrategy(
                 PropertyNamingStrategy.CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES)
             .setSerializationInclusion(JsonInclude.Include.NON_NULL);
 
-    public SubmissionController() throws IOException {
-        ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("localhost");
-        Connection connection = factory.newConnection();
+
+    @Autowired
+    public SubmissionController(final ConnectionFactory connectionFactory,
+                                final JedisPool jedisPool) throws IOException {
+        Connection connection = connectionFactory.newConnection();
         channel = connection.createChannel();
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-
+        this.pool = jedisPool;
     }
     private static final JavaType type = objectMapper.getTypeFactory().constructType(SubmissionCacheData.class);
 
+    /*
+     * Desired metrics for search endpoint
+     *
+     */
+
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/search", method = RequestMethod.POST)
-    public RetrieveSubmissionDataResponse search(final @RequestBody SearchRequest req) throws IOException {
+    public RetrieveSubmissionDataResponse search(final @RequestBody SearchRequest req,
+                                                 final HttpServletRequest request) throws IOException {
         final ImmutableMap.Builder<String, List<SubmissionData>> mapBuilder = new ImmutableMap.Builder<>();
-        try (Jedis jedis = pool.getResource()) {
 
-            for (final String url : req.urls.stream().distinct().collect(Collectors.toList())) {
+        try (Jedis jedis = pool.getResource()) {
+            jedis.incr("subredditfinderservices.submissioncontroller.search.ping." + request.getRemoteAddr());
+            final List<String> submissions = req.urls.stream().distinct().collect(Collectors.toList());
+
+            for (final String url : submissions) {
                 if (url == null || url.isEmpty()) {
                     continue;
                 }
@@ -78,17 +85,26 @@ public class SubmissionController {
                         continue;
                     }
 
+                    jedis.incr("subredditfinderservices.submissioncontroller.search.cachehit." + request.getRemoteAddr());
+
                     mapBuilder.put(url, cacheData.getSubmissionDataList());
                 } catch (final Exception exception) {
                     log.error("Failed to process URL " + url, exception);
                 }
             }
+
+            final Map<String, List<SubmissionData>> map = mapBuilder.build();
+
+            if (submissions.size() == map.size()) {
+                jedis.incr("subredditfinderservices.submissioncontroller.search.completepageload." + request.getRemoteAddr());
+            }
+
+            return new RetrieveSubmissionDataResponse(map);
+
         } catch (final Exception exception) {
             log.error("Failed to obtain Jedis pool resource", exception);
             throw exception;
         }
-        final Map<String, List<SubmissionData>> map = mapBuilder.build();
-        return new RetrieveSubmissionDataResponse(map);
     }
 
 
@@ -119,19 +135,13 @@ public class SubmissionController {
         }
     }
 
+    private boolean isPending(final SubmissionCacheData cacheData) {
+        return cacheData.getSubmissionDataList() == null;
+    }
+
     @Data
     @AllArgsConstructor
     public static class RetrieveSubmissionDataResponse {
         private Map<String, List<SubmissionData>> submissions;
-    }
-
-//    private boolean isOlderThan(final SubmissionCacheData cacheData, final int ageSeconds) {
-//        final long nowSeconds = Instant.now(Clock.systemUTC()).getEpochSecond();
-//        final long cacheTimeSeconds = Long.parseLong(cacheData.getCacheTimestampUtc());
-//        return Math.abs(nowSeconds - cacheTimeSeconds) < ageSeconds;
-//    }
-
-    private boolean isPending(final SubmissionCacheData cacheData) {
-        return cacheData.getSubmissionDataList() == null;
     }
 }
