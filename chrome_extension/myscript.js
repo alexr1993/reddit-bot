@@ -1,4 +1,4 @@
-let service = "https://jukeboxxy.com/search";// 
+let service = "http://localhost:8080/search";// "https://jukeboxxy.com/search"
 let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
 
 var fetchedPosts = {};
@@ -45,7 +45,7 @@ var createCell = function() {
   return cell;
 };
 
-var formatDate = function(date) {
+let formatDate = function(date) {
   let now = new Date(Date.now());
 
   let diffSecs = (now.getTime() - date.getTime()) / 1000;
@@ -78,7 +78,15 @@ var formatDate = function(date) {
   //return Math.floor(diffYears) + " years ago";
 };
 
-var presentSubmissionData = function(linkTag, subData) {
+let formatTitle = function(title) {
+  if (title === undefined || title === null) {
+    return "";
+  }
+
+  return title;
+}
+
+let presentSubmissionData = function(linkTag, subData) {
   let parentElement = linkTag.parentElement.parentElement;
   if (!Array.from(parentElement.classList).includes("entry")) {
     console.log("Cannot find submission top-level container for post " + linkTag.href);
@@ -96,7 +104,8 @@ var presentSubmissionData = function(linkTag, subData) {
   let table = document.createElement("table");
   table.style.display = showingAll ? "block" : "none";
   table.classList = ["greentable"];
-  toggleButton.textContent = subData.length - 1 + " other submissions";
+
+  toggleButton.textContent = Math.max(0, subData.length - 1) + " other submissions";
   toggleButton.color = fontColor;
   toggleButton.style.paddingTop = "3px";
   toggleButton.style.paddingBottom = "4px";
@@ -111,12 +120,17 @@ var presentSubmissionData = function(linkTag, subData) {
 
   parentElement.appendChild(toggleButton);
 
+  if (subData.length < 2) {
+    return;
+  }
+
   parentElement.appendChild(table);
   subData.forEach(function(subDatum) {
     let subreddit = subDatum.subredditName;
     let dateCell = createCell();
     let subredditCell = createCell();
     let scoreCell = createCell();
+    let titleCell = createCell();
 
     let date = new Date(subDatum.createdUtc * 1000);
     dateCell.textContent = formatDate(date);
@@ -127,17 +141,25 @@ var presentSubmissionData = function(linkTag, subData) {
 
     scoreCell.textContent = subDatum.score;
 
-    let td = function(element) {
+    titleCell.textContent = formatTitle(subDatum.title);
+    titleCell.href = subDatum.permalink;
+
+    let td = function(element, noWrap) {
       let cell = document.createElement("td");
+      //let div = document.createElement("div");
+      //div.appendChild(element);
       cell.appendChild(element);
       cell.style.paddingRight = "10px";
+      cell.noWrap = noWrap;
       return cell;
     }
 
     let row = document.createElement("tr");
-    row.appendChild(td(dateCell));
-    row.appendChild(td(subredditCell));
-    row.appendChild(td(scoreCell));
+    //row.style.display = "block";
+    row.appendChild(td(dateCell, true));
+    row.appendChild(td(subredditCell, true));
+    row.appendChild(td(scoreCell, true));
+    row.appendChild(td(titleCell, true));
     table.appendChild(row);
   });
 }
