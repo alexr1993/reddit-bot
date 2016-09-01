@@ -16,4 +16,5 @@ public class SubmissionData {
     String url;
     String author;
     String createdUtc;
+    String title;
 }
