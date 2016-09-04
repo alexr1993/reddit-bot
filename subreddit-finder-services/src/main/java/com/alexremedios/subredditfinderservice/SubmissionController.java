@@ -71,7 +71,6 @@ public class SubmissionController {
                 }
                 try {
                     final String searchDataJson = jedis.get(url);
-                    log.info(" [x] Read '" + searchDataJson + "' from cache");
 
                     if (searchDataJson == null) {
                         enqueue(url, jedis);
@@ -81,12 +80,11 @@ public class SubmissionController {
                     final SubmissionCacheData cacheData = objectMapper.readValue(searchDataJson, type);
 
                     if (isPending(cacheData)) {
-                        log.info("Url is pending in queue");
                         continue;
                     }
 
                     jedis.incr("subredditfinderservices.submissioncontroller.search.cachehit." + request.getRemoteAddr());
-
+                    log.info("Cache hit: " + url);
                     mapBuilder.put(url, cacheData.getSubmissionDataList());
                 } catch (final Exception exception) {
                     log.error("Failed to process URL " + url, exception);
@@ -111,7 +109,6 @@ public class SubmissionController {
     private void enqueue(final String url, final Jedis jedis) throws IOException {
         try {
             channel.basicPublish("", QUEUE_NAME, null, url.getBytes());
-            log.info(" [x] Sent '" + url + "'");
         } catch (final IOException exception) {
             log.error("Failed to publish to queue: '" + url + "'");
             throw exception;
@@ -129,7 +126,6 @@ public class SubmissionController {
                     "EX".getBytes(),
                     10
                     );
-            log.info(" [x] Cached pending object for '" + url + "'");
         } catch (final Exception exception) {
             log.error("Failed to create pending data object: '" + url + "'");
         }
