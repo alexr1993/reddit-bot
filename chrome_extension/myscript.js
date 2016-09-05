@@ -1,6 +1,6 @@
 console.log("Subreddit finder running");
 
-let service = "http://localhost:8080/search";//"https://jukeboxxy.com/search";
+let service = "https://jukeboxxy.com/search"; //"http://localhost:8080/search";//;
 let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
 let MAX_ROWS = 5;
 var fetchedPosts = {};
@@ -192,6 +192,8 @@ let presentSubmissionData = function(parentElement, subData, tableHeading) {
   parentElement.appendChild(toggleButton);
 
   if (subData.length > MAX_ROWS) {
+    toggleButton.onclick = undefined;
+    toggleButton.style.cursor = "default";
     let rowToggleButton = createRowToggleButton(hideableRows);
     parentElement.appendChild(rowToggleButton);
   }

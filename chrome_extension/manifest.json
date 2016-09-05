@@ -3,7 +3,7 @@
 
   "name": "Treehouse Subreddit Finder",
   "description": "See all of the previous submissions of a URL posted to Reddit and find new communities in the process",
-  "version": "8",
+  "version": "9",
 
   "browser_action": {
     "default_popup": "popup.html"
@@ -19,7 +19,8 @@
         "https://www.reddit.com/?*",
         "https://www.reddit.com/r/*",
         "https://www.reddit.com/user/*",
-        "https://www.reddit.com/me/*"
+        "https://www.reddit.com/me/*",
+        "https://www.youtube.com/*"
         ],
       "css": [],
       "js": ["jquery-3.1.0.js", "myscript.js"]
