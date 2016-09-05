@@ -1,6 +1,8 @@
-let service = "http://localhost:8080/search";// "https://jukeboxxy.com/search"
-let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
+console.log("Subreddit finder running");
 
+let service = "http://localhost:8080/search";//"https://jukeboxxy.com/search";
+let internalPost = /https?:\/\/((www|np)\.)?reddit\.com\/r\//;
+let MAX_ROWS = 5;
 var fetchedPosts = {};
 let fontColor = "rgb(0, 204, 102)";
 var isRequestInFlight = false;
@@ -24,6 +26,9 @@ var showingAll = true;
   pageToggle.onclick = toggle;
   pageToggle.textContent = showingAll ? "Hide Post Lists" : "Show Post Lists";
   let pageTabs = document.querySelector(".tabmenu");
+  if (pageTabs == null) {
+    return;
+  }
   pageTabs.appendChild(li);
 }());
 
@@ -86,26 +91,19 @@ let formatTitle = function(title) {
   return title;
 }
 
-let presentSubmissionData = function(linkTag, subData) {
-  let parentElement = linkTag.parentElement.parentElement;
-  if (!Array.from(parentElement.classList).includes("entry")) {
-    console.log("Cannot find submission top-level container for post " + linkTag.href);
-  }
+let compareTo = function(numA, numB) {
+  if (numA < numB) return -1;
+  if (numB < numA) return 1;
+  return 0;
+}
 
-  subData.sort(function(a, b) {
-    let keyA = a.createdUtc, keyB = b.createdUtc;
-    if (keyA > keyB) {
-      return -1;
-    }
-    return 1;
-  });
-  let toggleButton = document.createElement("div");
+let createToggleButton = function(table, tableHeading) {
+  let toggleButton = document.createElement("span");
   toggleButton.style.cursor = "pointer";
-  let table = document.createElement("table");
   table.style.display = showingAll ? "block" : "none";
   table.classList = ["greentable"];
 
-  toggleButton.textContent = Math.max(0, subData.length - 1) + " other submissions";
+  toggleButton.textContent = tableHeading;
   toggleButton.color = fontColor;
   toggleButton.style.paddingTop = "3px";
   toggleButton.style.paddingBottom = "4px";
@@ -117,20 +115,50 @@ let presentSubmissionData = function(linkTag, subData) {
       table.style.display = "block";
     }
   };
+  return toggleButton;
+};
 
-  parentElement.appendChild(toggleButton);
+let createRowToggleButton = function(hideableRows) {
+  let button = document.createElement("span");
+  let visible = false;
 
-  if (subData.length < 2) {
-    return;
+  button.textContent = "(show more)"
+  button.style.cursor = "pointer";
+  button.style.paddingLeft = "3px";
+  button.onclick = function(e) {
+    if (visible) {
+      hideableRows.forEach(function(r) { r.style.display = "none"});
+      visible = false;
+      button.textContent = "(show more)"
+    } else {
+      hideableRows.forEach(function(r) { r.style.display = "table-row"});      
+      button.textContent = "(show less)";
+      visible = true;
+    }
   }
 
-  parentElement.appendChild(table);
+  return button;
+};
+
+let presentSubmissionData = function(parentElement, subData, tableHeading) {
+  let hiddenRows = {};
+  if (subData.length > MAX_ROWS) {
+    subData.sort(function(a, b) { return compareTo(a.score, b.score); });
+    let defaultHidden = subData.slice(0, subData.length - MAX_ROWS);
+    defaultHidden.forEach(function(dH) { hiddenRows[dH.createdUtc] = true; });
+  }
+
+  subData.sort(function(a, b) { return compareTo(a.createdUtc, b.createdUtc); });
+  let table = document.createElement("table");
+  table.style.marginTop = "3px";
+  let toggleButton = createToggleButton(table, tableHeading);
+  let hideableRows = [];
+
   subData.forEach(function(subDatum) {
     let subreddit = subDatum.subredditName;
     let dateCell = createCell();
     let subredditCell = createCell();
     let scoreCell = createCell();
-    let titleCell = createCell();
 
     let date = new Date(subDatum.createdUtc * 1000);
     dateCell.textContent = formatDate(date);
@@ -141,30 +169,37 @@ let presentSubmissionData = function(linkTag, subData) {
 
     scoreCell.textContent = subDatum.score;
 
-    titleCell.textContent = formatTitle(subDatum.title);
-    titleCell.href = subDatum.permalink;
-
-    let td = function(element, noWrap) {
+    let td = function(element) {
       let cell = document.createElement("td");
-      //let div = document.createElement("div");
-      //div.appendChild(element);
       cell.appendChild(element);
       cell.style.paddingRight = "10px";
-      cell.noWrap = noWrap;
+      cell.noWrap = true;
       return cell;
     }
 
     let row = document.createElement("tr");
-    //row.style.display = "block";
-    row.appendChild(td(dateCell, true));
-    row.appendChild(td(subredditCell, true));
-    row.appendChild(td(scoreCell, true));
-    row.appendChild(td(titleCell, true));
+    row.appendChild(td(dateCell));
+    row.appendChild(td(subredditCell));
+    row.appendChild(td(scoreCell));
+
+    if (hiddenRows[subDatum.createdUtc]) {
+      hideableRows.push(row);
+      row.style.display = "none";
+    }
     table.appendChild(row);
   });
+
+  parentElement.appendChild(toggleButton);
+
+  if (subData.length > MAX_ROWS) {
+    let rowToggleButton = createRowToggleButton(hideableRows);
+    parentElement.appendChild(rowToggleButton);
+  }
+  parentElement.appendChild(table);
+
 }
 
-var fetchSubreddits = function() {
+let fetchSubreddits = function() {
   // Users with RES will have some invisible posts, only those with srTagged class are visible
   var posts = document.querySelectorAll("a.title.srTagged");
   if (posts.length === 0) {
@@ -202,15 +237,52 @@ var fetchSubreddits = function() {
         }
 
         fetchedPosts[p] = true;
-        presentSubmissionData(p, subData);
+
+        if (subData.length < 2) {
+          subData = [];
+        }
+        presentSubmissionData(p.parentElement.parentElement, subData, Math.max(0, subData.length - 1) + " other submissions");
       });
+      isRequestInFlight = false;
+    },
+    error: function(xhr, error) {
       isRequestInFlight = false;
     }
   });
 };
 
+var pageUrlFetched = null;
+var fetchingPageUrl = false;
+
+let fetchPageUrl = function() {
+  let url = window.location.href;
+
+  $.ajax({
+    type: "POST",
+    url: service,
+    contentType: "application/json",
+    data: JSON.stringify({urls: [url]}),
+    dataType: "json",
+    success: function( submissionData ) {
+      let subData = submissionData.submissions[url];
+      if (subData === undefined) {
+        fetchingPageUrl = false;
+        return; // Data is not available yet
+      }
+
+      presentSubmissionData(document.getElementById("watch-headline-title"), subData, subData.length + " submissions on Reddit");
+      pageUrlFetched = window.location.href;
+      fetchingPageUrl = false;
+    },
+    error: function(xhr, error) {
+      fetchingPageUrl = false;
+    }
+  });
+}
+
 // Never stop checking because never-ending reddit might be on
 let runRequest = function() {
+  // TODO check we are on Reddit
   if (!isRequestInFlight) {
     isRequestInFlight = true;
     fetchSubreddits();
@@ -219,3 +291,22 @@ let runRequest = function() {
 };
 
 runRequest();
+
+// Never stop checking because youtube doesn't load new pages when you follow a link to another video
+let runPageUrlRequest = function() {
+  // TODO check we are on a youtube video page
+  if (fetchingPageUrl) {
+    setTimeout(runPageUrlRequest, 1000);
+    return;
+  }
+  
+  if (pageUrlFetched === window.location.href) {
+    setTimeout(runPageUrlRequest, 1000);
+    return;
+  }
+
+  fetchingPageUrl = true;
+  fetchPageUrl();      
+
+  setTimeout(runPageUrlRequest, 1000);
+};
