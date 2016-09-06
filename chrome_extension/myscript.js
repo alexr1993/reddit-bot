@@ -148,7 +148,7 @@ let presentSubmissionData = function(parentElement, subData, tableHeading) {
     defaultHidden.forEach(function(dH) { hiddenRows[dH.createdUtc] = true; });
   }
 
-  subData.sort(function(a, b) { return compareTo(a.createdUtc, b.createdUtc); });
+  subData.sort(function(a, b) { return compareTo(a.createdUtc, b.createdUtc); }).reverse();
   let table = document.createElement("table");
   table.style.marginTop = "3px";
   let toggleButton = createToggleButton(table, tableHeading);
