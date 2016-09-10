@@ -33,11 +33,12 @@ import java.util.stream.Collectors;
 public class SubmissionController {
     private final static String QUEUE_NAME = "request queue";
     private final Channel channel;
-
     private final JedisPool pool;
+    // Don't make this objectMapper a bean. The default bean serializes to camelCase which the extension relies on
     private static final ObjectMapper objectMapper = new ObjectMapper().setPropertyNamingStrategy(
                 PropertyNamingStrategy.CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES)
             .setSerializationInclusion(JsonInclude.Include.NON_NULL);
+    private static final JavaType type = objectMapper.getTypeFactory().constructType(SubmissionCacheData.class);
 
 
     @Autowired
@@ -48,12 +49,6 @@ public class SubmissionController {
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
         this.pool = jedisPool;
     }
-    private static final JavaType type = objectMapper.getTypeFactory().constructType(SubmissionCacheData.class);
-
-    /*
-     * Desired metrics for search endpoint
-     *
-     */
 
     @CrossOrigin(origins = "*")
     @RequestMapping(value = "/search", method = RequestMethod.POST)
@@ -65,31 +60,30 @@ public class SubmissionController {
             jedis.incr("subredditfinderservices.submissioncontroller.search.ping." + request.getRemoteAddr());
             final List<String> submissions = req.urls.stream().distinct().collect(Collectors.toList());
 
-            for (final String url : submissions) {
-                if (url == null || url.isEmpty()) {
-                    continue;
-                }
-                try {
-                    final String searchDataJson = jedis.get(url);
+            submissions.stream()
+                       .filter(url -> url != null && !url.isEmpty())
+                       .forEach(url -> {
+                            try {
+                                final String searchDataJson = jedis.get(url);
 
-                    if (searchDataJson == null) {
-                        enqueue(url, jedis);
-                        continue;
-                    }
+                                if (searchDataJson == null) {
+                                    enqueue(url, jedis);
+                                    return;
+                                }
 
-                    final SubmissionCacheData cacheData = objectMapper.readValue(searchDataJson, type);
+                                final SubmissionCacheData cacheData = objectMapper.readValue(searchDataJson, type);
 
-                    if (isPending(cacheData)) {
-                        continue;
-                    }
+                                if (isPending(cacheData)) {
+                                    return;
+                                }
 
-                    jedis.incr("subredditfinderservices.submissioncontroller.search.cachehit." + request.getRemoteAddr());
-                    log.info("Cache hit: " + url);
-                    mapBuilder.put(url, cacheData.getSubmissionDataList());
-                } catch (final Exception exception) {
-                    log.error("Failed to process URL " + url, exception);
-                }
-            }
+                                jedis.incr("subredditfinderservices.submissioncontroller.search.cachehit." + request.getRemoteAddr());
+                                log.info("Cache hit: " + url);
+                                mapBuilder.put(url, cacheData.getSubmissionDataList());
+                            } catch (final Exception exception) {
+                                log.error("Failed to process URL " + url, exception);
+                            }
+                       });
 
             final Map<String, List<SubmissionData>> map = mapBuilder.build();
 
@@ -105,7 +99,6 @@ public class SubmissionController {
         }
     }
 
-
     private void enqueue(final String url, final Jedis jedis) throws IOException {
         try {
             channel.basicPublish("", QUEUE_NAME, null, url.getBytes());
@@ -119,13 +112,7 @@ public class SubmissionController {
                 .build();
 
         try {
-            jedis.set(
-                    url.getBytes(),
-                    objectMapper.writeValueAsBytes(pendingSubData),
-                    "NX".getBytes(),
-                    "EX".getBytes(),
-                    10
-                    );
+            jedis.set(url.getBytes(), objectMapper.writeValueAsBytes(pendingSubData), "NX".getBytes(), "EX".getBytes(), 10);
         } catch (final Exception exception) {
             log.error("Failed to create pending data object: '" + url + "'");
         }
