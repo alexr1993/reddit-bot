@@ -23,7 +23,7 @@
         "https://www.youtube.com/*"
         ],
       "css": [],
-      "js": ["jquery-3.1.0.js", "globals.js", "init.js", "presentation.js", "myscript.js"]
+      "js": ["all.js"]
     }
   ]
 }
